@@ -1,0 +1,221 @@
+{
+  "variant": "A",
+  "initial": {
+    "phase": "menu",
+    "elapsed": 0,
+    "remaining": 90,
+    "kills": 0,
+    "health": 5,
+    "maxHealth": 5,
+    "player": {
+      "x": 480,
+      "y": 351.04477611940297,
+      "vx": 0,
+      "vy": 0,
+      "radius": 13,
+      "speed": 172
+    },
+    "arena": {
+      "width": 960,
+      "height": 702.0895522388059
+    },
+    "enemies": [],
+    "projectiles": [],
+    "upgrades": [],
+    "input": {
+      "x": 0,
+      "y": 0
+    },
+    "limits": {
+      "enemies": 76,
+      "projectiles": 90,
+      "effects": 100
+    },
+    "effects": 0
+  },
+  "text": "✦\nПОСЛЕДНИЙ СВЕТ\nДОЖИТЬ ДО РАССВЕТА\nЗвук: вкл.\nГромкость\nБОЛОТНАЯ ВАХТА\nПоследний\nсвет\n\nСохрани огонь до рассвета.\n\n90 секунд. Ты, фонарь и то,\nчто шевелится в темноте.\n\nДвигайся — WASD / стрелки\nНа телефоне — тяни пальцем по полю.\nФонарь стреляет сам. Не подпускай тени.\n●тень\n▲рывок\n⬟панцирь\nИграть\nНа 30-й и 60-й секунде — усиление фонаря.\nСВЕТ ОТГОНЯЕТ ТЬМУ. ДВИЖЕНИЕ СПАСАЕТ.\nБолотная вахта · 90 секунд",
+  "layouts": [
+    {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "field": {
+        "x": 11,
+        "y": 56,
+        "width": 368,
+        "height": 762,
+        "top": 56,
+        "right": 379,
+        "bottom": 818,
+        "left": 11
+      },
+      "buttons": [
+        {
+          "text": "Звук: вкл.",
+          "aria": "Выключить звук",
+          "rect": {
+            "x": 252.515625,
+            "y": 13,
+            "width": 62.484375,
+            "height": 29,
+            "top": 13,
+            "right": 315,
+            "bottom": 42,
+            "left": 252.515625
+          }
+        },
+        {
+          "text": "Играть",
+          "aria": null,
+          "rect": {
+            "x": 49,
+            "y": 615.5,
+            "width": 292,
+            "height": 47,
+            "top": 615.5,
+            "right": 341,
+            "bottom": 662.5,
+            "left": 49
+          }
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "height": 800,
+      "scrollWidth": 360,
+      "field": {
+        "x": 11,
+        "y": 56,
+        "width": 338,
+        "height": 718,
+        "top": 56,
+        "right": 349,
+        "bottom": 774,
+        "left": 11
+      },
+      "buttons": [
+        {
+          "text": "Звук: вкл.",
+          "aria": "Выключить звук",
+          "rect": {
+            "x": 222.515625,
+            "y": 13,
+            "width": 62.484375,
+            "height": 29,
+            "top": 13,
+            "right": 285,
+            "bottom": 42,
+            "left": 222.515625
+          }
+        },
+        {
+          "text": "Играть",
+          "aria": null,
+          "rect": {
+            "x": 49,
+            "y": 593.5,
+            "width": 262,
+            "height": 47,
+            "top": 593.5,
+            "right": 311,
+            "bottom": 640.5,
+            "left": 49
+          }
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 748,
+      "scrollWidth": 390,
+      "field": {
+        "x": 11,
+        "y": 56,
+        "width": 368,
+        "height": 666,
+        "top": 56,
+        "right": 379,
+        "bottom": 722,
+        "left": 11
+      },
+      "buttons": [
+        {
+          "text": "Звук: вкл.",
+          "aria": "Выключить звук",
+          "rect": {
+            "x": 252.515625,
+            "y": 13,
+            "width": 62.484375,
+            "height": 29,
+            "top": 13,
+            "right": 315,
+            "bottom": 42,
+            "left": 252.515625
+          }
+        },
+        {
+          "text": "Играть",
+          "aria": null,
+          "rect": {
+            "x": 49,
+            "y": 567.5,
+            "width": 292,
+            "height": 47,
+            "top": 567.5,
+            "right": 341,
+            "bottom": 614.5,
+            "left": 49
+          }
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "height": 704,
+      "scrollWidth": 360,
+      "field": {
+        "x": 11,
+        "y": 56,
+        "width": 338,
+        "height": 622,
+        "top": 56,
+        "right": 349,
+        "bottom": 678,
+        "left": 11
+      },
+      "buttons": [
+        {
+          "text": "Звук: вкл.",
+          "aria": "Выключить звук",
+          "rect": {
+            "x": 222.515625,
+            "y": 13,
+            "width": 62.484375,
+            "height": 29,
+            "top": 13,
+            "right": 285,
+            "bottom": 42,
+            "left": 222.515625
+          }
+        },
+        {
+          "text": "Играть",
+          "aria": null,
+          "rect": {
+            "x": 49,
+            "y": 545.5,
+            "width": 262,
+            "height": 47,
+            "top": 545.5,
+            "right": 311,
+            "bottom": 592.5,
+            "left": 49
+          }
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "external": []
+}

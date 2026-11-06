@@ -1,0 +1,72 @@
+[
+  {
+    "path": "games/arena/A/game.js",
+    "sha256": "8ef437a5f8cb1c292eb41b4c3e21514104dc910f5595062564999db3a6c5febc",
+    "bytes": 21228
+  },
+  {
+    "path": "games/arena/A/index.html",
+    "sha256": "a18cdee127f3f4901ecdf9ed5addd4b5aae9116fa3219a272045f027f2d9bb92",
+    "bytes": 1731
+  },
+  {
+    "path": "games/arena/A/NOTES.md",
+    "sha256": "b4541450b97218fbf593236644d3d977e49cc2d23b1e833c34a2e5a6adfa9a65",
+    "bytes": 10013
+  },
+  {
+    "path": "games/arena/A/style.css",
+    "sha256": "322388842f8abeb2a2855a37cd65452e3ba1a47d0303446e2f0e3a9dce6ab953",
+    "bytes": 6743
+  },
+  {
+    "path": "games/arena/B/game.js",
+    "sha256": "d8cb9de7f7c8bda92de3ef47f3a542f697bb24224a6fbf7a67fa7535ac376ac7",
+    "bytes": 15692
+  },
+  {
+    "path": "games/arena/B/index.html",
+    "sha256": "af49d8df34b7e61f2d34a44414b8c43580ee9f7fc69e22b1cff4c27995f5a087",
+    "bytes": 1553
+  },
+  {
+    "path": "games/arena/B/NOTES.md",
+    "sha256": "4cfe72be995bc8754c04c077609eb8a399c8a927b79eaad34724935ed3ff79cd",
+    "bytes": 5734
+  },
+  {
+    "path": "games/arena/B/style.css",
+    "sha256": "24b77c223c162600ca51bb2aa8e2257760422d52db735bdc3f3f1ce535544da0",
+    "bytes": 5023
+  },
+  {
+    "path": "games/arena/C/arena.css",
+    "sha256": "5ff9aae293078effa9f944952b5d4bdb78dae84e729618a6866bb19ae85f8657",
+    "bytes": 10017
+  },
+  {
+    "path": "games/arena/C/arena.js",
+    "sha256": "062a479005349ef6d860adc3e5fc8c08ebf67cef5b7ae14d8f4b5d3abd96680f",
+    "bytes": 20809
+  },
+  {
+    "path": "games/arena/C/audio.js",
+    "sha256": "a527d48e5257885b978df048e18f200be3614c72372641a748ad9c7dd723d8f9",
+    "bytes": 4796
+  },
+  {
+    "path": "games/arena/C/index.html",
+    "sha256": "533bfd514f0f3350149c1ea408711559ef0f2239cdcc100be65623c97d3430a0",
+    "bytes": 5603
+  },
+  {
+    "path": "games/arena/C/NOTES.md",
+    "sha256": "01b1eadab6eb6d2890dadf5e757dd8bf3a13d4b536eb2414519fcd627947ab58",
+    "bytes": 7497
+  },
+  {
+    "path": "games/arena/C/render.js",
+    "sha256": "0e313d322c3b8b66ccca66097da083fe8f9e24d21bc4e765ba7c73e3d30ae146",
+    "bytes": 12395
+  }
+]

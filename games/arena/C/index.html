@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07141e">
+  <title>Северный сигнал</title>
+  <link rel="stylesheet" href="arena.css">
+  <script defer src="audio.js"></script>
+  <script defer src="render.js"></script>
+  <script defer src="arena.js"></script>
+</head>
+<body>
+  <main class="station">
+    <header class="masthead">
+      <div class="brand">
+        <svg class="brand-mark" viewBox="0 0 36 36" aria-hidden="true"><path d="M18 1 35 18 18 35 1 18Z"/><path d="M18 7 22 18 18 29 14 18Z"/><circle cx="18" cy="18" r="2"/></svg>
+        <div><strong>Северный сигнал</strong><small>ПОЛЯРНАЯ СТАНЦИЯ / 07</small></div>
+      </div>
+      <div id="status" class="status"><i></i><span>Ожидание связи</span></div>
+    </header>
+
+    <section class="hud" aria-label="Состояние экспедиции">
+      <div class="readout">
+        <span class="label">До эвакуации</span>
+        <strong id="clock">1:30</strong>
+        <div class="time-track" aria-hidden="true"><i id="time-progress"></i><b></b><b></b></div>
+      </div>
+      <div class="readout shield">
+        <span class="label">Щит <span id="health-label">5/5</span></span>
+        <div id="health" class="health-cells" aria-hidden="true"></div>
+      </div>
+      <div class="readout kills">
+        <span class="label">Сбито</span>
+        <strong id="kills">00</strong>
+      </div>
+      <button class="utility pause" id="pause" type="button" disabled aria-label="Пауза">
+        <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M7 4v12M13 4v12"/></svg><span>Пауза</span>
+      </button>
+    </section>
+
+    <section id="field" data-arena-field class="field" aria-label="Арена полярной станции">
+      <canvas id="scene" aria-hidden="true"></canvas>
+      <div class="field-markers" aria-hidden="true"><span>▲ СЕВЕР</span><span>78° 12′ С. Ш.</span><span>СЕКТОР 07</span><span>ЛЁД / ВЕТЕР / СИГНАЛ</span></div>
+      <div id="hint" class="hint" hidden><span class="keys">WASD / стрелки</span><span class="touch">Потяните по полю</span><i></i> Огонь автоматический</div>
+      <div id="overlay" class="overlay">
+        <div class="panel menu-panel" id="menu" role="region" aria-labelledby="menu-title">
+          <p class="eyebrow"><i></i> СИГНАЛ БЕДСТВИЯ</p>
+          <h1 id="menu-title">Держите<br>маяк<span>.</span></h1>
+          <p class="lede">Эвакуация через 90 секунд. Уходите от дронов, оружие стреляет само.</p>
+          <div class="controls"><span class="keys"><kbd>WASD</kbd> <kbd>↑↓←→</kbd> движение</span><span class="touch">Коснитесь поля и потяните</span></div>
+          <button class="primary" type="button" id="start">Играть <span aria-hidden="true">↗</span></button>
+        </div>
+
+        <div class="panel compact" id="pause-panel" role="region" aria-labelledby="pause-title" hidden>
+          <p class="eyebrow"><i></i> СВЯЗЬ НА УДЕРЖАНИИ</p>
+          <h2 id="pause-title">Пауза</h2>
+          <p class="lede" id="pause-text"></p>
+          <button class="primary" type="button" id="resume">Продолжить <span aria-hidden="true">↗</span></button>
+        </div>
+
+        <div class="panel upgrade-panel" id="upgrade-panel" role="region" aria-labelledby="upgrade-title" hidden>
+          <p class="eyebrow"><i></i> ГРУЗ ДОСТАВЛЕН <span id="delivery"></span></p>
+          <h2 id="upgrade-title" tabindex="-1">Улучшение</h2>
+          <p class="lede">Выберите один модуль. Игра продолжится сразу.</p>
+          <div id="options" class="options"></div>
+        </div>
+
+        <div class="panel compact" id="result" role="region" aria-labelledby="result-title" hidden>
+          <p class="eyebrow"><i></i> <span id="result-status"></span></p>
+          <h2 id="result-title"></h2>
+          <div class="result-stats">
+            <div><span class="label">Время</span><strong id="result-time"></strong></div>
+            <div><span class="label">Сбито</span><strong id="result-kills"></strong></div>
+          </div>
+          <p id="result-upgrades" class="result-upgrades"></p>
+          <button class="primary" type="button" id="again">Новая партия <span aria-hidden="true">↗</span></button>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="legend" aria-hidden="true"><i></i> <span>ПОЛЕВАЯ ЧАСТОТА</span> <b>146.8</b></div>
+      <div class="audio-tools">
+        <button class="utility sound" id="sound" type="button" aria-pressed="true" aria-label="Звук">
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 8h3l4-3v10l-4-3H3z"/><path class="waves" d="M13 7q3 3 0 6m2-8q5 5 0 10"/><path class="cross" d="m13 8 4 4m0-4-4 4"/></svg>
+          <span id="sound-text" aria-hidden="true">Звук вкл.</span>
+        </button>
+        <label class="volume"><span class="sr-only">Громкость</span><input id="volume" type="range" min="0" max="100" step="1" value="35"><output id="volume-number" aria-hidden="true">35%</output></label>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>

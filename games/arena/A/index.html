@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="ru">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><title>Последний свет</title><link rel="stylesheet" href="style.css"></head>
+<body><main class="game">
+  <header class="topbar"><div class="brand"><span class="sigil">✦</span><span>ПОСЛЕДНИЙ СВЕТ<small>ДОЖИТЬ ДО РАССВЕТА</small></span></div><div class="settings"><button id="sound" aria-label="Выключить звук" aria-pressed="true">Звук: вкл.</button><label class="volume">Громкость<input id="volume" aria-label="Громкость" type="range" min="0" max="100" value="45"></label></div></header>
+  <section class="stage" id="stage"><canvas id="field" data-arena-field aria-label="Арена. Двигайтесь WASD, стрелками или перетягиванием по полю."></canvas>
+    <div class="hud" id="hud" hidden><div class="vitals"><span class="hud-label">ОГОНЬ ФОНАРЯ</span><div id="hearts" aria-label="Здоровье"></div></div><div class="clock"><span id="timer">1:30</span><small>до рассвета</small></div><button id="pause" aria-label="Пауза">Ⅱ</button></div>
+    <div class="field-caption" id="fieldHint" hidden>WASD / стрелки · стрельба сама</div><div class="toast" id="toast" role="status"></div>
+    <div class="veil" id="overlay"><section class="panel" id="panel"></section></div>
+  </section>
+  <footer><span>СВЕТ ОТГОНЯЕТ ТЬМУ. ДВИЖЕНИЕ СПАСАЕТ.</span><span id="killcount">Болотная вахта · 90 секунд</span></footer>
+</main><script src="game.js"></script></body></html>

@@ -1,0 +1,83 @@
+{
+  "experiment": "Арена на 90 секунд — раунд 3",
+  "date": "2026-11-06",
+  "timezone": "Asia/Yekaterinburg",
+  "collectedAfterEvaluation": true,
+  "source": "Local Codex session usage records and task_started/task_complete events; public aggregate only.",
+  "definitions": {
+    "totalTokens": "inputTokens + outputTokens; cachedInputTokens is a subset of inputTokens; reasoningOutputTokens is a subset of outputTokens.",
+    "elapsedSeconds": "task_started to task_complete; includes tool execution, waiting and self-checks, excludes evaluator work and site preparation.",
+    "modelResponses": "Number of unique response_id records in token_usage_record.",
+    "shellCommands": "Number of completed CommandExecution items, not all tool calls.",
+    "costUsd": "Unavailable: no verified billing record or applicable tariff.",
+    "scope": "Only the three implementation agents. Coordinator and automatic approval-review agents are excluded. All modelResponses counted, including status messages."
+  },
+  "roundId": "arena",
+  "cardDescriptions": {
+    "A": "«Последний свет»: фонарь на болоте, тени и противники, предупреждающие о рывке. Сохрани огонь до рассвета.",
+    "B": "«Ночная оранжерея»: защитные семена, быстрые побеги и прочные ростки. Выбирай одно из трёх усилений.",
+    "C": "«Северный сигнал»: дроны над льдом, полярная станция и эвакуация через 90 секунд. Два груза с улучшениями."
+  },
+  "runs": [
+    {
+      "variant": "A",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "score": 96,
+      "startedAt": "2026-11-06T10:39:44.693Z",
+      "completedAt": "2026-11-06T10:55:16.634Z",
+      "elapsedSeconds": 931.941,
+      "inputTokens": 1622269,
+      "cachedInputTokens": 1605888,
+      "uncachedInputTokens": 16381,
+      "outputTokens": 24965,
+      "reasoningOutputTokens": 5690,
+      "totalTokens": 1647234,
+      "modelResponses": 32,
+      "shellCommands": 16,
+      "runtimeFiles": 3,
+      "runtimeBytes": 29702,
+      "costUsd": null
+    },
+    {
+      "variant": "B",
+      "model": "gpt-6.1-terra",
+      "reasoningEffort": "high",
+      "score": 93,
+      "startedAt": "2026-11-06T10:39:52.878Z",
+      "completedAt": "2026-11-06T10:48:42.261Z",
+      "elapsedSeconds": 529.383,
+      "inputTokens": 1759861,
+      "cachedInputTokens": 1731328,
+      "uncachedInputTokens": 28533,
+      "outputTokens": 16500,
+      "reasoningOutputTokens": 1658,
+      "totalTokens": 1776361,
+      "modelResponses": 38,
+      "shellCommands": 18,
+      "runtimeFiles": 3,
+      "runtimeBytes": 22268,
+      "costUsd": null
+    },
+    {
+      "variant": "C",
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "high",
+      "score": 99,
+      "startedAt": "2026-11-06T10:40:02.143Z",
+      "completedAt": "2026-11-06T10:54:05.715Z",
+      "elapsedSeconds": 843.572,
+      "inputTokens": 1247771,
+      "cachedInputTokens": 1204224,
+      "uncachedInputTokens": 43547,
+      "outputTokens": 30181,
+      "reasoningOutputTokens": 4594,
+      "totalTokens": 1277952,
+      "modelResponses": 23,
+      "shellCommands": 16,
+      "runtimeFiles": 5,
+      "runtimeBytes": 53620,
+      "costUsd": null
+    }
+  ]
+}

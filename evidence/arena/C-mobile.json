@@ -1,0 +1,295 @@
+{
+  "variant": "C",
+  "checks": [
+    {
+      "name": "lazy audio",
+      "pass": true
+    },
+    {
+      "name": "touch movement",
+      "pass": true
+    },
+    {
+      "name": "touch cancel clears input",
+      "pass": true
+    },
+    {
+      "name": "touch first actual sound",
+      "pass": true,
+      "detail": 0.018852713571235684
+    },
+    {
+      "name": "tap mute after field gesture",
+      "pass": true
+    },
+    {
+      "name": "mute stops voices",
+      "pass": true
+    },
+    {
+      "name": "zero volume stops voices",
+      "pass": true
+    },
+    {
+      "name": "volume changes",
+      "pass": true
+    },
+    {
+      "name": "blur freezes",
+      "pass": true
+    },
+    {
+      "name": "pause explicit",
+      "pass": true
+    },
+    {
+      "name": "iframe fits 360",
+      "pass": true,
+      "detail": {
+        "width": 360,
+        "height": 704,
+        "scrollWidth": 360,
+        "scrollHeight": 704,
+        "buttons": [
+          {
+            "text": "\n        Пауза\n      ",
+            "rect": {
+              "x": 298,
+              "y": 61.5,
+              "width": 42,
+              "height": 44,
+              "top": 61.5,
+              "right": 340,
+              "bottom": 105.5,
+              "left": 298
+            }
+          },
+          {
+            "text": "\n          \n          Звук выкл.\n        ",
+            "rect": {
+              "x": 52.609375,
+              "y": 653.5,
+              "width": 112,
+              "height": 44,
+              "top": 653.5,
+              "right": 164.609375,
+              "bottom": 697.5,
+              "left": 52.609375
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "iframe fits 390",
+      "pass": true,
+      "detail": {
+        "width": 390,
+        "height": 748,
+        "scrollWidth": 390,
+        "scrollHeight": 748,
+        "buttons": [
+          {
+            "text": "\n        Пауза\n      ",
+            "rect": {
+              "x": 328,
+              "y": 61.5,
+              "width": 42,
+              "height": 44,
+              "top": 61.5,
+              "right": 370,
+              "bottom": 105.5,
+              "left": 328
+            }
+          },
+          {
+            "text": "\n          \n          Звук выкл.\n        ",
+            "rect": {
+              "x": 67.609375,
+              "y": 697.5,
+              "width": 112,
+              "height": 44,
+              "top": 697.5,
+              "right": 179.609375,
+              "bottom": 741.5,
+              "left": 67.609375
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "audio preferences persist",
+      "pass": true
+    },
+    {
+      "name": "no errors",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "layouts": [
+    {
+      "width": 360,
+      "height": 704,
+      "scrollWidth": 360,
+      "scrollHeight": 704,
+      "buttons": [
+        {
+          "text": "\n        Пауза\n      ",
+          "rect": {
+            "x": 298,
+            "y": 61.5,
+            "width": 42,
+            "height": 44,
+            "top": 61.5,
+            "right": 340,
+            "bottom": 105.5,
+            "left": 298
+          }
+        },
+        {
+          "text": "\n          \n          Звук выкл.\n        ",
+          "rect": {
+            "x": 52.609375,
+            "y": 653.5,
+            "width": 112,
+            "height": 44,
+            "top": 653.5,
+            "right": 164.609375,
+            "bottom": 697.5,
+            "left": 52.609375
+          }
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 748,
+      "scrollWidth": 390,
+      "scrollHeight": 748,
+      "buttons": [
+        {
+          "text": "\n        Пауза\n      ",
+          "rect": {
+            "x": 328,
+            "y": 61.5,
+            "width": 42,
+            "height": 44,
+            "top": 61.5,
+            "right": 370,
+            "bottom": 105.5,
+            "left": 328
+          }
+        },
+        {
+          "text": "\n          \n          Звук выкл.\n        ",
+          "rect": {
+            "x": 67.609375,
+            "y": 697.5,
+            "width": 112,
+            "height": 44,
+            "top": 697.5,
+            "right": 179.609375,
+            "bottom": 741.5,
+            "left": 67.609375
+          }
+        }
+      ]
+    }
+  ],
+  "audio": {
+    "peakRms": 0.018852713571235684,
+    "samples": 799,
+    "contexts": 1,
+    "contextStates": [
+      "running"
+    ],
+    "events": [
+      {
+        "type": "context"
+      },
+      {
+        "type": "start",
+        "at": 2.152,
+        "scheduled": 2.152
+      },
+      {
+        "type": "start",
+        "at": 2.4,
+        "scheduled": 2.4
+      },
+      {
+        "type": "start",
+        "at": 2.44,
+        "scheduled": 2.44
+      },
+      {
+        "type": "start",
+        "at": 2.6613333333333333,
+        "scheduled": 2.6613333333333333
+      },
+      {
+        "type": "start",
+        "at": 3.88,
+        "scheduled": 3.88
+      },
+      {
+        "type": "start",
+        "at": 4.1306666666666665,
+        "scheduled": 4.1306666666666665
+      },
+      {
+        "type": "start",
+        "at": 4.1706666666666665,
+        "scheduled": 4.1706666666666665
+      },
+      {
+        "type": "start",
+        "at": 4.4,
+        "scheduled": 4.4
+      },
+      {
+        "type": "start",
+        "at": 4.461333333333333,
+        "scheduled": 4.461333333333333
+      },
+      {
+        "type": "start",
+        "at": 4.712,
+        "scheduled": 4.712
+      },
+      {
+        "type": "start",
+        "at": 4.76,
+        "scheduled": 4.76
+      },
+      {
+        "type": "start",
+        "at": 4.981333333333334,
+        "scheduled": 4.981333333333334
+      },
+      {
+        "type": "start",
+        "at": 5.050666666666666,
+        "scheduled": 5.050666666666666
+      },
+      {
+        "type": "start",
+        "at": 5.261333333333333,
+        "scheduled": 5.261333333333333
+      },
+      {
+        "type": "start",
+        "at": 6.301333333333333,
+        "scheduled": 6.301333333333333
+      }
+    ]
+  },
+  "persisted": {
+    "enabled": false,
+    "volume": 0.25,
+    "contextState": "uninitialized",
+    "activeVoices": 0
+  }
+}

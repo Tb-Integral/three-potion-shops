@@ -1,0 +1,32 @@
+{
+  "variant": "C",
+  "checks": [
+    {
+      "name": "file",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "file snapshot isolation",
+      "pass": true
+    },
+    {
+      "name": "missing-audio-storage",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "missing-audio-storage snapshot isolation",
+      "pass": true
+    },
+    {
+      "name": "rejected-resume",
+      "pass": true,
+      "errors": []
+    },
+    {
+      "name": "rejected-resume snapshot isolation",
+      "pass": true
+    }
+  ]
+}

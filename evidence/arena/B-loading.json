@@ -1,0 +1,26 @@
+{
+  "variant": "B",
+  "conditions": "Edge desktop emulation: 360x800 touch, CPU slowdown 4x, latency 150 ms, download 200000 bytes/s; not a physical weak phone.",
+  "loads": [
+    {
+      "kind": "cold",
+      "wallToObservationMs": 804,
+      "domContentLoaded": 540.5,
+      "load": 541.1000000014901,
+      "transferBytes": 23168,
+      "resourceCount": 2,
+      "jsHeapBytes": 1998321,
+      "longTasks": []
+    },
+    {
+      "kind": "repeat",
+      "wallToObservationMs": 743,
+      "domContentLoaded": 496.6000000014901,
+      "load": 497.1000000014901,
+      "transferBytes": 23168,
+      "resourceCount": 2,
+      "jsHeapBytes": 3163203,
+      "longTasks": []
+    }
+  ]
+}

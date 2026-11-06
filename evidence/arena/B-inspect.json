@@ -1,0 +1,215 @@
+{
+  "variant": "B",
+  "initial": {
+    "phase": "menu",
+    "elapsed": 0,
+    "remaining": 90,
+    "kills": 0,
+    "health": 0,
+    "maxHealth": 0,
+    "player": {
+      "x": 0,
+      "y": 0,
+      "vx": 0,
+      "vy": 0,
+      "radius": 13,
+      "speed": 180
+    },
+    "arena": {
+      "width": 997.9082600732335,
+      "height": 577.2073676970357
+    },
+    "enemies": [],
+    "projectiles": [],
+    "upgrades": [],
+    "input": {
+      "x": 0,
+      "y": 0
+    }
+  },
+  "text": "✳НОЧНАЯ ОРАНЖЕРЕЯ\n🔊\nЗвук\nМАЛЕНЬКАЯ АРЕНА · 90 СЕКУНД\nНочная\nоранжерея\n\nПродержитесь до рассвета. Ростки охотятся за вами, а защитные семена сами находят ближайшую цель.\n\nWASD / стрелки — движение\nПалец по полю — движение\nНа 30 и 60 секунде — усиление\nИграть\nВЫЖИВИТЕ 90 СЕКУНД\nАВТОМАТИЧЕСКИЙ ОГОНЬ ✦",
+  "layouts": [
+    {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "field": {
+        "x": 9,
+        "y": 47,
+        "width": 372,
+        "height": 771,
+        "top": 47,
+        "right": 381,
+        "bottom": 818,
+        "left": 9
+      },
+      "buttons": [
+        {
+          "text": "🔊",
+          "aria": "Выключить звук",
+          "rect": {
+            "x": 279,
+            "y": 8,
+            "width": 36,
+            "height": 32,
+            "top": 8,
+            "right": 315,
+            "bottom": 40,
+            "left": 279
+          }
+        },
+        {
+          "text": "Играть",
+          "aria": null,
+          "rect": {
+            "x": 115,
+            "y": 559.015625,
+            "width": 160,
+            "height": 45,
+            "top": 559.015625,
+            "right": 275,
+            "bottom": 604.015625,
+            "left": 115
+          }
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "height": 800,
+      "scrollWidth": 360,
+      "field": {
+        "x": 9,
+        "y": 47,
+        "width": 342,
+        "height": 727,
+        "top": 47,
+        "right": 351,
+        "bottom": 774,
+        "left": 9
+      },
+      "buttons": [
+        {
+          "text": "🔊",
+          "aria": "Выключить звук",
+          "rect": {
+            "x": 249,
+            "y": 8,
+            "width": 36,
+            "height": 32,
+            "top": 8,
+            "right": 285,
+            "bottom": 40,
+            "left": 249
+          }
+        },
+        {
+          "text": "Играть",
+          "aria": null,
+          "rect": {
+            "x": 100,
+            "y": 537.015625,
+            "width": 160,
+            "height": 45,
+            "top": 537.015625,
+            "right": 260,
+            "bottom": 582.015625,
+            "left": 100
+          }
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 748,
+      "scrollWidth": 390,
+      "field": {
+        "x": 9,
+        "y": 47,
+        "width": 372,
+        "height": 675,
+        "top": 47,
+        "right": 381,
+        "bottom": 722,
+        "left": 9
+      },
+      "buttons": [
+        {
+          "text": "🔊",
+          "aria": "Выключить звук",
+          "rect": {
+            "x": 279,
+            "y": 8,
+            "width": 36,
+            "height": 32,
+            "top": 8,
+            "right": 315,
+            "bottom": 40,
+            "left": 279
+          }
+        },
+        {
+          "text": "Играть",
+          "aria": null,
+          "rect": {
+            "x": 115,
+            "y": 511.015625,
+            "width": 160,
+            "height": 45,
+            "top": 511.015625,
+            "right": 275,
+            "bottom": 556.015625,
+            "left": 115
+          }
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "height": 704,
+      "scrollWidth": 360,
+      "field": {
+        "x": 9,
+        "y": 47,
+        "width": 342,
+        "height": 631,
+        "top": 47,
+        "right": 351,
+        "bottom": 678,
+        "left": 9
+      },
+      "buttons": [
+        {
+          "text": "🔊",
+          "aria": "Выключить звук",
+          "rect": {
+            "x": 249,
+            "y": 8,
+            "width": 36,
+            "height": 32,
+            "top": 8,
+            "right": 285,
+            "bottom": 40,
+            "left": 249
+          }
+        },
+        {
+          "text": "Играть",
+          "aria": null,
+          "rect": {
+            "x": 100,
+            "y": 489.015625,
+            "width": 160,
+            "height": 45,
+            "top": 489.015625,
+            "right": 260,
+            "bottom": 534.015625,
+            "left": 100
+          }
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "external": []
+}

@@ -1,0 +1,273 @@
+{
+  "variant": "C",
+  "initial": {
+    "phase": "menu",
+    "elapsed": 0,
+    "remaining": 90,
+    "kills": 0,
+    "health": 5,
+    "maxHealth": 5,
+    "player": {
+      "x": 539.6103896103897,
+      "y": 300,
+      "vx": 0,
+      "vy": 0,
+      "radius": 13,
+      "speed": 167
+    },
+    "arena": {
+      "width": 1079.2207792207794,
+      "height": 600
+    },
+    "enemies": [],
+    "projectiles": [],
+    "upgrades": [],
+    "input": {
+      "x": 0,
+      "y": 0
+    },
+    "invulnerable": 0,
+    "effects": 0
+  },
+  "text": "Северный сигнал\nПОЛЯРНАЯ СТАНЦИЯ / 07\nОЖИДАНИЕ СВЯЗИ\nДО ЭВАКУАЦИИ\n1:30\nЩИТ 5/5\nСБИТО\n00\nПауза\n▲ СЕВЕР\n78° 12′ С. Ш.\nСЕКТОР 07\nЛЁД / ВЕТЕР / СИГНАЛ\n\nСИГНАЛ БЕДСТВИЯ\n\nДержите\nмаяк.\n\nЭвакуация через 90 секунд. Уходите от дронов, оружие стреляет само.\n\nWASD ↑↓←→ движение\nИграть\n↗\nПОЛЕВАЯ ЧАСТОТА\n146.8\nЗвук вкл.\nГромкость\n35%",
+  "layouts": [
+    {
+      "width": 390,
+      "height": 844,
+      "scrollWidth": 390,
+      "field": {
+        "x": 10,
+        "y": 112.5,
+        "width": 370,
+        "height": 676,
+        "top": 112.5,
+        "right": 380,
+        "bottom": 788.5,
+        "left": 10
+      },
+      "buttons": [
+        {
+          "text": "",
+          "aria": "Пауза",
+          "rect": {
+            "x": 328,
+            "y": 64,
+            "width": 42,
+            "height": 39,
+            "top": 64,
+            "right": 370,
+            "bottom": 103,
+            "left": 328
+          }
+        },
+        {
+          "text": "Играть\n↗",
+          "aria": null,
+          "rect": {
+            "x": 44,
+            "y": 564.515625,
+            "width": 158,
+            "height": 48,
+            "top": 564.515625,
+            "right": 202,
+            "bottom": 612.515625,
+            "left": 44
+          }
+        },
+        {
+          "text": "Звук вкл.",
+          "aria": "Звук",
+          "rect": {
+            "x": 67.609375,
+            "y": 796,
+            "width": 112,
+            "height": 39,
+            "top": 796,
+            "right": 179.609375,
+            "bottom": 835,
+            "left": 67.609375
+          }
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "height": 800,
+      "scrollWidth": 360,
+      "field": {
+        "x": 10,
+        "y": 112.5,
+        "width": 340,
+        "height": 632,
+        "top": 112.5,
+        "right": 350,
+        "bottom": 744.5,
+        "left": 10
+      },
+      "buttons": [
+        {
+          "text": "",
+          "aria": "Пауза",
+          "rect": {
+            "x": 298,
+            "y": 64,
+            "width": 42,
+            "height": 39,
+            "top": 64,
+            "right": 340,
+            "bottom": 103,
+            "left": 298
+          }
+        },
+        {
+          "text": "Играть\n↗",
+          "aria": null,
+          "rect": {
+            "x": 44,
+            "y": 542.515625,
+            "width": 158,
+            "height": 48,
+            "top": 542.515625,
+            "right": 202,
+            "bottom": 590.515625,
+            "left": 44
+          }
+        },
+        {
+          "text": "Звук вкл.",
+          "aria": "Звук",
+          "rect": {
+            "x": 52.609375,
+            "y": 752,
+            "width": 112,
+            "height": 39,
+            "top": 752,
+            "right": 164.609375,
+            "bottom": 791,
+            "left": 52.609375
+          }
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "height": 748,
+      "scrollWidth": 390,
+      "field": {
+        "x": 10,
+        "y": 112.5,
+        "width": 370,
+        "height": 580,
+        "top": 112.5,
+        "right": 380,
+        "bottom": 692.5,
+        "left": 10
+      },
+      "buttons": [
+        {
+          "text": "",
+          "aria": "Пауза",
+          "rect": {
+            "x": 328,
+            "y": 64,
+            "width": 42,
+            "height": 39,
+            "top": 64,
+            "right": 370,
+            "bottom": 103,
+            "left": 328
+          }
+        },
+        {
+          "text": "Играть\n↗",
+          "aria": null,
+          "rect": {
+            "x": 44,
+            "y": 516.515625,
+            "width": 158,
+            "height": 48,
+            "top": 516.515625,
+            "right": 202,
+            "bottom": 564.515625,
+            "left": 44
+          }
+        },
+        {
+          "text": "Звук вкл.",
+          "aria": "Звук",
+          "rect": {
+            "x": 67.609375,
+            "y": 700,
+            "width": 112,
+            "height": 39,
+            "top": 700,
+            "right": 179.609375,
+            "bottom": 739,
+            "left": 67.609375
+          }
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "height": 704,
+      "scrollWidth": 360,
+      "field": {
+        "x": 10,
+        "y": 112.5,
+        "width": 340,
+        "height": 536,
+        "top": 112.5,
+        "right": 350,
+        "bottom": 648.5,
+        "left": 10
+      },
+      "buttons": [
+        {
+          "text": "",
+          "aria": "Пауза",
+          "rect": {
+            "x": 298,
+            "y": 64,
+            "width": 42,
+            "height": 39,
+            "top": 64,
+            "right": 340,
+            "bottom": 103,
+            "left": 298
+          }
+        },
+        {
+          "text": "Играть\n↗",
+          "aria": null,
+          "rect": {
+            "x": 44,
+            "y": 494.515625,
+            "width": 158,
+            "height": 48,
+            "top": 494.515625,
+            "right": 202,
+            "bottom": 542.515625,
+            "left": 44
+          }
+        },
+        {
+          "text": "Звук вкл.",
+          "aria": "Звук",
+          "rect": {
+            "x": 52.609375,
+            "y": 656,
+            "width": 112,
+            "height": 39,
+            "top": 656,
+            "right": 164.609375,
+            "bottom": 695,
+            "left": 52.609375
+          }
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "external": []
+}
