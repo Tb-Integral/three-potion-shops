@@ -1,0 +1,16 @@
+[
+  {
+    "width": 390,
+    "touchBuyBrewSell": true,
+    "finishAndRestart": true,
+    "horizontalOverflow": false,
+    "pageErrors": []
+  },
+  {
+    "width": 360,
+    "touchBuyBrewSell": true,
+    "finishAndRestart": true,
+    "horizontalOverflow": false,
+    "pageErrors": []
+  }
+]

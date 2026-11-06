@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#153534">
+  <title>Лавка под луной — игра о зельях</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="game.js" defer></script>
+</head>
+<body>
+<svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+ <defs>
+  <linearGradient id="glass" x1="0" x2="1"><stop stop-color="#ffffff" stop-opacity=".25"/><stop offset=".5" stop-color="#ffffff" stop-opacity=".03"/><stop offset="1" stop-color="#ffffff" stop-opacity=".18"/></linearGradient>
+  <symbol id="bottle" viewBox="0 0 64 80"><path d="M24 10h16v19c0 7 16 13 16 29 0 12-8 17-24 17S8 70 8 58c0-16 16-22 16-29Z" fill="currentColor" stroke="#e6d7ae" stroke-width="2"/><path d="M24 10h16v19c0 7 16 13 16 29 0 12-8 17-24 17S8 70 8 58c0-16 16-22 16-29Z" fill="url(#glass)"/><path d="M18 51q-5 12 2 16M27 22v10" fill="none" stroke="#fff3cc" stroke-opacity=".65" stroke-width="3" stroke-linecap="round"/><rect x="22" y="6" width="20" height="9" rx="3" fill="#a37b4e" stroke="#e6d7ae"/><path d="m32 43 4 8 9 1-7 6 2 9-8-5-8 5 2-9-7-6 9-1Z" fill="#fff1c3" opacity=".9"/></symbol>
+  <symbol id="mint" viewBox="0 0 64 64"><path d="M15 51 48 15M30 37 19 16" fill="none" stroke="#add6a0" stroke-width="3"/><path d="M29 38C7 40 7 20 10 13c17 2 25 11 19 25M31 35c-2-22 14-28 26-27-1 19-10 29-26 27M18 49C3 47 2 36 4 29c15 2 21 10 14 20" fill="#76a382" stroke="#b3cf9c" stroke-width="1.5"/></symbol>
+  <symbol id="amber" viewBox="0 0 64 64"><path d="m14 17 22-8 18 22-8 23-28 1-9-21Z" fill="#d9a152" stroke="#ffdb93" stroke-width="2"/><path d="m14 17 12 19 10-27m-10 27 28-5M26 36l-8 19m8-19 20 18" fill="none" stroke="#ffdb93" stroke-opacity=".6" stroke-width="2"/><path d="m24 20 8-4" stroke="#fff0c1" stroke-width="3" stroke-linecap="round"/></symbol>
+  <symbol id="moonflower" viewBox="0 0 64 64"><path d="m32 57 2-28" stroke="#a4c4ac" stroke-width="3"/><path d="M33 45c-12 1-17-4-17-11 11 0 15 4 17 11m0-5c12 0 18-5 17-12-11 1-15 5-17 12" fill="#6d928b"/><path d="M33 31C8 39 7 15 20 14 18-2 38-2 41 11c17-4 22 16 8 19-4 15-18 13-16 1Z" fill="#b5b7df" stroke="#e0d7f1" stroke-width="1.5"/><circle cx="33" cy="21" r="7" fill="#f8d991"/></symbol>
+ </defs>
+</svg>
+<main class="game-shell">
+ <header class="masthead">
+  <div class="brand"><span class="moon-mark" aria-hidden="true">☾</span><div><p class="eyebrow">Маленькая алхимическая история</p><h1>Лавка под луной</h1></div></div>
+  <button class="icon-button" id="help" aria-label="Правила и новая игра" title="Правила и новая игра">?</button>
+ </header>
+ <div class="hud" aria-label="Состояние лавки">
+  <div class="day-stat"><span id="day-label">День 1 / 5</span><span class="day-dots" id="day-dots" aria-hidden="true"></span></div>
+  <div class="coin-stat"><span aria-hidden="true">◈</span><strong id="money">50</strong><span>монет</span></div>
+  <div class="fire-stat"><span aria-hidden="true">♨</span><strong id="heat">4</strong><span>варки</span></div>
+ </div>
+ <div class="guide" id="guide"><span class="guide-star" aria-hidden="true">✦</span><p id="guide-text"></p><button id="dismiss-guide" aria-label="Скрыть подсказки">×</button></div>
+ <p id="storage-warning" class="storage-warning" hidden></p>
+ <section class="shop-scene" aria-label="Прилавок лавки">
+  <svg class="room-art" viewBox="0 0 1200 360" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+   <defs><linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#203f3c"/><stop offset="1" stop-color="#142f2f"/></linearGradient><radialGradient id="warm"><stop stop-color="#e7b96d" stop-opacity=".3"/><stop offset="1" stop-color="#e7b96d" stop-opacity="0"/></radialGradient></defs>
+   <path fill="url(#wall)" d="M0 0h1200v360H0z"/>
+   <path d="M360 280V117a125 125 0 0 1 250 0v163Z" fill="#102b30" stroke="#7d8064" stroke-width="9"/>
+   <path d="M485 0v280M360 135h250" stroke="#6c765e" stroke-width="7"/><circle cx="540" cy="55" r="24" fill="#f2dfa3"/><circle cx="549" cy="45" r="22" fill="#102b30"/>
+   <path d="m390 62 3 5 5 1-5 2-3 5-1-5-5-2 5-1Zm165 116 2 5 6 1-6 2-2 5-1-5-6-2 6-1Z" fill="#f6e3ac"/>
+   <path d="M365 218q35-80 72 0 32-128 68 0 42-93 90 0v61H365Z" fill="#2a4b45"/>
+   <path d="M30 92h260M25 194h270M850 91h315M846 194h324" stroke="#8e7354" stroke-width="11"/><path d="M30 100h260M25 202h270M850 100h315M846 202h324" stroke="#102a27" stroke-width="9"/>
+   <g fill="#607660" stroke="#b8b28b" stroke-width="2"><path d="M55 87V50h35v37Z"/><path d="M112 87V41h30v46Z"/><path d="M164 88V58h51v30Z"/><path d="M236 86V34h30v52Z"/><path d="M876 86V37h29v49Z"/><path d="M930 87V51h40v36Z"/><path d="M998 87V28h28v59Z"/></g>
+   <g fill="#a27a58"><path d="M50 46h45v8H50zM108 36h38v8h-38zM159 53h61v8h-61zM232 29h38v8h-38zM872 32h37v8h-37zM925 46h50v8h-50zM994 23h36v8h-36z"/></g>
+   <g opacity=".72"><use href="#bottle" x="47" y="118" width="58" height="72" color="#a77783"/><use href="#bottle" x="115" y="120" width="56" height="70" color="#7d91a8"/><use href="#bottle" x="180" y="111" width="65" height="81" color="#bfa367"/><use href="#bottle" x="873" y="115" width="59" height="74" color="#bfa367"/><use href="#bottle" x="943" y="119" width="56" height="70" color="#a77783"/><use href="#bottle" x="1000" y="110" width="64" height="80" color="#7d91a8"/></g>
+   <circle cx="734" cy="100" r="150" fill="url(#warm)"/><path d="M734 0v53" stroke="#b49a6d" stroke-width="3"/><path d="m717 58 17-9 17 9 5 46-22 12-22-12Z" fill="#bb8e51" stroke="#eacb87" stroke-width="2"/><path d="M721 64h26v33h-26z" fill="#f6d18b"/><path d="M734 61v41" stroke="#a97b47" stroke-width="3"/>
+   <g fill="#51785b"><path d="M1160 0q-90 54-22 139-5-67 22-139"/><path d="M1150 23q-81-20-69 39 36-24 69-39M1141 59q74-22 51 42-26-26-51-42M1140 100q-69-12-53 44 25-24 53-44"/><path d="M0 0q72 49 40 122Q31 40 0 0M23 39q54-24 45 29Q37 56 23 39M36 70q-50-4-29 44 15-24 29-44"/></g>
+  </svg>
+  <div class="hanging-sign">Открыто до луны <span aria-hidden="true">✧</span></div>
+  <div class="visitor-zone" id="visitor-zone">
+   <div class="customer-art" id="customer-art" aria-hidden="true"></div>
+   <article class="order-paper" id="order-paper">
+    <p class="eyebrow" id="visitor-label"></p><h2 id="visitor-name"></h2><p id="visitor-line" class="visitor-line"></p>
+    <div class="order-wish"><svg class="order-bottle" aria-hidden="true"><use href="#bottle"/></svg><div><span class="small-label">Нужно 1 зелье</span><strong id="order-name"></strong></div><span id="offer" class="offer"></span></div>
+    <div class="sale-actions"><button id="sell" class="primary">Продать</button><button id="skip" class="text-button">Отпустить</button></div>
+    <p id="sale-reason" class="action-reason"></p>
+   </article>
+  </div>
+  <div class="cauldron-art" id="cauldron-art" aria-hidden="true">
+   <svg viewBox="0 0 260 250"><defs><radialGradient id="brew-glow"><stop stop-color="#aec990" stop-opacity=".5"/><stop offset="1" stop-color="#aec990" stop-opacity="0"/></radialGradient></defs><circle cx="130" cy="134" r="118" fill="url(#brew-glow)"/><g class="steam" fill="none" stroke="#d3ddbc" opacity=".4" stroke-width="3" stroke-linecap="round"><path d="M100 89q-15-16 0-30t0-30"/><path d="M139 80q-14-15 0-27t0-29"/><path d="M170 89q-12-13 0-27"/></g><path d="m96 215-12 23m80-23 12 23" stroke="#172626" stroke-width="13" stroke-linecap="round"/><path d="M69 115q-8 100 61 108 75-3 66-108Z" fill="#263e3b" stroke="#9d9c74" stroke-width="4"/><path d="M70 126q-36 12-16 41m144-41q36 12 16 41" fill="none" stroke="#9d9c74" stroke-width="8"/><ellipse cx="131" cy="114" rx="68" ry="22" fill="#162b2b" stroke="#a8aa7f" stroke-width="5"/><ellipse cx="131" cy="116" rx="59" ry="16" fill="#9dad80" id="brew-liquid"/><path d="M86 151q-2 35 17 48" fill="none" stroke="#667d68" stroke-width="5" stroke-linecap="round"/><path d="m135 163 4 9 10 1-8 6 3 10-9-6-9 6 3-10-8-6 10-1Z" fill="#d2ba7b"/><path d="m173 108 35-73" stroke="#9c7953" stroke-width="8" stroke-linecap="round"/><g fill="#dfe6ad"><circle class="bubble b1" cx="108" cy="103" r="5"/><circle class="bubble b2" cx="150" cy="98" r="7"/><circle class="bubble b3" cx="125" cy="85" r="3"/></g></svg>
+   <span class="cauldron-caption">Немного магии. Много заботы.</span>
+  </div>
+  <section class="day-summary" id="day-summary" hidden></section>
+  <div class="counter" aria-hidden="true"><i></i><span>✦</span><i></i></div>
+ </section>
+ <div class="day-strip" id="day-strip"><p id="demand"></p><button class="text-button end-day" id="end-day">Закрыть лавку <span aria-hidden="true">→</span></button></div>
+ <div class="toast" id="toast" role="status" aria-live="polite"></div>
+ <nav class="tool-tabs" aria-label="Работа в лавке"><button data-tab="brew" class="active" aria-pressed="true">♨ Варить</button><button data-tab="market" aria-pressed="false">❧ Купить ингредиенты</button></nav>
+ <div class="workbench" id="workbench">
+  <section class="brew-panel" aria-labelledby="brew-heading">
+   <div class="section-heading"><div><p class="eyebrow">Книга рецептов</p><h2 id="brew-heading">Что будем варить?</h2></div><span class="little-note">1 варка → 1 зелье</span></div>
+   <div class="recipe-choices" id="recipe-choices"></div>
+   <div class="recipe-detail"><div><p id="recipe-ingredients"></p><p id="recipe-price" class="muted"></p></div><button class="primary brew-button" id="brew">Сварить зелье</button></div>
+   <p id="brew-reason" class="action-reason"></p>
+  </section>
+  <section class="market-panel" aria-labelledby="market-heading"><div class="section-heading"><div><p class="eyebrow">Поставки от лесной феи</p><h2 id="market-heading">Ингредиенты</h2></div></div><div class="ingredients" id="ingredients"></div><p class="market-note">Запасы остаются на следующий день.</p></section>
+ </div>
+ <section class="final-results" id="final-results" hidden></section>
+ <footer><span id="save-status">Сохранение после каждого действия</span><span>Не торопитесь. Луна подождёт.</span></footer>
+</main>
+<dialog id="dialog"><div id="dialog-body"></div></dialog>
+</body>
+</html>

@@ -1,0 +1,70 @@
+{
+  "date": "2026-11-06",
+  "timezone": "Asia/Yekaterinburg",
+  "models": {
+    "A": "gpt-6-astra",
+    "B": "gpt-6.1-terra",
+    "C": "gpt-6.1-sol"
+  },
+  "reasoning": "high",
+  "runsPerModel": 1,
+  "evaluatorKnowsModelMapping": true,
+  "files": [
+    {
+      "path": "games/A/index.html",
+      "bytes": 10523,
+      "sha256": "db0c7275a8e821eb52f8d398fec26d41260f4079d13591f4f621191eb7cc7203"
+    },
+    {
+      "path": "games/A/style.css",
+      "bytes": 18492,
+      "sha256": "c0429fd6a80f5e69f5d0d20b02a8d05dfd91dbc3e42c4c50393f50af77aea924"
+    },
+    {
+      "path": "games/A/game.js",
+      "bytes": 23944,
+      "sha256": "2120c3d45d00017536d4a9040f7a5b1a510de311bf4b37de95d28a825e3d56a3"
+    },
+    {
+      "path": "games/A/NOTES.md",
+      "bytes": 9607,
+      "sha256": "dd5a73d9befa31ea572b4b67943bf4c1563db37c624e6dd3afd0a0da1199248a"
+    },
+    {
+      "path": "games/B/index.html",
+      "bytes": 18158,
+      "sha256": "90ab4dff011a5858b0797fdea8839037c9b8ce61abf3500780d3a428b5ab1e55"
+    },
+    {
+      "path": "games/B/NOTES.md",
+      "bytes": 2654,
+      "sha256": "d480cca0d52a8e4d7493626108995b6430976412e9f7fc4de5d8c221200f861c"
+    },
+    {
+      "path": "games/C/index.html",
+      "bytes": 16612,
+      "sha256": "c0dbc7e2c2188a68c0094a20c102a474e6a5543ddb29a5200278a58bef6fef91"
+    },
+    {
+      "path": "games/C/style.css",
+      "bytes": 15923,
+      "sha256": "c74f42b8c9cef4018c35cc2c5a9d940f3d7bb96a22098b6199a07855598c181f"
+    },
+    {
+      "path": "games/C/game.js",
+      "bytes": 19243,
+      "sha256": "e83dd45188a30388e0500e8f845b1c77aa02f21243a3cbca98703796bf088eb1"
+    },
+    {
+      "path": "games/C/shop.svg",
+      "bytes": 9067,
+      "sha256": "46debcd6206d436cdb67d52d9de4c4f68e1b19d39ba502009379d9b735045326"
+    },
+    {
+      "path": "games/C/NOTES.md",
+      "bytes": 4772,
+      "sha256": "81ece835d1579b9d3b5145a67ce9e94d24678a2b161e814be11829b8462fd344"
+    }
+  ],
+  "browser": "156.0.4314.58"
+}
