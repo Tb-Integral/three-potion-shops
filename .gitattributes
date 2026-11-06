@@ -1,3 +1,4 @@
+* text=auto eol=lf
 # Preserve the submitted games byte-for-byte for the published SHA-256 manifest.
 games/** -text
 *.png binary
