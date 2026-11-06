@@ -4,7 +4,7 @@
   "actualSiteWrapper": true,
   "signal": {
     "peakRms": 0.03149436506264087,
-    "samples": 52,
+    "samples": 53,
     "contexts": 1,
     "contextStates": [
       "running"
@@ -32,5 +32,6 @@
     "contextState": "running",
     "activeVoices": 0
   },
-  "pass": true
+  "pass": true,
+  "mutePersistence": true
 }

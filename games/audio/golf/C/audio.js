@@ -1,6 +1,6 @@
 'use strict';
 
-const createGameAudio = (storageKey, effects) => {
+const createGameAudio = (storageKey, effects, bindToggle) => {
   const toggle = document.getElementById('audio-toggle');
   const slider = document.getElementById('audio-volume');
   const buffers = new Map();
@@ -71,7 +71,7 @@ const createGameAudio = (storageKey, effects) => {
     }
   }
 
-  toggle.addEventListener('click', () => {
+  bindToggle(toggle, () => {
     enabled = !enabled;
     paintSettings();
     setMasterLevel();

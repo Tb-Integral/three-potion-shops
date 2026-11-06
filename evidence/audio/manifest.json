@@ -116,13 +116,13 @@
   },
   {
     "path": "games/audio/golf/C/audio.js",
-    "sha256": "1ebdcab4b11db76c6afa311f77f7e05fd5aef3620d56d2ae8424e03ff1f06c1f",
-    "bytes": 6244
+    "sha256": "de95050ab8ad26818ebdb3c3704f9474717edeb26f620dc28a419f9a8d12e86a",
+    "bytes": 6242
   },
   {
     "path": "games/audio/golf/C/golf.js",
-    "sha256": "9888f70be28eada4a4b734249f584e1e10556af745de9639fd0a6f2623fa2db7",
-    "bytes": 21840
+    "sha256": "f261f7ce5ff3647fa5d7f54fa4a44e1340f17eb09493bb4e12d31b53954b3a21",
+    "bytes": 21852
   },
   {
     "path": "games/audio/golf/C/index.html",

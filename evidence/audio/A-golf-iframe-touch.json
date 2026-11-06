@@ -8,8 +8,8 @@
     0
   ],
   "signal": {
-    "peakRms": 0.010081063676043663,
-    "samples": 56,
+    "peakRms": 0.012680801409501065,
+    "samples": 55,
     "contexts": 1,
     "contextStates": [
       "running"
@@ -20,8 +20,8 @@
       },
       {
         "type": "start",
-        "at": 0.050666666666666665,
-        "scheduled": 0.04
+        "at": 0.032,
+        "scheduled": 0.032
       }
     ]
   },
@@ -32,5 +32,6 @@
     "contextState": "running",
     "activeVoices": 0
   },
-  "pass": true
+  "pass": true,
+  "mutePersistence": true
 }

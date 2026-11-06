@@ -32,5 +32,6 @@
     "contextState": "running",
     "activeVoices": 0
   },
-  "pass": true
+  "pass": true,
+  "mutePersistence": true
 }

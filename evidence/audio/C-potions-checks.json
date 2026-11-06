@@ -55,7 +55,7 @@
   "external": [],
   "actionSignal": {
     "peakRms": 0.040564715596220574,
-    "samples": 66,
+    "samples": 64,
     "contexts": 1,
     "contextStates": [
       "running"
@@ -73,7 +73,7 @@
   },
   "mutedSignal": {
     "peakRms": 0,
-    "samples": 69,
+    "samples": 85,
     "contexts": 1,
     "contextStates": [
       "running"

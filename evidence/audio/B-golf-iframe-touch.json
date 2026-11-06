@@ -9,7 +9,7 @@
   ],
   "signal": {
     "peakRms": 0.027535241330359218,
-    "samples": 52,
+    "samples": 51,
     "contexts": 1,
     "contextStates": [
       "running"
@@ -32,5 +32,6 @@
     "contextState": "running",
     "activeVoices": 0
   },
-  "pass": true
+  "pass": true,
+  "mutePersistence": true
 }
