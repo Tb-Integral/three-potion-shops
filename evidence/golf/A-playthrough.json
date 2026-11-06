@@ -1,0 +1,534 @@
+{
+  "realTime": true,
+  "log": [
+    {
+      "target": [
+        210,
+        118
+      ],
+      "state": {
+        "holeIndex": 0,
+        "phase": "sunk",
+        "strokes": [
+          1,
+          0,
+          0
+        ],
+        "ball": {
+          "x": 210,
+          "y": 118,
+          "vx": 0,
+          "vy": 0,
+          "radius": 8
+        },
+        "cup": {
+          "x": 210,
+          "y": 118,
+          "radius": 13
+        },
+        "course": {
+          "width": 420,
+          "height": 560
+        },
+        "dragging": false,
+        "obstacles": [
+          {
+            "x": 59,
+            "y": 258,
+            "w": 66,
+            "h": 58
+          },
+          {
+            "x": 295,
+            "y": 258,
+            "w": 66,
+            "h": 58
+          }
+        ],
+        "bounds": {
+          "left": 22,
+          "right": 398,
+          "top": 22,
+          "bottom": 538
+        },
+        "maxPull": 115,
+        "maxSpeed": 520,
+        "friction": 150
+      }
+    },
+    {
+      "target": [
+        345,
+        449
+      ],
+      "state": {
+        "holeIndex": 1,
+        "phase": "aim",
+        "strokes": [
+          1,
+          1,
+          0
+        ],
+        "ball": {
+          "x": 346.0626818593825,
+          "y": 449,
+          "vx": 0,
+          "vy": 0,
+          "radius": 8
+        },
+        "cup": {
+          "x": 305,
+          "y": 112,
+          "radius": 13
+        },
+        "course": {
+          "width": 420,
+          "height": 560
+        },
+        "dragging": false,
+        "obstacles": [
+          {
+            "x": 104,
+            "y": 274,
+            "w": 201,
+            "h": 28
+          }
+        ],
+        "bounds": {
+          "left": 22,
+          "right": 398,
+          "top": 22,
+          "bottom": 538
+        },
+        "maxPull": 115,
+        "maxSpeed": 520,
+        "friction": 150
+      }
+    },
+    {
+      "target": [
+        345,
+        112
+      ],
+      "state": {
+        "holeIndex": 1,
+        "phase": "aim",
+        "strokes": [
+          1,
+          2,
+          0
+        ],
+        "ball": {
+          "x": 344.9960570199067,
+          "y": 110.75213592547064,
+          "vx": 0,
+          "vy": 0,
+          "radius": 8
+        },
+        "cup": {
+          "x": 305,
+          "y": 112,
+          "radius": 13
+        },
+        "course": {
+          "width": 420,
+          "height": 560
+        },
+        "dragging": false,
+        "obstacles": [
+          {
+            "x": 104,
+            "y": 274,
+            "w": 201,
+            "h": 28
+          }
+        ],
+        "bounds": {
+          "left": 22,
+          "right": 398,
+          "top": 22,
+          "bottom": 538
+        },
+        "maxPull": 115,
+        "maxSpeed": 520,
+        "friction": 150
+      }
+    },
+    {
+      "target": [
+        305,
+        112
+      ],
+      "state": {
+        "holeIndex": 1,
+        "phase": "sunk",
+        "strokes": [
+          1,
+          3,
+          0
+        ],
+        "ball": {
+          "x": 305,
+          "y": 112,
+          "vx": 0,
+          "vy": 0,
+          "radius": 8
+        },
+        "cup": {
+          "x": 305,
+          "y": 112,
+          "radius": 13
+        },
+        "course": {
+          "width": 420,
+          "height": 560
+        },
+        "dragging": false,
+        "obstacles": [
+          {
+            "x": 104,
+            "y": 274,
+            "w": 201,
+            "h": 28
+          }
+        ],
+        "bounds": {
+          "left": 22,
+          "right": 398,
+          "top": 22,
+          "bottom": 538
+        },
+        "maxPull": 115,
+        "maxSpeed": 520,
+        "friction": 150
+      }
+    },
+    {
+      "target": [
+        320,
+        459
+      ],
+      "state": {
+        "holeIndex": 2,
+        "phase": "aim",
+        "strokes": [
+          1,
+          3,
+          1
+        ],
+        "ball": {
+          "x": 320.99346289247194,
+          "y": 459,
+          "vx": 0,
+          "vy": 0,
+          "radius": 8
+        },
+        "cup": {
+          "x": 299,
+          "y": 99,
+          "radius": 13
+        },
+        "course": {
+          "width": 420,
+          "height": 560
+        },
+        "dragging": false,
+        "obstacles": [
+          {
+            "x": 22,
+            "y": 337,
+            "w": 225,
+            "h": 29
+          },
+          {
+            "x": 174,
+            "y": 186,
+            "w": 224,
+            "h": 29
+          }
+        ],
+        "bounds": {
+          "left": 22,
+          "right": 398,
+          "top": 22,
+          "bottom": 538
+        },
+        "maxPull": 115,
+        "maxSpeed": 520,
+        "friction": 150
+      }
+    },
+    {
+      "target": [
+        320,
+        270
+      ],
+      "state": {
+        "holeIndex": 2,
+        "phase": "aim",
+        "strokes": [
+          1,
+          3,
+          2
+        ],
+        "ball": {
+          "x": 319.99523135931184,
+          "y": 269.0896112284153,
+          "vx": 0,
+          "vy": 0,
+          "radius": 8
+        },
+        "cup": {
+          "x": 299,
+          "y": 99,
+          "radius": 13
+        },
+        "course": {
+          "width": 420,
+          "height": 560
+        },
+        "dragging": false,
+        "obstacles": [
+          {
+            "x": 22,
+            "y": 337,
+            "w": 225,
+            "h": 29
+          },
+          {
+            "x": 174,
+            "y": 186,
+            "w": 224,
+            "h": 29
+          }
+        ],
+        "bounds": {
+          "left": 22,
+          "right": 398,
+          "top": 22,
+          "bottom": 538
+        },
+        "maxPull": 115,
+        "maxSpeed": 520,
+        "friction": 150
+      }
+    },
+    {
+      "target": [
+        110,
+        270
+      ],
+      "state": {
+        "holeIndex": 2,
+        "phase": "aim",
+        "strokes": [
+          1,
+          3,
+          3
+        ],
+        "ball": {
+          "x": 109.04897297379557,
+          "y": 270.0040861092053,
+          "vx": 0,
+          "vy": 0,
+          "radius": 8
+        },
+        "cup": {
+          "x": 299,
+          "y": 99,
+          "radius": 13
+        },
+        "course": {
+          "width": 420,
+          "height": 560
+        },
+        "dragging": false,
+        "obstacles": [
+          {
+            "x": 22,
+            "y": 337,
+            "w": 225,
+            "h": 29
+          },
+          {
+            "x": 174,
+            "y": 186,
+            "w": 224,
+            "h": 29
+          }
+        ],
+        "bounds": {
+          "left": 22,
+          "right": 398,
+          "top": 22,
+          "bottom": 538
+        },
+        "maxPull": 115,
+        "maxSpeed": 520,
+        "friction": 150
+      }
+    },
+    {
+      "target": [
+        110,
+        99
+      ],
+      "state": {
+        "holeIndex": 2,
+        "phase": "aim",
+        "strokes": [
+          1,
+          3,
+          4
+        ],
+        "ball": {
+          "x": 110.00488837412298,
+          "y": 98.12630310542536,
+          "vx": 0,
+          "vy": 0,
+          "radius": 8
+        },
+        "cup": {
+          "x": 299,
+          "y": 99,
+          "radius": 13
+        },
+        "course": {
+          "width": 420,
+          "height": 560
+        },
+        "dragging": false,
+        "obstacles": [
+          {
+            "x": 22,
+            "y": 337,
+            "w": 225,
+            "h": 29
+          },
+          {
+            "x": 174,
+            "y": 186,
+            "w": 224,
+            "h": 29
+          }
+        ],
+        "bounds": {
+          "left": 22,
+          "right": 398,
+          "top": 22,
+          "bottom": 538
+        },
+        "maxPull": 115,
+        "maxSpeed": 520,
+        "friction": 150
+      }
+    },
+    {
+      "target": [
+        299,
+        99
+      ],
+      "state": {
+        "holeIndex": 2,
+        "phase": "finished",
+        "strokes": [
+          1,
+          3,
+          5
+        ],
+        "ball": {
+          "x": 299,
+          "y": 99,
+          "vx": 0,
+          "vy": 0,
+          "radius": 8
+        },
+        "cup": {
+          "x": 299,
+          "y": 99,
+          "radius": 13
+        },
+        "course": {
+          "width": 420,
+          "height": 560
+        },
+        "dragging": false,
+        "obstacles": [
+          {
+            "x": 22,
+            "y": 337,
+            "w": 225,
+            "h": 29
+          },
+          {
+            "x": 174,
+            "y": 186,
+            "w": 224,
+            "h": 29
+          }
+        ],
+        "bounds": {
+          "left": 22,
+          "right": 398,
+          "top": 22,
+          "bottom": 538
+        },
+        "maxPull": 115,
+        "maxSpeed": 520,
+        "friction": 150
+      }
+    }
+  ],
+  "final": {
+    "holeIndex": 2,
+    "phase": "finished",
+    "strokes": [
+      1,
+      3,
+      5
+    ],
+    "ball": {
+      "x": 299,
+      "y": 99,
+      "vx": 0,
+      "vy": 0,
+      "radius": 8
+    },
+    "cup": {
+      "x": 299,
+      "y": 99,
+      "radius": 13
+    },
+    "course": {
+      "width": 420,
+      "height": 560
+    },
+    "dragging": false,
+    "obstacles": [
+      {
+        "x": 22,
+        "y": 337,
+        "w": 225,
+        "h": 29
+      },
+      {
+        "x": 174,
+        "y": 186,
+        "w": 224,
+        "h": 29
+      }
+    ],
+    "bounds": {
+      "left": 22,
+      "right": 398,
+      "top": 22,
+      "bottom": 538
+    },
+    "maxPull": 115,
+    "maxSpeed": 520,
+    "friction": 150
+  },
+  "resetPreservesPrevious": true,
+  "finishedRejectsShots": true,
+  "newGame": true
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#efe9d8">
+  <title>Тихий гольф — три лунки у моря</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="game">
+    <header class="masthead">
+      <div><p class="eyebrow">МАЛЕНЬКИЙ ОТПУСК</p><h1>Тихий гольф<span class="sun" aria-hidden="true">✳</span></h1></div>
+      <div class="edition">Три лунки<br><span>у моря</span></div>
+    </header>
+    <section class="play" aria-label="Игра в мини-гольф">
+      <div class="scorebar">
+        <div class="hole-info"><span id="hole-number" class="number">01</span><div><span class="eyebrow" id="hole-progress">ЛУНКА 1 / 3</span><h2 id="hole-name">Первый бриз</h2></div></div>
+        <div class="strokes"><strong id="stroke-count">0</strong><span>УДАРОВ</span></div>
+      </div>
+      <div class="course-wrap">
+        <canvas id="course" width="840" height="1120" data-golf-course aria-label="Поле для мини-гольфа. Нажмите рядом с мячом, оттяните в противоположную удару сторону и отпустите."></canvas>
+        <div class="result" id="result" hidden>
+          <p class="eyebrow" id="result-kicker">ТОЧНО В ЛУНКУ</p>
+          <h2 id="result-title">Хороший удар!</h2>
+          <p id="result-copy"></p>
+          <div id="scorecard" class="scorecard" hidden></div>
+          <button class="primary" id="continue">Следующая лунка <span aria-hidden="true">↗</span></button>
+        </div>
+      </div>
+      <div class="instruction" aria-live="polite"><span id="status">Потяните от мяча назад и отпустите</span><div class="power-track" aria-hidden="true"><i id="power"></i></div></div>
+      <footer class="controls"><div class="progress" id="progress" aria-label="Результаты лунок"><span class="active">1 · —</span><span>2 · —</span><span>3 · —</span></div><button id="restart" class="restart" title="Начать текущую лунку заново"><span aria-hidden="true">↶</span> Заново лунку</button></footer>
+    </section>
+    <p class="signature">Без спешки. Только вы, мяч и море.</p>
+  </main>
+  <script src="game.js"></script>
+</body>
+</html>

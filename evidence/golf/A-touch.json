@@ -1,0 +1,107 @@
+{
+  "variant": "A",
+  "touchCancel": true,
+  "touchShot": true,
+  "noScroll": true,
+  "noOverflow360": true,
+  "log": [
+    {
+      "holeIndex": 0,
+      "phase": "aim",
+      "strokes": [
+        0,
+        0,
+        0
+      ],
+      "ball": {
+        "x": 210,
+        "y": 443,
+        "vx": 0,
+        "vy": 0,
+        "radius": 8
+      },
+      "cup": {
+        "x": 210,
+        "y": 118,
+        "radius": 13
+      },
+      "course": {
+        "width": 420,
+        "height": 560
+      },
+      "dragging": false,
+      "obstacles": [
+        {
+          "x": 59,
+          "y": 258,
+          "w": 66,
+          "h": 58
+        },
+        {
+          "x": 295,
+          "y": 258,
+          "w": 66,
+          "h": 58
+        }
+      ],
+      "bounds": {
+        "left": 22,
+        "right": 398,
+        "top": 22,
+        "bottom": 538
+      },
+      "maxPull": 115,
+      "maxSpeed": 520,
+      "friction": 150
+    },
+    {
+      "holeIndex": 0,
+      "phase": "moving",
+      "strokes": [
+        1,
+        0,
+        0
+      ],
+      "ball": {
+        "x": 191.91921560136433,
+        "y": 424.91901831411656,
+        "vx": -175.06263273354202,
+        "vy": -175.06454291753872,
+        "radius": 8
+      },
+      "cup": {
+        "x": 210,
+        "y": 118,
+        "radius": 13
+      },
+      "course": {
+        "width": 420,
+        "height": 560
+      },
+      "dragging": false,
+      "obstacles": [
+        {
+          "x": 59,
+          "y": 258,
+          "w": 66,
+          "h": 58
+        },
+        {
+          "x": 295,
+          "y": 258,
+          "w": 66,
+          "h": 58
+        }
+      ],
+      "bounds": {
+        "left": 22,
+        "right": 398,
+        "top": 22,
+        "bottom": 538
+      },
+      "maxPull": 115,
+      "maxSpeed": 520,
+      "friction": 150
+    }
+  ]
+}

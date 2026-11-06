@@ -1,0 +1,62 @@
+[
+  {
+    "path": "games/golf/A/index.html",
+    "sha256": "1989abb6d9fae0d57a583b7114342926eb885996e8c9d25780e3cef76dcb6264",
+    "bytes": 2532
+  },
+  {
+    "path": "games/golf/A/style.css",
+    "sha256": "1ca01b1d70dad1f318ab1a69f388df8e9fe9e923f07202b6343e8014939c3054",
+    "bytes": 5125
+  },
+  {
+    "path": "games/golf/A/game.js",
+    "sha256": "721fba9689a3f0dd13ca1f45ebdca815af95c467ecea10c0a0acf28086efa6dc",
+    "bytes": 12625
+  },
+  {
+    "path": "games/golf/A/NOTES.md",
+    "sha256": "70ed1c78cb92647a3c0f4ac34ecb121f01e30c0aac7c3b9b595023b235e7c42d",
+    "bytes": 11084
+  },
+  {
+    "path": "games/golf/B/index.html",
+    "sha256": "969b8650b83d6553bedcc56582b9abe961a919d6a20355177ac55b1317b8a509",
+    "bytes": 1714
+  },
+  {
+    "path": "games/golf/B/style.css",
+    "sha256": "5bf9f80caa5406e16b784ab87acecff599094329bbe4262100a7647bd99f1dfd",
+    "bytes": 3243
+  },
+  {
+    "path": "games/golf/B/game.js",
+    "sha256": "51e4a32d998744a6ab3e7d2092e4d9d26c39d66cb1f91eb01440385eb54f790a",
+    "bytes": 7401
+  },
+  {
+    "path": "games/golf/B/NOTES.md",
+    "sha256": "8e8a872334c0afbcb99be3a5710bcfc223ad2a21fe54f497da633604bfb77216",
+    "bytes": 3490
+  },
+  {
+    "path": "games/golf/C/index.html",
+    "sha256": "7f9348ff6092e785163a650a64f6b6acf452c64c5382b82a8a0b7bd58d1c62b0",
+    "bytes": 3146
+  },
+  {
+    "path": "games/golf/C/style.css",
+    "sha256": "376aead364f468e8453f43244729914cc04d6bf41739b4879c7a1c3b07e38d1e",
+    "bytes": 6124
+  },
+  {
+    "path": "games/golf/C/golf.js",
+    "sha256": "ee8d2ffad01d741313adf4990c40d389f316f4682fd24fb2ab02c5061dd72bcd",
+    "bytes": 20469
+  },
+  {
+    "path": "games/golf/C/NOTES.md",
+    "sha256": "dda37192944c260ec968772f0ec7a54e9e0501ccde6936e2efb29959c18794f0",
+    "bytes": 5660
+  }
+]

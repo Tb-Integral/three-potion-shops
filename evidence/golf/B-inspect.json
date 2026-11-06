@@ -1,0 +1,119 @@
+{
+  "variant": "B",
+  "initial": {
+    "holeIndex": 0,
+    "phase": "aim",
+    "strokes": [
+      0,
+      0,
+      0
+    ],
+    "ball": {
+      "x": 360,
+      "y": 820,
+      "vx": 0,
+      "vy": 0,
+      "radius": 15
+    },
+    "cup": {
+      "x": 360,
+      "y": 180,
+      "radius": 23
+    },
+    "course": {
+      "width": 720,
+      "height": 1000
+    },
+    "dragging": false,
+    "obstacles": []
+  },
+  "text": "КЛУБ ВЕЧЕРНЕЙ ИГРЫ\nЛунный гольф ✳\n↺ Заново\nЛУНКА\n01 / 03\nУДАРЫ\n0\n↙\n\nПотяни мяч назад и отпусти для удара\n\nPAR 2",
+  "layouts": [
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "field": {
+        "x": 14,
+        "y": 193.609375,
+        "width": 362,
+        "height": 502.765625,
+        "top": 193.609375,
+        "right": 376,
+        "bottom": 696.375,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "text": "↺ Заново",
+          "rect": {
+            "x": 287.328125,
+            "y": 16,
+            "width": 88.671875,
+            "height": 40,
+            "top": 16,
+            "right": 376,
+            "bottom": 56,
+            "left": 287.328125
+          }
+        },
+        {
+          "text": "Ещё партию ↗",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        }
+      ]
+    },
+    {
+      "width": 360,
+      "scrollWidth": 360,
+      "field": {
+        "x": 14,
+        "y": 192.4375,
+        "width": 332,
+        "height": 461.109375,
+        "top": 192.4375,
+        "right": 346,
+        "bottom": 653.546875,
+        "left": 14
+      },
+      "buttons": [
+        {
+          "text": "↺ Заново",
+          "rect": {
+            "x": 257.328125,
+            "y": 16,
+            "width": 88.671875,
+            "height": 40,
+            "top": 16,
+            "right": 346,
+            "bottom": 56,
+            "left": 257.328125
+          }
+        },
+        {
+          "text": "Ещё партию ↗",
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 0,
+            "height": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0,
+            "left": 0
+          }
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "external": []
+}

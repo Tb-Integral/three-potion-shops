@@ -1,0 +1,83 @@
+window.EXPERIMENT = {
+  "experiment": "Мини-гольф — раунд 2",
+  "date": "2026-11-06",
+  "timezone": "Asia/Yekaterinburg",
+  "collectedAfterEvaluation": true,
+  "source": "Local Codex session usage records and task_started/task_complete events; public aggregate only.",
+  "definitions": {
+    "totalTokens": "inputTokens + outputTokens; cachedInputTokens is a subset of inputTokens; reasoningOutputTokens is a subset of outputTokens.",
+    "elapsedSeconds": "task_started to task_complete; includes tool execution, waiting and self-checks, excludes evaluator work and site preparation.",
+    "modelResponses": "Number of unique response_id records in token_usage_record.",
+    "shellCommands": "Number of completed CommandExecution items, not all tool calls.",
+    "costUsd": "Unavailable: no verified billing record or applicable tariff.",
+    "scope": "Only the three implementation agents. Coordinator and automatic approval-review agents are excluded. All modelResponses counted, including status messages."
+  },
+  "roundId": "golf",
+  "cardDescriptions": {
+    "A": "«Тихий гольф»: три лунки у моря, проценты силы и переход к следующему полю по кнопке.",
+    "B": "«Лунный гольф»: простая подача, автоматическая смена полей и третья лунка с тремя перегородками.",
+    "C": "«Зелёный клуб»: видна будущая траектория с отскоками и точка остановки мяча."
+  },
+  "runs": [
+    {
+      "variant": "A",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "score": 97,
+      "startedAt": "2026-11-06T09:07:08.602Z",
+      "completedAt": "2026-11-06T09:18:40.067Z",
+      "elapsedSeconds": 691.465,
+      "inputTokens": 634152,
+      "cachedInputTokens": 623104,
+      "uncachedInputTokens": 11048,
+      "outputTokens": 17474,
+      "reasoningOutputTokens": 3393,
+      "totalTokens": 651626,
+      "modelResponses": 15,
+      "shellCommands": 10,
+      "runtimeFiles": 3,
+      "runtimeBytes": 20282,
+      "costUsd": null
+    },
+    {
+      "variant": "B",
+      "model": "gpt-6.1-terra",
+      "reasoningEffort": "high",
+      "score": 95,
+      "startedAt": "2026-11-06T09:07:16.427Z",
+      "completedAt": "2026-11-06T09:11:28.801Z",
+      "elapsedSeconds": 252.374,
+      "inputTokens": 576742,
+      "cachedInputTokens": 545536,
+      "uncachedInputTokens": 31206,
+      "outputTokens": 9030,
+      "reasoningOutputTokens": 742,
+      "totalTokens": 585772,
+      "modelResponses": 14,
+      "shellCommands": 11,
+      "runtimeFiles": 3,
+      "runtimeBytes": 12358,
+      "costUsd": null
+    },
+    {
+      "variant": "C",
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "high",
+      "score": 99,
+      "startedAt": "2026-11-06T09:07:26.492Z",
+      "completedAt": "2026-11-06T09:20:35.013Z",
+      "elapsedSeconds": 788.521,
+      "inputTokens": 3015485,
+      "cachedInputTokens": 2968960,
+      "uncachedInputTokens": 46525,
+      "outputTokens": 26407,
+      "reasoningOutputTokens": 6219,
+      "totalTokens": 3041892,
+      "modelResponses": 54,
+      "shellCommands": 12,
+      "runtimeFiles": 3,
+      "runtimeBytes": 29739,
+      "costUsd": null
+    }
+  ]
+};

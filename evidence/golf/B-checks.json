@@ -1,0 +1,58 @@
+{
+  "variant": "B",
+  "checks": [
+    {
+      "name": "fresh snapshot cannot mutate game",
+      "pass": true
+    },
+    {
+      "name": "tiny click costs no stroke",
+      "pass": true
+    },
+    {
+      "name": "weak shot direction and eventual stop",
+      "pass": true
+    },
+    {
+      "name": "moving ball rejects another shot",
+      "pass": true
+    },
+    {
+      "name": "pointercancel cancels aim without shot",
+      "pass": true
+    },
+    {
+      "name": "blur cancels aim without shot",
+      "pass": true
+    },
+    {
+      "name": "visibilitychange cancels aim without shot",
+      "pass": true
+    },
+    {
+      "name": "resize cancels aim without shot",
+      "pass": true
+    },
+    {
+      "name": "release outside field resolves gesture",
+      "pass": true
+    },
+    {
+      "name": "maximum shot stays in course and stops",
+      "pass": true
+    },
+    {
+      "name": "reset during motion",
+      "pass": true
+    },
+    {
+      "name": "reset while aiming removes old gesture",
+      "pass": true
+    },
+    {
+      "name": "native buttons reachable by keyboard",
+      "pass": true
+    }
+  ],
+  "errors": []
+}

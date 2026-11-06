@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Зелёный клуб — мини-гольф</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="golf.js" defer></script>
+</head>
+<body>
+  <main class="club">
+    <header class="brand">
+      <svg class="crest" viewBox="0 0 56 64" aria-hidden="true">
+        <path d="M4 5h48v32c0 11-12 19-24 23C16 56 4 48 4 37z" fill="#254538"/>
+        <path d="M9 10h38v26c0 9-10 16-19 19-9-3-19-10-19-19z" fill="none" stroke="#e1c483"/>
+        <path d="M17 39q11-7 22 0M27 36V17l12 4-12 5" fill="none" stroke="#f8e9c6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <circle cx="20" cy="35" r="2.5" fill="#e1c483"/>
+      </svg>
+      <div>
+        <p class="kicker">Мини-гольф <span class="brand-dot">·</span> 3 лунки</p>
+        <h1>Зелёный клуб</h1>
+      </div>
+    </header>
+
+    <section class="score" aria-label="Счёт партии">
+      <div class="hole-heading">
+        <p class="kicker" id="hole-number">Лунка 01</p>
+        <span class="par" id="hole-par">Пар 1</span>
+      </div>
+      <h2 id="hole-title">Прямая аллея</h2>
+      <ol class="scorecard" aria-label="Удары по лункам">
+        <li aria-current="step"><span>01</span><strong>0</strong><span class="sr-only"> ударов</span></li>
+        <li><span>02</span><strong>—</strong></li>
+        <li><span>03</span><strong>—</strong></li>
+      </ol>
+    </section>
+
+    <section class="field" aria-label="Игровое поле">
+      <canvas width="440" height="560" data-golf-course role="img" aria-label="Вид поля сверху. Белый мяч и лунка с флажком" aria-describedby="instructions"></canvas>
+      <div class="result" id="result" hidden>
+        <div class="result-card">
+          <p class="kicker">Клубная карта</p>
+          <h2>Круг завершён</h2>
+          <p class="result-total" id="result-total"></p>
+          <p class="result-split" id="result-split"></p>
+          <button type="button" id="new-round">Сыграть ещё</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="controls" aria-label="Управление">
+      <div class="play-line">
+        <p class="status" id="status" role="status">Мяч готов</p>
+        <div class="power" id="power" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+      </div>
+      <p class="instructions" id="instructions">Нажмите на мяч, оттяните от цели и отпустите. Чем дальше тянете, тем сильнее удар.</p>
+      <button class="retry" type="button" id="retry">
+        <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 8a6 6 0 1 1 0 4M4 8V3m0 5h5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Заново эту лунку
+      </button>
+    </section>
+  </main>
+</body>
+</html>
