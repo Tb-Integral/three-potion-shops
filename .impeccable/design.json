@@ -1,0 +1,221 @@
+{
+  "generatedAt": "2026-11-06T08:45:04.4846603Z",
+  "schemaVersion": 2,
+  "title": "Design System: Три лавки",
+  "components": [
+    {
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:11px 24px;border:1px solid transparent;border-radius:23px;font:14px Arial,sans-serif;text-decoration:none;background:var(--accent,#b6c7f2);color:#18243d}.ds-button:hover{background:#c8d7fa}.ds-button:focus-visible,.ds-metric:focus-visible,.ds-blind input:focus-visible,.ds-nav a:focus-visible{outline:3px solid var(--accent,#b6c7f2);outline-offset:5px}",
+      "html": "<a class=\"ds-button ds-play\" href=\"#\">Играть в A</a>",
+      "refersTo": "button-primary",
+      "kind": "button",
+      "description": "Основное действие карточки.",
+      "name": "Играть"
+    },
+    {
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:11px 24px;border:1px solid var(--line,#424957);border-radius:23px;font:14px Arial,sans-serif;text-decoration:none;color:var(--ink,#edf0f5)}.ds-button:hover{background:#343d4b}.ds-button:focus-visible,.ds-metric:focus-visible,.ds-blind input:focus-visible,.ds-nav a:focus-visible{outline:3px solid var(--accent,#b6c7f2);outline-offset:5px}",
+      "html": "<a class=\"ds-button\" href=\"#\">Прочитать полный разбор</a>",
+      "refersTo": "button-secondary",
+      "kind": "button",
+      "description": "Вторичное действие.",
+      "name": "Полный разбор"
+    },
+    {
+      "html": "<button class=\"ds-metric\" aria-pressed=\"true\">Время</button>",
+      "css": ".ds-metric{min-height:44px;padding:10px 16px;border:1px solid var(--line,#424957);border-radius:7px;font:13px Arial,sans-serif;color:var(--muted,#b0b7c4);background:transparent;cursor:pointer}.ds-metric:hover{border-color:var(--accent,#b6c7f2);color:var(--ink,#edf0f5)}.ds-metric[aria-pressed=true]{background:var(--accent,#b6c7f2);color:#18243d;border-color:var(--accent,#b6c7f2)}.ds-button:focus-visible,.ds-metric:focus-visible,.ds-blind input:focus-visible,.ds-nav a:focus-visible{outline:3px solid var(--accent,#b6c7f2);outline-offset:5px}",
+      "kind": "button",
+      "name": "Показатель",
+      "description": "Переключатель статистики; выбранное состояние."
+    },
+    {
+      "html": "<label class=\"ds-blind\"><input type=\"checkbox\">Скрыть модели и оценки</label>",
+      "css": ".ds-blind{display:flex;align-items:center;gap:10px;min-height:44px;font:13px Arial,sans-serif;color:var(--muted,#b0b7c4);cursor:pointer}.ds-blind input{width:17px;height:17px;accent-color:var(--accent,#b6c7f2)}.ds-button:focus-visible,.ds-metric:focus-visible,.ds-blind input:focus-visible,.ds-nav a:focus-visible{outline:3px solid var(--accent,#b6c7f2);outline-offset:5px}",
+      "kind": "input",
+      "name": "Скрыть авторство",
+      "description": "Нативный checkbox режима скрытия."
+    },
+    {
+      "html": "<nav class=\"ds-nav\" aria-label=\"Основная навигация\"><a href=\"#games\">Игры</a><a href=\"#stats\">Статистика</a></nav>",
+      "css": ".ds-nav{display:flex;gap:26px;flex-wrap:wrap}.ds-nav a{font:13px Arial,sans-serif;color:var(--muted,#b0b7c4);padding:10px 0;text-decoration:none}.ds-nav a:hover{color:var(--ink,#edf0f5)}.ds-button:focus-visible,.ds-metric:focus-visible,.ds-blind input:focus-visible,.ds-nav a:focus-visible{outline:3px solid var(--accent,#b6c7f2);outline-offset:5px}",
+      "kind": "nav",
+      "name": "Навигация",
+      "description": "Текстовые ссылки разделов."
+    },
+    {
+      "css": ".ds-card{padding:26px;background:var(--surface,#252b35);color:var(--ink,#edf0f5);border-radius:var(--radius,14px);font:15px/1.65 Arial,sans-serif}",
+      "html": "<article class=\"ds-card\">Вариант A · Лавка зелий</article>",
+      "refersTo": "game-card",
+      "kind": "card",
+      "description": "Тональная поверхность; демонстрация оболочки, без выдуманных показателей.",
+      "name": "Поверхность карточки"
+    }
+  ],
+  "narrative": {
+    "donts": [
+      "Don't заменять Arial декоративным шрифтом без нового решения пользователя.",
+      "Don't выдавать декоративные знаки моделей за официальные логотипы.",
+      "Don't менять исходные игры или телеметрию ради оформления оболочки."
+    ],
+    "rules": [],
+    "northStar": "Тёмный и спокойный",
+    "dos": [
+      "Do сохранять реальные скриншоты, исходные игры и фактические метрики.",
+      "Do писать дружелюбно и прямо, объясняя смысл чисел рядом с ними.",
+      "Do проверять клавиатуру и компоновку на ширинах 360px и 390px."
+    ],
+    "overview": "Утверждённый пользователем графитовый интерфейс с обычными заголовками Arial, приглушёнными голубыми кнопками и понятным разговорным текстом. Оформление помогает рассмотреть реальные игры и сравнить результаты.",
+    "keyCharacteristics": [
+      "Спокойные поверхности без теней.",
+      "Простые заголовки и короткие пояснения.",
+      "Реальные игровые экраны и компактные числовые показатели."
+    ]
+  },
+  "extensions": {
+    "shadows": [],
+    "motion": [
+      {
+        "value": "width .35s cubic-bezier(.16,1,.3,1)",
+        "name": "bar-width",
+        "purpose": "Смена показателя; отключается при prefers-reduced-motion."
+      }
+    ],
+    "tonalRampNote": "Синтетические OKLCH шкалы только для панели; не заменяют фактические токены DESIGN.md.",
+    "breakpoints": [
+      {
+        "value": "900px",
+        "name": "compact"
+      },
+      {
+        "value": "650px",
+        "name": "mobile"
+      }
+    ],
+    "colorMeta": {
+      "terra": {
+        "tonalRamp": [
+          "oklch(15% 0.017 160)",
+          "oklch(26.43% 0.032 160)",
+          "oklch(37.86% 0.043 160)",
+          "oklch(49.29% 0.049 160)",
+          "oklch(60.71% 0.049 160)",
+          "oklch(72.14% 0.043 160)",
+          "oklch(83.57% 0.032 160)",
+          "oklch(95% 0.017 160)"
+        ],
+        "role": "secondary",
+        "displayName": "Шалфейный Terra"
+      },
+      "sol": {
+        "tonalRamp": [
+          "oklch(15% 0.024 75)",
+          "oklch(26.43% 0.045 75)",
+          "oklch(37.86% 0.061 75)",
+          "oklch(49.29% 0.069 75)",
+          "oklch(60.71% 0.069 75)",
+          "oklch(72.14% 0.061 75)",
+          "oklch(83.57% 0.045 75)",
+          "oklch(95% 0.024 75)"
+        ],
+        "role": "secondary",
+        "displayName": "Янтарный Sol"
+      },
+      "accent": {
+        "tonalRamp": [
+          "oklch(15% 0.024 265)",
+          "oklch(26.43% 0.045 265)",
+          "oklch(37.86% 0.061 265)",
+          "oklch(49.29% 0.069 265)",
+          "oklch(60.71% 0.069 265)",
+          "oklch(72.14% 0.061 265)",
+          "oklch(83.57% 0.045 265)",
+          "oklch(95% 0.024 265)"
+        ],
+        "role": "primary",
+        "displayName": "Бледно-голубой"
+      },
+      "ink": {
+        "tonalRamp": [
+          "oklch(15% 0.003 260)",
+          "oklch(26.43% 0.006 260)",
+          "oklch(37.86% 0.009 260)",
+          "oklch(49.29% 0.01 260)",
+          "oklch(60.71% 0.01 260)",
+          "oklch(72.14% 0.009 260)",
+          "oklch(83.57% 0.006 260)",
+          "oklch(95% 0.003 260)"
+        ],
+        "role": "neutral",
+        "displayName": "Светлый текст"
+      },
+      "line": {
+        "tonalRamp": [
+          "oklch(15% 0.009 260)",
+          "oklch(26.43% 0.016 260)",
+          "oklch(37.86% 0.022 260)",
+          "oklch(49.29% 0.025 260)",
+          "oklch(60.71% 0.025 260)",
+          "oklch(72.14% 0.022 260)",
+          "oklch(83.57% 0.016 260)",
+          "oklch(95% 0.009 260)"
+        ],
+        "role": "neutral",
+        "displayName": "Разделитель"
+      },
+      "surface": {
+        "tonalRamp": [
+          "oklch(15% 0.009 260)",
+          "oklch(26.43% 0.016 260)",
+          "oklch(37.86% 0.022 260)",
+          "oklch(49.29% 0.025 260)",
+          "oklch(60.71% 0.025 260)",
+          "oklch(72.14% 0.022 260)",
+          "oklch(83.57% 0.016 260)",
+          "oklch(95% 0.009 260)"
+        ],
+        "role": "neutral",
+        "displayName": "Поверхность"
+      },
+      "bg": {
+        "tonalRamp": [
+          "oklch(15% 0.007 260)",
+          "oklch(26.43% 0.013 260)",
+          "oklch(37.86% 0.017 260)",
+          "oklch(49.29% 0.02 260)",
+          "oklch(60.71% 0.02 260)",
+          "oklch(72.14% 0.017 260)",
+          "oklch(83.57% 0.013 260)",
+          "oklch(95% 0.007 260)"
+        ],
+        "role": "neutral",
+        "displayName": "Графит"
+      },
+      "astra": {
+        "tonalRamp": [
+          "oklch(15% 0.027 295)",
+          "oklch(26.43% 0.051 295)",
+          "oklch(37.86% 0.069 295)",
+          "oklch(49.29% 0.079 295)",
+          "oklch(60.71% 0.079 295)",
+          "oklch(72.14% 0.069 295)",
+          "oklch(83.57% 0.051 295)",
+          "oklch(95% 0.027 295)"
+        ],
+        "role": "secondary",
+        "displayName": "Фиолетовый Astra"
+      },
+      "muted": {
+        "tonalRamp": [
+          "oklch(15% 0.007 260)",
+          "oklch(26.43% 0.013 260)",
+          "oklch(37.86% 0.017 260)",
+          "oklch(49.29% 0.02 260)",
+          "oklch(60.71% 0.02 260)",
+          "oklch(72.14% 0.017 260)",
+          "oklch(83.57% 0.013 260)",
+          "oklch(95% 0.007 260)"
+        ],
+        "role": "neutral",
+        "displayName": "Вторичный текст"
+      }
+    }
+  }
+}
