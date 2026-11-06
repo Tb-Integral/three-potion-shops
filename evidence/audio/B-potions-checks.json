@@ -1,0 +1,88 @@
+{
+  "variant": "B",
+  "kind": "potions",
+  "checks": [
+    {
+      "name": "no AudioContext or sound before first user gesture",
+      "pass": true
+    },
+    {
+      "name": "read-only snapshot",
+      "pass": true
+    },
+    {
+      "name": "action produces real audio signal",
+      "pass": true
+    },
+    {
+      "name": "mute silences current and subsequent effects",
+      "pass": true
+    },
+    {
+      "name": "muted preference persists after reload",
+      "pass": true
+    },
+    {
+      "name": "volume control persists and zero is silent",
+      "pass": true
+    },
+    {
+      "name": "keyboard access and visible focus",
+      "pass": true
+    },
+    {
+      "name": "blur clears audible effects",
+      "pass": true
+    },
+    {
+      "name": "mobile layouts and controls",
+      "pass": true
+    },
+    {
+      "name": "noAudio does not break game",
+      "pass": true
+    },
+    {
+      "name": "blockedStorage does not break game",
+      "pass": true
+    },
+    {
+      "name": "rejectedResume does not break game",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "external": [],
+  "actionSignal": {
+    "peakRms": 0.03149436506264087,
+    "samples": 64,
+    "contexts": 1,
+    "contextStates": [
+      "running"
+    ],
+    "events": [
+      {
+        "type": "context"
+      },
+      {
+        "type": "start",
+        "at": 0,
+        "scheduled": 0
+      },
+      {
+        "type": "start",
+        "at": 0,
+        "scheduled": 0.07
+      }
+    ]
+  },
+  "mutedSignal": {
+    "peakRms": 0,
+    "samples": 66,
+    "contexts": 1,
+    "contextStates": [
+      "running"
+    ],
+    "events": []
+  }
+}

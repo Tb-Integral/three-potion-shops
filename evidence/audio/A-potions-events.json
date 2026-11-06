@@ -1,0 +1,139 @@
+{
+  "variant": "A",
+  "events": [
+    {
+      "name": "purchase",
+      "peakRms": 0.012304444854593772,
+      "samples": 76,
+      "contexts": 1,
+      "contextStates": [
+        "running"
+      ],
+      "events": [
+        {
+          "type": "context"
+        },
+        {
+          "type": "start",
+          "at": 0,
+          "scheduled": 0
+        },
+        {
+          "type": "start",
+          "at": 0,
+          "scheduled": 0.045
+        }
+      ]
+    },
+    {
+      "name": "brew",
+      "peakRms": 0.01583593772231713,
+      "samples": 78,
+      "contexts": 1,
+      "contextStates": [
+        "running"
+      ],
+      "events": [
+        {
+          "type": "start",
+          "at": 1.1813333333333333,
+          "scheduled": 1.1813333333333333
+        },
+        {
+          "type": "start",
+          "at": 1.1813333333333333,
+          "scheduled": 1.2463333333333333
+        },
+        {
+          "type": "start",
+          "at": 1.1813333333333333,
+          "scheduled": 1.3113333333333332
+        },
+        {
+          "type": "start",
+          "at": 1.1813333333333333,
+          "scheduled": 1.3763333333333334
+        }
+      ]
+    },
+    {
+      "name": "sale",
+      "peakRms": 0.016049045696880246,
+      "samples": 80,
+      "contexts": 1,
+      "contextStates": [
+        "running"
+      ],
+      "events": [
+        {
+          "type": "start",
+          "at": 2.32,
+          "scheduled": 2.32
+        },
+        {
+          "type": "start",
+          "at": 2.32,
+          "scheduled": 2.395
+        },
+        {
+          "type": "start",
+          "at": 2.32,
+          "scheduled": 2.4699999999999998
+        }
+      ]
+    },
+    {
+      "name": "next day",
+      "peakRms": 0.013293325755235562,
+      "samples": 80,
+      "contexts": 1,
+      "contextStates": [
+        "running"
+      ],
+      "events": [
+        {
+          "type": "start",
+          "at": 3.552,
+          "scheduled": 3.552
+        },
+        {
+          "type": "start",
+          "at": 3.552,
+          "scheduled": 3.692
+        }
+      ]
+    },
+    {
+      "name": "final",
+      "peakRms": 0.01722208706061759,
+      "samples": 82,
+      "contexts": 1,
+      "contextStates": [
+        "running"
+      ],
+      "events": [
+        {
+          "type": "start",
+          "at": 4.92,
+          "scheduled": 4.92
+        },
+        {
+          "type": "start",
+          "at": 4.92,
+          "scheduled": 5.03
+        },
+        {
+          "type": "start",
+          "at": 4.92,
+          "scheduled": 5.14
+        },
+        {
+          "type": "start",
+          "at": 4.92,
+          "scheduled": 5.25
+        }
+      ]
+    }
+  ],
+  "restoredFinalSilent": true
+}

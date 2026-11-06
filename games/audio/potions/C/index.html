@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#151e22">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" href="style.css">
+  <script src="audio.js" defer></script>
+  <script src="game.js" defer></script>
+  <title>Лавка зелий · Пять вечеров</title>
+</head>
+<body>
+  <svg class="symbol-bank" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <defs>
+      <linearGradient id="glass" x2=".2" y2="1">
+        <stop stop-color="#d7f7e9" stop-opacity=".30"/>
+        <stop offset="1" stop-color="#c1eced" stop-opacity=".08"/>
+      </linearGradient>
+      <symbol id="mark" viewBox="0 0 48 48">
+        <path d="M24 2 45 13v22L24 46 3 35V13Z" fill="#283739" stroke="#d4a366" stroke-width="1.5"/>
+        <path d="M24 6v8m0 20v8M8 16l7 4m18 8 7 4m0-16-7 4m-18 8-7 4" fill="none" stroke="#8d6951"/>
+        <path d="M21 15h6v7l5 7q1 4-3 4H19q-4 0-3-4l5-7Z" fill="#79b8a7" stroke="#eee0b9" stroke-width="1.4"/>
+        <path d="M20 15h8m-9 12h10" stroke="#eee0b9" stroke-width="1.5" stroke-linecap="round"/>
+      </symbol>
+      <symbol id="coin" viewBox="0 0 24 24">
+        <circle cx="12" cy="12" r="9" fill="#c1894f" stroke="#f1cf8a" stroke-width="1.5"/>
+        <path d="M12 6 16 12 12 18 8 12Z" fill="#f1cf8a"/>
+      </symbol>
+      <symbol id="spark" viewBox="0 0 24 24">
+        <path d="M12 0Q13 10 24 12 13 13 12 24 11 14 0 12 10 11 12 0Z" fill="currentColor"/>
+      </symbol>
+      <symbol id="mint" viewBox="0 0 48 48">
+        <path d="M23 43q1-18 10-28" fill="none" stroke="#a4b98a" stroke-width="2.5" stroke-linecap="round"/>
+        <path d="M25 32Q9 33 8 15q17 2 17 17ZM28 26Q26 10 43 6q0 17-15 20ZM23 39Q13 42 7 31q13-1 16 8Z" fill="#75ae88" stroke="#b7d1a1" stroke-width="1.2"/>
+        <path d="m13 21 10 9M38 13l-8 11" stroke="#d0dfb1" stroke-width="1.2" stroke-linecap="round"/>
+      </symbol>
+      <symbol id="honey" viewBox="0 0 48 48">
+        <path d="M17 12h14l2 6q6 3 6 9v9q-2 5-15 5T9 36v-9q0-6 6-9Z" fill="#ae5d39" stroke="#efb772" stroke-width="1.3"/>
+        <path d="M10 26q5-5 12 0 8 4 16-2v12q-4 4-14 4-12-1-14-4Z" fill="#d59849"/>
+        <path d="M15 30q0 4 2 6" fill="none" stroke="#ffdb9b" stroke-width="1.5" stroke-linecap="round"/>
+        <path d="M14 12h20l-2 7H16Z" fill="#e7be87" stroke="#f8dca3" stroke-width="1.2"/>
+        <path d="m24 27 4 2v5l-4 2-4-2v-5Z" fill="#f4ce7f"/>
+      </symbol>
+      <symbol id="cap" viewBox="0 0 48 48">
+        <path d="M21 23h9l3 16q-5 4-14 0Z" fill="#c89486" stroke="#f1c6aa" stroke-width="1.2"/>
+        <path d="M6 25Q8 8 25 8q16 1 18 17-12 8-37 0Z" fill="#a65366" stroke="#df8e8c" stroke-width="1.3"/>
+        <path d="M8 25q19-5 33 0-15 7-33 0Z" fill="#d88f8d"/>
+        <path d="m19 15 1.5 1.5L19 18l-1.5-1.5Zm9-3 2 2-2 2-2-2Zm7 8 1.5 1.5L35 23l-1.5-1.5Z" fill="#f4cda6"/>
+      </symbol>
+      <symbol id="salt" viewBox="0 0 48 48">
+        <path d="M17 39 10 24l5-9 8 10 2-17 8 2 3 12 5 3-6 14Z" fill="#729fb5" stroke="#bed8d8" stroke-width="1.3"/>
+        <path d="m25 8 4 18-5 14m5-14 7-4m-13 3-2 12m15-12-5 15m-16-24 6 22" fill="none" stroke="#b7d4e2" stroke-width="1.2"/>
+        <path d="m25 8 4 18 7-4-3-12Z" fill="#b6c4d8" fill-opacity=".55"/>
+        <path d="M9 6v8m-4-4h8m27 2v6m-3-3h6" stroke="#e8d5b0" stroke-linecap="round"/>
+      </symbol>
+      <symbol id="vigor" viewBox="0 0 48 56">
+        <path d="M19 6h10v15q12 5 12 17 0 13-17 13T7 38q0-12 12-17Z" fill="url(#glass)" stroke="#a8d5be" stroke-width="1.5"/>
+        <path d="M9 37q6-4 14-1t16-3q3 16-15 16-15 0-15-12Z" fill="#65ab84"/>
+        <path d="M18 6V2h12v7H18Z" fill="#bc8b56" stroke="#ebc18c" stroke-width="1.3"/>
+        <path d="M17 26q-6 5-6 11m9 8h3m6-3h.2" fill="none" stroke="#d4efd3" stroke-width="1.6" stroke-linecap="round"/>
+        <path d="m24 28 4 6-4 6-4-6Z" fill="#e0e8c3" stroke="#4d806d" stroke-width="1.2"/>
+      </symbol>
+      <symbol id="sleep" viewBox="0 0 48 56">
+        <path d="M18 7h12l-2 13 10 9v16l-6 5H16l-6-5V29l10-9Z" fill="url(#glass)" stroke="#c4bbe3" stroke-width="1.5"/>
+        <path d="M12 34q6-3 12 0t12-2v12l-5 4H17l-5-4Z" fill="#9077b0"/>
+        <path d="M17 3h14v7H17Z" fill="#bc8b56" stroke="#ebc18c" stroke-width="1.3"/>
+        <path d="M17 27 14 31v10m18 3h.2" fill="none" stroke="#ded5e8" stroke-width="1.5" stroke-linecap="round"/>
+        <path d="M25 27q-2 8 6 9-4 5-9 1-4-4 3-10Z" fill="#ead7bd"/>
+      </symbol>
+      <symbol id="flame" viewBox="0 0 48 56">
+        <path d="M18 7h12v13l12 13-8 16H14L6 33l12-13Z" fill="url(#glass)" stroke="#edba91" stroke-width="1.5"/>
+        <path d="M8 34q10-5 17 0t15-1l-7 14H15Z" fill="#cc744b"/>
+        <path d="M17 3h14v7H17Z" fill="#bc8b56" stroke="#ebc18c" stroke-width="1.3"/>
+        <path d="m18 24-7 9 4 8m15 3h2" fill="none" stroke="#f8d9a6" stroke-width="1.6" stroke-linecap="round"/>
+        <path d="M25 26q5 7 3 12-4 5-9-1-1-3 2-6l2 3Z" fill="#f5d197"/>
+      </symbol>
+      <symbol id="pot" viewBox="0 0 48 48">
+        <path d="M14 14q-2-4 2-7m9 7q3-5 0-9m9 9q4-3 2-6" fill="none" stroke="#9ccbba" stroke-width="1.8" stroke-linecap="round"/>
+        <path d="M8 22h32q2 13-8 16l3 4h-6l-2-4h-6l-2 4h-6l3-4Q6 35 8 22Z" fill="#4f7776" stroke="#aeccc0" stroke-width="1.5"/>
+        <ellipse cx="24" cy="21" rx="18" ry="5" fill="#1b3537" stroke="#aeccc0" stroke-width="1.5"/>
+        <path d="M17 29q3 4 8 4" fill="none" stroke="#a3bcab" stroke-width="1.6" stroke-linecap="round"/>
+      </symbol>
+      <symbol id="basket" viewBox="0 0 48 48">
+        <path d="M13 22q2-13 11-13t11 13" fill="none" stroke="#ddba85" stroke-width="3"/>
+        <path d="M6 23h36l-5 16H11Z" fill="#a77451" stroke="#ddba85" stroke-width="1.5"/>
+        <path d="M7 27h34m-31 6h28M15 24l2 14m7-14v14m9-14-2 14" stroke="#e0af74" stroke-width="1.4"/>
+      </symbol>
+      <symbol id="book" viewBox="0 0 24 24">
+        <path d="M3 5q4-2 9 1 5-3 9-1v14q-5-2-9 1-4-3-9-1Zm9 1v14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <div class="page">
+    <header class="masthead">
+      <div class="brand">
+        <svg class="brand-mark" aria-hidden="true"><use href="#mark"/></svg>
+        <div><p class="eyebrow">ПЯТЬ ВЕЧЕРОВ НА ЛУННОЙ УЛИЦЕ</p><h1>Лавка зелий</h1></div>
+      </div>
+      <div class="top-actions">
+        <button class="text-button" id="help-open" type="button"><svg aria-hidden="true"><use href="#book"/></svg> Правила</button>
+        <button class="text-button" id="restart-open" type="button">Новая игра</button>
+      </div>
+      <div class="audio-controls">
+        <button class="text-button" id="audio-toggle" type="button" aria-label="Звук" aria-pressed="true">Звук: вкл</button>
+        <label for="audio-volume">Громкость</label>
+        <input id="audio-volume" type="range" min="0" max="100" value="65">
+      </div>
+    </header>
+
+    <main>
+      <div id="play">
+        <section class="shop" aria-label="Прилавок лавки">
+          <img class="interior" src="shop.svg" alt="" draggable="false">
+          <div class="shop-hud">
+            <div class="day-box">
+              <span id="day-label"></span>
+              <div id="day-dots" class="day-dots" aria-hidden="true"></div>
+            </div>
+            <div class="purse">
+              <svg aria-hidden="true"><use href="#coin"/></svg>
+              <span><strong id="coins"></strong> <span id="coin-word"></span></span>
+            </div>
+          </div>
+          <div class="portrait-slot" aria-hidden="true">
+            <svg class="portrait" id="portrait" viewBox="0 0 240 250">
+              <ellipse cx="120" cy="142" rx="104" ry="102" fill="#162227" opacity=".30"/>
+              <path d="M32 246q2-61 36-80l32-15h39l31 13q36 18 41 82Z" fill="var(--coat)" stroke="#181f24" stroke-width="3"/>
+              <path d="m91 155 13-10 31 2 13 10-10 31-17 33-17-36Z" fill="var(--shirt)" stroke="#222529" stroke-width="2"/>
+              <path d="m101 137 3 29q18 15 33-1l2-27Z" fill="var(--skin)" stroke="#30262a" stroke-width="2"/>
+              <path d="M67 167 85 182l-8 19 31 45H32q3-54 35-79Zm101-1-18 18 7 18-24 44h76q-4-54-41-80Z" fill="var(--trim)" opacity=".56"/>
+              <path d="m82 163 24 83m49-84-21 84m-77-52-7 52m132-51 9 51" fill="none" stroke="var(--trim)" stroke-width="2"/>
+              <path d="m88 152 13 10q12 18 21 19 10-2 20-20l10-9-7 29q-17 19-24 18-9-1-25-18Z" fill="var(--trim)" stroke="#32282a" stroke-width="2"/>
+              <circle cx="121" cy="196" r="7" fill="#c99b57" stroke="#f1cf91" stroke-width="1.5"/>
+              <path d="M76 76q-7-36 15-49 30-17 56 1 19 14 17 52l-9 34H81Z" fill="var(--hair)" stroke="#24232b" stroke-width="2.5"/>
+              <path d="M78 96q-13-8-12 7 1 15 14 14m81-21q14-7 13 7-1 14-14 14" fill="var(--skin)" stroke="#392c2e" stroke-width="2"/>
+              <path d="M81 78q6-26 38-27 31-1 40 27l-3 45q-6 21-35 28-27-5-36-27Z" fill="var(--skin)" stroke="#3d2a2a" stroke-width="2"/>
+              <path d="M83 111q9 25 26 29 15 4 26-3 13-7 21-24l-2 11q-7 21-33 27-29-6-36-27Z" fill="#794d55" opacity=".28"/>
+              <path d="M89 95q6-5 16-2m26 0q9-3 17 2m-29 8-3 13 6 1m-12 12q10 7 21-1" fill="none" stroke="#4f3439" stroke-width="2.1" stroke-linecap="round"/>
+              <path d="M99 103v2m41-2v2" stroke="#252329" stroke-width="4" stroke-linecap="round"/>
+              <path d="M87 116h11m45 0h9" stroke="#a64f50" stroke-width="2.2" stroke-linecap="round" opacity=".52"/>
+              <path d="M78 98q-13-25 1-43 12-16 41-15 30-2 41 18 9 17-1 35l-8-19q-20-2-33-16-9 15-34 20Z" fill="var(--hair)" stroke="#30282e" stroke-width="2"/>
+              <path d="M84 66q18-4 27-17m17 2q14 12 28 14" fill="none" stroke="var(--trim)" stroke-width="2" opacity=".58"/>
+              <g class="accessory" data-hat="hood">
+                <path d="M67 123q-22-31-8-59 12-28 53-48 34 5 56 31 28 33 8 75l-14 20-12 5q13-20 16-35 5-36-17-52-35-26-59 5-14 18-9 45l9 36Z" fill="var(--coat)" stroke="#22272e" stroke-width="2.5"/>
+                <path d="M72 112q-10-29 5-49 14-19 35-33 29 5 46 26 23 27 11 61" fill="none" stroke="var(--trim)" stroke-width="2.5"/>
+              </g>
+              <g class="accessory" data-hat="cap">
+                <path d="M70 71q-12-17 0-30 16-19 50-20 30 0 48 17 13 13 4 29-48-13-102 4Z" fill="var(--coat)" stroke="#28262c" stroke-width="2.5"/>
+                <path d="M72 69q50-16 100-4l-2 9q-48-6-94 5Z" fill="var(--trim)" stroke="#30282b" stroke-width="2"/>
+                <path d="M146 62q3-30 31-41-3 26-24 43" fill="#c49f67" stroke="#e3bb79" stroke-width="1.4"/>
+              </g>
+              <g class="accessory" data-hat="glasses">
+                <circle cx="99" cy="105" r="12" fill="#b9c7c4" fill-opacity=".16" stroke="#e2c187" stroke-width="2"/>
+                <circle cx="140" cy="105" r="12" fill="#b9c7c4" fill-opacity=".16" stroke="#e2c187" stroke-width="2"/>
+                <path d="M111 104q9-7 17 0m-41-1-12-5m77 5 13-5" fill="none" stroke="#e2c187" stroke-width="2"/>
+              </g>
+              <g class="accessory" data-hat="crown">
+                <path d="M74 78q44-25 91-3" fill="none" stroke="#c1c080" stroke-width="3"/>
+                <path d="M84 72q-13-3-13-14 12 1 13 14Zm10-4q-8-10-4-18 8 4 4 18Zm15-4q-3-13 4-18 6 6-4 18Zm33 1q-3-13 6-17 6 9-6 17Zm12 5q6-12 16-9-2 10-16 9Z" fill="#8f9b66" stroke="#d4c488" stroke-width="1"/>
+              </g>
+            </svg>
+            <div class="vacant" id="vacant" hidden><svg aria-hidden="true"><use href="#spark"/></svg></div>
+          </div>
+          <div class="encounter" id="encounter">
+            <p class="eyebrow" id="visitor-number"></p>
+            <h2 id="visitor-name"></h2>
+            <p class="visitor-line" id="visitor-line"></p>
+            <div class="order" id="order">
+              <svg class="order-icon" aria-hidden="true"><use id="order-icon"/></svg>
+              <div class="order-copy"><span id="order-name"></span><small id="order-stock"></small></div>
+              <span class="offer"><svg aria-hidden="true"><use href="#coin"/></svg><span id="offer"></span></span>
+            </div>
+            <div class="encounter-actions">
+              <button class="button primary" id="sell" type="button" aria-describedby="order-stock">Продать</button>
+              <button class="text-button skip" id="skip" type="button">Пропустить</button>
+            </div>
+          </div>
+          <div class="counter" aria-hidden="true"><span>✦</span><span>✦</span><span>✦</span></div>
+        </section>
+
+        <section class="workbench" aria-label="Рабочее место">
+          <div class="work-head">
+            <div class="stations" aria-label="Рабочие места">
+              <button class="station" type="button" id="station-brew" data-station="brew" aria-pressed="true" aria-controls="brew-panel"><svg aria-hidden="true"><use href="#pot"/></svg> Котёл</button>
+              <button class="station" type="button" id="station-market" data-station="market" aria-pressed="false" aria-controls="market-panel"><svg aria-hidden="true"><use href="#basket"/></svg> Припасы</button>
+            </div>
+            <p id="hint" class="hint"></p>
+          </div>
+          <div class="station-panel" id="brew-panel" aria-labelledby="station-brew">
+            <div class="recipes" id="recipes"></div>
+          </div>
+          <div class="station-panel" id="market-panel" aria-labelledby="station-market" hidden>
+            <div class="supplies" id="supplies"></div>
+          </div>
+          <div class="work-foot">
+            <p id="feedback" role="status" aria-live="polite" aria-atomic="true"></p>
+            <span id="stock-line" class="stock-line" aria-label="Запасы ингредиентов"></span>
+          </div>
+        </section>
+
+        <section class="evening" aria-label="Очередь и закрытие лавки">
+          <div>
+            <p class="eyebrow">ОЧЕРЕДЬ У ДВЕРИ</p>
+            <div id="queue" class="queue"></div>
+          </div>
+          <button class="button secondary" id="close-day" type="button">Закрыть лавку</button>
+        </section>
+      </div>
+
+      <section class="results" id="results" hidden aria-labelledby="result-title">
+        <div class="result-seal"><svg aria-hidden="true"><use href="#mark"/></svg></div>
+        <p class="eyebrow">ПЯТЫЙ ВЕЧЕР · ЛАВКА ЗАКРЫТА</p>
+        <h2 id="result-title" tabindex="-1"></h2>
+        <p class="result-line" id="result-line"></p>
+        <dl class="result-totals" id="result-totals"></dl>
+        <div id="result-days" class="result-days"></div>
+        <p id="result-stock" class="result-stock"></p>
+        <button class="button primary" id="result-restart" type="button">Начать новую партию</button>
+      </section>
+    </main>
+    <footer><span>Лунная улица <span aria-hidden="true">✦</span> Алхимическая лавка</span><span id="save-note" hidden>Сохранение недоступно. Партия продолжается.</span></footer>
+  </div>
+
+  <dialog id="help" aria-labelledby="help-title">
+    <div class="dialog-inner">
+      <p class="eyebrow">ПАМЯТКА АЛХИМИКА</p>
+      <h2 id="help-title">Пять вечеров</h2>
+      <p>К концу пятого дня накопите <strong>75 монет</strong>. Готовые зелья и ингредиенты остаются с вами на следующий день.</p>
+      <ol>
+        <li>В <strong>Припасах</strong> покупайте ингредиенты поштучно.</li>
+        <li>В <strong>Котле</strong> выбирайте рецепт и варите одну бутылочку.</li>
+        <li>На <strong>Прилавке</strong> продавайте зелье по заказу. Цены зависят от покупателя. Внизу видны заказы на сегодня.</li>
+      </ol>
+      <p>Если заказ не подходит, пропустите его. Закрытие лавки отпускает всю оставшуюся очередь.</p>
+      <form method="dialog"><button class="button primary" autofocus>К прилавку</button></form>
+    </div>
+  </dialog>
+  <dialog id="confirm" aria-labelledby="confirm-title">
+    <div class="dialog-inner">
+      <p class="eyebrow">ЛУННАЯ УЛИЦА</p>
+      <h2 id="confirm-title"></h2>
+      <p id="confirm-copy"></p>
+      <form method="dialog" class="dialog-actions">
+        <button class="button secondary" value="cancel" autofocus>Вернуться</button>
+        <button class="button primary" value="proceed" id="confirm-action"></button>
+      </form>
+    </div>
+  </dialog>
+</body>
+</html>

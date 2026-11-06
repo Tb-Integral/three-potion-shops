@@ -1,0 +1,89 @@
+{
+  "variant": "C",
+  "events": [
+    {
+      "name": "purchase",
+      "peakRms": 0.040564715596220574,
+      "samples": 77,
+      "contexts": 1,
+      "contextStates": [
+        "running"
+      ],
+      "events": [
+        {
+          "type": "context"
+        },
+        {
+          "type": "start",
+          "at": 0,
+          "scheduled": 0
+        }
+      ]
+    },
+    {
+      "name": "brew",
+      "peakRms": 0.06341128130112829,
+      "samples": 105,
+      "contexts": 1,
+      "contextStates": [
+        "running"
+      ],
+      "events": [
+        {
+          "type": "start",
+          "at": 1.352,
+          "scheduled": 0
+        }
+      ]
+    },
+    {
+      "name": "sale",
+      "peakRms": 0.05859377153437032,
+      "samples": 78,
+      "contexts": 1,
+      "contextStates": [
+        "running"
+      ],
+      "events": [
+        {
+          "type": "start",
+          "at": 2.472,
+          "scheduled": 0
+        }
+      ]
+    },
+    {
+      "name": "next day",
+      "peakRms": 0.07455499037134904,
+      "samples": 82,
+      "contexts": 1,
+      "contextStates": [
+        "running"
+      ],
+      "events": [
+        {
+          "type": "start",
+          "at": 3.64,
+          "scheduled": 0
+        }
+      ]
+    },
+    {
+      "name": "final",
+      "peakRms": 0.07929832611680963,
+      "samples": 81,
+      "contexts": 1,
+      "contextStates": [
+        "running"
+      ],
+      "events": [
+        {
+          "type": "start",
+          "at": 4.912,
+          "scheduled": 0
+        }
+      ]
+    }
+  ],
+  "restoredFinalSilent": true
+}

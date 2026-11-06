@@ -1,0 +1,36 @@
+{
+  "variant": "A",
+  "kind": "golf",
+  "actualSiteWrapper": true,
+  "strokes": [
+    1,
+    0,
+    0
+  ],
+  "signal": {
+    "peakRms": 0.010081063676043663,
+    "samples": 56,
+    "contexts": 1,
+    "contextStates": [
+      "running"
+    ],
+    "events": [
+      {
+        "type": "context"
+      },
+      {
+        "type": "start",
+        "at": 0.050666666666666665,
+        "scheduled": 0.04
+      }
+    ]
+  },
+  "focus": false,
+  "audio": {
+    "enabled": true,
+    "volume": 0.45,
+    "contextState": "running",
+    "activeVoices": 0
+  },
+  "pass": true
+}

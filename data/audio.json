@@ -1,0 +1,93 @@
+{
+  "experiment": "Доработка звука в лавке зелий и мини-гольфе",
+  "date": "2026-11-06",
+  "definitions": {
+    "scope": "Each model modifies its two original games. Combined metrics for both games, not per game. Coordinator and automated approval reviewers excluded.",
+    "elapsedSeconds": "Sum of task_started/task_complete intervals. B includes an independently requested iframe-touch correction; idle time between turns is excluded.",
+    "tokens": "Cumulative agent usage verified by summing responses. Cached input is a subset of input, reasoning is a subset of output.",
+    "comparison": "An iterative follow-up, not a new single-attempt benchmark. Original scores and metrics are unchanged.",
+    "costUsd": "No verified billing data."
+  },
+  "runs": [
+    {
+      "variant": "A",
+      "model": "gpt-6-astra",
+      "reasoningEffort": "high",
+      "implementationTurns": 1,
+      "intervals": [
+        {
+          "startedAt": "2026-11-06T09:37:41.904Z",
+          "completedAt": "2026-11-06T09:44:39.031Z",
+          "seconds": 417.127
+        }
+      ],
+      "elapsedSeconds": 417.127,
+      "inputTokens": 822052,
+      "cachedInputTokens": 774656,
+      "uncachedInputTokens": 47396,
+      "outputTokens": 12067,
+      "reasoningOutputTokens": 1405,
+      "totalTokens": 834119,
+      "modelResponses": 15,
+      "shellCommands": 14,
+      "runtimeFiles": 8,
+      "runtimeBytes": 88786,
+      "costUsd": null
+    },
+    {
+      "variant": "B",
+      "model": "gpt-6.1-terra",
+      "reasoningEffort": "high",
+      "implementationTurns": 2,
+      "intervals": [
+        {
+          "startedAt": "2026-11-06T09:37:49.292Z",
+          "completedAt": "2026-11-06T09:41:06.296Z",
+          "seconds": 197.004
+        },
+        {
+          "startedAt": "2026-11-06T09:49:28.446Z",
+          "completedAt": "2026-11-06T09:50:41.519Z",
+          "seconds": 73.073
+        }
+      ],
+      "elapsedSeconds": 270.077,
+      "inputTokens": 900694,
+      "cachedInputTokens": 863232,
+      "uncachedInputTokens": 37462,
+      "outputTokens": 9997,
+      "reasoningOutputTokens": 1384,
+      "totalTokens": 910691,
+      "modelResponses": 19,
+      "shellCommands": 20,
+      "runtimeFiles": 5,
+      "runtimeBytes": 39808,
+      "costUsd": null
+    },
+    {
+      "variant": "C",
+      "model": "gpt-6.1-sol",
+      "reasoningEffort": "high",
+      "implementationTurns": 1,
+      "intervals": [
+        {
+          "startedAt": "2026-11-06T09:37:57.670Z",
+          "completedAt": "2026-11-06T09:48:01.010Z",
+          "seconds": 603.34
+        }
+      ],
+      "elapsedSeconds": 603.34,
+      "inputTokens": 1908187,
+      "cachedInputTokens": 1823232,
+      "uncachedInputTokens": 84955,
+      "outputTokens": 18540,
+      "reasoningOutputTokens": 4598,
+      "totalTokens": 1926727,
+      "modelResponses": 28,
+      "shellCommands": 22,
+      "runtimeFiles": 9,
+      "runtimeBytes": 107156,
+      "costUsd": null
+    }
+  ]
+}

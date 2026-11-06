@@ -8,3 +8,5 @@ h1,h2,h3,p{margin:0}h1{font:500 clamp(30px,3.5vw,40px)/1.16 Arial,sans-serif;let
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.bar{transition:none}}
 
 .round-nav{display:flex;flex-wrap:wrap;gap:8px;padding-top:24px}.round-nav a{display:inline-flex;align-items:center;min-height:44px;padding:8px 18px;border:1px solid var(--line);border-radius:23px;color:var(--muted);text-decoration:none;font-size:14px}.round-nav a:hover{color:var(--ink);border-color:var(--accent)}.round-nav a[aria-current=page]{color:#18243d;background:var(--accent);border-color:var(--accent)}
+
+.original-version{font-size:12px;line-height:1.4;min-height:44px;display:inline-flex;align-items:center}

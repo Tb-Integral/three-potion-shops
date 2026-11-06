@@ -1,0 +1,823 @@
+{
+  "variant": "B",
+  "realTime": true,
+  "bounce": {
+    "peakRms": 0.018354768723182972,
+    "samples": 426,
+    "contexts": 1,
+    "contextStates": [
+      "running"
+    ],
+    "events": [
+      {
+        "type": "start",
+        "at": 4.152,
+        "scheduled": 4.152
+      }
+    ]
+  },
+  "log": [
+    {
+      "target": [
+        360,
+        180
+      ],
+      "state": {
+        "holeIndex": 0,
+        "phase": "sunk",
+        "strokes": [
+          1,
+          0,
+          0
+        ],
+        "ball": {
+          "x": 360,
+          "y": 197.77160573434318,
+          "vx": 0,
+          "vy": 0,
+          "radius": 15
+        },
+        "cup": {
+          "x": 360,
+          "y": 180,
+          "radius": 23
+        },
+        "course": {
+          "width": 720,
+          "height": 1000
+        },
+        "dragging": false,
+        "obstacles": []
+      },
+      "hitPeakRms": 0.027535241330359218,
+      "afterHit": {
+        "peakRms": 0.03249227015251453,
+        "samples": 303,
+        "contexts": 1,
+        "contextStates": [
+          "running"
+        ],
+        "events": [
+          {
+            "type": "start",
+            "at": 2.501333333333333,
+            "scheduled": 2.501333333333333
+          },
+          {
+            "type": "start",
+            "at": 2.501333333333333,
+            "scheduled": 2.591333333333333
+          }
+        ]
+      }
+    },
+    {
+      "target": [
+        550,
+        837
+      ],
+      "state": {
+        "holeIndex": 1,
+        "phase": "aim",
+        "strokes": [
+          1,
+          1,
+          0
+        ],
+        "ball": {
+          "x": 550.700818844421,
+          "y": 836.9999897703557,
+          "vx": 0,
+          "vy": 0,
+          "radius": 15
+        },
+        "cup": {
+          "x": 360,
+          "y": 160,
+          "radius": 23
+        },
+        "course": {
+          "width": 720,
+          "height": 1000
+        },
+        "dragging": false,
+        "obstacles": [
+          {
+            "x": 43,
+            "y": 465,
+            "w": 400,
+            "h": 30
+          },
+          {
+            "x": 500,
+            "y": 235,
+            "w": 177,
+            "h": 30
+          }
+        ]
+      },
+      "hitPeakRms": 0.013722041531532567,
+      "afterHit": {
+        "peakRms": 0,
+        "samples": 335,
+        "contexts": 1,
+        "contextStates": [
+          "running"
+        ],
+        "events": []
+      }
+    },
+    {
+      "target": [
+        550,
+        330
+      ],
+      "state": {
+        "holeIndex": 1,
+        "phase": "aim",
+        "strokes": [
+          1,
+          2,
+          0
+        ],
+        "ball": {
+          "x": 549.9973705162489,
+          "y": 328.17168629238773,
+          "vx": 0,
+          "vy": 0,
+          "radius": 15
+        },
+        "cup": {
+          "x": 360,
+          "y": 160,
+          "radius": 23
+        },
+        "course": {
+          "width": 720,
+          "height": 1000
+        },
+        "dragging": false,
+        "obstacles": [
+          {
+            "x": 43,
+            "y": 465,
+            "w": 400,
+            "h": 30
+          },
+          {
+            "x": 500,
+            "y": 235,
+            "w": 177,
+            "h": 30
+          }
+        ]
+      },
+      "hitPeakRms": 0.0276860101464105,
+      "afterHit": {
+        "peakRms": 0,
+        "samples": 427,
+        "contexts": 1,
+        "contextStates": [
+          "running"
+        ],
+        "events": []
+      }
+    },
+    {
+      "target": [
+        360,
+        330
+      ],
+      "state": {
+        "holeIndex": 1,
+        "phase": "aim",
+        "strokes": [
+          1,
+          3,
+          0
+        ],
+        "ball": {
+          "x": 359.2993365961112,
+          "y": 330.00676902106983,
+          "vx": 0,
+          "vy": 0,
+          "radius": 15
+        },
+        "cup": {
+          "x": 360,
+          "y": 160,
+          "radius": 23
+        },
+        "course": {
+          "width": 720,
+          "height": 1000
+        },
+        "dragging": false,
+        "obstacles": [
+          {
+            "x": 43,
+            "y": 465,
+            "w": 400,
+            "h": 30
+          },
+          {
+            "x": 500,
+            "y": 235,
+            "w": 177,
+            "h": 30
+          }
+        ]
+      },
+      "hitPeakRms": 0.013722469595584678,
+      "afterHit": {
+        "peakRms": 0,
+        "samples": 334,
+        "contexts": 1,
+        "contextStates": [
+          "running"
+        ],
+        "events": []
+      }
+    },
+    {
+      "target": [
+        360,
+        160
+      ],
+      "state": {
+        "holeIndex": 1,
+        "phase": "sunk",
+        "strokes": [
+          1,
+          4,
+          0
+        ],
+        "ball": {
+          "x": 359.925925384363,
+          "y": 177.9480530537019,
+          "vx": 0,
+          "vy": 0,
+          "radius": 15
+        },
+        "cup": {
+          "x": 360,
+          "y": 160,
+          "radius": 23
+        },
+        "course": {
+          "width": 720,
+          "height": 1000
+        },
+        "dragging": false,
+        "obstacles": [
+          {
+            "x": 43,
+            "y": 465,
+            "w": 400,
+            "h": 30
+          },
+          {
+            "x": 500,
+            "y": 235,
+            "w": 177,
+            "h": 30
+          }
+        ]
+      },
+      "hitPeakRms": 0.012356804709285326,
+      "afterHit": {
+        "peakRms": 0.03249227019431711,
+        "samples": 186,
+        "contexts": 1,
+        "contextStates": [
+          "running"
+        ],
+        "events": [
+          {
+            "type": "start",
+            "at": 18.410666666666668,
+            "scheduled": 18.410666666666668
+          },
+          {
+            "type": "start",
+            "at": 18.410666666666668,
+            "scheduled": 18.500666666666667
+          }
+        ]
+      }
+    },
+    {
+      "target": [
+        540,
+        850
+      ],
+      "state": {
+        "holeIndex": 2,
+        "phase": "aim",
+        "strokes": [
+          1,
+          4,
+          1
+        ],
+        "ball": {
+          "x": 540.6659745518332,
+          "y": 849.9999149059739,
+          "vx": 0,
+          "vy": 0,
+          "radius": 15
+        },
+        "cup": {
+          "x": 360,
+          "y": 140,
+          "radius": 23
+        },
+        "course": {
+          "width": 720,
+          "height": 1000
+        },
+        "dragging": false,
+        "obstacles": [
+          {
+            "x": 43,
+            "y": 625,
+            "w": 385,
+            "h": 30
+          },
+          {
+            "x": 292,
+            "y": 400,
+            "w": 385,
+            "h": 30
+          },
+          {
+            "x": 43,
+            "y": 230,
+            "w": 385,
+            "h": 30
+          }
+        ]
+      },
+      "hitPeakRms": 0.013307094276894985,
+      "afterHit": {
+        "peakRms": 0,
+        "samples": 329,
+        "contexts": 1,
+        "contextStates": [
+          "running"
+        ],
+        "events": []
+      }
+    },
+    {
+      "target": [
+        540,
+        520
+      ],
+      "state": {
+        "holeIndex": 2,
+        "phase": "aim",
+        "strokes": [
+          1,
+          4,
+          2
+        ],
+        "ball": {
+          "x": 539.9973826899494,
+          "y": 518.7717081308815,
+          "vx": 0,
+          "vy": 0,
+          "radius": 15
+        },
+        "cup": {
+          "x": 360,
+          "y": 140,
+          "radius": 23
+        },
+        "course": {
+          "width": 720,
+          "height": 1000
+        },
+        "dragging": false,
+        "obstacles": [
+          {
+            "x": 43,
+            "y": 625,
+            "w": 385,
+            "h": 30
+          },
+          {
+            "x": 292,
+            "y": 400,
+            "w": 385,
+            "h": 30
+          },
+          {
+            "x": 43,
+            "y": 230,
+            "w": 385,
+            "h": 30
+          }
+        ]
+      },
+      "hitPeakRms": 0.02342195565930155,
+      "afterHit": {
+        "peakRms": 0,
+        "samples": 384,
+        "contexts": 1,
+        "contextStates": [
+          "running"
+        ],
+        "events": []
+      }
+    },
+    {
+      "target": [
+        180,
+        520
+      ],
+      "state": {
+        "holeIndex": 2,
+        "phase": "aim",
+        "strokes": [
+          1,
+          4,
+          3
+        ],
+        "ball": {
+          "x": 178.67654126668248,
+          "y": 520.0046337382103,
+          "vx": 0,
+          "vy": 0,
+          "radius": 15
+        },
+        "cup": {
+          "x": 360,
+          "y": 140,
+          "radius": 23
+        },
+        "course": {
+          "width": 720,
+          "height": 1000
+        },
+        "dragging": false,
+        "obstacles": [
+          {
+            "x": 43,
+            "y": 625,
+            "w": 385,
+            "h": 30
+          },
+          {
+            "x": 292,
+            "y": 400,
+            "w": 385,
+            "h": 30
+          },
+          {
+            "x": 43,
+            "y": 230,
+            "w": 385,
+            "h": 30
+          }
+        ]
+      },
+      "hitPeakRms": 0.025421968255915577,
+      "afterHit": {
+        "peakRms": 0,
+        "samples": 396,
+        "contexts": 1,
+        "contextStates": [
+          "running"
+        ],
+        "events": []
+      }
+    },
+    {
+      "target": [
+        180,
+        310
+      ],
+      "state": {
+        "holeIndex": 2,
+        "phase": "aim",
+        "strokes": [
+          1,
+          4,
+          4
+        ],
+        "ball": {
+          "x": 180.00472572124667,
+          "y": 309.247805191175,
+          "vx": 0,
+          "vy": 0,
+          "radius": 15
+        },
+        "cup": {
+          "x": 360,
+          "y": 140,
+          "radius": 23
+        },
+        "course": {
+          "width": 720,
+          "height": 1000
+        },
+        "dragging": false,
+        "obstacles": [
+          {
+            "x": 43,
+            "y": 625,
+            "w": 385,
+            "h": 30
+          },
+          {
+            "x": 292,
+            "y": 400,
+            "w": 385,
+            "h": 30
+          },
+          {
+            "x": 43,
+            "y": 230,
+            "w": 385,
+            "h": 30
+          }
+        ]
+      },
+      "hitPeakRms": 0.015085403640412802,
+      "afterHit": {
+        "peakRms": 0,
+        "samples": 343,
+        "contexts": 1,
+        "contextStates": [
+          "running"
+        ],
+        "events": []
+      }
+    },
+    {
+      "target": [
+        540,
+        310
+      ],
+      "state": {
+        "holeIndex": 2,
+        "phase": "aim",
+        "strokes": [
+          1,
+          4,
+          5
+        ],
+        "ball": {
+          "x": 541.3234427517691,
+          "y": 310.0027596659499,
+          "vx": 0,
+          "vy": 0,
+          "radius": 15
+        },
+        "cup": {
+          "x": 360,
+          "y": 140,
+          "radius": 23
+        },
+        "course": {
+          "width": 720,
+          "height": 1000
+        },
+        "dragging": false,
+        "obstacles": [
+          {
+            "x": 43,
+            "y": 625,
+            "w": 385,
+            "h": 30
+          },
+          {
+            "x": 292,
+            "y": 400,
+            "w": 385,
+            "h": 30
+          },
+          {
+            "x": 43,
+            "y": 230,
+            "w": 385,
+            "h": 30
+          }
+        ]
+      },
+      "hitPeakRms": 0.02542173698459806,
+      "afterHit": {
+        "peakRms": 0,
+        "samples": 396,
+        "contexts": 1,
+        "contextStates": [
+          "running"
+        ],
+        "events": []
+      }
+    },
+    {
+      "target": [
+        540,
+        140
+      ],
+      "state": {
+        "holeIndex": 2,
+        "phase": "aim",
+        "strokes": [
+          1,
+          4,
+          6
+        ],
+        "ball": {
+          "x": 539.9951251100821,
+          "y": 139.35086251154056,
+          "vx": 0,
+          "vy": 0,
+          "radius": 15
+        },
+        "cup": {
+          "x": 360,
+          "y": 140,
+          "radius": 23
+        },
+        "course": {
+          "width": 720,
+          "height": 1000
+        },
+        "dragging": false,
+        "obstacles": [
+          {
+            "x": 43,
+            "y": 625,
+            "w": 385,
+            "h": 30
+          },
+          {
+            "x": 292,
+            "y": 400,
+            "w": 385,
+            "h": 30
+          },
+          {
+            "x": 43,
+            "y": 230,
+            "w": 385,
+            "h": 30
+          }
+        ]
+      },
+      "hitPeakRms": 0.012624319015701659,
+      "afterHit": {
+        "peakRms": 0,
+        "samples": 322,
+        "contexts": 1,
+        "contextStates": [
+          "running"
+        ],
+        "events": []
+      }
+    },
+    {
+      "target": [
+        360,
+        140
+      ],
+      "state": {
+        "holeIndex": 2,
+        "phase": "sunk",
+        "strokes": [
+          1,
+          4,
+          7
+        ],
+        "ball": {
+          "x": 377.9869221637026,
+          "y": 139.93522182798978,
+          "vx": 0,
+          "vy": 0,
+          "radius": 15
+        },
+        "cup": {
+          "x": 360,
+          "y": 140,
+          "radius": 23
+        },
+        "course": {
+          "width": 720,
+          "height": 1000
+        },
+        "dragging": false,
+        "obstacles": [
+          {
+            "x": 43,
+            "y": 625,
+            "w": 385,
+            "h": 30
+          },
+          {
+            "x": 292,
+            "y": 400,
+            "w": 385,
+            "h": 30
+          },
+          {
+            "x": 43,
+            "y": 230,
+            "w": 385,
+            "h": 30
+          }
+        ]
+      },
+      "hitPeakRms": 0.013306828757613895,
+      "afterHit": {
+        "peakRms": 0.03249227015251453,
+        "samples": 329,
+        "contexts": 1,
+        "contextStates": [
+          "running"
+        ],
+        "events": [
+          {
+            "type": "start",
+            "at": 40.02133333333333,
+            "scheduled": 40.02133333333333
+          },
+          {
+            "type": "start",
+            "at": 40.02133333333333,
+            "scheduled": 40.111333333333334
+          },
+          {
+            "type": "start",
+            "at": 40.93066666666667,
+            "scheduled": 40.93066666666667
+          },
+          {
+            "type": "start",
+            "at": 40.93066666666667,
+            "scheduled": 41.06066666666667
+          },
+          {
+            "type": "start",
+            "at": 40.93066666666667,
+            "scheduled": 41.190666666666665
+          },
+          {
+            "type": "start",
+            "at": 40.93066666666667,
+            "scheduled": 41.32066666666667
+          }
+        ]
+      }
+    }
+  ],
+  "final": {
+    "holeIndex": 2,
+    "phase": "finished",
+    "strokes": [
+      1,
+      4,
+      7
+    ],
+    "ball": {
+      "x": 377.9869221637026,
+      "y": 139.93522182798978,
+      "vx": 0,
+      "vy": 0,
+      "radius": 15
+    },
+    "cup": {
+      "x": 360,
+      "y": 140,
+      "radius": 23
+    },
+    "course": {
+      "width": 720,
+      "height": 1000
+    },
+    "dragging": false,
+    "obstacles": [
+      {
+        "x": 43,
+        "y": 625,
+        "w": 385,
+        "h": 30
+      },
+      {
+        "x": 292,
+        "y": 400,
+        "w": 385,
+        "h": 30
+      },
+      {
+        "x": 43,
+        "y": 230,
+        "w": 385,
+        "h": 30
+      }
+    ]
+  },
+  "newGame": true,
+  "finishedSilent": true
+}

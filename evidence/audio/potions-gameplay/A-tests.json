@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Buy, brew, sell and reload all state",
+    "pass": true
+  },
+  {
+    "name": "Five days, all recipes, 20 sales, exact economics",
+    "pass": true
+  },
+  {
+    "name": "Finished state reload and action guards",
+    "pass": true
+  },
+  {
+    "name": "New game resets all counters",
+    "pass": true
+  },
+  {
+    "name": "Insufficient money, ingredients and potion",
+    "pass": true
+  },
+  {
+    "name": "Unprofitable game can finish",
+    "pass": true
+  },
+  {
+    "name": "Corrupt JSON and invalid structure recover",
+    "pass": true
+  },
+  {
+    "name": "Focus after purchase observation",
+    "activeElement": "BUTTON"
+  },
+  {
+    "name": "Keyboard focus and activation",
+    "pass": true
+  },
+  {
+    "name": "Unavailable storage remains playable",
+    "pass": true
+  },
+  {
+    "name": "file URL gameplay",
+    "pass": true
+  },
+  {
+    "name": "Mobile touch loop, finish, reset 390",
+    "pass": true
+  },
+  {
+    "name": "Mobile touch loop, finish, reset 360",
+    "pass": true
+  }
+]

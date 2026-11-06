@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Buy, brew, sell and complete inventory reload",
+    "pass": true
+  },
+  {
+    "name": "Five days; all 3 recipes; all 15 visitors; exact economy",
+    "pass": true
+  },
+  {
+    "name": "Finished reload and blocked actions",
+    "pass": true
+  },
+  {
+    "name": "New game resets all saved counters",
+    "pass": true
+  },
+  {
+    "name": "Insufficient funds, ingredients and potion cannot be spent",
+    "pass": true
+  },
+  {
+    "name": "Unprofitable game can finish",
+    "pass": true
+  },
+  {
+    "name": "Corrupt JSON recovers and can be overwritten",
+    "pass": true
+  },
+  {
+    "name": "Structurally invalid save recovers",
+    "pass": true
+  },
+  {
+    "name": "Focus after buy observation",
+    "activeElement": "BODY"
+  },
+  {
+    "name": "Keyboard focus visible, activation works",
+    "pass": true
+  },
+  {
+    "name": "Unavailable storage still playable",
+    "pass": true
+  },
+  {
+    "name": "file URL load",
+    "pass": true
+  }
+]

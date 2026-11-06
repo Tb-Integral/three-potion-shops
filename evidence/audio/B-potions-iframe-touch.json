@@ -1,0 +1,36 @@
+{
+  "variant": "B",
+  "kind": "potions",
+  "actualSiteWrapper": true,
+  "signal": {
+    "peakRms": 0.03149436506264087,
+    "samples": 52,
+    "contexts": 1,
+    "contextStates": [
+      "running"
+    ],
+    "events": [
+      {
+        "type": "context"
+      },
+      {
+        "type": "start",
+        "at": 0,
+        "scheduled": 0
+      },
+      {
+        "type": "start",
+        "at": 0,
+        "scheduled": 0.07
+      }
+    ]
+  },
+  "focus": true,
+  "audio": {
+    "enabled": true,
+    "volume": 0.35,
+    "contextState": "running",
+    "activeVoices": 0
+  },
+  "pass": true
+}

@@ -1,0 +1,36 @@
+{
+  "variant": "A",
+  "kind": "potions",
+  "actualSiteWrapper": true,
+  "signal": {
+    "peakRms": 0.012304444797971496,
+    "samples": 60,
+    "contexts": 1,
+    "contextStates": [
+      "running"
+    ],
+    "events": [
+      {
+        "type": "context"
+      },
+      {
+        "type": "start",
+        "at": 0.09066666666666667,
+        "scheduled": 0.09066666666666667
+      },
+      {
+        "type": "start",
+        "at": 0.09066666666666667,
+        "scheduled": 0.13566666666666666
+      }
+    ]
+  },
+  "focus": true,
+  "audio": {
+    "enabled": true,
+    "volume": 0.45,
+    "contextState": "running",
+    "activeVoices": 0
+  },
+  "pass": true
+}

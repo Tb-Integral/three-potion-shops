@@ -1,0 +1,31 @@
+{
+  "variant": "C",
+  "kind": "potions",
+  "actualSiteWrapper": true,
+  "signal": {
+    "peakRms": 0.040564715596220574,
+    "samples": 52,
+    "contexts": 1,
+    "contextStates": [
+      "running"
+    ],
+    "events": [
+      {
+        "type": "context"
+      },
+      {
+        "type": "start",
+        "at": 0,
+        "scheduled": 0
+      }
+    ]
+  },
+  "focus": true,
+  "audio": {
+    "enabled": true,
+    "volume": 0.65,
+    "contextState": "running",
+    "activeVoices": 0
+  },
+  "pass": true
+}

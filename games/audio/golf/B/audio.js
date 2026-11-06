@@ -1,0 +1,18 @@
+const gameAudio = (() => {
+ const key= document.body.dataset.audioKey;
+ let enabled=true, volume=.35, context=null, voices=new Set(), epoch=0, foreground=document.hasFocus();
+ try { const s=JSON.parse(localStorage.getItem(key)); if(s && typeof s.enabled==='boolean' && typeof s.volume==='number' && Number.isFinite(s.volume) && s.volume>=0 && s.volume<=1){enabled=s.enabled;volume=s.volume} } catch(_) {}
+ const button=document.getElementById('audio-toggle'), slider=document.getElementById('audio-volume');
+ function update(){button.textContent='Звук: '+(enabled?'вкл':'выкл');button.setAttribute('aria-pressed',String(enabled));slider.value=String(volume)}
+ function save(){try{localStorage.setItem(key,JSON.stringify({enabled,volume}))}catch(_){}}
+ function stop(){epoch++;for(const v of voices){try{v.gain.gain.cancelScheduledValues(context.currentTime);v.gain.gain.setValueAtTime(0,context.currentTime);v.osc.stop();v.osc.disconnect();v.gain.disconnect()}catch(_){}}voices.clear()}
+ function visible(){return !document.hidden && foreground}
+ function init(){if(context)return context;try{const C=window.AudioContext||window.webkitAudioContext;if(C) context=new C()}catch(_){}return context}
+ function tone(freq,duration,delay,type,level){if(!context || context.state!=='running' || !visible() || !enabled || volume===0 || voices.size>=8)return;let osc,gain;try{const t=context.currentTime+delay;osc=context.createOscillator();gain=context.createGain();osc.type=type;osc.frequency.setValueAtTime(freq,t);gain.gain.setValueAtTime(0,t);gain.gain.linearRampToValueAtTime(Math.min(.12,level*volume),t+.012);gain.gain.exponentialRampToValueAtTime(.0001,t+duration);osc.connect(gain);gain.connect(context.destination);let v={osc,gain};voices.add(v);osc.onended=()=>{voices.delete(v);try{osc.disconnect();gain.disconnect()}catch(_){}};osc.start(t);osc.stop(t+duration+.01)}catch(_){try{osc?.disconnect();gain?.disconnect()}catch(_){}}}
+ const patterns={buy:[[660,.12,0,'sine',.19],[880,.14,.07,'sine',.14]],brew:[[330,.16,0,'sine',.17],[440,.18,.1,'sine',.16],[550,.2,.2,'sine',.13]],sell:[[523,.16,0,'triangle',.16],[784,.22,.1,'sine',.17]],day:[[392,.2,0,'sine',.14],[494,.22,.12,'sine',.14],[587,.25,.24,'sine',.14]],finish:[[392,.2,0,'triangle',.14],[494,.2,.13,'triangle',.14],[587,.22,.26,'triangle',.14],[784,.4,.39,'sine',.16]],hit:[[260,.10,0,'triangle',.21]],bounce:[[410,.08,0,'sine',.12]],sink:[[620,.15,0,'sine',.18],[930,.22,.09,'sine',.15]]};
+ function play(name,gesture=false,strength=1){if(gesture && !document.hidden)foreground=true;if(!enabled||volume===0||!visible())return;let c=gesture?init():context;if(!c)return;const stamp=epoch;const render=()=>{if(stamp!==epoch||!visible()||!enabled||volume===0||c.state!=='running')return;for(const [f,d,delay,type,level] of patterns[name]||[])tone(f,d,delay,type,level*strength)};try{if(c.state==='running')render();else if(gesture && (c.state==='suspended'||c.state==='interrupted')){const r=c.resume();if(r&&typeof r.then==='function')r.then(render).catch(()=>{})}}catch(_){}}
+ button.addEventListener('click',()=>{enabled=!enabled;if(!enabled)stop();update();save()});slider.addEventListener('input',()=>{volume=Math.max(0,Math.min(1,Number(slider.value)||0));stop();update();save()});
+ window.addEventListener('focus',()=>{foreground=true});window.addEventListener('blur',()=>{foreground=false;stop()});document.addEventListener('visibilitychange',()=>{if(document.hidden){foreground=false;stop()}});
+ window.getAudioState=()=>({enabled,volume,contextState:context?context.state:'uninitialized',activeVoices:voices.size});
+ update();return {play,stop};
+})();
