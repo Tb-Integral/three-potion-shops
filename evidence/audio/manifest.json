@@ -51,8 +51,8 @@
   },
   {
     "path": "games/audio/potions/B/index.html",
-    "sha256": "0b12e544cfec28d121559e974b50e513792651e213a03d7078399345e06c12aa",
-    "bytes": 22600
+    "sha256": "1e2be00c6a2c835355bad3715264e1620219a83e05820f2c754dba13f03e0b61",
+    "bytes": 24276
   },
   {
     "path": "games/audio/potions/B/NOTES.md",
@@ -61,8 +61,8 @@
   },
   {
     "path": "games/audio/golf/B/audio.js",
-    "sha256": "aab3bdbf31be05d6ad9a4d01f9848dcda672c7617089e6a70c205d085b02a57d",
-    "bytes": 3650
+    "sha256": "0a1fb6aa5938606222f705732e2fe840c5ec96bc1bf9c7c9ed3534aa5a15292f",
+    "bytes": 5326
   },
   {
     "path": "games/audio/golf/B/game.js",
