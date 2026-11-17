@@ -1,0 +1,607 @@
+{
+  "method": "Independent evaluator, real wall time and ordinary pointer/keyboard inputs. Read-only state; blur/cancel simulated separately.",
+  "checks": [
+    {
+      "name": "short click does not spend stroke",
+      "pass": true
+    },
+    {
+      "name": "blur cancels aim without shot",
+      "pass": true
+    },
+    {
+      "name": "second shot rejected in motion",
+      "pass": true
+    },
+    {
+      "name": "reset clears movement",
+      "pass": true
+    },
+    {
+      "name": "resize cancels aim",
+      "pass": true
+    },
+    {
+      "name": "blur freezes moving ball",
+      "pass": true
+    },
+    {
+      "name": "correct hole 0",
+      "pass": true
+    },
+    {
+      "name": "correct hole 1",
+      "pass": true
+    },
+    {
+      "name": "reset preserves previous score",
+      "pass": true
+    },
+    {
+      "name": "correct hole 2",
+      "pass": true
+    },
+    {
+      "name": "all three holes completed",
+      "pass": true
+    },
+    {
+      "name": "final score immutable",
+      "pass": true
+    },
+    {
+      "name": "new game resets score",
+      "pass": true
+    },
+    {
+      "name": "keyboard focus visible",
+      "pass": true
+    },
+    {
+      "name": "diagnostics snapshot isolated",
+      "pass": true
+    },
+    {
+      "name": "touch cancel 390",
+      "pass": true
+    },
+    {
+      "name": "touch shot 390",
+      "pass": true
+    },
+    {
+      "name": "mobile fits 390",
+      "pass": true
+    },
+    {
+      "name": "touch cancel 360",
+      "pass": true
+    },
+    {
+      "name": "touch shot 360",
+      "pass": true
+    },
+    {
+      "name": "mobile fits 360",
+      "pass": true
+    },
+    {
+      "name": "no script errors",
+      "pass": true
+    }
+  ],
+  "shots": [
+    {
+      "holeIndex": 0,
+      "phase": "sunk",
+      "strokes": [
+        1,
+        0,
+        0
+      ],
+      "ball": {
+        "x": 397.83669830261243,
+        "y": 147.07730016638163,
+        "vx": 0,
+        "vy": 0,
+        "radius": 11
+      },
+      "cup": {
+        "x": 403,
+        "y": 138,
+        "radius": 22
+      },
+      "course": {
+        "width": 600,
+        "height": 660
+      },
+      "dragging": false,
+      "obstacles": [
+        {
+          "ax": 421,
+          "ay": 396,
+          "bx": 484,
+          "by": 350,
+          "radius": 27
+        }
+      ],
+      "border": [
+        {
+          "x": 91,
+          "y": 45
+        },
+        {
+          "x": 509,
+          "y": 45
+        },
+        {
+          "x": 558,
+          "y": 94
+        },
+        {
+          "x": 558,
+          "y": 567
+        },
+        {
+          "x": 509,
+          "y": 616
+        },
+        {
+          "x": 91,
+          "y": 616
+        },
+        {
+          "x": 42,
+          "y": 567
+        },
+        {
+          "x": 42,
+          "y": 94
+        }
+      ]
+    },
+    {
+      "holeIndex": 1,
+      "phase": "aim",
+      "strokes": [
+        1,
+        1,
+        0
+      ],
+      "ball": {
+        "x": 154.35000065266448,
+        "y": 300.3101781115244,
+        "vx": 0,
+        "vy": 0,
+        "radius": 11
+      },
+      "cup": {
+        "x": 390,
+        "y": 135,
+        "radius": 22
+      },
+      "course": {
+        "width": 600,
+        "height": 660
+      },
+      "dragging": false,
+      "obstacles": [
+        {
+          "ax": 245,
+          "ay": 330,
+          "bx": 489,
+          "by": 330,
+          "radius": 29
+        }
+      ],
+      "border": [
+        {
+          "x": 137,
+          "y": 45
+        },
+        {
+          "x": 484,
+          "y": 45
+        },
+        {
+          "x": 558,
+          "y": 119
+        },
+        {
+          "x": 558,
+          "y": 548
+        },
+        {
+          "x": 489,
+          "y": 616
+        },
+        {
+          "x": 105,
+          "y": 616
+        },
+        {
+          "x": 42,
+          "y": 553
+        },
+        {
+          "x": 42,
+          "y": 140
+        }
+      ]
+    },
+    {
+      "holeIndex": 1,
+      "phase": "sunk",
+      "strokes": [
+        1,
+        2,
+        0
+      ],
+      "ball": {
+        "x": 381.25753773841313,
+        "y": 141.13284320105288,
+        "vx": 0,
+        "vy": 0,
+        "radius": 11
+      },
+      "cup": {
+        "x": 390,
+        "y": 135,
+        "radius": 22
+      },
+      "course": {
+        "width": 600,
+        "height": 660
+      },
+      "dragging": false,
+      "obstacles": [
+        {
+          "ax": 245,
+          "ay": 330,
+          "bx": 489,
+          "by": 330,
+          "radius": 29
+        }
+      ],
+      "border": [
+        {
+          "x": 137,
+          "y": 45
+        },
+        {
+          "x": 484,
+          "y": 45
+        },
+        {
+          "x": 558,
+          "y": 119
+        },
+        {
+          "x": 558,
+          "y": 548
+        },
+        {
+          "x": 489,
+          "y": 616
+        },
+        {
+          "x": 105,
+          "y": 616
+        },
+        {
+          "x": 42,
+          "y": 553
+        },
+        {
+          "x": 42,
+          "y": 140
+        }
+      ]
+    },
+    {
+      "holeIndex": 2,
+      "phase": "aim",
+      "strokes": [
+        1,
+        2,
+        1
+      ],
+      "ball": {
+        "x": 504.01951075991707,
+        "y": 449.7637450867171,
+        "vx": 0,
+        "vy": 0,
+        "radius": 11
+      },
+      "cup": {
+        "x": 444,
+        "y": 130,
+        "radius": 22
+      },
+      "course": {
+        "width": 600,
+        "height": 660
+      },
+      "dragging": false,
+      "obstacles": [
+        {
+          "ax": 128,
+          "ay": 435,
+          "bx": 367,
+          "by": 435,
+          "radius": 23
+        },
+        {
+          "ax": 235,
+          "ay": 281,
+          "bx": 485,
+          "by": 281,
+          "radius": 25
+        }
+      ],
+      "border": [
+        {
+          "x": 91,
+          "y": 45
+        },
+        {
+          "x": 503,
+          "y": 45
+        },
+        {
+          "x": 558,
+          "y": 100
+        },
+        {
+          "x": 558,
+          "y": 518
+        },
+        {
+          "x": 460,
+          "y": 616
+        },
+        {
+          "x": 101,
+          "y": 616
+        },
+        {
+          "x": 42,
+          "y": 557
+        },
+        {
+          "x": 42,
+          "y": 94
+        }
+      ]
+    },
+    {
+      "holeIndex": 2,
+      "phase": "aim",
+      "strokes": [
+        1,
+        2,
+        2
+      ],
+      "ball": {
+        "x": 98.92829201835724,
+        "y": 263.5072381500493,
+        "vx": 0,
+        "vy": 0,
+        "radius": 11
+      },
+      "cup": {
+        "x": 444,
+        "y": 130,
+        "radius": 22
+      },
+      "course": {
+        "width": 600,
+        "height": 660
+      },
+      "dragging": false,
+      "obstacles": [
+        {
+          "ax": 128,
+          "ay": 435,
+          "bx": 367,
+          "by": 435,
+          "radius": 23
+        },
+        {
+          "ax": 235,
+          "ay": 281,
+          "bx": 485,
+          "by": 281,
+          "radius": 25
+        }
+      ],
+      "border": [
+        {
+          "x": 91,
+          "y": 45
+        },
+        {
+          "x": 503,
+          "y": 45
+        },
+        {
+          "x": 558,
+          "y": 100
+        },
+        {
+          "x": 558,
+          "y": 518
+        },
+        {
+          "x": 460,
+          "y": 616
+        },
+        {
+          "x": 101,
+          "y": 616
+        },
+        {
+          "x": 42,
+          "y": 557
+        },
+        {
+          "x": 42,
+          "y": 94
+        }
+      ]
+    },
+    {
+      "holeIndex": 2,
+      "phase": "sunk",
+      "strokes": [
+        1,
+        2,
+        3
+      ],
+      "ball": {
+        "x": 433.94722161889877,
+        "y": 133.88939096320973,
+        "vx": 0,
+        "vy": 0,
+        "radius": 11
+      },
+      "cup": {
+        "x": 444,
+        "y": 130,
+        "radius": 22
+      },
+      "course": {
+        "width": 600,
+        "height": 660
+      },
+      "dragging": false,
+      "obstacles": [
+        {
+          "ax": 128,
+          "ay": 435,
+          "bx": 367,
+          "by": 435,
+          "radius": 23
+        },
+        {
+          "ax": 235,
+          "ay": 281,
+          "bx": 485,
+          "by": 281,
+          "radius": 25
+        }
+      ],
+      "border": [
+        {
+          "x": 91,
+          "y": 45
+        },
+        {
+          "x": 503,
+          "y": 45
+        },
+        {
+          "x": 558,
+          "y": 100
+        },
+        {
+          "x": 558,
+          "y": 518
+        },
+        {
+          "x": 460,
+          "y": 616
+        },
+        {
+          "x": 101,
+          "y": 616
+        },
+        {
+          "x": 42,
+          "y": 557
+        },
+        {
+          "x": 42,
+          "y": 94
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "final": {
+    "holeIndex": 2,
+    "phase": "finished",
+    "strokes": [
+      1,
+      2,
+      3
+    ],
+    "ball": {
+      "x": 433.94722161889877,
+      "y": 133.88939096320973,
+      "vx": 0,
+      "vy": 0,
+      "radius": 11
+    },
+    "cup": {
+      "x": 444,
+      "y": 130,
+      "radius": 22
+    },
+    "course": {
+      "width": 600,
+      "height": 660
+    },
+    "dragging": false,
+    "obstacles": [
+      {
+        "ax": 128,
+        "ay": 435,
+        "bx": 367,
+        "by": 435,
+        "radius": 23
+      },
+      {
+        "ax": 235,
+        "ay": 281,
+        "bx": 485,
+        "by": 281,
+        "radius": 25
+      }
+    ],
+    "border": [
+      {
+        "x": 91,
+        "y": 45
+      },
+      {
+        "x": 503,
+        "y": 45
+      },
+      {
+        "x": 558,
+        "y": 100
+      },
+      {
+        "x": 558,
+        "y": 518
+      },
+      {
+        "x": 460,
+        "y": 616
+      },
+      {
+        "x": 101,
+        "y": 616
+      },
+      {
+        "x": 42,
+        "y": 557
+      },
+      {
+        "x": 42,
+        "y": 94
+      }
+    ]
+  }
+}

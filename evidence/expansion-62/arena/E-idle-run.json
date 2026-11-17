@@ -1,0 +1,2607 @@
+{
+  "variant": "E",
+  "mode": "idle",
+  "method": "Real elapsed time, ordinary keyboard input and UI clicks; read-only observations; no state mutation.",
+  "checks": [
+    {
+      "name": "menu and lazy audio",
+      "pass": true
+    },
+    {
+      "name": "upgrade 1 freezes simulation",
+      "pass": true,
+      "detail": 30
+    },
+    {
+      "name": "one upgrade applied",
+      "pass": true
+    },
+    {
+      "name": "upgrade 2 freezes simulation",
+      "pass": true,
+      "detail": 60
+    },
+    {
+      "name": "one upgrade applied",
+      "pass": true
+    },
+    {
+      "name": "real audio signal",
+      "pass": true
+    },
+    {
+      "name": "three enemy types",
+      "pass": true
+    },
+    {
+      "name": "party reaches a final",
+      "pass": true
+    },
+    {
+      "name": "expected loss",
+      "pass": false
+    },
+    {
+      "name": "90 active seconds",
+      "pass": true
+    },
+    {
+      "name": "two upgrades",
+      "pass": true
+    },
+    {
+      "name": "final immutable",
+      "pass": true
+    },
+    {
+      "name": "restart clears party",
+      "pass": true
+    }
+  ],
+  "samples": [
+    {
+      "elapsed": 0.02,
+      "health": 7,
+      "kills": 0,
+      "enemies": 1,
+      "player": {
+        "x": 446.5,
+        "y": 260.5,
+        "vx": 0,
+        "vy": 0,
+        "radius": 17,
+        "speed": 240
+      }
+    },
+    {
+      "elapsed": 5.04,
+      "health": 7,
+      "kills": 3,
+      "enemies": 2,
+      "player": {
+        "x": 446.5,
+        "y": 260.5,
+        "vx": 0,
+        "vy": 0,
+        "radius": 17,
+        "speed": 240
+      }
+    },
+    {
+      "elapsed": 10.17,
+      "health": 7,
+      "kills": 8,
+      "enemies": 2,
+      "player": {
+        "x": 446.5,
+        "y": 260.5,
+        "vx": 0,
+        "vy": 0,
+        "radius": 17,
+        "speed": 240
+      }
+    },
+    {
+      "elapsed": 15.27,
+      "health": 7,
+      "kills": 11,
+      "enemies": 4,
+      "player": {
+        "x": 446.5,
+        "y": 260.5,
+        "vx": 0,
+        "vy": 0,
+        "radius": 17,
+        "speed": 240
+      }
+    },
+    {
+      "elapsed": 20.36,
+      "health": 7,
+      "kills": 17,
+      "enemies": 3,
+      "player": {
+        "x": 446.5,
+        "y": 260.5,
+        "vx": 0,
+        "vy": 0,
+        "radius": 17,
+        "speed": 240
+      }
+    },
+    {
+      "elapsed": 25.4,
+      "health": 7,
+      "kills": 22,
+      "enemies": 4,
+      "player": {
+        "x": 446.5,
+        "y": 260.5,
+        "vx": 0,
+        "vy": 0,
+        "radius": 17,
+        "speed": 240
+      }
+    },
+    {
+      "elapsed": 30.48,
+      "health": 5,
+      "kills": 26,
+      "enemies": 5,
+      "player": {
+        "x": 452.40290761631826,
+        "y": 267.9195473635602,
+        "vx": 0,
+        "vy": 0,
+        "radius": 17,
+        "speed": 240
+      }
+    },
+    {
+      "elapsed": 35.59,
+      "health": 4,
+      "kills": 35,
+      "enemies": 2,
+      "player": {
+        "x": 443.0340203406263,
+        "y": 293.24194755026,
+        "vx": 0,
+        "vy": 0,
+        "radius": 17,
+        "speed": 240
+      }
+    },
+    {
+      "elapsed": 40.59,
+      "health": 4,
+      "kills": 41,
+      "enemies": 2,
+      "player": {
+        "x": 443.0340203406263,
+        "y": 293.24194755026,
+        "vx": 0,
+        "vy": 0,
+        "radius": 17,
+        "speed": 240
+      }
+    },
+    {
+      "elapsed": 45.65,
+      "health": 4,
+      "kills": 47,
+      "enemies": 3,
+      "player": {
+        "x": 443.0340203406263,
+        "y": 293.24194755026,
+        "vx": 0,
+        "vy": 0,
+        "radius": 17,
+        "speed": 240
+      }
+    },
+    {
+      "elapsed": 50.75,
+      "health": 4,
+      "kills": 54,
+      "enemies": 4,
+      "player": {
+        "x": 443.0340203406263,
+        "y": 293.24194755026,
+        "vx": 0,
+        "vy": 0,
+        "radius": 17,
+        "speed": 240
+      }
+    },
+    {
+      "elapsed": 55.85,
+      "health": 4,
+      "kills": 62,
+      "enemies": 4,
+      "player": {
+        "x": 443.0340203406263,
+        "y": 293.24194755026,
+        "vx": 0,
+        "vy": 0,
+        "radius": 17,
+        "speed": 240
+      }
+    },
+    {
+      "elapsed": 60.89,
+      "health": 4,
+      "kills": 70,
+      "enemies": 5,
+      "player": {
+        "x": 443.0340203406263,
+        "y": 293.24194755026,
+        "vx": 0,
+        "vy": 0,
+        "radius": 17,
+        "speed": 240
+      }
+    },
+    {
+      "elapsed": 65.98,
+      "health": 4,
+      "kills": 84,
+      "enemies": 2,
+      "player": {
+        "x": 443.0340203406263,
+        "y": 293.24194755026,
+        "vx": 0,
+        "vy": 0,
+        "radius": 17,
+        "speed": 240
+      }
+    },
+    {
+      "elapsed": 70.99,
+      "health": 4,
+      "kills": 91,
+      "enemies": 6,
+      "player": {
+        "x": 443.0340203406263,
+        "y": 293.24194755026,
+        "vx": 0,
+        "vy": 0,
+        "radius": 17,
+        "speed": 240
+      }
+    },
+    {
+      "elapsed": 76.06,
+      "health": 4,
+      "kills": 104,
+      "enemies": 6,
+      "player": {
+        "x": 443.0340203406263,
+        "y": 293.24194755026,
+        "vx": 0,
+        "vy": 0,
+        "radius": 17,
+        "speed": 240
+      }
+    },
+    {
+      "elapsed": 81.08,
+      "health": 4,
+      "kills": 116,
+      "enemies": 6,
+      "player": {
+        "x": 443.0340203406263,
+        "y": 293.24194755026,
+        "vx": 0,
+        "vy": 0,
+        "radius": 17,
+        "speed": 240
+      }
+    },
+    {
+      "elapsed": 86.09,
+      "health": 4,
+      "kills": 131,
+      "enemies": 5,
+      "player": {
+        "x": 443.0340203406263,
+        "y": 293.24194755026,
+        "vx": 0,
+        "vy": 0,
+        "radius": 17,
+        "speed": 240
+      }
+    }
+  ],
+  "errors": [],
+  "preview": true,
+  "result": {
+    "phase": "won",
+    "elapsed": 90,
+    "remaining": 0,
+    "kills": 141,
+    "health": 4,
+    "maxHealth": 7,
+    "player": {
+      "x": 443.0340203406263,
+      "y": 293.24194755026,
+      "vx": 0,
+      "vy": 0,
+      "radius": 17,
+      "speed": 240
+    },
+    "arena": {
+      "width": 893,
+      "height": 521
+    },
+    "enemies": [
+      {
+        "id": 141,
+        "x": 776.3706744226563,
+        "y": 133.87000049563818,
+        "radius": 24,
+        "type": "shell",
+        "hp": 5
+      },
+      {
+        "id": 143,
+        "x": 198.08273200612817,
+        "y": 477.37895533016973,
+        "radius": 24,
+        "type": "shell",
+        "hp": 5
+      },
+      {
+        "id": 144,
+        "x": 223.04280254224363,
+        "y": 33,
+        "radius": 24,
+        "type": "shell",
+        "hp": 5
+      }
+    ],
+    "projectiles": [
+      {
+        "x": 23.822687428018988,
+        "y": 225.8103647597399,
+        "radius": 3.6
+      },
+      {
+        "x": 593.580039490268,
+        "y": 116.72028848770748,
+        "radius": 3.6
+      },
+      {
+        "x": 466.18721943110995,
+        "y": 261.3626537708107,
+        "radius": 3.6
+      },
+      {
+        "x": 468.60088738586694,
+        "y": 263.26370027843,
+        "radius": 3.6
+      }
+    ],
+    "upgrades": [
+      "Двойной импульс",
+      "Пробойник"
+    ],
+    "input": {
+      "x": 0,
+      "y": 0
+    }
+  },
+  "wallSeconds": 91.509,
+  "enemyTypes": [
+    "drift",
+    "dart",
+    "shell"
+  ],
+  "maximumObserved": {
+    "enemies": 8,
+    "projectiles": 6,
+    "voices": 4
+  },
+  "audio": {
+    "peakRms": 0.06467416915160024,
+    "samples": 11421,
+    "contexts": 1,
+    "contextStates": [
+      "running"
+    ],
+    "events": [
+      {
+        "type": "context"
+      },
+      {
+        "type": "start",
+        "at": 0.5813333333333334,
+        "scheduled": 0.5706666666666667
+      },
+      {
+        "type": "start",
+        "at": 0.84,
+        "scheduled": 0.84
+      },
+      {
+        "type": "start",
+        "at": 0.9306666666666666,
+        "scheduled": 0.9306666666666666
+      },
+      {
+        "type": "start",
+        "at": 1.152,
+        "scheduled": 1.152
+      },
+      {
+        "type": "start",
+        "at": 2.8,
+        "scheduled": 2.8
+      },
+      {
+        "type": "start",
+        "at": 3.16,
+        "scheduled": 3.16
+      },
+      {
+        "type": "start",
+        "at": 3.2,
+        "scheduled": 3.2
+      },
+      {
+        "type": "start",
+        "at": 3.501333333333333,
+        "scheduled": 3.501333333333333
+      },
+      {
+        "type": "start",
+        "at": 3.7706666666666666,
+        "scheduled": 3.7706666666666666
+      },
+      {
+        "type": "start",
+        "at": 4.1306666666666665,
+        "scheduled": 4.1306666666666665
+      },
+      {
+        "type": "start",
+        "at": 4.1306666666666665,
+        "scheduled": 4.1306666666666665
+      },
+      {
+        "type": "start",
+        "at": 4.432,
+        "scheduled": 4.432
+      },
+      {
+        "type": "start",
+        "at": 4.490666666666667,
+        "scheduled": 4.490666666666667
+      },
+      {
+        "type": "start",
+        "at": 4.8,
+        "scheduled": 4.8
+      },
+      {
+        "type": "start",
+        "at": 4.850666666666666,
+        "scheduled": 4.850666666666666
+      },
+      {
+        "type": "start",
+        "at": 5.112,
+        "scheduled": 5.112
+      },
+      {
+        "type": "start",
+        "at": 5.210666666666667,
+        "scheduled": 5.210666666666667
+      },
+      {
+        "type": "start",
+        "at": 5.512,
+        "scheduled": 5.512
+      },
+      {
+        "type": "start",
+        "at": 5.570666666666667,
+        "scheduled": 5.570666666666667
+      },
+      {
+        "type": "start",
+        "at": 5.8213333333333335,
+        "scheduled": 5.8213333333333335
+      },
+      {
+        "type": "start",
+        "at": 7.12,
+        "scheduled": 7.12
+      },
+      {
+        "type": "start",
+        "at": 7.48,
+        "scheduled": 7.48
+      },
+      {
+        "type": "start",
+        "at": 7.48,
+        "scheduled": 7.48
+      },
+      {
+        "type": "start",
+        "at": 8.130666666666666,
+        "scheduled": 8.130666666666666
+      },
+      {
+        "type": "start",
+        "at": 8.490666666666666,
+        "scheduled": 8.490666666666666
+      },
+      {
+        "type": "start",
+        "at": 8.530666666666667,
+        "scheduled": 8.530666666666667
+      },
+      {
+        "type": "start",
+        "at": 8.832,
+        "scheduled": 8.832
+      },
+      {
+        "type": "start",
+        "at": 9.112,
+        "scheduled": 9.112
+      },
+      {
+        "type": "start",
+        "at": 9.450666666666667,
+        "scheduled": 9.450666666666667
+      },
+      {
+        "type": "start",
+        "at": 9.472,
+        "scheduled": 9.472
+      },
+      {
+        "type": "start",
+        "at": 9.752,
+        "scheduled": 9.752
+      },
+      {
+        "type": "start",
+        "at": 9.832,
+        "scheduled": 9.832
+      },
+      {
+        "type": "start",
+        "at": 10.181333333333333,
+        "scheduled": 10.181333333333333
+      },
+      {
+        "type": "start",
+        "at": 10.192,
+        "scheduled": 10.192
+      },
+      {
+        "type": "start",
+        "at": 10.48,
+        "scheduled": 10.48
+      },
+      {
+        "type": "start",
+        "at": 10.552,
+        "scheduled": 10.552
+      },
+      {
+        "type": "start",
+        "at": 10.850666666666667,
+        "scheduled": 10.850666666666667
+      },
+      {
+        "type": "start",
+        "at": 10.912,
+        "scheduled": 10.912
+      },
+      {
+        "type": "start",
+        "at": 11.16,
+        "scheduled": 11.16
+      },
+      {
+        "type": "start",
+        "at": 13.381333333333334,
+        "scheduled": 13.381333333333334
+      },
+      {
+        "type": "start",
+        "at": 13.741333333333333,
+        "scheduled": 13.741333333333333
+      },
+      {
+        "type": "start",
+        "at": 13.781333333333333,
+        "scheduled": 13.781333333333333
+      },
+      {
+        "type": "start",
+        "at": 14.101333333333333,
+        "scheduled": 14.101333333333333
+      },
+      {
+        "type": "start",
+        "at": 14.101333333333333,
+        "scheduled": 14.101333333333333
+      },
+      {
+        "type": "start",
+        "at": 14.421333333333333,
+        "scheduled": 14.421333333333333
+      },
+      {
+        "type": "start",
+        "at": 14.461333333333334,
+        "scheduled": 14.461333333333334
+      },
+      {
+        "type": "start",
+        "at": 14.741333333333333,
+        "scheduled": 14.741333333333333
+      },
+      {
+        "type": "start",
+        "at": 14.821333333333333,
+        "scheduled": 14.821333333333333
+      },
+      {
+        "type": "start",
+        "at": 15.050666666666666,
+        "scheduled": 15.050666666666666
+      },
+      {
+        "type": "start",
+        "at": 15.181333333333333,
+        "scheduled": 15.181333333333333
+      },
+      {
+        "type": "start",
+        "at": 15.381333333333334,
+        "scheduled": 15.381333333333334
+      },
+      {
+        "type": "start",
+        "at": 15.541333333333334,
+        "scheduled": 15.541333333333334
+      },
+      {
+        "type": "start",
+        "at": 15.68,
+        "scheduled": 15.68
+      },
+      {
+        "type": "start",
+        "at": 15.901333333333334,
+        "scheduled": 15.901333333333334
+      },
+      {
+        "type": "start",
+        "at": 15.96,
+        "scheduled": 15.96
+      },
+      {
+        "type": "start",
+        "at": 16.261333333333333,
+        "scheduled": 16.261333333333333
+      },
+      {
+        "type": "start",
+        "at": 16.48,
+        "scheduled": 16.48
+      },
+      {
+        "type": "start",
+        "at": 16.621333333333332,
+        "scheduled": 16.621333333333332
+      },
+      {
+        "type": "start",
+        "at": 16.8,
+        "scheduled": 16.8
+      },
+      {
+        "type": "start",
+        "at": 16.981333333333332,
+        "scheduled": 16.981333333333332
+      },
+      {
+        "type": "start",
+        "at": 17.12,
+        "scheduled": 17.12
+      },
+      {
+        "type": "start",
+        "at": 17.341333333333335,
+        "scheduled": 17.341333333333335
+      },
+      {
+        "type": "start",
+        "at": 17.44,
+        "scheduled": 17.44
+      },
+      {
+        "type": "start",
+        "at": 17.701333333333334,
+        "scheduled": 17.701333333333334
+      },
+      {
+        "type": "start",
+        "at": 17.752,
+        "scheduled": 17.752
+      },
+      {
+        "type": "start",
+        "at": 18.061333333333334,
+        "scheduled": 18.061333333333334
+      },
+      {
+        "type": "start",
+        "at": 18.112,
+        "scheduled": 18.112
+      },
+      {
+        "type": "start",
+        "at": 18.421333333333333,
+        "scheduled": 18.421333333333333
+      },
+      {
+        "type": "start",
+        "at": 18.421333333333333,
+        "scheduled": 18.421333333333333
+      },
+      {
+        "type": "start",
+        "at": 18.781333333333333,
+        "scheduled": 18.781333333333333
+      },
+      {
+        "type": "start",
+        "at": 18.941333333333333,
+        "scheduled": 18.941333333333333
+      },
+      {
+        "type": "start",
+        "at": 19.141333333333332,
+        "scheduled": 19.141333333333332
+      },
+      {
+        "type": "start",
+        "at": 19.250666666666667,
+        "scheduled": 19.250666666666667
+      },
+      {
+        "type": "start",
+        "at": 19.501333333333335,
+        "scheduled": 19.501333333333335
+      },
+      {
+        "type": "start",
+        "at": 19.661333333333335,
+        "scheduled": 19.661333333333335
+      },
+      {
+        "type": "start",
+        "at": 19.861333333333334,
+        "scheduled": 19.861333333333334
+      },
+      {
+        "type": "start",
+        "at": 19.96,
+        "scheduled": 19.96
+      },
+      {
+        "type": "start",
+        "at": 20.221333333333334,
+        "scheduled": 20.221333333333334
+      },
+      {
+        "type": "start",
+        "at": 20.421333333333333,
+        "scheduled": 20.421333333333333
+      },
+      {
+        "type": "start",
+        "at": 20.581333333333333,
+        "scheduled": 20.581333333333333
+      },
+      {
+        "type": "start",
+        "at": 20.72,
+        "scheduled": 20.72
+      },
+      {
+        "type": "start",
+        "at": 20.941333333333333,
+        "scheduled": 20.941333333333333
+      },
+      {
+        "type": "start",
+        "at": 21.232,
+        "scheduled": 21.232
+      },
+      {
+        "type": "start",
+        "at": 21.301333333333332,
+        "scheduled": 21.301333333333332
+      },
+      {
+        "type": "start",
+        "at": 21.552,
+        "scheduled": 21.552
+      },
+      {
+        "type": "start",
+        "at": 21.661333333333335,
+        "scheduled": 21.661333333333335
+      },
+      {
+        "type": "start",
+        "at": 21.872,
+        "scheduled": 21.872
+      },
+      {
+        "type": "start",
+        "at": 22.021333333333335,
+        "scheduled": 22.021333333333335
+      },
+      {
+        "type": "start",
+        "at": 22.181333333333335,
+        "scheduled": 22.181333333333335
+      },
+      {
+        "type": "start",
+        "at": 22.381333333333334,
+        "scheduled": 22.381333333333334
+      },
+      {
+        "type": "start",
+        "at": 22.501333333333335,
+        "scheduled": 22.501333333333335
+      },
+      {
+        "type": "start",
+        "at": 22.741333333333333,
+        "scheduled": 22.741333333333333
+      },
+      {
+        "type": "start",
+        "at": 22.970666666666666,
+        "scheduled": 22.970666666666666
+      },
+      {
+        "type": "start",
+        "at": 23.101333333333333,
+        "scheduled": 23.101333333333333
+      },
+      {
+        "type": "start",
+        "at": 23.272,
+        "scheduled": 23.272
+      },
+      {
+        "type": "start",
+        "at": 23.461333333333332,
+        "scheduled": 23.461333333333332
+      },
+      {
+        "type": "start",
+        "at": 23.72,
+        "scheduled": 23.72
+      },
+      {
+        "type": "start",
+        "at": 23.82133333333333,
+        "scheduled": 23.82133333333333
+      },
+      {
+        "type": "start",
+        "at": 24.021333333333335,
+        "scheduled": 24.021333333333335
+      },
+      {
+        "type": "start",
+        "at": 24.181333333333335,
+        "scheduled": 24.181333333333335
+      },
+      {
+        "type": "start",
+        "at": 24.36,
+        "scheduled": 24.36
+      },
+      {
+        "type": "start",
+        "at": 24.541333333333334,
+        "scheduled": 24.541333333333334
+      },
+      {
+        "type": "start",
+        "at": 24.661333333333335,
+        "scheduled": 24.661333333333335
+      },
+      {
+        "type": "start",
+        "at": 24.901333333333334,
+        "scheduled": 24.901333333333334
+      },
+      {
+        "type": "start",
+        "at": 25.090666666666667,
+        "scheduled": 25.090666666666667
+      },
+      {
+        "type": "start",
+        "at": 25.261333333333333,
+        "scheduled": 25.261333333333333
+      },
+      {
+        "type": "start",
+        "at": 25.410666666666668,
+        "scheduled": 25.410666666666668
+      },
+      {
+        "type": "start",
+        "at": 25.621333333333332,
+        "scheduled": 25.621333333333332
+      },
+      {
+        "type": "start",
+        "at": 25.72,
+        "scheduled": 25.72
+      },
+      {
+        "type": "start",
+        "at": 25.981333333333332,
+        "scheduled": 25.981333333333332
+      },
+      {
+        "type": "start",
+        "at": 26.04,
+        "scheduled": 26.04
+      },
+      {
+        "type": "start",
+        "at": 26.341333333333335,
+        "scheduled": 26.341333333333335
+      },
+      {
+        "type": "start",
+        "at": 26.36,
+        "scheduled": 26.36
+      },
+      {
+        "type": "start",
+        "at": 26.701333333333334,
+        "scheduled": 26.701333333333334
+      },
+      {
+        "type": "start",
+        "at": 26.850666666666665,
+        "scheduled": 26.850666666666665
+      },
+      {
+        "type": "start",
+        "at": 27.061333333333334,
+        "scheduled": 27.061333333333334
+      },
+      {
+        "type": "start",
+        "at": 27.170666666666666,
+        "scheduled": 27.170666666666666
+      },
+      {
+        "type": "start",
+        "at": 27.421333333333333,
+        "scheduled": 27.421333333333333
+      },
+      {
+        "type": "start",
+        "at": 27.48,
+        "scheduled": 27.48
+      },
+      {
+        "type": "start",
+        "at": 27.781333333333333,
+        "scheduled": 27.781333333333333
+      },
+      {
+        "type": "start",
+        "at": 27.8,
+        "scheduled": 27.8
+      },
+      {
+        "type": "start",
+        "at": 28.050666666666668,
+        "scheduled": 28.050666666666668
+      },
+      {
+        "type": "start",
+        "at": 28.050666666666668,
+        "scheduled": 28.050666666666668
+      },
+      {
+        "type": "start",
+        "at": 28.141333333333332,
+        "scheduled": 28.141333333333332
+      },
+      {
+        "type": "start",
+        "at": 28.16,
+        "scheduled": 28.16
+      },
+      {
+        "type": "start",
+        "at": 28.501333333333335,
+        "scheduled": 28.501333333333335
+      },
+      {
+        "type": "start",
+        "at": 28.690666666666665,
+        "scheduled": 28.690666666666665
+      },
+      {
+        "type": "start",
+        "at": 28.861333333333334,
+        "scheduled": 28.861333333333334
+      },
+      {
+        "type": "start",
+        "at": 29.010666666666665,
+        "scheduled": 29.010666666666665
+      },
+      {
+        "type": "start",
+        "at": 29.221333333333334,
+        "scheduled": 29.221333333333334
+      },
+      {
+        "type": "start",
+        "at": 29.312,
+        "scheduled": 29.312
+      },
+      {
+        "type": "start",
+        "at": 29.581333333333333,
+        "scheduled": 29.581333333333333
+      },
+      {
+        "type": "start",
+        "at": 29.64,
+        "scheduled": 29.64
+      },
+      {
+        "type": "start",
+        "at": 29.941333333333333,
+        "scheduled": 29.941333333333333
+      },
+      {
+        "type": "start",
+        "at": 29.941333333333333,
+        "scheduled": 29.941333333333333
+      },
+      {
+        "type": "start",
+        "at": 30.661333333333335,
+        "scheduled": 30.661333333333335
+      },
+      {
+        "type": "start",
+        "at": 30.661333333333335,
+        "scheduled": 30.761333333333337
+      },
+      {
+        "type": "start",
+        "at": 30.861333333333334,
+        "scheduled": 30.861333333333334
+      },
+      {
+        "type": "start",
+        "at": 30.861333333333334,
+        "scheduled": 30.861333333333334
+      },
+      {
+        "type": "start",
+        "at": 31,
+        "scheduled": 31
+      },
+      {
+        "type": "start",
+        "at": 31,
+        "scheduled": 31
+      },
+      {
+        "type": "start",
+        "at": 31.36,
+        "scheduled": 31.36
+      },
+      {
+        "type": "start",
+        "at": 31.36,
+        "scheduled": 31.36
+      },
+      {
+        "type": "start",
+        "at": 31.72,
+        "scheduled": 31.72
+      },
+      {
+        "type": "start",
+        "at": 31.72,
+        "scheduled": 31.72
+      },
+      {
+        "type": "start",
+        "at": 32.08,
+        "scheduled": 32.08
+      },
+      {
+        "type": "start",
+        "at": 32.08,
+        "scheduled": 32.08
+      },
+      {
+        "type": "start",
+        "at": 32.44,
+        "scheduled": 32.44
+      },
+      {
+        "type": "start",
+        "at": 32.44,
+        "scheduled": 32.44
+      },
+      {
+        "type": "start",
+        "at": 32.461333333333336,
+        "scheduled": 32.461333333333336
+      },
+      {
+        "type": "start",
+        "at": 32.461333333333336,
+        "scheduled": 32.461333333333336
+      },
+      {
+        "type": "start",
+        "at": 32.8,
+        "scheduled": 32.8
+      },
+      {
+        "type": "start",
+        "at": 32.8,
+        "scheduled": 32.8
+      },
+      {
+        "type": "start",
+        "at": 33.16,
+        "scheduled": 33.16
+      },
+      {
+        "type": "start",
+        "at": 33.32,
+        "scheduled": 33.32
+      },
+      {
+        "type": "start",
+        "at": 33.52,
+        "scheduled": 33.52
+      },
+      {
+        "type": "start",
+        "at": 33.88,
+        "scheduled": 33.88
+      },
+      {
+        "type": "start",
+        "at": 33.89066666666667,
+        "scheduled": 33.89066666666667
+      },
+      {
+        "type": "start",
+        "at": 34.21066666666667,
+        "scheduled": 34.21066666666667
+      },
+      {
+        "type": "start",
+        "at": 34.24,
+        "scheduled": 34.24
+      },
+      {
+        "type": "start",
+        "at": 34.501333333333335,
+        "scheduled": 34.501333333333335
+      },
+      {
+        "type": "start",
+        "at": 34.6,
+        "scheduled": 34.6
+      },
+      {
+        "type": "start",
+        "at": 34.84,
+        "scheduled": 34.84
+      },
+      {
+        "type": "start",
+        "at": 34.96,
+        "scheduled": 34.96
+      },
+      {
+        "type": "start",
+        "at": 35.152,
+        "scheduled": 35.152
+      },
+      {
+        "type": "start",
+        "at": 35.53066666666667,
+        "scheduled": 35.53066666666667
+      },
+      {
+        "type": "start",
+        "at": 35.89066666666667,
+        "scheduled": 35.89066666666667
+      },
+      {
+        "type": "start",
+        "at": 35.92,
+        "scheduled": 35.92
+      },
+      {
+        "type": "start",
+        "at": 36.181333333333335,
+        "scheduled": 36.181333333333335
+      },
+      {
+        "type": "start",
+        "at": 36.821333333333335,
+        "scheduled": 36.821333333333335
+      },
+      {
+        "type": "start",
+        "at": 37.181333333333335,
+        "scheduled": 37.181333333333335
+      },
+      {
+        "type": "start",
+        "at": 37.21066666666667,
+        "scheduled": 37.21066666666667
+      },
+      {
+        "type": "start",
+        "at": 37.541333333333334,
+        "scheduled": 37.541333333333334
+      },
+      {
+        "type": "start",
+        "at": 37.85066666666667,
+        "scheduled": 37.85066666666667
+      },
+      {
+        "type": "start",
+        "at": 38.61066666666667,
+        "scheduled": 38.61066666666667
+      },
+      {
+        "type": "start",
+        "at": 38.970666666666666,
+        "scheduled": 38.970666666666666
+      },
+      {
+        "type": "start",
+        "at": 38.98133333333333,
+        "scheduled": 38.98133333333333
+      },
+      {
+        "type": "start",
+        "at": 39.330666666666666,
+        "scheduled": 39.330666666666666
+      },
+      {
+        "type": "start",
+        "at": 39.6,
+        "scheduled": 39.6
+      },
+      {
+        "type": "start",
+        "at": 39.690666666666665,
+        "scheduled": 39.690666666666665
+      },
+      {
+        "type": "start",
+        "at": 40.032,
+        "scheduled": 40.032
+      },
+      {
+        "type": "start",
+        "at": 40.050666666666665,
+        "scheduled": 40.050666666666665
+      },
+      {
+        "type": "start",
+        "at": 40.30133333333333,
+        "scheduled": 40.30133333333333
+      },
+      {
+        "type": "start",
+        "at": 40.410666666666664,
+        "scheduled": 40.410666666666664
+      },
+      {
+        "type": "start",
+        "at": 40.61066666666667,
+        "scheduled": 40.61066666666667
+      },
+      {
+        "type": "start",
+        "at": 40.77066666666666,
+        "scheduled": 40.77066666666666
+      },
+      {
+        "type": "start",
+        "at": 40.93066666666667,
+        "scheduled": 40.93066666666667
+      },
+      {
+        "type": "start",
+        "at": 41.13066666666667,
+        "scheduled": 41.13066666666667
+      },
+      {
+        "type": "start",
+        "at": 41.29066666666667,
+        "scheduled": 41.29066666666667
+      },
+      {
+        "type": "start",
+        "at": 42.501333333333335,
+        "scheduled": 42.501333333333335
+      },
+      {
+        "type": "start",
+        "at": 42.861333333333334,
+        "scheduled": 42.861333333333334
+      },
+      {
+        "type": "start",
+        "at": 42.89066666666667,
+        "scheduled": 42.89066666666667
+      },
+      {
+        "type": "start",
+        "at": 43.221333333333334,
+        "scheduled": 43.221333333333334
+      },
+      {
+        "type": "start",
+        "at": 43.501333333333335,
+        "scheduled": 43.501333333333335
+      },
+      {
+        "type": "start",
+        "at": 44.090666666666664,
+        "scheduled": 44.090666666666664
+      },
+      {
+        "type": "start",
+        "at": 44.45066666666666,
+        "scheduled": 44.45066666666666
+      },
+      {
+        "type": "start",
+        "at": 44.48,
+        "scheduled": 44.48
+      },
+      {
+        "type": "start",
+        "at": 44.81066666666667,
+        "scheduled": 44.81066666666667
+      },
+      {
+        "type": "start",
+        "at": 45.141333333333336,
+        "scheduled": 45.141333333333336
+      },
+      {
+        "type": "start",
+        "at": 45.17066666666667,
+        "scheduled": 45.17066666666667
+      },
+      {
+        "type": "start",
+        "at": 45.45066666666666,
+        "scheduled": 45.45066666666666
+      },
+      {
+        "type": "start",
+        "at": 45.53066666666667,
+        "scheduled": 45.53066666666667
+      },
+      {
+        "type": "start",
+        "at": 45.76,
+        "scheduled": 45.76
+      },
+      {
+        "type": "start",
+        "at": 45.89066666666667,
+        "scheduled": 45.89066666666667
+      },
+      {
+        "type": "start",
+        "at": 45.96,
+        "scheduled": 45.96
+      },
+      {
+        "type": "start",
+        "at": 46.25066666666667,
+        "scheduled": 46.25066666666667
+      },
+      {
+        "type": "start",
+        "at": 46.25066666666667,
+        "scheduled": 46.25066666666667
+      },
+      {
+        "type": "start",
+        "at": 47.28,
+        "scheduled": 47.28
+      },
+      {
+        "type": "start",
+        "at": 47.64,
+        "scheduled": 47.64
+      },
+      {
+        "type": "start",
+        "at": 47.68,
+        "scheduled": 47.68
+      },
+      {
+        "type": "start",
+        "at": 47.970666666666666,
+        "scheduled": 47.970666666666666
+      },
+      {
+        "type": "start",
+        "at": 48,
+        "scheduled": 48
+      },
+      {
+        "type": "start",
+        "at": 48.30133333333333,
+        "scheduled": 48.30133333333333
+      },
+      {
+        "type": "start",
+        "at": 48.36,
+        "scheduled": 48.36
+      },
+      {
+        "type": "start",
+        "at": 48.62133333333333,
+        "scheduled": 48.62133333333333
+      },
+      {
+        "type": "start",
+        "at": 48.72,
+        "scheduled": 48.72
+      },
+      {
+        "type": "start",
+        "at": 49.010666666666665,
+        "scheduled": 49.010666666666665
+      },
+      {
+        "type": "start",
+        "at": 49.08,
+        "scheduled": 49.08
+      },
+      {
+        "type": "start",
+        "at": 49.42133333333334,
+        "scheduled": 49.42133333333334
+      },
+      {
+        "type": "start",
+        "at": 49.912,
+        "scheduled": 49.912
+      },
+      {
+        "type": "start",
+        "at": 50.272,
+        "scheduled": 50.272
+      },
+      {
+        "type": "start",
+        "at": 50.30133333333333,
+        "scheduled": 50.30133333333333
+      },
+      {
+        "type": "start",
+        "at": 50.632,
+        "scheduled": 50.632
+      },
+      {
+        "type": "start",
+        "at": 50.912,
+        "scheduled": 50.912
+      },
+      {
+        "type": "start",
+        "at": 50.992,
+        "scheduled": 50.992
+      },
+      {
+        "type": "start",
+        "at": 51.272,
+        "scheduled": 51.272
+      },
+      {
+        "type": "start",
+        "at": 51.352,
+        "scheduled": 51.352
+      },
+      {
+        "type": "start",
+        "at": 51.57066666666667,
+        "scheduled": 51.57066666666667
+      },
+      {
+        "type": "start",
+        "at": 51.712,
+        "scheduled": 51.712
+      },
+      {
+        "type": "start",
+        "at": 51.94133333333333,
+        "scheduled": 51.94133333333333
+      },
+      {
+        "type": "start",
+        "at": 52.06133333333333,
+        "scheduled": 52.06133333333333
+      },
+      {
+        "type": "start",
+        "at": 52.28,
+        "scheduled": 52.28
+      },
+      {
+        "type": "start",
+        "at": 52.49066666666667,
+        "scheduled": 52.49066666666667
+      },
+      {
+        "type": "start",
+        "at": 52.792,
+        "scheduled": 52.792
+      },
+      {
+        "type": "start",
+        "at": 52.85066666666667,
+        "scheduled": 52.85066666666667
+      },
+      {
+        "type": "start",
+        "at": 53.152,
+        "scheduled": 53.152
+      },
+      {
+        "type": "start",
+        "at": 53.21066666666667,
+        "scheduled": 53.21066666666667
+      },
+      {
+        "type": "start",
+        "at": 53.56,
+        "scheduled": 53.56
+      },
+      {
+        "type": "start",
+        "at": 53.57066666666667,
+        "scheduled": 53.57066666666667
+      },
+      {
+        "type": "start",
+        "at": 53.88,
+        "scheduled": 53.88
+      },
+      {
+        "type": "start",
+        "at": 53.93066666666667,
+        "scheduled": 53.93066666666667
+      },
+      {
+        "type": "start",
+        "at": 54.192,
+        "scheduled": 54.192
+      },
+      {
+        "type": "start",
+        "at": 54.32,
+        "scheduled": 54.32
+      },
+      {
+        "type": "start",
+        "at": 54.650666666666666,
+        "scheduled": 54.650666666666666
+      },
+      {
+        "type": "start",
+        "at": 55.461333333333336,
+        "scheduled": 55.461333333333336
+      },
+      {
+        "type": "start",
+        "at": 55.821333333333335,
+        "scheduled": 55.821333333333335
+      },
+      {
+        "type": "start",
+        "at": 55.861333333333334,
+        "scheduled": 55.861333333333334
+      },
+      {
+        "type": "start",
+        "at": 56.17066666666667,
+        "scheduled": 56.17066666666667
+      },
+      {
+        "type": "start",
+        "at": 56.181333333333335,
+        "scheduled": 56.181333333333335
+      },
+      {
+        "type": "start",
+        "at": 56.48,
+        "scheduled": 56.48
+      },
+      {
+        "type": "start",
+        "at": 56.541333333333334,
+        "scheduled": 56.541333333333334
+      },
+      {
+        "type": "start",
+        "at": 56.821333333333335,
+        "scheduled": 56.821333333333335
+      },
+      {
+        "type": "start",
+        "at": 56.90133333333333,
+        "scheduled": 56.90133333333333
+      },
+      {
+        "type": "start",
+        "at": 57.2,
+        "scheduled": 57.2
+      },
+      {
+        "type": "start",
+        "at": 57.26133333333333,
+        "scheduled": 57.26133333333333
+      },
+      {
+        "type": "start",
+        "at": 57.52,
+        "scheduled": 57.52
+      },
+      {
+        "type": "start",
+        "at": 57.62133333333333,
+        "scheduled": 57.62133333333333
+      },
+      {
+        "type": "start",
+        "at": 57.93066666666667,
+        "scheduled": 57.93066666666667
+      },
+      {
+        "type": "start",
+        "at": 57.98133333333333,
+        "scheduled": 57.98133333333333
+      },
+      {
+        "type": "start",
+        "at": 58.25066666666667,
+        "scheduled": 58.25066666666667
+      },
+      {
+        "type": "start",
+        "at": 58.34133333333333,
+        "scheduled": 58.34133333333333
+      },
+      {
+        "type": "start",
+        "at": 58.56,
+        "scheduled": 58.56
+      },
+      {
+        "type": "start",
+        "at": 58.70133333333333,
+        "scheduled": 58.70133333333333
+      },
+      {
+        "type": "start",
+        "at": 58.93066666666667,
+        "scheduled": 58.93066666666667
+      },
+      {
+        "type": "start",
+        "at": 59.06133333333333,
+        "scheduled": 59.06133333333333
+      },
+      {
+        "type": "start",
+        "at": 59.2,
+        "scheduled": 59.2
+      },
+      {
+        "type": "start",
+        "at": 59.42133333333334,
+        "scheduled": 59.42133333333334
+      },
+      {
+        "type": "start",
+        "at": 59.56,
+        "scheduled": 59.56
+      },
+      {
+        "type": "start",
+        "at": 59.781333333333336,
+        "scheduled": 59.781333333333336
+      },
+      {
+        "type": "start",
+        "at": 59.872,
+        "scheduled": 59.872
+      },
+      {
+        "type": "start",
+        "at": 60.141333333333336,
+        "scheduled": 60.141333333333336
+      },
+      {
+        "type": "start",
+        "at": 60.24,
+        "scheduled": 60.24
+      },
+      {
+        "type": "start",
+        "at": 60.501333333333335,
+        "scheduled": 60.501333333333335
+      },
+      {
+        "type": "start",
+        "at": 60.552,
+        "scheduled": 60.552
+      },
+      {
+        "type": "start",
+        "at": 61.38133333333333,
+        "scheduled": 61.38133333333333
+      },
+      {
+        "type": "start",
+        "at": 61.38133333333333,
+        "scheduled": 61.48133333333333
+      },
+      {
+        "type": "start",
+        "at": 61.6,
+        "scheduled": 61.6
+      },
+      {
+        "type": "start",
+        "at": 61.61066666666667,
+        "scheduled": 61.61066666666667
+      },
+      {
+        "type": "start",
+        "at": 61.96,
+        "scheduled": 61.96
+      },
+      {
+        "type": "start",
+        "at": 61.992,
+        "scheduled": 61.992
+      },
+      {
+        "type": "start",
+        "at": 62.32,
+        "scheduled": 62.32
+      },
+      {
+        "type": "start",
+        "at": 62.432,
+        "scheduled": 62.432
+      },
+      {
+        "type": "start",
+        "at": 62.68,
+        "scheduled": 62.68
+      },
+      {
+        "type": "start",
+        "at": 62.72,
+        "scheduled": 62.72
+      },
+      {
+        "type": "start",
+        "at": 63.04,
+        "scheduled": 63.04
+      },
+      {
+        "type": "start",
+        "at": 63.34133333333333,
+        "scheduled": 63.34133333333333
+      },
+      {
+        "type": "start",
+        "at": 63.4,
+        "scheduled": 63.4
+      },
+      {
+        "type": "start",
+        "at": 63.730666666666664,
+        "scheduled": 63.730666666666664
+      },
+      {
+        "type": "start",
+        "at": 63.76,
+        "scheduled": 63.76
+      },
+      {
+        "type": "start",
+        "at": 63.912,
+        "scheduled": 63.912
+      },
+      {
+        "type": "start",
+        "at": 64.12,
+        "scheduled": 64.12
+      },
+      {
+        "type": "start",
+        "at": 64.472,
+        "scheduled": 64.472
+      },
+      {
+        "type": "start",
+        "at": 64.48,
+        "scheduled": 64.48
+      },
+      {
+        "type": "start",
+        "at": 64.792,
+        "scheduled": 64.792
+      },
+      {
+        "type": "start",
+        "at": 64.84,
+        "scheduled": 64.84
+      },
+      {
+        "type": "start",
+        "at": 65.10133333333333,
+        "scheduled": 65.10133333333333
+      },
+      {
+        "type": "start",
+        "at": 65.2,
+        "scheduled": 65.2
+      },
+      {
+        "type": "start",
+        "at": 65.53066666666666,
+        "scheduled": 65.53066666666666
+      },
+      {
+        "type": "start",
+        "at": 65.56,
+        "scheduled": 65.56
+      },
+      {
+        "type": "start",
+        "at": 65.90133333333333,
+        "scheduled": 65.90133333333333
+      },
+      {
+        "type": "start",
+        "at": 65.92,
+        "scheduled": 65.92
+      },
+      {
+        "type": "start",
+        "at": 66.28,
+        "scheduled": 66.28
+      },
+      {
+        "type": "start",
+        "at": 66.552,
+        "scheduled": 66.552
+      },
+      {
+        "type": "start",
+        "at": 66.64,
+        "scheduled": 66.64
+      },
+      {
+        "type": "start",
+        "at": 66.81066666666666,
+        "scheduled": 66.81066666666666
+      },
+      {
+        "type": "start",
+        "at": 67,
+        "scheduled": 67
+      },
+      {
+        "type": "start",
+        "at": 67.16,
+        "scheduled": 67.16
+      },
+      {
+        "type": "start",
+        "at": 67.36,
+        "scheduled": 67.36
+      },
+      {
+        "type": "start",
+        "at": 67.72,
+        "scheduled": 67.72
+      },
+      {
+        "type": "start",
+        "at": 67.86133333333333,
+        "scheduled": 67.86133333333333
+      },
+      {
+        "type": "start",
+        "at": 68.01066666666667,
+        "scheduled": 68.01066666666667
+      },
+      {
+        "type": "start",
+        "at": 68.6,
+        "scheduled": 68.6
+      },
+      {
+        "type": "start",
+        "at": 68.96,
+        "scheduled": 68.96
+      },
+      {
+        "type": "start",
+        "at": 69.16,
+        "scheduled": 69.16
+      },
+      {
+        "type": "start",
+        "at": 69.33066666666667,
+        "scheduled": 69.33066666666667
+      },
+      {
+        "type": "start",
+        "at": 69.69066666666667,
+        "scheduled": 69.69066666666667
+      },
+      {
+        "type": "start",
+        "at": 69.89066666666666,
+        "scheduled": 69.89066666666666
+      },
+      {
+        "type": "start",
+        "at": 70.05066666666667,
+        "scheduled": 70.05066666666667
+      },
+      {
+        "type": "start",
+        "at": 70.41066666666667,
+        "scheduled": 70.41066666666667
+      },
+      {
+        "type": "start",
+        "at": 70.58133333333333,
+        "scheduled": 70.58133333333333
+      },
+      {
+        "type": "start",
+        "at": 70.85066666666667,
+        "scheduled": 70.85066666666667
+      },
+      {
+        "type": "start",
+        "at": 71.21066666666667,
+        "scheduled": 71.21066666666667
+      },
+      {
+        "type": "start",
+        "at": 71.37066666666666,
+        "scheduled": 71.37066666666666
+      },
+      {
+        "type": "start",
+        "at": 71.61066666666666,
+        "scheduled": 71.61066666666666
+      },
+      {
+        "type": "start",
+        "at": 71.93066666666667,
+        "scheduled": 71.93066666666667
+      },
+      {
+        "type": "start",
+        "at": 72.05066666666667,
+        "scheduled": 72.05066666666667
+      },
+      {
+        "type": "start",
+        "at": 72.29066666666667,
+        "scheduled": 72.29066666666667
+      },
+      {
+        "type": "start",
+        "at": 72.65066666666667,
+        "scheduled": 72.65066666666667
+      },
+      {
+        "type": "start",
+        "at": 72.65066666666667,
+        "scheduled": 72.65066666666667
+      },
+      {
+        "type": "start",
+        "at": 72.912,
+        "scheduled": 72.912
+      },
+      {
+        "type": "start",
+        "at": 73.01066666666667,
+        "scheduled": 73.01066666666667
+      },
+      {
+        "type": "start",
+        "at": 73.30133333333333,
+        "scheduled": 73.30133333333333
+      },
+      {
+        "type": "start",
+        "at": 73.37066666666666,
+        "scheduled": 73.37066666666666
+      },
+      {
+        "type": "start",
+        "at": 73.632,
+        "scheduled": 73.632
+      },
+      {
+        "type": "start",
+        "at": 73.73066666666666,
+        "scheduled": 73.73066666666666
+      },
+      {
+        "type": "start",
+        "at": 73.94133333333333,
+        "scheduled": 73.94133333333333
+      },
+      {
+        "type": "start",
+        "at": 74.09066666666666,
+        "scheduled": 74.09066666666666
+      },
+      {
+        "type": "start",
+        "at": 74.192,
+        "scheduled": 74.192
+      },
+      {
+        "type": "start",
+        "at": 74.45066666666666,
+        "scheduled": 74.45066666666666
+      },
+      {
+        "type": "start",
+        "at": 74.57066666666667,
+        "scheduled": 74.57066666666667
+      },
+      {
+        "type": "start",
+        "at": 74.78133333333334,
+        "scheduled": 74.78133333333334
+      },
+      {
+        "type": "start",
+        "at": 74.81066666666666,
+        "scheduled": 74.81066666666666
+      },
+      {
+        "type": "start",
+        "at": 74.93066666666667,
+        "scheduled": 74.93066666666667
+      },
+      {
+        "type": "start",
+        "at": 75.17066666666666,
+        "scheduled": 75.17066666666666
+      },
+      {
+        "type": "start",
+        "at": 75.24,
+        "scheduled": 75.24
+      },
+      {
+        "type": "start",
+        "at": 75.53066666666666,
+        "scheduled": 75.53066666666666
+      },
+      {
+        "type": "start",
+        "at": 75.58133333333333,
+        "scheduled": 75.58133333333333
+      },
+      {
+        "type": "start",
+        "at": 75.89066666666666,
+        "scheduled": 75.89066666666666
+      },
+      {
+        "type": "start",
+        "at": 75.89066666666666,
+        "scheduled": 75.89066666666666
+      },
+      {
+        "type": "start",
+        "at": 76.25066666666666,
+        "scheduled": 76.25066666666666
+      },
+      {
+        "type": "start",
+        "at": 76.352,
+        "scheduled": 76.352
+      },
+      {
+        "type": "start",
+        "at": 76.61066666666666,
+        "scheduled": 76.61066666666666
+      },
+      {
+        "type": "start",
+        "at": 76.62133333333334,
+        "scheduled": 76.62133333333334
+      },
+      {
+        "type": "start",
+        "at": 76.97066666666667,
+        "scheduled": 76.97066666666667
+      },
+      {
+        "type": "start",
+        "at": 77.10133333333333,
+        "scheduled": 77.10133333333333
+      },
+      {
+        "type": "start",
+        "at": 77.33066666666667,
+        "scheduled": 77.33066666666667
+      },
+      {
+        "type": "start",
+        "at": 77.37066666666666,
+        "scheduled": 77.37066666666666
+      },
+      {
+        "type": "start",
+        "at": 77.69066666666667,
+        "scheduled": 77.69066666666667
+      },
+      {
+        "type": "start",
+        "at": 78.05066666666667,
+        "scheduled": 78.05066666666667
+      },
+      {
+        "type": "start",
+        "at": 78.05066666666667,
+        "scheduled": 78.05066666666667
+      },
+      {
+        "type": "start",
+        "at": 78.41066666666667,
+        "scheduled": 78.41066666666667
+      },
+      {
+        "type": "start",
+        "at": 78.62133333333334,
+        "scheduled": 78.62133333333334
+      },
+      {
+        "type": "start",
+        "at": 78.77066666666667,
+        "scheduled": 78.77066666666667
+      },
+      {
+        "type": "start",
+        "at": 79.05066666666667,
+        "scheduled": 79.05066666666667
+      },
+      {
+        "type": "start",
+        "at": 79.13066666666667,
+        "scheduled": 79.13066666666667
+      },
+      {
+        "type": "start",
+        "at": 79.36,
+        "scheduled": 79.36
+      },
+      {
+        "type": "start",
+        "at": 79.49066666666667,
+        "scheduled": 79.49066666666667
+      },
+      {
+        "type": "start",
+        "at": 79.66133333333333,
+        "scheduled": 79.66133333333333
+      },
+      {
+        "type": "start",
+        "at": 79.85066666666667,
+        "scheduled": 79.85066666666667
+      },
+      {
+        "type": "start",
+        "at": 79.96,
+        "scheduled": 79.96
+      },
+      {
+        "type": "start",
+        "at": 80.21066666666667,
+        "scheduled": 80.21066666666667
+      },
+      {
+        "type": "start",
+        "at": 80.28,
+        "scheduled": 80.28
+      },
+      {
+        "type": "start",
+        "at": 80.57066666666667,
+        "scheduled": 80.57066666666667
+      },
+      {
+        "type": "start",
+        "at": 80.69066666666667,
+        "scheduled": 80.69066666666667
+      },
+      {
+        "type": "start",
+        "at": 80.93066666666667,
+        "scheduled": 80.93066666666667
+      },
+      {
+        "type": "start",
+        "at": 81.04,
+        "scheduled": 81.04
+      },
+      {
+        "type": "start",
+        "at": 81.29066666666667,
+        "scheduled": 81.29066666666667
+      },
+      {
+        "type": "start",
+        "at": 81.30133333333333,
+        "scheduled": 81.30133333333333
+      },
+      {
+        "type": "start",
+        "at": 81.65066666666667,
+        "scheduled": 81.65066666666667
+      },
+      {
+        "type": "start",
+        "at": 81.68,
+        "scheduled": 81.68
+      },
+      {
+        "type": "start",
+        "at": 81.84,
+        "scheduled": 81.84
+      },
+      {
+        "type": "start",
+        "at": 82.01066666666667,
+        "scheduled": 82.01066666666667
+      },
+      {
+        "type": "start",
+        "at": 82.22133333333333,
+        "scheduled": 82.22133333333333
+      },
+      {
+        "type": "start",
+        "at": 82.37066666666666,
+        "scheduled": 82.37066666666666
+      },
+      {
+        "type": "start",
+        "at": 82.53066666666666,
+        "scheduled": 82.53066666666666
+      },
+      {
+        "type": "start",
+        "at": 82.73066666666666,
+        "scheduled": 82.73066666666666
+      },
+      {
+        "type": "start",
+        "at": 82.792,
+        "scheduled": 82.792
+      },
+      {
+        "type": "start",
+        "at": 83.09066666666666,
+        "scheduled": 83.09066666666666
+      },
+      {
+        "type": "start",
+        "at": 83.26133333333334,
+        "scheduled": 83.26133333333334
+      },
+      {
+        "type": "start",
+        "at": 83.45066666666666,
+        "scheduled": 83.45066666666666
+      },
+      {
+        "type": "start",
+        "at": 83.672,
+        "scheduled": 83.672
+      },
+      {
+        "type": "start",
+        "at": 83.81066666666666,
+        "scheduled": 83.81066666666666
+      },
+      {
+        "type": "start",
+        "at": 84.05066666666667,
+        "scheduled": 84.05066666666667
+      },
+      {
+        "type": "start",
+        "at": 84.17066666666666,
+        "scheduled": 84.17066666666666
+      },
+      {
+        "type": "start",
+        "at": 84.432,
+        "scheduled": 84.432
+      },
+      {
+        "type": "start",
+        "at": 84.53066666666666,
+        "scheduled": 84.53066666666666
+      },
+      {
+        "type": "start",
+        "at": 84.89066666666666,
+        "scheduled": 84.89066666666666
+      },
+      {
+        "type": "start",
+        "at": 84.912,
+        "scheduled": 84.912
+      },
+      {
+        "type": "start",
+        "at": 85.152,
+        "scheduled": 85.152
+      },
+      {
+        "type": "start",
+        "at": 85.25066666666666,
+        "scheduled": 85.25066666666666
+      },
+      {
+        "type": "start",
+        "at": 85.272,
+        "scheduled": 85.272
+      },
+      {
+        "type": "start",
+        "at": 85.49066666666667,
+        "scheduled": 85.49066666666667
+      },
+      {
+        "type": "start",
+        "at": 85.61066666666666,
+        "scheduled": 85.61066666666666
+      },
+      {
+        "type": "start",
+        "at": 85.70133333333334,
+        "scheduled": 85.70133333333334
+      },
+      {
+        "type": "start",
+        "at": 85.97066666666667,
+        "scheduled": 85.97066666666667
+      },
+      {
+        "type": "start",
+        "at": 86.312,
+        "scheduled": 86.312
+      },
+      {
+        "type": "start",
+        "at": 86.33066666666667,
+        "scheduled": 86.33066666666667
+      },
+      {
+        "type": "start",
+        "at": 86.592,
+        "scheduled": 86.592
+      },
+      {
+        "type": "start",
+        "at": 86.69066666666667,
+        "scheduled": 86.69066666666667
+      },
+      {
+        "type": "start",
+        "at": 86.952,
+        "scheduled": 86.952
+      },
+      {
+        "type": "start",
+        "at": 87.05066666666667,
+        "scheduled": 87.05066666666667
+      },
+      {
+        "type": "start",
+        "at": 87.06133333333334,
+        "scheduled": 87.06133333333334
+      },
+      {
+        "type": "start",
+        "at": 87.41066666666667,
+        "scheduled": 87.41066666666667
+      },
+      {
+        "type": "start",
+        "at": 87.65066666666667,
+        "scheduled": 87.65066666666667
+      },
+      {
+        "type": "start",
+        "at": 87.77066666666667,
+        "scheduled": 87.77066666666667
+      },
+      {
+        "type": "start",
+        "at": 88.13066666666667,
+        "scheduled": 88.13066666666667
+      },
+      {
+        "type": "start",
+        "at": 88.24,
+        "scheduled": 88.24
+      },
+      {
+        "type": "start",
+        "at": 88.49066666666667,
+        "scheduled": 88.49066666666667
+      },
+      {
+        "type": "start",
+        "at": 88.53066666666666,
+        "scheduled": 88.53066666666666
+      },
+      {
+        "type": "start",
+        "at": 88.8,
+        "scheduled": 88.8
+      },
+      {
+        "type": "start",
+        "at": 88.85066666666667,
+        "scheduled": 88.85066666666667
+      },
+      {
+        "type": "start",
+        "at": 89.152,
+        "scheduled": 89.152
+      },
+      {
+        "type": "start",
+        "at": 89.21066666666667,
+        "scheduled": 89.21066666666667
+      },
+      {
+        "type": "start",
+        "at": 89.57066666666667,
+        "scheduled": 89.57066666666667
+      },
+      {
+        "type": "start",
+        "at": 89.57066666666667,
+        "scheduled": 89.57066666666667
+      },
+      {
+        "type": "start",
+        "at": 89.84,
+        "scheduled": 89.84
+      },
+      {
+        "type": "start",
+        "at": 89.93066666666667,
+        "scheduled": 89.93066666666667
+      },
+      {
+        "type": "start",
+        "at": 90.152,
+        "scheduled": 90.152
+      },
+      {
+        "type": "start",
+        "at": 90.29066666666667,
+        "scheduled": 90.29066666666667
+      },
+      {
+        "type": "start",
+        "at": 90.58133333333333,
+        "scheduled": 90.58133333333333
+      },
+      {
+        "type": "start",
+        "at": 90.65066666666667,
+        "scheduled": 90.65066666666667
+      },
+      {
+        "type": "start",
+        "at": 90.98133333333334,
+        "scheduled": 90.98133333333334
+      },
+      {
+        "type": "start",
+        "at": 91.01066666666667,
+        "scheduled": 91.01066666666667
+      },
+      {
+        "type": "start",
+        "at": 91.37066666666666,
+        "scheduled": 91.37066666666666
+      },
+      {
+        "type": "start",
+        "at": 91.37066666666666,
+        "scheduled": 91.37066666666666
+      },
+      {
+        "type": "start",
+        "at": 91.4,
+        "scheduled": 91.4
+      },
+      {
+        "type": "start",
+        "at": 91.4,
+        "scheduled": 91.54
+      },
+      {
+        "type": "start",
+        "at": 91.4,
+        "scheduled": 91.69000000000001
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#152927">
+<title>Лавка зелий у старой ивы</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="style.css">
+<script defer src="art.js"></script><script defer src="game.js"></script>
+</head>
+<body>
+<div class="frame">
+<header class="mast">
+<div class="brand"><div id="seal"></div><h1>Лавка зелий<small>У СТАРОЙ ИВЫ</small></h1></div>
+<div class="clock"><span id="day"></span><div id="ticks" aria-hidden="true"></div></div>
+<div class="purse" title="Монеты в кошельке"><span aria-hidden="true" class="coin">✧</span><strong id="cash"></strong><span class="sr"> монет</span></div>
+<button class="help" id="help" aria-label="Открыть книгу лавки" title="Книга лавки">?</button>
+</header>
+<main id="shop">
+<section class="scene" aria-label="У прилавка">
+<div class="backdrop" id="scenery" aria-hidden="true"></div>
+<div class="visitor" id="portrait" aria-hidden="true"></div>
+<div class="windowTag"><i></i> <span id="time"></span></div>
+<div class="order"><div class="orderline"><span id="queue"></span><span class="fleur" aria-hidden="true">✤</span></div>
+<h2 id="guest"></h2><p id="quote"></p>
+<div class="deal"><button id="sell" class="primary"></button><span id="sellWhy" class="dealWhy"></span></div>
+<button class="skip" id="skip"></button></div>
+<div class="ledge" aria-hidden="true"></div></section>
+<div id="tip" class="tip"></div>
+<div class="workbench">
+<section class="recipes" aria-labelledby="recipeHead">
+<div class="sectionhead"><div><span class="eyebrow">АЛХИМИЯ</span><h2 id="recipeHead">Книга рецептов</h2></div><span class="headorn" aria-hidden="true">❧</span></div>
+<div id="bottles" class="bottles" role="group" aria-label="Выберите зелье"></div>
+<div class="formula"><div><b id="selectedName"></b><span id="mix"></span></div><button id="brew" class="secondary">Сварить</button></div>
+<p id="brewWhy" class="why"></p>
+</section>
+<section class="market" aria-labelledby="marketHead"><div class="sectionhead"><div><span class="eyebrow">ПОСТАВКИ</span><h2 id="marketHead">Корзина травницы</h2></div><span class="headorn" aria-hidden="true">❦</span></div>
+<div id="goods"></div><p class="why" id="marketNote">Цены меняются каждое утро.</p>
+</section></div>
+<footer><div class="goal"><span aria-hidden="true">✧</span><span id="goal"></span></div><button class="subtle" id="closeDay"></button></footer>
+</main>
+<section id="ending" hidden class="ending"></section>
+</div><dialog id="dialog"><div id="modal"></div></dialog>
+<div id="live" role="status" class="sr" aria-live="polite" aria-atomic="true"></div>
+</body></html>

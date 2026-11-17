@@ -1,0 +1,31 @@
+{
+  "entry": "arena/E",
+  "conditions": "Edge desktop emulation 360x800 touch; CPU 4x slower, latency 150ms, 200000 bytes/s download. Local HTTP server, no physical device. Repeated navigation uses ordinary browser caching; no claimed speedup.",
+  "loads": [
+    {
+      "kind": "cold",
+      "wallToObservationMs": 1058,
+      "domContentLoaded": 784.7000000029802,
+      "load": 785.7000000029802,
+      "transferBytes": 63359,
+      "resourceCount": 5,
+      "jsHeapBytes": 1739229,
+      "longTasks": [
+        {
+          "start": 666.2000000029802,
+          "duration": 121
+        }
+      ]
+    },
+    {
+      "kind": "repeat",
+      "wallToObservationMs": 947,
+      "domContentLoaded": 679.1000000014901,
+      "load": 679.8999999985099,
+      "transferBytes": 63059,
+      "resourceCount": 4,
+      "jsHeapBytes": 2129926,
+      "longTasks": []
+    }
+  ]
+}

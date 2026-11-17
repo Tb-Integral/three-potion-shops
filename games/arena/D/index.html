@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#061d24">
+<title>До всплытия — глубоководная арена</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="art.js"></script>
+<script defer src="audio.js"></script>
+<script defer src="game.js"></script>
+</head>
+<body>
+<main class="console" id="console">
+<header class="top">
+  <div class="signature"><svg viewBox="0 0 48 40" aria-hidden="true"><path d="M2 24 12 11h23l11 13-9 7H11Z M8 25h31 M16 12l4-7h9l5 7" fill="none" stroke="currentColor" stroke-width="2.3"/><circle fill="currentColor" cx="23.5" cy="19" r="3"/></svg><span>БАТИСКАФ</span></div>
+  <div class="audio"><button id="sound" type="button" aria-pressed="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9h4l5-4v14l-5-4H3z M15.5 8q4 4 0 8 M18.5 5q7 7 0 14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg><span>Звук</span></button><input id="volume" type="range" min="0" max="100" value="55" aria-label="Громкость"></div>
+</header>
+<div class="frame" id="frame">
+  <div id="hud" class="hud" hidden>
+    <div class="time"><span class="readout-label">До всплытия</span><strong id="clock">01:30</strong></div>
+    <div class="hull"><span class="readout-label">Корпус</span><div id="health" role="img" aria-label="Прочность"></div></div>
+    <div class="kills"><span class="readout-label">Поражено</span><strong id="kills">0</strong></div>
+    <button id="pause" type="button" aria-label="Пауза" title="Пауза (Esc)"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M6 4h4v16H6zM14 4h4v16h-4z"/></svg></button>
+  </div>
+  <div id="water">
+    <canvas id="arena" data-arena-field aria-label="Поле игры. Двигайтесь стрелками, WASD или потяните пальцем."></canvas>
+    <section id="cover" class="cover">
+      <div class="cover-copy">
+        <div class="eyebrow"><i></i> Глубоководная экспедиция</div>
+        <h1>До<br><em>всплытия</em></h1>
+        <p>Проведите батискаф через стаю. Продержитесь <b>90 секунд</b> до всплытия.</p>
+        <button class="primary" id="start" type="button">Играть <span aria-hidden="true">→</span></button>
+      </div>
+    </section>
+    <div class="veil" id="veil" hidden>
+      <section class="card" id="card" role="dialog" aria-modal="true" aria-labelledby="dialog-title">
+        <div class="eyebrow"><i></i><span id="kicker"></span></div>
+        <h2 id="dialog-title"></h2><p id="description"></p>
+        <div id="actions"></div>
+      </section>
+    </div>
+    <div id="notice" role="status"></div>
+  </div>
+</div>
+<footer><span class="footer-item"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v20M2 12h20M9 5l3-3 3 3M19 9l3 3-3 3M9 19l3 3 3-3M5 9l-3 3 3 3"/></svg><span id="control-hint">WASD / стрелки — движение</span></span><span class="footer-item"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="7"/><path d="M12 1v6M12 17v6M1 12h6M17 12h6"/></svg>Автоогонь</span></footer>
+</main>
+</body>
+</html>

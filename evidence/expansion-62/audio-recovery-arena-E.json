@@ -1,0 +1,10 @@
+[
+  {
+    "entry": "arena/E",
+    "actualSuspension": true,
+    "rejectionObserved": true,
+    "recoveredOnNextGesture": true,
+    "attempts": 2,
+    "errors": []
+  }
+]

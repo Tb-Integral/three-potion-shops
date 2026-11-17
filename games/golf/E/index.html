@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5efdf">
+  <title>Мини-гольф</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="golf.js"></script>
+</head>
+<body>
+  <main class="game">
+    <header class="heading">
+      <div class="emblem" aria-hidden="true">
+        <svg viewBox="0 0 44 44" fill="none">
+          <circle cx="22" cy="22" r="20.5" stroke="currentColor"/>
+          <path d="M15.5 31.5h13M22 31V11.5l11 4.4-11 4.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="13.5" cy="27.5" r="2.1" fill="currentColor"/>
+        </svg>
+      </div>
+      <h1><span>Мини-</span><em>гольф</em></h1>
+    </header>
+
+    <section class="score" aria-label="Счёт по лункам">
+      <div class="score-head"><span>Лунка</span><span>Удары</span></div>
+      <ol class="ledger">
+        <li class="entry"><span class="index">01</span><span class="name">Прямая</span><span class="count">0</span></li>
+        <li class="entry"><span class="index">02</span><span class="name">Обход</span><span class="count">—</span></li>
+        <li class="entry"><span class="index">03</span><span class="name">Змейка</span><span class="count">—</span></li>
+      </ol>
+    </section>
+
+    <div class="board">
+      <div class="course-wrap">
+        <canvas data-golf-course aria-label="Игровое поле" aria-describedby="status" width="600" height="660"></canvas>
+        <section class="summary" id="summary" aria-labelledby="summary-title" hidden>
+          <div class="summary-card">
+            <h2 id="summary-title">Партия сыграна</h2>
+            <p class="total"><strong id="total">0</strong> <span id="total-unit">ударов</span></p>
+            <button type="button" id="new-game">Новая партия</button>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <div class="actions">
+      <p class="status" id="status" role="status">Потяните мяч назад и отпустите.</p>
+      <div class="force" id="force" aria-hidden="true" hidden>
+        <span>Сила</span>
+        <div class="force-track"><div class="force-fill" id="force-fill"></div></div>
+      </div>
+      <button class="reset" type="button" id="reset">
+        <svg width="18" height="18" viewBox="0 0 20 20" aria-hidden="true" fill="none">
+          <path d="M4 8.3a6 6 0 1 1 .8 5.4M4 4.7v3.9h4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Лунка заново
+      </button>
+    </div>
+  </main>
+</body>
+</html>

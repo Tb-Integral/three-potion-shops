@@ -1,0 +1,16 @@
+[
+  {
+    "variant": "E",
+    "round": "potions",
+    "missingAudioAndStorage": true,
+    "gameActionCompletes": true,
+    "errors": []
+  },
+  {
+    "variant": "E",
+    "round": "golf",
+    "missingAudioAndStorage": true,
+    "gameActionCompletes": true,
+    "errors": []
+  }
+]

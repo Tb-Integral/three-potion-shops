@@ -1,0 +1,356 @@
+[
+  {
+    "round": "arena",
+    "variant": "D",
+    "width": 1440,
+    "errors": [],
+    "externalRequests": [],
+    "bodyText": "БАТИСКАФ\nЗвук\nГЛУБОКОВОДНАЯ ЭКСПЕДИЦИЯ\nДо\nвсплытия\n\nПроведите батискаф через стаю. Продержитесь 90 секунд до всплытия.\n\nИграть\n→\nWASD / стрелки — движение\nАвтоогонь",
+    "buttons": [
+      {
+        "text": "Звук",
+        "id": "sound",
+        "disabled": false
+      },
+      {
+        "text": "",
+        "id": "pause",
+        "disabled": false
+      },
+      {
+        "text": "Играть →",
+        "id": "start",
+        "disabled": false
+      }
+    ],
+    "noHorizontalOverflow": true,
+    "hasMainContent": true,
+    "state": {
+      "phase": "menu",
+      "elapsed": 0,
+      "remaining": 90,
+      "kills": 0,
+      "health": 6,
+      "maxHealth": 6,
+      "player": {
+        "x": 397.57869689499097,
+        "y": 257.81059397926555,
+        "vx": 0,
+        "vy": 0,
+        "radius": 15,
+        "speed": 142
+      },
+      "arena": {
+        "width": 795.1573937899819,
+        "height": 515.6211879585311
+      },
+      "enemies": [],
+      "projectiles": [],
+      "upgrades": [],
+      "input": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  {
+    "round": "arena",
+    "variant": "D",
+    "width": 390,
+    "errors": [],
+    "externalRequests": [],
+    "bodyText": "БАТИСКАФ\nЗвук\nГЛУБОКОВОДНАЯ ЭКСПЕДИЦИЯ\nДо\nвсплытия\n\nПроведите батискаф через стаю. Продержитесь 90 секунд до всплытия.\n\nИграть\n→\nПотяните поле для движения\nАвтоогонь",
+    "buttons": [
+      {
+        "text": "Звук",
+        "id": "sound",
+        "disabled": false
+      },
+      {
+        "text": "",
+        "id": "pause",
+        "disabled": false
+      },
+      {
+        "text": "Играть →",
+        "id": "start",
+        "disabled": false
+      }
+    ],
+    "noHorizontalOverflow": true,
+    "hasMainContent": true,
+    "state": {
+      "phase": "menu",
+      "elapsed": 0,
+      "remaining": 90,
+      "kills": 0,
+      "health": 6,
+      "maxHealth": 6,
+      "player": {
+        "x": 225.4723965557183,
+        "y": 454.60110224477256,
+        "vx": 0,
+        "vy": 0,
+        "radius": 15,
+        "speed": 142
+      },
+      "arena": {
+        "width": 450.9447931114366,
+        "height": 909.2022044895451
+      },
+      "enemies": [],
+      "projectiles": [],
+      "upgrades": [],
+      "input": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  {
+    "round": "arena",
+    "variant": "D",
+    "width": 360,
+    "errors": [],
+    "externalRequests": [],
+    "bodyText": "БАТИСКАФ\nЗвук\nГЛУБОКОВОДНАЯ ЭКСПЕДИЦИЯ\nДо\nвсплытия\n\nПроведите батискаф через стаю. Продержитесь 90 секунд до всплытия.\n\nИграть\n→\nПотяните поле для движения\nАвтоогонь",
+    "buttons": [
+      {
+        "text": "Звук",
+        "id": "sound",
+        "disabled": false
+      },
+      {
+        "text": "",
+        "id": "pause",
+        "disabled": false
+      },
+      {
+        "text": "Играть →",
+        "id": "start",
+        "disabled": false
+      }
+    ],
+    "noHorizontalOverflow": true,
+    "hasMainContent": true,
+    "state": {
+      "phase": "menu",
+      "elapsed": 0,
+      "remaining": 90,
+      "kills": 0,
+      "health": 6,
+      "maxHealth": 6,
+      "player": {
+        "x": 222.80905422328473,
+        "y": 460.03516489631147,
+        "vx": 0,
+        "vy": 0,
+        "radius": 15,
+        "speed": 142
+      },
+      "arena": {
+        "width": 445.6181084465695,
+        "height": 920.0703297926229
+      },
+      "enemies": [],
+      "projectiles": [],
+      "upgrades": [],
+      "input": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  {
+    "round": "arena",
+    "variant": "E",
+    "width": 1440,
+    "errors": [],
+    "externalRequests": [],
+    "bodyText": "РИФ–90\n БАТИСКАФ «НЕРЕЙ»\nКОРПУС\nКорпус 7 из 7\nДО ПОДЪЁМА\n1:30\nСБИТО\n0\nПауза\n СПАСАТЕЛЬНЫЙ МАЯК АКТИВЕН\nДожить до\nподъёма\n\n90 секунд до подъёма. Уклоняйтесь от обитателей рифа. Батискаф стреляет сам.\n\nИграть\n→\nW\nA\nS\nD\nили стрелки\nWASD / стрелки\n· манёвр\nЗвук вкл.\nГромкость",
+    "buttons": [
+      {
+        "text": "Пауза",
+        "id": "pauseButton",
+        "disabled": true
+      },
+      {
+        "text": "Играть →",
+        "id": "startButton",
+        "disabled": false
+      },
+      {
+        "text": "Продолжить →",
+        "id": "resumeButton",
+        "disabled": false
+      },
+      {
+        "text": "Новая партия →",
+        "id": "restartButton",
+        "disabled": false
+      },
+      {
+        "text": "Звук вкл.",
+        "id": "muteButton",
+        "disabled": false
+      }
+    ],
+    "noHorizontalOverflow": true,
+    "hasMainContent": true,
+    "state": {
+      "phase": "menu",
+      "elapsed": 0,
+      "remaining": 90,
+      "kills": 0,
+      "health": 7,
+      "maxHealth": 7,
+      "player": {
+        "x": 446.5,
+        "y": 260.5,
+        "vx": 0,
+        "vy": 0,
+        "radius": 17,
+        "speed": 240
+      },
+      "arena": {
+        "width": 893,
+        "height": 521
+      },
+      "enemies": [],
+      "projectiles": [],
+      "upgrades": [],
+      "input": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  {
+    "round": "arena",
+    "variant": "E",
+    "width": 390,
+    "errors": [],
+    "externalRequests": [],
+    "bodyText": "РИФ–90\n БАТИСКАФ «НЕРЕЙ»\nКОРПУС\nКорпус 7 из 7\nДО ПОДЪЁМА\n1:30\nСБИТО\n0\n СПАСАТЕЛЬНЫЙ МАЯК АКТИВЕН\nДожить до\nподъёма\n\n90 секунд до подъёма. Уклоняйтесь от обитателей рифа. Батискаф стреляет сам.\n\nИграть\n→\nВедите пальцем по полю\nВедите пальцем по полю\nЗвук вкл.\nГромкость",
+    "buttons": [
+      {
+        "text": "Пауза",
+        "id": "pauseButton",
+        "disabled": true
+      },
+      {
+        "text": "Играть →",
+        "id": "startButton",
+        "disabled": false
+      },
+      {
+        "text": "Продолжить →",
+        "id": "resumeButton",
+        "disabled": false
+      },
+      {
+        "text": "Новая партия →",
+        "id": "restartButton",
+        "disabled": false
+      },
+      {
+        "text": "Звук вкл.",
+        "id": "muteButton",
+        "disabled": false
+      }
+    ],
+    "noHorizontalOverflow": true,
+    "hasMainContent": true,
+    "state": {
+      "phase": "menu",
+      "elapsed": 0,
+      "remaining": 90,
+      "kills": 0,
+      "health": 7,
+      "maxHealth": 7,
+      "player": {
+        "x": 252,
+        "y": 461.5,
+        "vx": 0,
+        "vy": 0,
+        "radius": 17,
+        "speed": 240
+      },
+      "arena": {
+        "width": 504,
+        "height": 923
+      },
+      "enemies": [],
+      "projectiles": [],
+      "upgrades": [],
+      "input": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  {
+    "round": "arena",
+    "variant": "E",
+    "width": 360,
+    "errors": [],
+    "externalRequests": [],
+    "bodyText": "РИФ–90\n БАТИСКАФ «НЕРЕЙ»\nКОРПУС\nКорпус 7 из 7\nДО ПОДЪЁМА\n1:30\nСБИТО\n0\n СПАСАТЕЛЬНЫЙ МАЯК АКТИВЕН\nДожить до\nподъёма\n\n90 секунд до подъёма. Уклоняйтесь от обитателей рифа. Батискаф стреляет сам.\n\nИграть\n→\nВедите пальцем по полю\nВедите пальцем по полю\nЗвук вкл.\nГромкость",
+    "buttons": [
+      {
+        "text": "Пауза",
+        "id": "pauseButton",
+        "disabled": true
+      },
+      {
+        "text": "Играть →",
+        "id": "startButton",
+        "disabled": false
+      },
+      {
+        "text": "Продолжить →",
+        "id": "resumeButton",
+        "disabled": false
+      },
+      {
+        "text": "Новая партия →",
+        "id": "restartButton",
+        "disabled": false
+      },
+      {
+        "text": "Звук вкл.",
+        "id": "muteButton",
+        "disabled": false
+      }
+    ],
+    "noHorizontalOverflow": true,
+    "hasMainContent": true,
+    "state": {
+      "phase": "menu",
+      "elapsed": 0,
+      "remaining": 90,
+      "kills": 0,
+      "health": 7,
+      "maxHealth": 7,
+      "player": {
+        "x": 249.5,
+        "y": 465.5,
+        "vx": 0,
+        "vy": 0,
+        "radius": 17,
+        "speed": 240
+      },
+      "arena": {
+        "width": 499,
+        "height": 931
+      },
+      "enemies": [],
+      "projectiles": [],
+      "upgrades": [],
+      "input": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  }
+]

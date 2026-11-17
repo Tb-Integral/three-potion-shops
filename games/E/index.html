@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#241b17">
+  <title>Лавка зелий</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23362720'/%3E%3Cpath d='M13 6h6v8l6 7c3 4 0 6-4 6H11c-4 0-7-2-4-6l6-7z' fill='%23efd491'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="art.js"></script>
+  <script defer src="game.js"></script>
+</head>
+<body>
+  <div class="app">
+    <header class="masthead">
+      <div class="brand">
+        <span class="brand-mark" id="brand-icon"></span>
+        <h1>Лавка зелий</h1>
+      </div>
+      <div class="hud">
+        <div class="calendar" id="calendar"></div>
+        <div class="wallet" id="wallet" aria-label="Кошелёк"></div>
+        <button type="button" class="icon-button" data-action="help" aria-label="Справка" title="Справка">?</button>
+      </div>
+    </header>
+    <main class="game">
+      <section class="shop" aria-label="Прилавок">
+        <div class="scene" id="scene" data-day="1">
+          <div id="shop-art" class="shop-art" aria-hidden="true"></div>
+          <div id="visitor-art" class="visitor-art" aria-hidden="true"></div>
+          <div class="toast" id="toast" aria-hidden="true"></div>
+          <div class="opening"><i></i><span id="opening-text">Лавка открыта</span></div>
+        </div>
+        <div class="counter">
+          <div class="stock-title"><span>Готовые зелья</span><b id="stock-total"></b></div>
+          <ul class="shelf" id="shelf" aria-label="Запас готовых зелий"></ul>
+        </div>
+      </section>
+      <section class="service" aria-label="Обслуживание посетителей">
+        <div class="ticket" id="ticket"></div>
+        <div class="stations" id="stations">
+          <button type="button" class="station" data-action="market">
+            <span class="station-icon" id="market-icon"></span>
+            <span><strong>Рынок</strong><small>Ингредиенты</small></span>
+          </button>
+          <button type="button" class="station" data-action="brew">
+            <span class="station-icon" id="brew-icon"></span>
+            <span><strong>Котёл</strong><small id="turn-caption">3 варки</small></span>
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer class="shift">
+      <p id="hint" class="hint"></p>
+      <div class="shift-actions" id="shift-actions"></div>
+    </footer>
+  </div>
+
+  <dialog class="dialog" id="dialog" aria-labelledby="dialog-title">
+    <div class="dialog-head">
+      <div>
+        <p class="eyebrow" id="dialog-label"></p>
+        <h2 id="dialog-title"></h2>
+      </div>
+      <button type="button" class="dialog-close icon-button" data-action="dismiss" aria-label="Закрыть">×</button>
+    </div>
+    <div id="dialog-content" class="dialog-content"></div>
+  </dialog>
+  <div class="sr-only" role="status" aria-live="polite" aria-atomic="true" id="announcer"></div>
+</body>
+</html>
+

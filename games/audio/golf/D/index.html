@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f6f2e7">
+<title>Перевал — альпийский мини-гольф</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="audio.js"></script>
+<script defer src="game.js"></script>
+</head>
+<body>
+<main class="layout">
+  <header class="brand">
+    <svg class="seal" viewBox="0 0 48 48" aria-hidden="true"><circle cx="24" cy="24" r="22" fill="#264b43"/><path d="m6 31 12-17 4 6 6-10 14 22-13-12-3 3-3-5-7 10 2-7z" fill="#f9f2d8"/><path d="m11 34 26-1" stroke="#c89055" stroke-width="2"/></svg>
+    <div><span class="eyebrow">Альпийский мини-гольф</span><h1>Перевал</h1></div>
+    <div class="sound" role="group" aria-label="Настройки звука"><button type="button" id="soundToggle" aria-label="Звук" aria-pressed="true">Звук: вкл</button><label for="soundVolume">Громкость <input id="soundVolume" type="range" min="0" max="100" value="45"></label></div>
+  </header>
+  <aside class="ledger">
+    <svg class="panorama" viewBox="0 0 360 118" role="img" aria-label="Гравюра горного хребта">
+      <defs><pattern id="hatch" width="4" height="4" patternUnits="userSpaceOnUse"><path d="m0 4 4-4" stroke="#687b68" stroke-width=".7"/></pattern></defs>
+      <circle cx="270" cy="34" r="16" fill="#d9885c"/>
+      <g fill="#e0e4d4" stroke="#8e9b82" stroke-width="1"><path d="m0 87 31-29 10 4 17-20 22 20 17-6 35 28 28-28 11 4 35-45 6 7 9-9 27 37 15-14 11 6 15-18 26 35 28-10 16 14v39H0z"/></g>
+      <path d="m0 101 48-30 15 2 31-29 11 5 35-43 40 48 14-10 39 33 21-21 20 18 35-23 51 33v27H0z" fill="#edf0e2" stroke="#516a5a" stroke-width="1.6"/>
+      <path d="m140 6-5 32-10-5-11 16-3-6-25 33 20-8-17 18 47-28 15-23 11 10-3-14 21 23zM48 71l-13 22 23-12 5-8zm146-27-10 21 11-7 17 11zm115 7-24 32 17-13 12 2 10-12z" fill="url(#hatch)" stroke="#788875" stroke-width=".8"/>
+      <path d="m0 108 31-7 20 2 31-11 29 4 45-17 32 4 39-5 40 11 27-5 27 3 39 11v11H0z" fill="#a8b29a"/>
+      <g fill="#3c594a"><defs><path id="fir" d="m0 0-3 8h1.5l-3 6h2l-3 6h11l-3-6h2l-3-6H3z"/></defs><use href="#fir" x="18" y="85"/><use href="#fir" x="26" y="81"/><use href="#fir" x="36" y="88"/><use href="#fir" x="321" y="80"/><use href="#fir" x="331" y="73"/><use href="#fir" x="340" y="82"/><use href="#fir" x="348" y="77"/></g>
+      <path d="m0 107 87-7 48 4 51-6 67 8 54-7 53 8v5H0z" fill="#647a63"/>
+    </svg>
+    <div class="stage"><span class="eyebrow" id="stageNum"></span><h2 id="stageName"></h2></div>
+    <dl class="metrics"><div><dt>Удары</dt><dd id="shots">0</dd></div><div><dt>Пар</dt><dd id="par">2</dd></div></dl>
+    <div class="route"><div class="eyebrow">Маршрут</div><ol id="route"></ol></div>
+  </aside>
+  <section class="map" aria-label="Игровая карта">
+    <div class="mapframe"><canvas tabindex="-1" data-golf-course width="440" height="510" aria-label="Поле для мини-гольфа. Зажмите мяч и оттяните назад для удара."></canvas>
+    <div class="toast" id="toast" hidden aria-live="polite"></div>
+    <section class="result" id="result" hidden aria-labelledby="resultTitle"><div class="card"><span class="eyebrow">Маршрут пройден</span><h2 id="resultTitle">На вершине!</h2><p id="total"></p><ol id="scorecard"></ol><button class="new" id="newGame">Сыграть ещё</button></div></section>
+    </div>
+    <div class="mapbar"><span class="mapstate"><i id="lamp"></i><span id="status" role="status">К удару</span></span><button id="reset" aria-label="Начать текущую лунку заново"><svg width="17" height="17" viewBox="0 0 20 20" aria-hidden="true"><path d="M5 6.3a6.4 6.4 0 1 1-1.3 6M5 2v5H.8" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.7"/></svg>Лунку заново</button></div>
+  </section>
+  <div class="tip"><svg viewBox="0 0 32 32" aria-hidden="true"><circle cx="21" cy="9" r="5.2" fill="#fbf5e6" stroke="currentColor" stroke-width="1.5"/><path d="m16 15-9 9m1-7-1 7 7-1" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg><p><b>Оттяните мяч назад</b> и отпустите. Чем дальше оттянете, тем сильнее удар.</p></div>
+</main>
+</body></html>

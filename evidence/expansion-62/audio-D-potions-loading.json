@@ -1,0 +1,31 @@
+{
+  "entry": "audio/D/potions",
+  "conditions": "Edge desktop emulation 360x800 touch; CPU 4x slower, latency 150ms, 200000 bytes/s download. Local HTTP server, no physical device. Repeated navigation uses ordinary browser caching; no claimed speedup.",
+  "loads": [
+    {
+      "kind": "cold",
+      "wallToObservationMs": 1121,
+      "domContentLoaded": 834.1000000014901,
+      "load": 848.2000000029802,
+      "transferBytes": 52320,
+      "resourceCount": 4,
+      "jsHeapBytes": 2428657,
+      "longTasks": [
+        {
+          "start": 778.1000000014901,
+          "duration": 217
+        }
+      ]
+    },
+    {
+      "kind": "repeat",
+      "wallToObservationMs": 917,
+      "domContentLoaded": 640,
+      "load": 649.1000000014901,
+      "transferBytes": 52320,
+      "resourceCount": 4,
+      "jsHeapBytes": 3019096,
+      "longTasks": []
+    }
+  ]
+}

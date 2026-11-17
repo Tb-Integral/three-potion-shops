@@ -1,0 +1,36 @@
+{
+  "entry": "golf/E",
+  "conditions": "Edge desktop emulation 360x800 touch; CPU 4x slower, latency 150ms, 200000 bytes/s download. Local HTTP server, no physical device. Repeated navigation uses ordinary browser caching; no claimed speedup.",
+  "loads": [
+    {
+      "kind": "cold",
+      "wallToObservationMs": 926,
+      "domContentLoaded": 658.8000000044703,
+      "load": 659.8000000044703,
+      "transferBytes": 33775,
+      "resourceCount": 3,
+      "jsHeapBytes": 1438966,
+      "longTasks": [
+        {
+          "start": 533,
+          "duration": 128
+        }
+      ]
+    },
+    {
+      "kind": "repeat",
+      "wallToObservationMs": 835,
+      "domContentLoaded": 573.7999999970198,
+      "load": 574.2999999970198,
+      "transferBytes": 33475,
+      "resourceCount": 2,
+      "jsHeapBytes": 2065075,
+      "longTasks": [
+        {
+          "start": 521.1000000014901,
+          "duration": 53
+        }
+      ]
+    }
+  ]
+}

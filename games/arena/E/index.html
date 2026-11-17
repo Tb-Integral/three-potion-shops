@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08151c">
+  <title>Риф-90</title>
+  <link rel="stylesheet" href="arena.css">
+  <script src="audio.js" defer></script>
+  <script src="render.js" defer></script>
+  <script src="arena.js" defer></script>
+</head>
+<body>
+  <main class="station" data-phase="menu">
+    <header class="masthead">
+      <div class="brand"><span class="brand-mark" aria-hidden="true"><i></i></span><span>РИФ<span class="brand-digit">–90</span></span></div>
+      <div class="mission"><span aria-hidden="true"></span> Батискаф «Нерей»</div>
+    </header>
+
+    <section class="console" aria-label="Пульт батискафа">
+      <div class="hud">
+        <div class="readout hull">
+          <span class="capt">Корпус</span>
+          <div id="hullPips" class="pips" aria-hidden="true"></div>
+          <span id="hullText" class="sr-only"></span>
+        </div>
+        <div class="readout time">
+          <span class="capt">До подъёма</span>
+          <strong id="timer">1:30</strong>
+        </div>
+        <div class="readout kills">
+          <span class="capt">Сбито</span>
+          <strong id="killCount">0</strong>
+        </div>
+        <button id="pauseButton" class="pause-button" type="button" aria-label="Пауза" title="Пауза (Esc)" disabled>
+          <span class="pause-glyph" aria-hidden="true"></span><span class="pause-label">Пауза</span>
+        </button>
+        <div class="time-rail" aria-hidden="true"><i id="timeFill"></i></div>
+      </div>
+
+      <div class="bay" id="bay">
+        <canvas id="field" data-arena-field aria-label="Игровое поле. Для движения используйте WASD, стрелки или ведите пальцем по полю."></canvas>
+        <div class="edge top-left" aria-hidden="true"></div>
+        <div class="edge top-right" aria-hidden="true"></div>
+        <div class="edge bottom-left" aria-hidden="true"></div>
+        <div class="edge bottom-right" aria-hidden="true"></div>
+
+        <section class="overlay menu-overlay" id="menuPanel" aria-labelledby="menuTitle">
+          <div class="menu-copy">
+            <span class="eyebrow"><span></span> Спасательный маяк активен</span>
+            <h1 id="menuTitle">Дожить до<br>подъёма</h1>
+            <p class="intro">90 секунд до подъёма. Уклоняйтесь от обитателей рифа. Батискаф стреляет сам.</p>
+            <div class="menu-actions">
+              <button id="startButton" class="action primary" type="button">Играть <span aria-hidden="true">→</span></button>
+              <div class="steering">
+                <span class="keys"><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd><span>или стрелки</span></span>
+                <span class="drag"><span class="stick-icon" aria-hidden="true"></span> Ведите пальцем по полю</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="overlay modal-overlay" id="pausePanel" role="dialog" aria-modal="false" aria-labelledby="pauseTitle" hidden>
+          <div class="panel">
+            <span class="eyebrow"><span></span> Таймер остановлен</span>
+            <h2 id="pauseTitle">Пауза</h2>
+            <p>Батискаф ждёт вашей команды.</p>
+            <button class="action primary" id="resumeButton" type="button">Продолжить <span aria-hidden="true">→</span></button>
+          </div>
+        </section>
+
+        <section class="overlay modal-overlay" id="upgradePanel" role="dialog" aria-modal="false" aria-labelledby="upgradeTitle" hidden>
+          <div class="panel upgrades-panel">
+            <span class="eyebrow"><span></span><span id="upgradeStage"></span></span>
+            <h2 id="upgradeTitle">Улучшить батискаф</h2>
+            <p>Выберите один модуль.</p>
+            <div class="cards" id="upgradeChoices"></div>
+          </div>
+        </section>
+
+        <section class="overlay modal-overlay" id="resultPanel" aria-labelledby="resultTitle" hidden>
+          <div class="panel result-panel">
+            <span class="eyebrow"><span></span><span id="resultCaption"></span></span>
+            <h2 id="resultTitle"></h2>
+            <dl class="results">
+              <div><dt>Время</dt><dd id="resultTime"></dd></div>
+              <div><dt>Сбито</dt><dd id="resultKills"></dd></div>
+            </dl>
+            <p id="resultUpgrades"></p>
+            <button class="action primary" id="restartButton" type="button">Новая партия <span aria-hidden="true">→</span></button>
+          </div>
+        </section>
+        <div class="notice" id="notice" role="status" hidden></div>
+      </div>
+
+      <footer class="controls">
+        <div class="field-hint">
+          <span class="desktop-hint"><span class="hint-mark" aria-hidden="true"></span> WASD / стрелки <span class="hint-detail">· манёвр</span></span>
+          <span class="touch-hint"><span class="stick-icon" aria-hidden="true"></span> Ведите пальцем по полю</span>
+        </div>
+        <div class="audio">
+          <button id="muteButton" class="mute" type="button" aria-pressed="true">
+            <span class="speaker" aria-hidden="true"></span><span id="muteLabel">Звук вкл.</span>
+          </button>
+          <label for="volume">Громкость</label>
+          <input id="volume" type="range" min="0" max="100" value="55">
+        </div>
+      </footer>
+    </section>
+  </main>
+</body>
+</html>

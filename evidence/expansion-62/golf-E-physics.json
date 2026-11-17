@@ -1,0 +1,65 @@
+{
+  "checks": [
+    {
+      "name": "fast pass",
+      "pass": true,
+      "samples": 65,
+      "bounced": true,
+      "fastCrossing": true,
+      "phase": "aim",
+      "final": {
+        "x": 491.0584243633801,
+        "y": 287.6221191175106,
+        "vx": 0,
+        "vy": 0,
+        "radius": 11
+      }
+    },
+    {
+      "name": "rock",
+      "pass": true,
+      "samples": 54,
+      "bounced": true,
+      "fastCrossing": false,
+      "phase": "aim",
+      "final": {
+        "x": 95.0784324872431,
+        "y": 462.8046512794091,
+        "vx": 0,
+        "vy": 0,
+        "radius": 11
+      }
+    },
+    {
+      "name": "left wall",
+      "pass": true,
+      "samples": 59,
+      "bounced": true,
+      "fastCrossing": false,
+      "phase": "aim",
+      "final": {
+        "x": 542.5206549999997,
+        "y": 523,
+        "vx": 0,
+        "vy": 0,
+        "radius": 11
+      }
+    },
+    {
+      "name": "right wall",
+      "pass": true,
+      "samples": 62,
+      "bounced": true,
+      "fastCrossing": false,
+      "phase": "aim",
+      "final": {
+        "x": 186.08999999999975,
+        "y": 523,
+        "vx": 0,
+        "vy": 0,
+        "radius": 11
+      }
+    }
+  ],
+  "method": "Real-time mouse shots, sampled read-only state; no cheats"
+}

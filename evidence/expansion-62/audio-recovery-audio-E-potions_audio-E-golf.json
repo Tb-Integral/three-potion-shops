@@ -1,0 +1,20 @@
+[
+  {
+    "entry": "audio/E/potions",
+    "actualSuspension": true,
+    "rejectionObserved": true,
+    "recoveredByNextGesture": true,
+    "recoveredInSameGesture": false,
+    "attempts": 2,
+    "errors": []
+  },
+  {
+    "entry": "audio/E/golf",
+    "actualSuspension": true,
+    "rejectionObserved": true,
+    "recoveredByNextGesture": true,
+    "recoveredInSameGesture": false,
+    "attempts": 2,
+    "errors": []
+  }
+]

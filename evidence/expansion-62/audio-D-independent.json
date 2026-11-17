@@ -1,0 +1,163 @@
+{
+  "variant": "D",
+  "checks": [
+    {
+      "name": "potions lazy audio",
+      "pass": true
+    },
+    {
+      "name": "potions real signal",
+      "pass": true,
+      "detail": {
+        "probe": {
+          "peakRms": 0.01916111999423494,
+          "samples": 47,
+          "contexts": 1,
+          "contextStates": [
+            "running"
+          ],
+          "events": [
+            {
+              "type": "context"
+            },
+            {
+              "type": "start",
+              "at": 0,
+              "scheduled": 0
+            },
+            {
+              "type": "start",
+              "at": 0,
+              "scheduled": 0.036
+            }
+          ]
+        },
+        "state": {
+          "enabled": true,
+          "volume": 0.45,
+          "contextState": "running",
+          "activeVoices": 0
+        },
+        "focus": {
+          "focus": true,
+          "hidden": false,
+          "activation": true
+        }
+      }
+    },
+    {
+      "name": "potions touch mute after gameplay",
+      "pass": true
+    },
+    {
+      "name": "potions mute silent",
+      "pass": true
+    },
+    {
+      "name": "potions no active voices after mute",
+      "pass": true
+    },
+    {
+      "name": "potions zero silent",
+      "pass": true
+    },
+    {
+      "name": "potions preferences restored",
+      "pass": true
+    },
+    {
+      "name": "potions reload does not play old effects",
+      "pass": true
+    },
+    {
+      "name": "potions iframe no horizontal overflow 360",
+      "pass": true
+    },
+    {
+      "name": "potions iframe no horizontal overflow 390",
+      "pass": true
+    },
+    {
+      "name": "golf lazy audio",
+      "pass": true
+    },
+    {
+      "name": "golf real signal",
+      "pass": true,
+      "detail": {
+        "probe": {
+          "peakRms": 0.031937464867445337,
+          "samples": 66,
+          "contexts": 1,
+          "contextStates": [
+            "running"
+          ],
+          "events": [
+            {
+              "type": "context"
+            },
+            {
+              "type": "start",
+              "at": 0.25066666666666665,
+              "scheduled": 0.25066666666666665
+            },
+            {
+              "type": "start",
+              "at": 0.25066666666666665,
+              "scheduled": 0.25466666666666665
+            }
+          ]
+        },
+        "state": {
+          "enabled": true,
+          "volume": 0.45,
+          "contextState": "running",
+          "activeVoices": 0
+        },
+        "focus": {
+          "focus": true,
+          "hidden": false,
+          "activation": true
+        }
+      }
+    },
+    {
+      "name": "golf touch mute after gameplay",
+      "pass": true
+    },
+    {
+      "name": "golf mute silent",
+      "pass": true
+    },
+    {
+      "name": "golf no active voices after mute",
+      "pass": true
+    },
+    {
+      "name": "golf zero silent",
+      "pass": true
+    },
+    {
+      "name": "golf preferences restored",
+      "pass": true
+    },
+    {
+      "name": "golf reload does not play old effects",
+      "pass": true
+    },
+    {
+      "name": "golf iframe no horizontal overflow 360",
+      "pass": true
+    },
+    {
+      "name": "golf iframe no horizontal overflow 390",
+      "pass": true
+    },
+    {
+      "name": "no script errors",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "method": "Audio signal analyser + real mouse/touch UI; mobile iframe emulation. No human listening."
+}

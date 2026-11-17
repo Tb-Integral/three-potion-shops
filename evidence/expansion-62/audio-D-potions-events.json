@@ -1,0 +1,33 @@
+{
+  "variant": "D",
+  "method": "Real audio analyser at destination, ordinary UI actions; no human listening.",
+  "events": [
+    {
+      "name": "purchase",
+      "peakRms": 0.01916111999423494,
+      "voicesStarted": 2
+    },
+    {
+      "name": "brew",
+      "peakRms": 0.03587045579417249,
+      "voicesStarted": 3
+    },
+    {
+      "name": "sale",
+      "peakRms": 0.032070049358543094,
+      "voicesStarted": 2
+    },
+    {
+      "name": "next day",
+      "peakRms": 0.03644268891786822,
+      "voicesStarted": 2
+    },
+    {
+      "name": "party result",
+      "peakRms": 0.03704540243370425,
+      "voicesStarted": 4
+    }
+  ],
+  "errors": [],
+  "noReplayOnReload": true
+}

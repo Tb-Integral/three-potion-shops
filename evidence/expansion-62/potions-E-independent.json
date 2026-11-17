@@ -1,0 +1,199 @@
+{
+  "method": "Independent evaluator. UI clicks/taps; read saved event journal; only corrupt-save scenarios change storage directly.",
+  "checks": [
+    {
+      "name": "initial potion sale",
+      "pass": true
+    },
+    {
+      "name": "sale and visitor restored",
+      "pass": true
+    },
+    {
+      "name": "midgame restart",
+      "pass": true
+    },
+    {
+      "name": "nonnegative cash day 1 order 1",
+      "pass": true
+    },
+    {
+      "name": "nonnegative cash day 1 order 2",
+      "pass": true
+    },
+    {
+      "name": "nonnegative cash day 1 order 3",
+      "pass": true
+    },
+    {
+      "name": "nonnegative cash day 1 order 4",
+      "pass": true
+    },
+    {
+      "name": "nonnegative cash day 2 order 1",
+      "pass": true
+    },
+    {
+      "name": "nonnegative cash day 2 order 2",
+      "pass": true
+    },
+    {
+      "name": "nonnegative cash day 2 order 3",
+      "pass": true
+    },
+    {
+      "name": "nonnegative cash day 2 order 4",
+      "pass": true
+    },
+    {
+      "name": "nonnegative cash day 3 order 1",
+      "pass": true
+    },
+    {
+      "name": "nonnegative cash day 3 order 2",
+      "pass": true
+    },
+    {
+      "name": "nonnegative cash day 3 order 3",
+      "pass": true
+    },
+    {
+      "name": "nonnegative cash day 3 order 4",
+      "pass": true
+    },
+    {
+      "name": "nonnegative cash day 4 order 1",
+      "pass": true
+    },
+    {
+      "name": "nonnegative cash day 4 order 2",
+      "pass": true
+    },
+    {
+      "name": "nonnegative cash day 4 order 3",
+      "pass": true
+    },
+    {
+      "name": "nonnegative cash day 4 order 4",
+      "pass": true
+    },
+    {
+      "name": "nonnegative cash day 5 order 1",
+      "pass": true
+    },
+    {
+      "name": "nonnegative cash day 5 order 2",
+      "pass": true
+    },
+    {
+      "name": "nonnegative cash day 5 order 3",
+      "pass": true
+    },
+    {
+      "name": "nonnegative cash day 5 order 4",
+      "pass": true
+    },
+    {
+      "name": "goal reached",
+      "pass": true
+    },
+    {
+      "name": "real sale and brew counts",
+      "pass": true
+    },
+    {
+      "name": "bookkeeping totals",
+      "pass": true
+    },
+    {
+      "name": "final reload",
+      "pass": true
+    },
+    {
+      "name": "final actions ignored",
+      "pass": true
+    },
+    {
+      "name": "final restart",
+      "pass": true
+    },
+    {
+      "name": "unavailable purchase controls present",
+      "pass": true
+    },
+    {
+      "name": "guarded purchases",
+      "pass": true
+    },
+    {
+      "name": "poor party completes",
+      "pass": true
+    },
+    {
+      "name": "invalid journal recovers {broken",
+      "pass": true
+    },
+    {
+      "name": "recovered game works",
+      "pass": true
+    },
+    {
+      "name": "invalid journal recovers {\"version\":1,\"events\":[[\"buy\",\"invalid\"]]}",
+      "pass": true
+    },
+    {
+      "name": "recovered game works",
+      "pass": true
+    },
+    {
+      "name": "invalid journal recovers {\"version\":1,\"events\":[[\"sell\",\"\"],[\"sell\",\"\"]]}",
+      "pass": true
+    },
+    {
+      "name": "recovered game works",
+      "pass": true
+    },
+    {
+      "name": "keyboard focus visible",
+      "pass": true
+    },
+    {
+      "name": "keyboard help",
+      "pass": true
+    },
+    {
+      "name": "escape returns focus",
+      "pass": true
+    },
+    {
+      "name": "denied sale works",
+      "pass": true
+    },
+    {
+      "name": "denied buy brew sell works",
+      "pass": true
+    },
+    {
+      "name": "quota sale works",
+      "pass": true
+    },
+    {
+      "name": "quota buy brew sell works",
+      "pass": true
+    },
+    {
+      "name": "file sale works",
+      "pass": true
+    },
+    {
+      "name": "file buy brew sell works",
+      "pass": true
+    },
+    {
+      "name": "no script errors",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "ledger": "Продано зелий\n15 из 20\nПропущено заказов\n5\nСварено зелий\n14\nВыручка\n264 мон.\nПотрачено на рынке\n122 мон."
+}

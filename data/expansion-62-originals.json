@@ -1,0 +1,170 @@
+[
+  {
+    "roundId": "potions",
+    "variant": "D",
+    "sourceFile": "index.html",
+    "publicPath": "games/D/index.html",
+    "sha256": "bcfd7bbf0731e6363a1a068db501b7406f4f4fb832a173ed5ae9c7ceb3b28b87"
+  },
+  {
+    "roundId": "potions",
+    "variant": "D",
+    "sourceFile": "style.css",
+    "publicPath": "games/D/style.css",
+    "sha256": "4b69a62b458ecd84825cc8e905cb62d985edf4cb9c3cdc42e2dd87904a27b5e3"
+  },
+  {
+    "roundId": "potions",
+    "variant": "D",
+    "sourceFile": "game.js",
+    "publicPath": "games/D/game.js",
+    "sha256": "be02a26d2ebda068f63feef1ef55829600ee783bdf1769432e5d099e0cca2cd3"
+  },
+  {
+    "roundId": "potions",
+    "variant": "D",
+    "sourceFile": "art.js",
+    "publicPath": "games/D/art.js",
+    "sha256": "4a2ca6772a1d142dc39721fb2fd9f961c14d959f17f39f34b7a6fdf68148da07"
+  },
+  {
+    "roundId": "golf",
+    "variant": "D",
+    "sourceFile": "index.html",
+    "publicPath": "games/golf/D/index.html",
+    "sha256": "edd5ea06d84ca6ff6109bcf86127d8d61f8a1df9343afa1501813e601fb8833f"
+  },
+  {
+    "roundId": "golf",
+    "variant": "D",
+    "sourceFile": "style.css",
+    "publicPath": "games/golf/D/style.css",
+    "sha256": "37e2fc26ebc8eeaa19f89b359ca4b214b44e5b915caa001f68a4f9f4ba79786c"
+  },
+  {
+    "roundId": "golf",
+    "variant": "D",
+    "sourceFile": "game.js",
+    "publicPath": "games/golf/D/game.js",
+    "sha256": "4480077e9de5a82e75906d4c51772e247e0c24ca49432703f88bb8fe163f341b"
+  },
+  {
+    "roundId": "potions",
+    "variant": "E",
+    "sourceFile": "index.html",
+    "publicPath": "games/E/index.html",
+    "sha256": "c91c4c24b19fa80721977563dc8215edd8edc55cdc3e771b6f95c4e561f62f98"
+  },
+  {
+    "roundId": "potions",
+    "variant": "E",
+    "sourceFile": "style.css",
+    "publicPath": "games/E/style.css",
+    "sha256": "035470098df9aec94031d3f960be4a2c4ce54e41733280bfdbac31c4275ecd5f"
+  },
+  {
+    "roundId": "potions",
+    "variant": "E",
+    "sourceFile": "game.js",
+    "publicPath": "games/E/game.js",
+    "sha256": "8db78a33c34caa7b5b97bf8973427adf6551d0443e239c3485904edcba89340c"
+  },
+  {
+    "roundId": "potions",
+    "variant": "E",
+    "sourceFile": "art.js",
+    "publicPath": "games/E/art.js",
+    "sha256": "47c7f5d8e03e41c6b2a6c0e57e004a1f631226d24b4a357f355b078fe8d716ed"
+  },
+  {
+    "roundId": "golf",
+    "variant": "E",
+    "sourceFile": "index.html",
+    "publicPath": "games/golf/E/index.html",
+    "sha256": "cba9105f8174afb2c313f20deab3939653f06830819eb4ff461f7bb4a0d8bb04"
+  },
+  {
+    "roundId": "golf",
+    "variant": "E",
+    "sourceFile": "style.css",
+    "publicPath": "games/golf/E/style.css",
+    "sha256": "4baf7434ca34682265229d3d5f4b02905fb12826c689b6ab7cc20906a4f38ab6"
+  },
+  {
+    "roundId": "golf",
+    "variant": "E",
+    "sourceFile": "golf.js",
+    "publicPath": "games/golf/E/golf.js",
+    "sha256": "7648b41ef1cd3120b7fdb502c5400c66a8c7945360d07ad12268b752d00fd77e"
+  },
+  {
+    "roundId": "arena",
+    "variant": "D",
+    "sourceFile": "index.html",
+    "publicPath": "games/arena/D/index.html",
+    "sha256": "c53ef3cc4656173e896543d8ae3279d606b2fc513d2b21c3b075731bd50ba578"
+  },
+  {
+    "roundId": "arena",
+    "variant": "D",
+    "sourceFile": "style.css",
+    "publicPath": "games/arena/D/style.css",
+    "sha256": "16ca8c78d8d74df8b862ff5dd19e5ca203fbfd20c4a858bb4ee0df730630b4d7"
+  },
+  {
+    "roundId": "arena",
+    "variant": "D",
+    "sourceFile": "game.js",
+    "publicPath": "games/arena/D/game.js",
+    "sha256": "aea3f9f4fe3ce6e2ed1d24414e1ac5880949074847b52cf62a178519fbdee8a6"
+  },
+  {
+    "roundId": "arena",
+    "variant": "D",
+    "sourceFile": "art.js",
+    "publicPath": "games/arena/D/art.js",
+    "sha256": "36db71d611d1f90b5d4bcbc9bd3fb384fef87bf19b61ffd399081d63f693054d"
+  },
+  {
+    "roundId": "arena",
+    "variant": "D",
+    "sourceFile": "audio.js",
+    "publicPath": "games/arena/D/audio.js",
+    "sha256": "02a5a2c24e76154ea2b4826f513bd48ef869da90f8e81903117d129149b66957"
+  },
+  {
+    "roundId": "arena",
+    "variant": "E",
+    "sourceFile": "index.html",
+    "publicPath": "games/arena/E/index.html",
+    "sha256": "fc5bb5342ed3d0172549074eca2aae229d8e6b340666093f00ef99ee9df61159"
+  },
+  {
+    "roundId": "arena",
+    "variant": "E",
+    "sourceFile": "arena.css",
+    "publicPath": "games/arena/E/arena.css",
+    "sha256": "0ebc0025d30f311d87a6f0ce8dff88f9f645b95fdc6b6d61dc12c0805652c204"
+  },
+  {
+    "roundId": "arena",
+    "variant": "E",
+    "sourceFile": "arena.js",
+    "publicPath": "games/arena/E/arena.js",
+    "sha256": "51d88e9e728a848493d06b8db86b6b8fc73ecff477c4080ac529eb030276d35d"
+  },
+  {
+    "roundId": "arena",
+    "variant": "E",
+    "sourceFile": "render.js",
+    "publicPath": "games/arena/E/render.js",
+    "sha256": "fa6f26c8652f291e3976be188ce0be171ea1ee0b8d4ade1073272ce0ea4a2e92"
+  },
+  {
+    "roundId": "arena",
+    "variant": "E",
+    "sourceFile": "audio.js",
+    "publicPath": "games/arena/E/audio.js",
+    "sha256": "870d969f91824e58dfb9a6082e801209a9532989e6e196aac0a867d614795f87"
+  }
+]

@@ -1,0 +1,202 @@
+{
+  "method": "Independent evaluator; ordinary UI actions; storage read-only except dedicated corruption scenarios.",
+  "checks": [
+    {
+      "name": "brewed potion survives reload",
+      "pass": true
+    },
+    {
+      "name": "visitor and sale survive reload",
+      "pass": true
+    },
+    {
+      "name": "mid-game reset",
+      "pass": true
+    },
+    {
+      "name": "nonnegative resources day 1 guest 1",
+      "pass": true
+    },
+    {
+      "name": "nonnegative resources day 1 guest 2",
+      "pass": true
+    },
+    {
+      "name": "nonnegative resources day 1 guest 3",
+      "pass": true
+    },
+    {
+      "name": "nonnegative resources day 2 guest 1",
+      "pass": true
+    },
+    {
+      "name": "nonnegative resources day 2 guest 2",
+      "pass": true
+    },
+    {
+      "name": "nonnegative resources day 2 guest 3",
+      "pass": true
+    },
+    {
+      "name": "nonnegative resources day 3 guest 1",
+      "pass": true
+    },
+    {
+      "name": "nonnegative resources day 3 guest 2",
+      "pass": true
+    },
+    {
+      "name": "nonnegative resources day 3 guest 3",
+      "pass": true
+    },
+    {
+      "name": "nonnegative resources day 4 guest 1",
+      "pass": true
+    },
+    {
+      "name": "nonnegative resources day 4 guest 2",
+      "pass": true
+    },
+    {
+      "name": "nonnegative resources day 4 guest 3",
+      "pass": true
+    },
+    {
+      "name": "nonnegative resources day 5 guest 1",
+      "pass": true
+    },
+    {
+      "name": "nonnegative resources day 5 guest 2",
+      "pass": true
+    },
+    {
+      "name": "nonnegative resources day 5 guest 3",
+      "pass": true
+    },
+    {
+      "name": "five days finish with real economics",
+      "pass": true
+    },
+    {
+      "name": "final survives reload",
+      "pass": true
+    },
+    {
+      "name": "final rejects further actions",
+      "pass": true
+    },
+    {
+      "name": "new party resets inventories",
+      "pass": true
+    },
+    {
+      "name": "unavailable controls present",
+      "pass": true
+    },
+    {
+      "name": "disabled transactions preserve balances",
+      "pass": true
+    },
+    {
+      "name": "unprofitable party can finish",
+      "pass": true
+    },
+    {
+      "name": "corrupt save recovers {broken",
+      "pass": true
+    },
+    {
+      "name": "corrupt save recovers {\"v\":1,\"day\":0}",
+      "pass": true
+    },
+    {
+      "name": "corrupt save recovers null",
+      "pass": true
+    },
+    {
+      "name": "visible keyboard focus",
+      "pass": true
+    },
+    {
+      "name": "keyboard opens help",
+      "pass": true
+    },
+    {
+      "name": "escape closes help",
+      "pass": true
+    },
+    {
+      "name": "denied buy brew sell",
+      "pass": true
+    },
+    {
+      "name": "denied no overflow",
+      "pass": true
+    },
+    {
+      "name": "file buy brew sell",
+      "pass": true
+    },
+    {
+      "name": "file no overflow",
+      "pass": true
+    },
+    {
+      "name": "mobile390 buy brew sell",
+      "pass": true
+    },
+    {
+      "name": "mobile390 no overflow",
+      "pass": true
+    },
+    {
+      "name": "mobile360 buy brew sell",
+      "pass": true
+    },
+    {
+      "name": "mobile360 no overflow",
+      "pass": true
+    },
+    {
+      "name": "no script errors",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "final": {
+    "v": 1,
+    "day": 4,
+    "pos": 3,
+    "cash": 147,
+    "herbs": [
+      0,
+      0,
+      0
+    ],
+    "potions": [
+      0,
+      0,
+      0
+    ],
+    "market": [
+      1,
+      2,
+      3
+    ],
+    "selected": 0,
+    "spent": 120,
+    "revenue": 249,
+    "brewed": [
+      5,
+      5,
+      5
+    ],
+    "sold": [
+      5,
+      5,
+      5
+    ],
+    "missed": 0,
+    "finished": true
+  }
+}
