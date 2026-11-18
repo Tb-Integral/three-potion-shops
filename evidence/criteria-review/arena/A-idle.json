@@ -1,0 +1,278 @@
+{
+  "variant": "A",
+  "mode": "idle",
+  "method": "Edge 1440×900, real-time simulation, browser input only.",
+  "requests": [
+    "/A/",
+    "/A/style.css",
+    "/A/game.js"
+  ],
+  "errors": [],
+  "samples": [
+    {
+      "phase": "playing",
+      "t": 0.01,
+      "hp": 5,
+      "max": 5,
+      "kills": 0,
+      "xy": [
+        480,
+        351
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 0,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 5.04,
+      "hp": 5,
+      "max": 5,
+      "kills": 0,
+      "xy": [
+        480,
+        351
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 7,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 10.049,
+      "hp": 5,
+      "max": 5,
+      "kills": 5,
+      "xy": [
+        480,
+        351
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 9,
+      "shots": 2
+    },
+    {
+      "phase": "playing",
+      "t": 15.169,
+      "hp": 5,
+      "max": 5,
+      "kills": 13,
+      "xy": [
+        480,
+        351
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 8,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 20.199,
+      "hp": 5,
+      "max": 5,
+      "kills": 18,
+      "xy": [
+        480,
+        351
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 11,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 25.329,
+      "hp": 5,
+      "max": 5,
+      "kills": 23,
+      "xy": [
+        480,
+        351
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 14,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 30.415,
+      "hp": 4,
+      "max": 5,
+      "kills": 27,
+      "xy": [
+        480,
+        351
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        "Жаркое пламя"
+      ],
+      "enemies": 19,
+      "shots": 1
+    }
+  ],
+  "checks": {
+    "start": {
+      "phase": "playing",
+      "t": 0.01,
+      "hp": 5,
+      "max": 5,
+      "kills": 0,
+      "xy": [
+        480,
+        351
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 0,
+      "shots": 0
+    },
+    "finalFrozen": true,
+    "restart": {
+      "phase": "playing",
+      "t": 0,
+      "hp": 5,
+      "max": 5,
+      "kills": 0,
+      "xy": [
+        480,
+        351
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 0,
+      "shots": 0
+    }
+  },
+  "choices": [
+    {
+      "t": 30,
+      "same": true,
+      "selected": "✦\nЖаркое пламя\n+1 к урону каждого выстрела.\nТени тают быстрее.",
+      "after": {
+        "phase": "playing",
+        "t": 30,
+        "hp": 4,
+        "max": 5,
+        "kills": 27,
+        "xy": [
+          480,
+          351
+        ],
+        "velocity": [
+          0,
+          0
+        ],
+        "input": {
+          "x": 0,
+          "y": 0
+        },
+        "upgrades": [
+          "Жаркое пламя"
+        ],
+        "enemies": 18,
+        "shots": 0
+      }
+    }
+  ],
+  "types": [
+    "shade",
+    "dart",
+    "shell"
+  ],
+  "final": {
+    "phase": "lost",
+    "t": 34.864,
+    "hp": 0,
+    "max": 5,
+    "kills": 32,
+    "xy": [
+      480,
+      351
+    ],
+    "velocity": [
+      0,
+      0
+    ],
+    "input": {
+      "x": 0,
+      "y": 0
+    },
+    "upgrades": [
+      "Жаркое пламя"
+    ],
+    "enemies": 22,
+    "shots": 1
+  },
+  "visibleResult": "✦\nПОСЛЕДНИЙ СВЕТ\nДОЖИТЬ ДО РАССВЕТА\nЗвук: вкл.\nГромкость\nОГОНЬ ФОНАРЯ\n○○○○○\n0:56\nдо рассвета\nⅡ\nЖаркое пламя · усиление получено\nВАХТА ОКОНЧЕНА\n✧\nОгонь погас\n\nТени добрались до фонаря.\nСледующий круг может стать удачным.\n\n34 с\nвыживание\n32\nтеней рассеяно\nЖаркое пламя\nНовая партия\n\nДвигайся широкими кругами. Не зажимайся в углу.\n\nСВЕТ ОТГОНЯЕТ ТЬМУ. ДВИЖЕНИЕ СПАСАЕТ.\n32 теней рассеяно",
+  "wallSeconds": 37
+}

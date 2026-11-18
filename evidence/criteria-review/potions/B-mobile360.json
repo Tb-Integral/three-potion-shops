@@ -1,0 +1,367 @@
+{
+ "viewport": [
+  360,
+  800
+ ],
+ "actions": {
+  "buys": [
+   {
+    "item": "herb",
+    "price": 2,
+    "before": 15,
+    "after": 13,
+    "stockBefore": [
+     2,
+     1,
+     1
+    ],
+    "stockAfter": [
+     3,
+     1,
+     1
+    ]
+   }
+  ],
+  "brews": [
+   {
+    "recipe": "heal",
+    "choices": 3,
+    "before": [
+     3,
+     1,
+     1
+    ],
+    "after": [
+     2,
+     0,
+     1
+    ]
+   }
+  ],
+  "sales": [
+   {
+    "recipe": "heal",
+    "price": 10,
+    "before": 13,
+    "after": 23,
+    "stockBefore": 1,
+    "stockAfter": 0
+   }
+  ]
+ },
+ "layout": [
+  {
+   "stage": "первый экран",
+   "window": 360,
+   "docWidth": 360,
+   "bodyWidth": 360,
+   "clippedButtons": [],
+   "buttons": [
+    {
+     "label": "Звук: вкл",
+     "size": [
+      64,
+      28
+     ],
+     "font": "12px"
+    },
+    {
+     "label": "Продать за 10 ◈",
+     "size": [
+      175,
+      46
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Отпустить гостя",
+     "size": [
+      175,
+      46
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Купить",
+     "size": [
+      95,
+      44
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Купить",
+     "size": [
+      95,
+      44
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Купить",
+     "size": [
+      95,
+      44
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Сварить",
+     "size": [
+      95,
+      44
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Сварить",
+     "size": [
+      95,
+      44
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Сварить",
+     "size": [
+      95,
+      44
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Закончить день",
+     "size": [
+      160,
+      69
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Новая игра",
+     "size": [
+      160,
+      69
+     ],
+     "font": "16px"
+    }
+   ]
+  },
+  {
+   "stage": "после покупки",
+   "window": 360,
+   "docWidth": 360,
+   "bodyWidth": 360,
+   "clippedButtons": [],
+   "buttons": [
+    {
+     "label": "Звук: вкл",
+     "size": [
+      64,
+      28
+     ],
+     "font": "12px"
+    },
+    {
+     "label": "Продать за 10 ◈",
+     "size": [
+      175,
+      46
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Отпустить гостя",
+     "size": [
+      175,
+      46
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Купить",
+     "size": [
+      95,
+      44
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Купить",
+     "size": [
+      95,
+      44
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Купить",
+     "size": [
+      95,
+      44
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Сварить",
+     "size": [
+      95,
+      44
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Сварить",
+     "size": [
+      95,
+      44
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Сварить",
+     "size": [
+      95,
+      44
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Закончить день",
+     "size": [
+      160,
+      69
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Новая игра",
+     "size": [
+      160,
+      69
+     ],
+     "font": "16px"
+    }
+   ]
+  },
+  {
+   "stage": "после продажи",
+   "window": 360,
+   "docWidth": 360,
+   "bodyWidth": 360,
+   "clippedButtons": [],
+   "buttons": [
+    {
+     "label": "Звук: вкл",
+     "size": [
+      64,
+      28
+     ],
+     "font": "12px"
+    },
+    {
+     "label": "Продать за 9 ◈",
+     "size": [
+      175,
+      46
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Отпустить гостя",
+     "size": [
+      175,
+      46
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Купить",
+     "size": [
+      95,
+      44
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Купить",
+     "size": [
+      95,
+      44
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Купить",
+     "size": [
+      95,
+      44
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Сварить",
+     "size": [
+      95,
+      44
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Сварить",
+     "size": [
+      95,
+      44
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Сварить",
+     "size": [
+      95,
+      44
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Закончить день",
+     "size": [
+      160,
+      69
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Новая игра",
+     "size": [
+      160,
+      69
+     ],
+     "font": "16px"
+    }
+   ]
+  }
+ ],
+ "frame": {
+  "x": 0,
+  "y": 96,
+  "width": 360,
+  "height": 704
+ },
+ "after": {
+  "cash": 23,
+  "ing": [
+   2,
+   0,
+   1
+  ],
+  "pots": [
+   0,
+   0,
+   0
+  ],
+  "guest": "Травник",
+  "day": 1
+ },
+ "complete": true
+}

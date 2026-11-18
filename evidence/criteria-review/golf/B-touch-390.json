@@ -1,0 +1,251 @@
+{
+  "width": 390,
+  "height": 844,
+  "iframeTop": 96,
+  "layout": {
+    "viewport": [
+      390,
+      748
+    ],
+    "scroll": [
+      0,
+      0
+    ],
+    "scrollSize": [
+      390,
+      748
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "id": "reset",
+        "text": "↺ Заново",
+        "rect": {
+          "x": 287.328125,
+          "y": 16,
+          "w": 88.671875,
+          "h": 40,
+          "right": 376,
+          "bottom": 56
+        },
+        "font": "12px"
+      },
+      {
+        "tag": "BUTTON",
+        "id": "audio-toggle",
+        "text": "Звук: вкл",
+        "rect": {
+          "x": 14,
+          "y": 68,
+          "w": 64.046875,
+          "h": 28,
+          "right": 78.046875,
+          "bottom": 96
+        },
+        "font": "12px"
+      },
+      {
+        "tag": "INPUT",
+        "id": "audio-volume",
+        "text": "",
+        "rect": {
+          "x": 149.28125,
+          "y": 74,
+          "w": 70,
+          "h": 16,
+          "right": 219.28125,
+          "bottom": 90
+        },
+        "font": "13.3333px"
+      },
+      {
+        "tag": "CANVAS",
+        "id": "",
+        "text": "",
+        "rect": {
+          "x": 14,
+          "y": 163.609375,
+          "w": 362,
+          "h": 502.765625,
+          "right": 376,
+          "bottom": 666.375
+        },
+        "font": "16px"
+      }
+    ]
+  },
+  "outer": {
+    "viewport": [
+      390,
+      844
+    ],
+    "scroll": [
+      0,
+      0
+    ],
+    "scrollSize": [
+      390,
+      844
+    ],
+    "controls": []
+  },
+  "start": {
+    "holeIndex": 0,
+    "phase": "aim",
+    "strokes": [
+      0,
+      0,
+      0
+    ],
+    "ball": {
+      "x": 360,
+      "y": 820,
+      "vx": 0,
+      "vy": 0,
+      "radius": 15
+    },
+    "cup": {
+      "x": 360,
+      "y": 180,
+      "radius": 23
+    },
+    "course": {
+      "width": 720,
+      "height": 1000
+    },
+    "dragging": false,
+    "obstacles": []
+  },
+  "cancel": {
+    "x": 195,
+    "y": 671.8771875,
+    "aiming": {
+      "holeIndex": 0,
+      "phase": "aim",
+      "strokes": [
+        0,
+        0,
+        0
+      ],
+      "ball": {
+        "x": 360,
+        "y": 820,
+        "vx": 0,
+        "vy": 0,
+        "radius": 15
+      },
+      "cup": {
+        "x": 360,
+        "y": 180,
+        "radius": 23
+      },
+      "course": {
+        "width": 720,
+        "height": 1000
+      },
+      "dragging": true,
+      "obstacles": []
+    },
+    "after": {
+      "holeIndex": 0,
+      "phase": "aim",
+      "strokes": [
+        0,
+        0,
+        0
+      ],
+      "ball": {
+        "x": 360,
+        "y": 820,
+        "vx": 0,
+        "vy": 0,
+        "radius": 15
+      },
+      "cup": {
+        "x": 360,
+        "y": 180,
+        "radius": 23
+      },
+      "course": {
+        "width": 720,
+        "height": 1000
+      },
+      "dragging": false,
+      "obstacles": []
+    },
+    "scroll": [
+      0,
+      0
+    ],
+    "outerScroll": [
+      0,
+      0
+    ]
+  },
+  "hit": {
+    "x": 195,
+    "y": 671.8771875,
+    "aiming": {
+      "holeIndex": 0,
+      "phase": "aim",
+      "strokes": [
+        0,
+        0,
+        0
+      ],
+      "ball": {
+        "x": 360,
+        "y": 820,
+        "vx": 0,
+        "vy": 0,
+        "radius": 15
+      },
+      "cup": {
+        "x": 360,
+        "y": 180,
+        "radius": 23
+      },
+      "course": {
+        "width": 720,
+        "height": 1000
+      },
+      "dragging": true,
+      "obstacles": []
+    },
+    "after": {
+      "holeIndex": 0,
+      "phase": "moving",
+      "strokes": [
+        1,
+        0,
+        0
+      ],
+      "ball": {
+        "x": 350.7462692985279,
+        "y": 805.3884883257944,
+        "vx": -215.23320511482422,
+        "vy": -339.8502280503655,
+        "radius": 15
+      },
+      "cup": {
+        "x": 360,
+        "y": 180,
+        "radius": 23
+      },
+      "course": {
+        "width": 720,
+        "height": 1000
+      },
+      "dragging": false,
+      "obstacles": []
+    },
+    "scroll": [
+      0,
+      0
+    ],
+    "outerScroll": [
+      0,
+      0
+    ]
+  }
+}

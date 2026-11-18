@@ -1,0 +1,1572 @@
+{
+ "variant": "C",
+ "viewport": "1440×900",
+ "days": [
+  {
+   "buys": [
+    {
+     "item": "mint",
+     "price": 2,
+     "before": 15,
+     "after": 13,
+     "stockBefore": [
+      1,
+      1,
+      0,
+      1
+     ],
+     "stockAfter": [
+      2,
+      1,
+      0,
+      1
+     ]
+    },
+    {
+     "item": "mint",
+     "price": 2,
+     "before": 13,
+     "after": 11,
+     "stockBefore": [
+      2,
+      1,
+      0,
+      1
+     ],
+     "stockAfter": [
+      3,
+      1,
+      0,
+      1
+     ]
+    },
+    {
+     "item": "cap",
+     "price": 4,
+     "before": 20,
+     "after": 16,
+     "stockBefore": [
+      2,
+      0,
+      0,
+      1
+     ],
+     "stockAfter": [
+      2,
+      0,
+      1,
+      1
+     ]
+    },
+    {
+     "item": "honey",
+     "price": 3,
+     "before": 28,
+     "after": 25,
+     "stockBefore": [
+      2,
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      2,
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "salt",
+     "price": 3,
+     "before": 25,
+     "after": 22,
+     "stockBefore": [
+      2,
+      1,
+      0,
+      0
+     ],
+     "stockAfter": [
+      2,
+      1,
+      0,
+      1
+     ]
+    }
+   ],
+   "brews": [
+    {
+     "recipe": "vigor",
+     "choices": 3,
+     "before": [
+      3,
+      1,
+      0,
+      1
+     ],
+     "after": [
+      2,
+      0,
+      0,
+      1
+     ]
+    },
+    {
+     "recipe": "sleep",
+     "choices": 3,
+     "before": [
+      2,
+      0,
+      1,
+      1
+     ],
+     "after": [
+      2,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "flame",
+     "choices": 3,
+     "before": [
+      2,
+      1,
+      0,
+      1
+     ],
+     "after": [
+      1,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "sales": [
+    {
+     "recipe": "vigor",
+     "price": 9,
+     "before": 11,
+     "after": 20,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "sleep",
+     "price": 12,
+     "before": 16,
+     "after": 28,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "flame",
+     "price": 14,
+     "before": 22,
+     "after": 36,
+     "stockBefore": 1,
+     "stockAfter": 0
+    }
+   ],
+   "day": 1,
+   "closingCash": 36
+  },
+  {
+   "buys": [
+    {
+     "item": "honey",
+     "price": 3,
+     "before": 36,
+     "after": 33,
+     "stockBefore": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "mint",
+     "price": 2,
+     "before": 41,
+     "after": 39,
+     "stockBefore": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "honey",
+     "price": 3,
+     "before": 39,
+     "after": 36,
+     "stockBefore": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "salt",
+     "price": 3,
+     "before": 36,
+     "after": 33,
+     "stockBefore": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      1,
+      0,
+      1
+     ]
+    },
+    {
+     "item": "cap",
+     "price": 4,
+     "before": 46,
+     "after": 42,
+     "stockBefore": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      0,
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "item": "salt",
+     "price": 3,
+     "before": 42,
+     "after": 39,
+     "stockBefore": [
+      0,
+      0,
+      1,
+      0
+     ],
+     "stockAfter": [
+      0,
+      0,
+      1,
+      1
+     ]
+    },
+    {
+     "item": "mint",
+     "price": 2,
+     "before": 52,
+     "after": 50,
+     "stockBefore": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "honey",
+     "price": 3,
+     "before": 50,
+     "after": 47,
+     "stockBefore": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      1,
+      0,
+      0
+     ]
+    }
+   ],
+   "brews": [
+    {
+     "recipe": "vigor",
+     "choices": 3,
+     "before": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "after": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "flame",
+     "choices": 3,
+     "before": [
+      1,
+      1,
+      0,
+      1
+     ],
+     "after": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "sleep",
+     "choices": 3,
+     "before": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "after": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "vigor",
+     "choices": 3,
+     "before": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "after": [
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "sales": [
+    {
+     "recipe": "vigor",
+     "price": 8,
+     "before": 33,
+     "after": 41,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "flame",
+     "price": 13,
+     "before": 33,
+     "after": 46,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "sleep",
+     "price": 13,
+     "before": 39,
+     "after": 52,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "vigor",
+     "price": 11,
+     "before": 47,
+     "after": 58,
+     "stockBefore": 1,
+     "stockAfter": 0
+    }
+   ],
+   "day": 2,
+   "closingCash": 58
+  },
+  {
+   "buys": [
+    {
+     "item": "mint",
+     "price": 2,
+     "before": 58,
+     "after": 56,
+     "stockBefore": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "honey",
+     "price": 3,
+     "before": 56,
+     "after": 53,
+     "stockBefore": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "salt",
+     "price": 3,
+     "before": 53,
+     "after": 50,
+     "stockBefore": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      1,
+      0,
+      1
+     ]
+    },
+    {
+     "item": "mint",
+     "price": 2,
+     "before": 66,
+     "after": 64,
+     "stockBefore": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "honey",
+     "price": 3,
+     "before": 64,
+     "after": 61,
+     "stockBefore": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "cap",
+     "price": 4,
+     "before": 71,
+     "after": 67,
+     "stockBefore": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      0,
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "item": "salt",
+     "price": 3,
+     "before": 67,
+     "after": 64,
+     "stockBefore": [
+      0,
+      0,
+      1,
+      0
+     ],
+     "stockAfter": [
+      0,
+      0,
+      1,
+      1
+     ]
+    },
+    {
+     "item": "mint",
+     "price": 2,
+     "before": 75,
+     "after": 73,
+     "stockBefore": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "honey",
+     "price": 3,
+     "before": 73,
+     "after": 70,
+     "stockBefore": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "salt",
+     "price": 3,
+     "before": 70,
+     "after": 67,
+     "stockBefore": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      1,
+      0,
+      1
+     ]
+    }
+   ],
+   "brews": [
+    {
+     "recipe": "flame",
+     "choices": 3,
+     "before": [
+      1,
+      1,
+      0,
+      1
+     ],
+     "after": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "vigor",
+     "choices": 3,
+     "before": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "after": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "sleep",
+     "choices": 3,
+     "before": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "after": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "flame",
+     "choices": 3,
+     "before": [
+      1,
+      1,
+      0,
+      1
+     ],
+     "after": [
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "sales": [
+    {
+     "recipe": "flame",
+     "price": 16,
+     "before": 50,
+     "after": 66,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "vigor",
+     "price": 10,
+     "before": 61,
+     "after": 71,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "sleep",
+     "price": 11,
+     "before": 64,
+     "after": 75,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "flame",
+     "price": 14,
+     "before": 67,
+     "after": 81,
+     "stockBefore": 1,
+     "stockAfter": 0
+    }
+   ],
+   "day": 3,
+   "closingCash": 81
+  },
+  {
+   "buys": [
+    {
+     "item": "cap",
+     "price": 4,
+     "before": 81,
+     "after": 77,
+     "stockBefore": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      0,
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "item": "salt",
+     "price": 3,
+     "before": 77,
+     "after": 74,
+     "stockBefore": [
+      0,
+      0,
+      1,
+      0
+     ],
+     "stockAfter": [
+      0,
+      0,
+      1,
+      1
+     ]
+    },
+    {
+     "item": "mint",
+     "price": 2,
+     "before": 88,
+     "after": 86,
+     "stockBefore": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "honey",
+     "price": 3,
+     "before": 86,
+     "after": 83,
+     "stockBefore": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "mint",
+     "price": 2,
+     "before": 94,
+     "after": 92,
+     "stockBefore": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "honey",
+     "price": 3,
+     "before": 92,
+     "after": 89,
+     "stockBefore": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "salt",
+     "price": 3,
+     "before": 89,
+     "after": 86,
+     "stockBefore": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      1,
+      0,
+      1
+     ]
+    },
+    {
+     "item": "cap",
+     "price": 4,
+     "before": 101,
+     "after": 97,
+     "stockBefore": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      0,
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "item": "salt",
+     "price": 3,
+     "before": 97,
+     "after": 94,
+     "stockBefore": [
+      0,
+      0,
+      1,
+      0
+     ],
+     "stockAfter": [
+      0,
+      0,
+      1,
+      1
+     ]
+    }
+   ],
+   "brews": [
+    {
+     "recipe": "sleep",
+     "choices": 3,
+     "before": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "after": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "vigor",
+     "choices": 3,
+     "before": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "after": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "flame",
+     "choices": 3,
+     "before": [
+      1,
+      1,
+      0,
+      1
+     ],
+     "after": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "sleep",
+     "choices": 3,
+     "before": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "after": [
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "sales": [
+    {
+     "recipe": "sleep",
+     "price": 14,
+     "before": 74,
+     "after": 88,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "vigor",
+     "price": 11,
+     "before": 83,
+     "after": 94,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "flame",
+     "price": 15,
+     "before": 86,
+     "after": 101,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "sleep",
+     "price": 12,
+     "before": 94,
+     "after": 106,
+     "stockBefore": 1,
+     "stockAfter": 0
+    }
+   ],
+   "day": 4,
+   "closingCash": 106
+  },
+  {
+   "buys": [
+    {
+     "item": "mint",
+     "price": 2,
+     "before": 106,
+     "after": 104,
+     "stockBefore": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "honey",
+     "price": 3,
+     "before": 104,
+     "after": 101,
+     "stockBefore": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "salt",
+     "price": 3,
+     "before": 101,
+     "after": 98,
+     "stockBefore": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      1,
+      0,
+      1
+     ]
+    },
+    {
+     "item": "mint",
+     "price": 2,
+     "before": 113,
+     "after": 111,
+     "stockBefore": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "honey",
+     "price": 3,
+     "before": 111,
+     "after": 108,
+     "stockBefore": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "cap",
+     "price": 4,
+     "before": 118,
+     "after": 114,
+     "stockBefore": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      0,
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "item": "salt",
+     "price": 3,
+     "before": 114,
+     "after": 111,
+     "stockBefore": [
+      0,
+      0,
+      1,
+      0
+     ],
+     "stockAfter": [
+      0,
+      0,
+      1,
+      1
+     ]
+    },
+    {
+     "item": "mint",
+     "price": 2,
+     "before": 126,
+     "after": 124,
+     "stockBefore": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "honey",
+     "price": 3,
+     "before": 124,
+     "after": 121,
+     "stockBefore": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "salt",
+     "price": 3,
+     "before": 121,
+     "after": 118,
+     "stockBefore": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      1,
+      0,
+      1
+     ]
+    },
+    {
+     "item": "mint",
+     "price": 2,
+     "before": 134,
+     "after": 132,
+     "stockBefore": [
+      0,
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "honey",
+     "price": 3,
+     "before": 132,
+     "after": 129,
+     "stockBefore": [
+      1,
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      1,
+      0,
+      0
+     ]
+    }
+   ],
+   "brews": [
+    {
+     "recipe": "flame",
+     "choices": 3,
+     "before": [
+      1,
+      1,
+      0,
+      1
+     ],
+     "after": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "vigor",
+     "choices": 3,
+     "before": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "after": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "sleep",
+     "choices": 3,
+     "before": [
+      0,
+      0,
+      1,
+      1
+     ],
+     "after": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "flame",
+     "choices": 3,
+     "before": [
+      1,
+      1,
+      0,
+      1
+     ],
+     "after": [
+      0,
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "vigor",
+     "choices": 3,
+     "before": [
+      1,
+      1,
+      0,
+      0
+     ],
+     "after": [
+      0,
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "sales": [
+    {
+     "recipe": "flame",
+     "price": 15,
+     "before": 98,
+     "after": 113,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "vigor",
+     "price": 10,
+     "before": 108,
+     "after": 118,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "sleep",
+     "price": 15,
+     "before": 111,
+     "after": 126,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "flame",
+     "price": 16,
+     "before": 118,
+     "after": 134,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "vigor",
+     "price": 12,
+     "before": 129,
+     "after": 141,
+     "stockBefore": 1,
+     "stockAfter": 0
+    }
+   ],
+   "day": 5,
+   "closingCash": 141
+  }
+ ],
+ "requests": [
+  "/C/",
+  "/C/style.css",
+  "/C/audio.js",
+  "/C/game.js",
+  "/C/shop.svg"
+ ],
+ "external": [],
+ "errors": [],
+ "start": {
+  "cash": 15,
+  "ing": [
+   1,
+   1,
+   0,
+   1
+  ],
+  "pots": [
+   0,
+   0,
+   0
+  ],
+  "guest": "Пекарь Марта",
+  "day": 1
+ },
+ "keyboard": [
+  {
+   "tag": "BUTTON",
+   "id": "help-open",
+   "label": "Правила",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "restart-open",
+   "label": "Новая игра",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "audio-toggle",
+   "label": "Звук",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "INPUT",
+   "id": "audio-volume",
+   "label": "",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "sell",
+   "label": "Продать",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "skip",
+   "label": "Пропустить",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "station-brew",
+   "label": "Котёл",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "station-market",
+   "label": "Припасы",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "",
+   "label": "Сварить: Бодрость",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "",
+   "label": "Сварить: Тихий сон",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "",
+   "label": "Сварить: Тёплая искра",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "close-day",
+   "label": "Закрыть лавку",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BODY",
+   "id": "",
+   "label": "ПЯТЬ ВЕЧЕРОВ НА ЛУННОЙ УЛИЦЕЛавк",
+   "outline": "none 3px",
+   "focusVisible": false
+  },
+  {
+   "tag": "BUTTON",
+   "id": "help-open",
+   "label": "Правила",
+   "outline": "solid 3px",
+   "focusVisible": true
+  }
+ ],
+ "audio": {
+  "action": "две покупки одного ингредиента",
+  "loud": {
+   "rms": 0.040564715596220574,
+   "samples": 73,
+   "contexts": [
+    "running"
+   ]
+  },
+  "silent": {
+   "rms": 0,
+   "samples": 81,
+   "contexts": [
+    "running"
+   ]
+  },
+  "mutedLabel": "Звук: выкл"
+ },
+ "reload": {
+  "before": {
+   "cash": 20,
+   "ing": [
+    2,
+    0,
+    0,
+    1
+   ],
+   "pots": [
+    0,
+    0,
+    0
+   ],
+   "guest": "Часовщик Мирон",
+   "day": 1
+  },
+  "after": {
+   "cash": 20,
+   "ing": [
+    2,
+    0,
+    0,
+    1
+   ],
+   "pots": [
+    0,
+    0,
+    0
+   ],
+   "guest": "Часовщик Мирон",
+   "day": 1
+  }
+ },
+ "final": "ПЯТЫЙ ВЕЧЕР · ЛАВКА ЗАКРЫТА\n\nЛавка процветает\n\nВы собрали 141 монета и выполнили цель в 75 монет.\n\nМонет в кассе\n141\nСварено зелий\n20\nВыполнено заказов\n20\nУшли без покупки\n0\nДень 1\nЗаказы 3/3\nВыручка 35\nКасса 36 мон.\nДень 2\nЗаказы 4/4\nВыручка 45\nКасса 58 мон.\nДень 3\nЗаказы 4/4\nВыручка 51\nКасса 81 мон.\nДень 4\nЗаказы 4/4\nВыручка 52\nКасса 106 мон.\nДень 5\nЗаказы 5/5\nВыручка 68\nКасса 141 мон.\n\nНа припасы потрачено 125 мон. Остаток: 0 зелий, 0 ед. ингредиентов.\n\nНачать новую партию",
+ "bookkeeping": {
+  "start": 15,
+  "spent": 125,
+  "revenue": 251,
+  "sales": 20,
+  "brewed": 20,
+  "end": 141
+ },
+ "finalTradeButtons": [
+  "Правила",
+  "Звук: вкл",
+  "Начать новую партию"
+ ],
+ "restart": {
+  "cash": 15,
+  "ing": [
+   1,
+   1,
+   0,
+   1
+  ],
+  "pots": [
+   0,
+   0,
+   0
+  ],
+  "guest": "Пекарь Марта",
+  "day": 1
+ },
+ "denied": {
+  "button": "Купить\n2",
+  "before": {
+   "cash": 1,
+   "ing": [
+    8,
+    1,
+    0,
+    1
+   ],
+   "pots": [
+    0,
+    0,
+    0
+   ],
+   "guest": "Пекарь Марта",
+   "day": 1
+  },
+  "after": {
+   "cash": 1,
+   "ing": [
+    8,
+    1,
+    0,
+    1
+   ],
+   "pots": [
+    0,
+    0,
+    0
+   ],
+   "guest": "Пекарь Марта",
+   "day": 1
+  }
+ },
+ "poor": "ПЯТЫЙ ВЕЧЕР · ЛАВКА ЗАКРЫТА\n\nПять вечеров позади\n\nДо цели в 75 монет не хватило 74 мон.\n\nМонет в кассе\n1\nСварено зелий\n0\nВыполнено заказов\n0\nУшли без покупки\n20\nДень 1\nЗаказы 0/3\nВыручка 0\nКасса 1 мон.\nДень 2\nЗаказы 0/4\nВыручка 0\nКасса 1 мон.\nДень 3\nЗаказы 0/4\nВыручка 0\nКасса 1 мон.\nДень 4\nЗаказы 0/4\nВыручка 0\nКасса 1 мон.\nДень 5\nЗаказы 0/5\nВыручка 0\nКасса 1 мон.\n\nНа припасы потрачено 14 мон. Остаток: 0 зелий, 10 ед. ингредиентов.\n\nНачать новую партию",
+ "complete": true
+}

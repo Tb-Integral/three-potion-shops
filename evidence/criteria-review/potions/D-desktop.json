@@ -1,0 +1,1312 @@
+{
+ "variant": "D",
+ "viewport": "1440×900",
+ "days": [
+  {
+   "buys": [
+    {
+     "item": "1",
+     "price": 3,
+     "before": 18,
+     "after": 15,
+     "stockBefore": [
+      1,
+      1,
+      0
+     ],
+     "stockAfter": [
+      1,
+      2,
+      0
+     ]
+    },
+    {
+     "item": "1",
+     "price": 3,
+     "before": 15,
+     "after": 12,
+     "stockBefore": [
+      1,
+      2,
+      0
+     ],
+     "stockAfter": [
+      1,
+      3,
+      0
+     ]
+    },
+    {
+     "item": "0",
+     "price": 2,
+     "before": 12,
+     "after": 10,
+     "stockBefore": [
+      1,
+      3,
+      0
+     ],
+     "stockAfter": [
+      2,
+      3,
+      0
+     ]
+    },
+    {
+     "item": "0",
+     "price": 2,
+     "before": 22,
+     "after": 20,
+     "stockBefore": [
+      0,
+      2,
+      0
+     ],
+     "stockAfter": [
+      1,
+      2,
+      0
+     ]
+    },
+    {
+     "item": "1",
+     "price": 3,
+     "before": 35,
+     "after": 32,
+     "stockBefore": [
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "item": "2",
+     "price": 3,
+     "before": 32,
+     "after": 29,
+     "stockBefore": [
+      0,
+      1,
+      0
+     ],
+     "stockAfter": [
+      0,
+      1,
+      1
+     ]
+    },
+    {
+     "item": "2",
+     "price": 3,
+     "before": 29,
+     "after": 26,
+     "stockBefore": [
+      0,
+      1,
+      1
+     ],
+     "stockAfter": [
+      0,
+      1,
+      2
+     ]
+    }
+   ],
+   "brews": [
+    {
+     "recipe": "0",
+     "choices": 3,
+     "before": [
+      2,
+      3,
+      0
+     ],
+     "after": [
+      0,
+      2,
+      0
+     ]
+    },
+    {
+     "recipe": "1",
+     "choices": 3,
+     "before": [
+      1,
+      2,
+      0
+     ],
+     "after": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "2",
+     "choices": 3,
+     "before": [
+      0,
+      1,
+      2
+     ],
+     "after": [
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "sales": [
+    {
+     "recipe": "0",
+     "price": 12,
+     "before": 10,
+     "after": 22,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "1",
+     "price": 15,
+     "before": 20,
+     "after": 35,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "2",
+     "price": 17,
+     "before": 26,
+     "after": 43,
+     "stockBefore": 1,
+     "stockAfter": 0
+    }
+   ],
+   "day": 1,
+   "closingCash": 43
+  },
+  {
+   "buys": [
+    {
+     "item": "1",
+     "price": 2,
+     "before": 43,
+     "after": 41,
+     "stockBefore": [
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "item": "2",
+     "price": 2,
+     "before": 41,
+     "after": 39,
+     "stockBefore": [
+      0,
+      1,
+      0
+     ],
+     "stockAfter": [
+      0,
+      1,
+      1
+     ]
+    },
+    {
+     "item": "2",
+     "price": 2,
+     "before": 39,
+     "after": 37,
+     "stockBefore": [
+      0,
+      1,
+      1
+     ],
+     "stockAfter": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "item": "0",
+     "price": 3,
+     "before": 56,
+     "after": 53,
+     "stockBefore": [
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "0",
+     "price": 3,
+     "before": 53,
+     "after": 50,
+     "stockBefore": [
+      1,
+      0,
+      0
+     ],
+     "stockAfter": [
+      2,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "1",
+     "price": 2,
+     "before": 50,
+     "after": 48,
+     "stockBefore": [
+      2,
+      0,
+      0
+     ],
+     "stockAfter": [
+      2,
+      1,
+      0
+     ]
+    },
+    {
+     "item": "1",
+     "price": 2,
+     "before": 61,
+     "after": 59,
+     "stockBefore": [
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "item": "2",
+     "price": 2,
+     "before": 59,
+     "after": 57,
+     "stockBefore": [
+      0,
+      1,
+      0
+     ],
+     "stockAfter": [
+      0,
+      1,
+      1
+     ]
+    },
+    {
+     "item": "2",
+     "price": 2,
+     "before": 57,
+     "after": 55,
+     "stockBefore": [
+      0,
+      1,
+      1
+     ],
+     "stockAfter": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "item": "1",
+     "price": 2,
+     "before": 73,
+     "after": 71,
+     "stockBefore": [
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      0,
+      1,
+      0
+     ]
+    }
+   ],
+   "brews": [
+    {
+     "recipe": "2",
+     "choices": 3,
+     "before": [
+      0,
+      1,
+      2
+     ],
+     "after": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "0",
+     "choices": 3,
+     "before": [
+      2,
+      1,
+      0
+     ],
+     "after": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "2",
+     "choices": 3,
+     "before": [
+      0,
+      1,
+      2
+     ],
+     "after": [
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "sales": [
+    {
+     "recipe": "2",
+     "price": 19,
+     "before": 37,
+     "after": 56,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "0",
+     "price": 13,
+     "before": 48,
+     "after": 61,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "2",
+     "price": 18,
+     "before": 55,
+     "after": 73,
+     "stockBefore": 1,
+     "stockAfter": 0
+    }
+   ],
+   "day": 2,
+   "closingCash": 71
+  },
+  {
+   "buys": [
+    {
+     "item": "0",
+     "price": 2,
+     "before": 71,
+     "after": 69,
+     "stockBefore": [
+      0,
+      1,
+      0
+     ],
+     "stockAfter": [
+      1,
+      1,
+      0
+     ]
+    },
+    {
+     "item": "1",
+     "price": 4,
+     "before": 69,
+     "after": 65,
+     "stockBefore": [
+      1,
+      1,
+      0
+     ],
+     "stockAfter": [
+      1,
+      2,
+      0
+     ]
+    },
+    {
+     "item": "0",
+     "price": 2,
+     "before": 83,
+     "after": 81,
+     "stockBefore": [
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "0",
+     "price": 2,
+     "before": 81,
+     "after": 79,
+     "stockBefore": [
+      1,
+      0,
+      0
+     ],
+     "stockAfter": [
+      2,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "1",
+     "price": 4,
+     "before": 79,
+     "after": 75,
+     "stockBefore": [
+      2,
+      0,
+      0
+     ],
+     "stockAfter": [
+      2,
+      1,
+      0
+     ]
+    },
+    {
+     "item": "0",
+     "price": 2,
+     "before": 89,
+     "after": 87,
+     "stockBefore": [
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "1",
+     "price": 4,
+     "before": 87,
+     "after": 83,
+     "stockBefore": [
+      1,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      1,
+      0
+     ]
+    },
+    {
+     "item": "1",
+     "price": 4,
+     "before": 83,
+     "after": 79,
+     "stockBefore": [
+      1,
+      1,
+      0
+     ],
+     "stockAfter": [
+      1,
+      2,
+      0
+     ]
+    }
+   ],
+   "brews": [
+    {
+     "recipe": "1",
+     "choices": 3,
+     "before": [
+      1,
+      2,
+      0
+     ],
+     "after": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "0",
+     "choices": 3,
+     "before": [
+      2,
+      1,
+      0
+     ],
+     "after": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "1",
+     "choices": 3,
+     "before": [
+      1,
+      2,
+      0
+     ],
+     "after": [
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "sales": [
+    {
+     "recipe": "1",
+     "price": 18,
+     "before": 65,
+     "after": 83,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "0",
+     "price": 14,
+     "before": 75,
+     "after": 89,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "1",
+     "price": 17,
+     "before": 79,
+     "after": 96,
+     "stockBefore": 1,
+     "stockAfter": 0
+    }
+   ],
+   "day": 3,
+   "closingCash": 96
+  },
+  {
+   "buys": [
+    {
+     "item": "0",
+     "price": 3,
+     "before": 96,
+     "after": 93,
+     "stockBefore": [
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "0",
+     "price": 3,
+     "before": 93,
+     "after": 90,
+     "stockBefore": [
+      1,
+      0,
+      0
+     ],
+     "stockAfter": [
+      2,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "1",
+     "price": 2,
+     "before": 90,
+     "after": 88,
+     "stockBefore": [
+      2,
+      0,
+      0
+     ],
+     "stockAfter": [
+      2,
+      1,
+      0
+     ]
+    },
+    {
+     "item": "1",
+     "price": 2,
+     "before": 102,
+     "after": 100,
+     "stockBefore": [
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "item": "2",
+     "price": 4,
+     "before": 100,
+     "after": 96,
+     "stockBefore": [
+      0,
+      1,
+      0
+     ],
+     "stockAfter": [
+      0,
+      1,
+      1
+     ]
+    },
+    {
+     "item": "2",
+     "price": 4,
+     "before": 96,
+     "after": 92,
+     "stockBefore": [
+      0,
+      1,
+      1
+     ],
+     "stockAfter": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "item": "0",
+     "price": 3,
+     "before": 112,
+     "after": 109,
+     "stockBefore": [
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "1",
+     "price": 2,
+     "before": 109,
+     "after": 107,
+     "stockBefore": [
+      1,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      1,
+      0
+     ]
+    },
+    {
+     "item": "1",
+     "price": 2,
+     "before": 107,
+     "after": 105,
+     "stockBefore": [
+      1,
+      1,
+      0
+     ],
+     "stockAfter": [
+      1,
+      2,
+      0
+     ]
+    }
+   ],
+   "brews": [
+    {
+     "recipe": "0",
+     "choices": 3,
+     "before": [
+      2,
+      1,
+      0
+     ],
+     "after": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "2",
+     "choices": 3,
+     "before": [
+      0,
+      1,
+      2
+     ],
+     "after": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "1",
+     "choices": 3,
+     "before": [
+      1,
+      2,
+      0
+     ],
+     "after": [
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "sales": [
+    {
+     "recipe": "0",
+     "price": 14,
+     "before": 88,
+     "after": 102,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "2",
+     "price": 20,
+     "before": 92,
+     "after": 112,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "1",
+     "price": 17,
+     "before": 105,
+     "after": 122,
+     "stockBefore": 1,
+     "stockAfter": 0
+    }
+   ],
+   "day": 4,
+   "closingCash": 122
+  },
+  {
+   "buys": [
+    {
+     "item": "0",
+     "price": 4,
+     "before": 122,
+     "after": 118,
+     "stockBefore": [
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "1",
+     "price": 3,
+     "before": 118,
+     "after": 115,
+     "stockBefore": [
+      1,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      1,
+      0
+     ]
+    },
+    {
+     "item": "1",
+     "price": 3,
+     "before": 115,
+     "after": 112,
+     "stockBefore": [
+      1,
+      1,
+      0
+     ],
+     "stockAfter": [
+      1,
+      2,
+      0
+     ]
+    },
+    {
+     "item": "1",
+     "price": 3,
+     "before": 131,
+     "after": 128,
+     "stockBefore": [
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "item": "2",
+     "price": 3,
+     "before": 128,
+     "after": 125,
+     "stockBefore": [
+      0,
+      1,
+      0
+     ],
+     "stockAfter": [
+      0,
+      1,
+      1
+     ]
+    },
+    {
+     "item": "2",
+     "price": 3,
+     "before": 125,
+     "after": 122,
+     "stockBefore": [
+      0,
+      1,
+      1
+     ],
+     "stockAfter": [
+      0,
+      1,
+      2
+     ]
+    },
+    {
+     "item": "0",
+     "price": 4,
+     "before": 143,
+     "after": 139,
+     "stockBefore": [
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "0",
+     "price": 4,
+     "before": 139,
+     "after": 135,
+     "stockBefore": [
+      1,
+      0,
+      0
+     ],
+     "stockAfter": [
+      2,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "1",
+     "price": 3,
+     "before": 135,
+     "after": 132,
+     "stockBefore": [
+      2,
+      0,
+      0
+     ],
+     "stockAfter": [
+      2,
+      1,
+      0
+     ]
+    }
+   ],
+   "brews": [
+    {
+     "recipe": "1",
+     "choices": 3,
+     "before": [
+      1,
+      2,
+      0
+     ],
+     "after": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "2",
+     "choices": 3,
+     "before": [
+      0,
+      1,
+      2
+     ],
+     "after": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "0",
+     "choices": 3,
+     "before": [
+      2,
+      1,
+      0
+     ],
+     "after": [
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "sales": [
+    {
+     "recipe": "1",
+     "price": 19,
+     "before": 112,
+     "after": 131,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "2",
+     "price": 21,
+     "before": 122,
+     "after": 143,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "0",
+     "price": 15,
+     "before": 132,
+     "after": 147,
+     "stockBefore": 1,
+     "stockAfter": 0
+    }
+   ],
+   "day": 5,
+   "closingCash": 147
+  }
+ ],
+ "requests": [
+  "/D/",
+  "/D/style.css",
+  "/D/art.js",
+  "/D/audio.js",
+  "/D/game.js"
+ ],
+ "external": [],
+ "errors": [],
+ "start": {
+  "cash": 18,
+  "ing": [
+   1,
+   1,
+   0
+  ],
+  "pots": [
+   0,
+   0,
+   0
+  ],
+  "guest": "Для увядших трав нужна «Лесная роса».",
+  "day": 1
+ },
+ "keyboard": [
+  {
+   "tag": "BUTTON",
+   "id": "help",
+   "label": "Открыть книгу лавки",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "soundToggle",
+   "label": "Звук",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "INPUT",
+   "id": "soundVolume",
+   "label": "",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "sell",
+   "label": "Продать Лесная роса за 12 монет",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "skip",
+   "label": "Отпустить без покупки →",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "",
+   "label": "Лесная росаВ запасе: 0",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "",
+   "label": "Живой уголёкВ запасе: 0",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "",
+   "label": "Лунный сонВ запасе: 0",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "brew",
+   "label": "Сварить «Лесная роса»",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "",
+   "label": "Купить Шалфей за 2 монеты",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "",
+   "label": "Купить Смола за 3 монеты",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "",
+   "label": "Купить Соль за 3 монеты",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "closeDay",
+   "label": "Закрыть день →",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BODY",
+   "id": "",
+   "label": "Лавка зелийУ СТАРОЙ ИВЫ\nДень 1/5",
+   "outline": "none 3px",
+   "focusVisible": false
+  }
+ ],
+ "audio": {
+  "action": "две покупки одного ингредиента",
+  "loud": {
+   "rms": 0.01916111999423494,
+   "samples": 71,
+   "contexts": [
+    "running"
+   ]
+  },
+  "silent": {
+   "rms": 0,
+   "samples": 75,
+   "contexts": [
+    "running"
+   ]
+  },
+  "mutedLabel": "Звук: выкл"
+ },
+ "reload": {
+  "before": {
+   "cash": 22,
+   "ing": [
+    0,
+    2,
+    0
+   ],
+   "pots": [
+    0,
+    0,
+    0
+   ],
+   "guest": "В дальний путь возьму «Живой уголёк».",
+   "day": 1
+  },
+  "after": {
+   "cash": 22,
+   "ing": [
+    0,
+    2,
+    0
+   ],
+   "pots": [
+    0,
+    0,
+    0
+   ],
+   "guest": "В дальний путь возьму «Живой уголёк».",
+   "day": 1
+  }
+ },
+ "final": "ПЯТЬ ДНЕЙ У СТАРОЙ ИВЫ\nУ лавки будет новая крыша\n\nСобрано 147 монет из нужных 95.\n\nВ начале\n18 монет\nТраты на ингредиенты\n−120 монет\nВыручка\n+249 монет\nВ кошельке\n147 монет\nПродано / сварено\n15 / 15\nУшли без покупки\n0 посетителей\nНачать новую партию",
+ "bookkeeping": {
+  "start": 18,
+  "spent": 120,
+  "revenue": 249,
+  "sales": 15,
+  "brewed": 15,
+  "end": 147
+ },
+ "finalTradeButtons": [
+  "?",
+  "Звук: вкл",
+  "Начать новую партию"
+ ],
+ "restart": {
+  "cash": 18,
+  "ing": [
+   1,
+   1,
+   0
+  ],
+  "pots": [
+   0,
+   0,
+   0
+  ],
+  "guest": "Для увядших трав нужна «Лесная роса».",
+  "day": 1
+ },
+ "denied": {
+  "button": "Мало монет",
+  "before": {
+   "cash": 2,
+   "ing": [
+    6,
+    3,
+    0
+   ],
+   "pots": [
+    0,
+    0,
+    0
+   ],
+   "guest": "Для увядших трав нужна «Лесная роса».",
+   "day": 1
+  },
+  "after": {
+   "cash": 2,
+   "ing": [
+    6,
+    3,
+    0
+   ],
+   "pots": [
+    0,
+    0,
+    0
+   ],
+   "guest": "Для увядших трав нужна «Лесная роса».",
+   "day": 1
+  }
+ },
+ "poor": "ПЯТЬ ДНЕЙ У СТАРОЙ ИВЫ\nЯрмарка закончилась\n\nДо ремонта не хватило 93 монеты.\n\nВ начале\n18 монет\nТраты на ингредиенты\n−16 монет\nВыручка\n+0 монет\nВ кошельке\n2 монеты\nПродано / сварено\n0 / 0\nУшли без покупки\n15 посетителей\nНачать новую партию",
+ "complete": true
+}

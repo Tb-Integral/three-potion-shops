@@ -1,0 +1,202 @@
+{
+  "variant": "C",
+  "mode": "chase",
+  "method": "Edge 1440×900, real-time simulation, browser input only.",
+  "requests": [
+    "/C/",
+    "/C/arena.css",
+    "/C/audio.js",
+    "/C/render.js",
+    "/C/arena.js"
+  ],
+  "errors": [],
+  "samples": [
+    {
+      "phase": "playing",
+      "t": 0.058,
+      "hp": 5,
+      "max": 5,
+      "kills": 0,
+      "xy": [
+        540,
+        300
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 0,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 5.192,
+      "hp": 5,
+      "max": 5,
+      "kills": 2,
+      "xy": [
+        867,
+        228
+      ],
+      "velocity": [
+        118.08683245815342,
+        118.08683245815342
+      ],
+      "input": {
+        "x": 0.7071067811865475,
+        "y": 0.7071067811865475
+      },
+      "upgrades": [],
+      "enemies": 3,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 10.225,
+      "hp": 5,
+      "max": 5,
+      "kills": 6,
+      "xy": [
+        433,
+        150
+      ],
+      "velocity": [
+        -118.08683245815342,
+        118.08683245815342
+      ],
+      "input": {
+        "x": -0.7071067811865475,
+        "y": 0.7071067811865475
+      },
+      "upgrades": [],
+      "enemies": 4,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 15.3,
+      "hp": 4,
+      "max": 5,
+      "kills": 11,
+      "xy": [
+        665,
+        382
+      ],
+      "velocity": [
+        118.08683245815342,
+        118.08683245815342
+      ],
+      "input": {
+        "x": 0.7071067811865475,
+        "y": 0.7071067811865475
+      },
+      "upgrades": [],
+      "enemies": 4,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 20.392,
+      "hp": 2,
+      "max": 5,
+      "kills": 17,
+      "xy": [
+        364,
+        476
+      ],
+      "velocity": [
+        -118.08683245815342,
+        118.08683245815342
+      ],
+      "input": {
+        "x": -0.7071067811865475,
+        "y": 0.7071067811865475
+      },
+      "upgrades": [],
+      "enemies": 4,
+      "shots": 1
+    }
+  ],
+  "checks": {
+    "start": {
+      "phase": "playing",
+      "t": 0.05,
+      "hp": 5,
+      "max": 5,
+      "kills": 0,
+      "xy": [
+        540,
+        300
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 0,
+      "shots": 0
+    },
+    "finalFrozen": true,
+    "restart": {
+      "phase": "playing",
+      "t": 0,
+      "hp": 5,
+      "max": 5,
+      "kills": 0,
+      "xy": [
+        540,
+        300
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 0,
+      "shots": 0
+    }
+  },
+  "choices": [],
+  "types": [
+    "drone",
+    "dart",
+    "hauler"
+  ],
+  "final": {
+    "phase": "lost",
+    "t": 22.492,
+    "hp": 0,
+    "max": 5,
+    "kills": 18,
+    "xy": [
+      183,
+      435
+    ],
+    "velocity": [
+      0,
+      0
+    ],
+    "input": {
+      "x": 0,
+      "y": 0
+    },
+    "upgrades": [],
+    "enemies": 5,
+    "shots": 0
+  },
+  "visibleResult": "Северный сигнал\nПОЛЯРНАЯ СТАНЦИЯ / 07\nСИГНАЛ ПОТЕРЯН\nДО ЭВАКУАЦИИ\n1:08\nЩИТ 0/5\nСБИТО\n18\nПауза\n▲ СЕВЕР\n78° 12′ С. Ш.\nСЕКТОР 07\nЛЁД / ВЕТЕР / СИГНАЛ\n\nМАЯК ПОГАС\n\nЩит пробит\nВРЕМЯ\n0:22\nСБИТО\n18\n\nМодули ещё не получены.\n\nНовая партия\n↗\nПОЛЕВАЯ ЧАСТОТА\n146.8\nЗвук вкл.\nГромкость\n35%",
+  "wallSeconds": 25
+}

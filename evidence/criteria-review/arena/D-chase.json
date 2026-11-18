@@ -1,0 +1,224 @@
+{
+  "variant": "D",
+  "mode": "chase",
+  "method": "Edge 1440×900, real-time simulation, browser input only.",
+  "requests": [
+    "/D/",
+    "/D/style.css",
+    "/D/art.js",
+    "/D/audio.js",
+    "/D/game.js"
+  ],
+  "errors": [],
+  "samples": [
+    {
+      "phase": "playing",
+      "t": 0.408,
+      "hp": 6,
+      "max": 6,
+      "kills": 0,
+      "xy": [
+        416,
+        246
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 3,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 5.442,
+      "hp": 5,
+      "max": 6,
+      "kills": 4,
+      "xy": [
+        75,
+        291
+      ],
+      "velocity": [
+        -100.40916292848974,
+        -100.40916292848974
+      ],
+      "input": {
+        "x": -0.7071067811865475,
+        "y": -0.7071067811865475
+      },
+      "upgrades": [],
+      "enemies": 3,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 10.508,
+      "hp": 5,
+      "max": 6,
+      "kills": 7,
+      "xy": [
+        219,
+        73
+      ],
+      "velocity": [
+        100.40916292848974,
+        -100.40916292848974
+      ],
+      "input": {
+        "x": 0.7071067811865475,
+        "y": -0.7071067811865475
+      },
+      "upgrades": [],
+      "enemies": 5,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 15.575,
+      "hp": 4,
+      "max": 6,
+      "kills": 13,
+      "xy": [
+        585,
+        332
+      ],
+      "velocity": [
+        -100.40916292848974,
+        100.40916292848974
+      ],
+      "input": {
+        "x": -0.7071067811865475,
+        "y": 0.7071067811865475
+      },
+      "upgrades": [],
+      "enemies": 3,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 20.692,
+      "hp": 4,
+      "max": 6,
+      "kills": 17,
+      "xy": [
+        603,
+        317
+      ],
+      "velocity": [
+        100.40916292848974,
+        100.40916292848974
+      ],
+      "input": {
+        "x": 0.7071067811865475,
+        "y": 0.7071067811865475
+      },
+      "upgrades": [],
+      "enemies": 4,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 25.725,
+      "hp": 2,
+      "max": 6,
+      "kills": 19,
+      "xy": [
+        353,
+        476
+      ],
+      "velocity": [
+        -142,
+        0
+      ],
+      "input": {
+        "x": -1,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 7,
+      "shots": 0
+    }
+  ],
+  "checks": {
+    "start": {
+      "phase": "playing",
+      "t": 0.383,
+      "hp": 6,
+      "max": 6,
+      "kills": 0,
+      "xy": [
+        416,
+        246
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 3,
+      "shots": 0
+    },
+    "finalFrozen": true,
+    "restart": {
+      "phase": "playing",
+      "t": 0,
+      "hp": 6,
+      "max": 6,
+      "kills": 0,
+      "xy": [
+        416,
+        246
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 3,
+      "shots": 0
+    }
+  },
+  "choices": [],
+  "types": [
+    "медуза",
+    "скат",
+    "краб"
+  ],
+  "final": {
+    "phase": "lost",
+    "t": 27.833,
+    "hp": 0,
+    "max": 6,
+    "kills": 20,
+    "xy": [
+      555,
+      476
+    ],
+    "velocity": [
+      0,
+      0
+    ],
+    "input": {
+      "x": 0,
+      "y": 0
+    },
+    "upgrades": [],
+    "enemies": 8,
+    "shots": 0
+  },
+  "visibleResult": "БАТИСКАФ\nЗвук\nДО ВСПЛЫТИЯ\n01:03\nКОРПУС\nПОРАЖЕНО\n20\nИТОГИ ПОГРУЖЕНИЯ\nКорпус пробит\n\nВремя в глубине — 00:28 из 01:30\nПоражено целей — 20\nУлучшения — без улучшений\n\nНовая партия\nWASD / стрелки — движение\nАвтоогонь",
+  "wallSeconds": 30
+}

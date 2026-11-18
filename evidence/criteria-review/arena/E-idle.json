@@ -1,0 +1,581 @@
+{
+  "variant": "E",
+  "mode": "idle",
+  "method": "Edge 1440×900, real-time simulation, browser input only.",
+  "requests": [
+    "/E/",
+    "/E/arena.css",
+    "/E/audio.js",
+    "/E/render.js",
+    "/E/arena.js"
+  ],
+  "errors": [],
+  "samples": [
+    {
+      "phase": "playing",
+      "t": 0,
+      "hp": 7,
+      "max": 7,
+      "kills": 0,
+      "xy": [
+        447,
+        261
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 1,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 5.09,
+      "hp": 7,
+      "max": 7,
+      "kills": 3,
+      "xy": [
+        447,
+        261
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 2,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 10.22,
+      "hp": 7,
+      "max": 7,
+      "kills": 8,
+      "xy": [
+        447,
+        261
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 2,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 15.35,
+      "hp": 7,
+      "max": 7,
+      "kills": 10,
+      "xy": [
+        447,
+        261
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 5,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 20.37,
+      "hp": 6,
+      "max": 7,
+      "kills": 17,
+      "xy": [
+        471,
+        272
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 3,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 25.5,
+      "hp": 6,
+      "max": 7,
+      "kills": 22,
+      "xy": [
+        471,
+        272
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 4,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 30.53,
+      "hp": 6,
+      "max": 7,
+      "kills": 28,
+      "xy": [
+        471,
+        272
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        "Двойной импульс"
+      ],
+      "enemies": 3,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 35.6,
+      "hp": 6,
+      "max": 7,
+      "kills": 36,
+      "xy": [
+        471,
+        272
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        "Двойной импульс"
+      ],
+      "enemies": 1,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 40.67,
+      "hp": 6,
+      "max": 7,
+      "kills": 41,
+      "xy": [
+        471,
+        272
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        "Двойной импульс"
+      ],
+      "enemies": 2,
+      "shots": 2
+    },
+    {
+      "phase": "playing",
+      "t": 45.78,
+      "hp": 6,
+      "max": 7,
+      "kills": 48,
+      "xy": [
+        471,
+        272
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        "Двойной импульс"
+      ],
+      "enemies": 2,
+      "shots": 3
+    },
+    {
+      "phase": "playing",
+      "t": 50.84,
+      "hp": 6,
+      "max": 7,
+      "kills": 54,
+      "xy": [
+        471,
+        272
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        "Двойной импульс"
+      ],
+      "enemies": 3,
+      "shots": 3
+    },
+    {
+      "phase": "playing",
+      "t": 55.88,
+      "hp": 6,
+      "max": 7,
+      "kills": 63,
+      "xy": [
+        471,
+        272
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        "Двойной импульс"
+      ],
+      "enemies": 3,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 60.93,
+      "hp": 6,
+      "max": 7,
+      "kills": 70,
+      "xy": [
+        471,
+        272
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        "Двойной импульс",
+        "Пробойник"
+      ],
+      "enemies": 4,
+      "shots": 4
+    },
+    {
+      "phase": "playing",
+      "t": 65.97,
+      "hp": 6,
+      "max": 7,
+      "kills": 80,
+      "xy": [
+        471,
+        272
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        "Двойной импульс",
+        "Пробойник"
+      ],
+      "enemies": 4,
+      "shots": 3
+    },
+    {
+      "phase": "playing",
+      "t": 70.97,
+      "hp": 6,
+      "max": 7,
+      "kills": 90,
+      "xy": [
+        471,
+        272
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        "Двойной импульс",
+        "Пробойник"
+      ],
+      "enemies": 2,
+      "shots": 3
+    },
+    {
+      "phase": "playing",
+      "t": 76.08,
+      "hp": 6,
+      "max": 7,
+      "kills": 98,
+      "xy": [
+        471,
+        272
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        "Двойной импульс",
+        "Пробойник"
+      ],
+      "enemies": 4,
+      "shots": 4
+    },
+    {
+      "phase": "playing",
+      "t": 81.18,
+      "hp": 6,
+      "max": 7,
+      "kills": 112,
+      "xy": [
+        471,
+        272
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        "Двойной импульс",
+        "Пробойник"
+      ],
+      "enemies": 2,
+      "shots": 3
+    },
+    {
+      "phase": "playing",
+      "t": 86.25,
+      "hp": 6,
+      "max": 7,
+      "kills": 124,
+      "xy": [
+        471,
+        272
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        "Двойной импульс",
+        "Пробойник"
+      ],
+      "enemies": 6,
+      "shots": 3
+    }
+  ],
+  "checks": {
+    "start": {
+      "phase": "playing",
+      "t": 0,
+      "hp": 7,
+      "max": 7,
+      "kills": 0,
+      "xy": [
+        447,
+        261
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 1,
+      "shots": 0
+    },
+    "finalFrozen": true,
+    "restart": {
+      "phase": "playing",
+      "t": 0,
+      "hp": 7,
+      "max": 7,
+      "kills": 0,
+      "xy": [
+        447,
+        261
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 1,
+      "shots": 0
+    }
+  },
+  "choices": [
+    {
+      "t": 30,
+      "same": true,
+      "selected": "Двойной импульс\nДва снаряда за выстрел",
+      "after": {
+        "phase": "playing",
+        "t": 30,
+        "hp": 6,
+        "max": 7,
+        "kills": 27,
+        "xy": [
+          471,
+          272
+        ],
+        "velocity": [
+          0,
+          0
+        ],
+        "input": {
+          "x": 0,
+          "y": 0
+        },
+        "upgrades": [
+          "Двойной импульс"
+        ],
+        "enemies": 4,
+        "shots": 1
+      }
+    },
+    {
+      "t": 60,
+      "same": true,
+      "selected": "Пробойник\n+1 к урону и +40% дальности",
+      "after": {
+        "phase": "playing",
+        "t": 60,
+        "hp": 6,
+        "max": 7,
+        "kills": 69,
+        "xy": [
+          471,
+          272
+        ],
+        "velocity": [
+          0,
+          0
+        ],
+        "input": {
+          "x": 0,
+          "y": 0
+        },
+        "upgrades": [
+          "Двойной импульс",
+          "Пробойник"
+        ],
+        "enemies": 4,
+        "shots": 0
+      }
+    }
+  ],
+  "types": [
+    "drift",
+    "dart",
+    "shell"
+  ],
+  "final": {
+    "phase": "won",
+    "t": 90,
+    "hp": 6,
+    "max": 7,
+    "kills": 133,
+    "xy": [
+      471,
+      272
+    ],
+    "velocity": [
+      0,
+      0
+    ],
+    "input": {
+      "x": 0,
+      "y": 0
+    },
+    "upgrades": [
+      "Двойной импульс",
+      "Пробойник"
+    ],
+    "enemies": 7,
+    "shots": 3
+  },
+  "visibleResult": "РИФ–90\n БАТИСКАФ «НЕРЕЙ»\nКОРПУС\nКорпус 6 из 7\nДО ПОДЪЁМА\n0:00\nСБИТО\n133\nПауза\nМАЯК ПРИНЯТ\nВыжили!\nВРЕМЯ\n1:30 / 1:30\nСБИТО\n133\n\nМодули · Двойной импульс · Пробойник\n\nНовая партия\n→\nWASD / стрелки\n· манёвр\nЗвук вкл.\nГромкость",
+  "wallSeconds": 92
+}

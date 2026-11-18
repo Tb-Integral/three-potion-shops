@@ -1,0 +1,1558 @@
+{
+  "round": "arena",
+  "reviewer": "gpt-6.2-astra",
+  "date": "2026-11-18",
+  "runs": [
+    {
+      "variant": "A",
+      "criteria": {
+        "goal15": {
+          "status": "yes",
+          "note": "Сохрани огонь до рассвета, 90 секунд.",
+          "evidence": [
+            "A-first.png"
+          ]
+        },
+        "no_manual": {
+          "status": "yes",
+          "note": "Первый клик по «Играть» открыл арену. Стрелка сразу сдвинула героя.",
+          "evidence": [
+            "A-first.png",
+            "A-orbit.json"
+          ]
+        },
+        "mouse": {
+          "status": "yes",
+          "note": "Перетаскивание мышью изменило скорость по обеим осям, выбор усилений и новая партия сработали кликом.",
+          "evidence": [
+            "A-orbit.json"
+          ]
+        },
+        "touch": {
+          "status": "yes",
+          "note": "На 360 и 390 px игрок двигался за жестом, отмена касания сбросила ввод.",
+          "evidence": [
+            "A-controls.json",
+            "A-360-playing.png",
+            "A-390-playing.png"
+          ]
+        },
+        "readable": {
+          "status": "partial",
+          "note": "Таймер и здоровье видны. На 360 px подписи легенды противников и громкости мелкие.",
+          "evidence": [
+            "A-first.png",
+            "A-360-menu.png",
+            "A-360-playing.png"
+          ]
+        },
+        "feedback": {
+          "status": "yes",
+          "note": "Выживший фонарь движется по жесту, выстрелы видны на поле. Число погашенных теней и остаток огня меняются.",
+          "evidence": [
+            "A-360-playing.png",
+            "A-playing.png",
+            "A-orbit.json"
+          ]
+        },
+        "audio": {
+          "status": "yes",
+          "note": "При активном бое после жеста измерен ненулевой сигнал.",
+          "evidence": [
+            "A-controls.json"
+          ]
+        },
+        "mute": {
+          "status": "yes",
+          "note": "Тап по звуку после движения выключил звук. В продолжающейся игре пик RMS упал до нуля.",
+          "evidence": [
+            "A-controls.json"
+          ]
+        },
+        "finish": {
+          "status": "yes",
+          "note": "Отдельно достигнуты победа на 90 с и поражение при нуле здоровья.",
+          "evidence": [
+            "A-orbit.json",
+            "A-chase.json"
+          ]
+        },
+        "restart": {
+          "status": "yes",
+          "note": "Кнопка финала запустила следующий раунд с полным здоровьем, нулевым счётом и без усилений.",
+          "evidence": [
+            "A-orbit.json",
+            "A-chase.json"
+          ]
+        }
+      },
+      "requirements": [
+        {
+          "id": "russian",
+          "status": "pass",
+          "note": "Старт, управление, улучшения и оба итога показаны по-русски.",
+          "evidence": [
+            "A-first.png",
+            "A-upgrade1.png",
+            "A-chase-final.png"
+          ]
+        },
+        {
+          "id": "no_external",
+          "status": "pass",
+          "note": "Все запросы до обоих финалов шли к локальным файлам. В текущих HTML, JS и CSS не обнаружено внешних URL или загрузчиков.",
+          "evidence": [
+            "A-orbit.json",
+            "A-chase.json"
+          ]
+        },
+        {
+          "id": "desktop_layout",
+          "status": "pass",
+          "note": "Старт, поле, улучшения и финальные действия помещаются на 1440×900.",
+          "evidence": [
+            "A-first.png",
+            "A-playing.png",
+            "A-upgrade1.png",
+            "A-orbit-final.png"
+          ]
+        },
+        {
+          "id": "mobile_layout",
+          "status": "pass",
+          "note": "Меню и поле помещаются в iframe высотой 704/748 px. Ширина документа равна 360/390 px.",
+          "evidence": [
+            "A-controls.json",
+            "A-360-menu.png",
+            "A-360-playing.png",
+            "A-390-playing.png"
+          ]
+        },
+        {
+          "id": "keyboard",
+          "status": "pass",
+          "note": "Tab показывает контур кнопки старта, Enter запускает игру.",
+          "evidence": [
+            "A-controls.json"
+          ]
+        },
+        {
+          "id": "mouse",
+          "status": "pass",
+          "note": "Клик запускает и перезапускает партию, мышь перемещает героя, стрелками достигнута победа.",
+          "evidence": [
+            "A-orbit.json"
+          ]
+        },
+        {
+          "id": "touch",
+          "status": "pass",
+          "note": "Два размера iframe: диагональное касание сместило игрока, touchCancel обнулил ввод.",
+          "evidence": [
+            "A-controls.json"
+          ]
+        },
+        {
+          "id": "feedback",
+          "status": "pass",
+          "note": "Выживший фонарь движется по жесту, выстрелы видны на поле. Число погашенных теней и остаток огня меняются.",
+          "evidence": [
+            "A-360-playing.png",
+            "A-orbit.json"
+          ]
+        },
+        {
+          "id": "audio",
+          "status": "pass",
+          "note": "Пиковый RMS во время боя 0.0053.",
+          "evidence": [
+            "A-controls.json"
+          ]
+        },
+        {
+          "id": "mute",
+          "status": "pass",
+          "note": "После отключения RMS = 0, число запущенных источников = 0 за 4,8 с боя.",
+          "evidence": [
+            "A-controls.json"
+          ]
+        },
+        {
+          "id": "movement",
+          "status": "pass",
+          "note": "Длина вектора скорости по прямой и диагонали одинакова: 172 ед./с.",
+          "evidence": [
+            "A-orbit.json"
+          ]
+        },
+        {
+          "id": "combat",
+          "status": "pass",
+          "note": "Без ручного выстрела росло число убитых, при контакте здоровье упало до нуля.",
+          "evidence": [
+            "A-orbit.json",
+            "A-chase.json"
+          ]
+        },
+        {
+          "id": "enemy_types",
+          "status": "pass",
+          "note": "В активном бою зафиксированы три типа: shade, dart, shell.",
+          "evidence": [
+            "A-orbit.json",
+            "A-playing.png",
+            "A-360-playing.png"
+          ]
+        },
+        {
+          "id": "upgrades",
+          "status": "pass",
+          "note": "На 30 и 60 с снимки мира до и после ожидания совпали. Каждый клик добавил одно усиление.",
+          "evidence": [
+            "A-orbit.json",
+            "A-upgrade1.png",
+            "A-upgrade2.png"
+          ]
+        },
+        {
+          "id": "victory",
+          "status": "pass",
+          "note": "Победная партия завершилась при elapsed = 90.",
+          "evidence": [
+            "A-orbit.json",
+            "A-orbit-final.png"
+          ]
+        },
+        {
+          "id": "defeat",
+          "status": "pass",
+          "note": "Поражение при здоровье 0 на 28.7 с.",
+          "evidence": [
+            "A-chase.json",
+            "A-chase-final.png"
+          ]
+        },
+        {
+          "id": "pause",
+          "status": "pass",
+          "note": "После Escape снимки состояния совпали с интервалом 470 мс, продолжение сработало.",
+          "evidence": [
+            "A-orbit.json"
+          ]
+        },
+        {
+          "id": "blur",
+          "status": "fail",
+          "note": "Пауза и сброс ввода срабатывают, но окно паузы сразу забирает фокус у портала. Следующий Enter возобновляет игру. Прямой клик закрывает окно.",
+          "evidence": [
+            "A-site-focus.json",
+            "A-portal-focus.json",
+            "A-orbit.json"
+          ]
+        },
+        {
+          "id": "final_guard",
+          "status": "pass",
+          "note": "После клавиши движения и ожидания финальное состояние не изменилось в выигранной и проигранной партиях.",
+          "evidence": [
+            "A-orbit.json",
+            "A-chase.json"
+          ]
+        },
+        {
+          "id": "restart",
+          "status": "pass",
+          "note": "После финала запущена новая игра, здоровье полное, счёт и список улучшений сброшены.",
+          "evidence": [
+            "A-orbit.json",
+            "A-chase.json"
+          ]
+        }
+      ],
+      "genre": {
+        "endings": {
+          "value": 2,
+          "note": "Победа на 90 с, отдельное поражение на 28.7 с.",
+          "evidence": [
+            "A-orbit.json",
+            "A-chase.json"
+          ]
+        },
+        "upgrades": {
+          "value": 2,
+          "note": "Два подтверждённых выбора в победной партии на 30 и 60 с.",
+          "evidence": [
+            "A-orbit.json"
+          ]
+        },
+        "idle_win": {
+          "status": "no",
+          "note": "В одной партии без движения поражение на 34.9 с. Здоровье 0/5.",
+          "evidence": [
+            "A-idle.json"
+          ]
+        }
+      },
+      "bugs": [
+        {
+          "id": "portal-focus",
+          "title": "Автопауза возвращает клавиатурный фокус с кнопки сайта на «Продолжить»",
+          "steps": [
+            "Запустить арену A из карточки на сайте.",
+            "После старта четыре раза нажать Shift+Tab, чтобы пройти через кнопки игры к «Назад к сравнению».",
+            "Нажать Enter."
+          ],
+          "impact": "Фокус успевает перейти на «Назад к сравнению» и сразу возвращается на «Продолжить». Enter возобновляет арену. Прямой клик закрывает окно. В play.html клавиатурный переход на «На весь экран» даёт тот же эффект.",
+          "evidence": [
+            "A-site-focus.json",
+            "A-portal-focus.json"
+          ]
+        }
+      ],
+      "evidence": [
+        "A-first.png",
+        "A-360-menu.png",
+        "A-360-playing.png",
+        "A-390-playing.png",
+        "A-playing.png",
+        "A-orbit.json",
+        "A-chase.json",
+        "A-idle.json",
+        "A-controls.json",
+        "A-portal-focus.json"
+      ],
+      "limitations": [
+        "Оценка первого экрана и читаемости принадлежит агенту. Проверены эмуляция Edge и реальный Web Audio сигнал без прослушивания человеком.",
+        "Сценарий без движения проверен один раз с выбором первого предложенного усиления."
+      ]
+    },
+    {
+      "variant": "B",
+      "criteria": {
+        "goal15": {
+          "status": "yes",
+          "note": "Продержитесь до рассвета, 90 секунд.",
+          "evidence": [
+            "B-first.png"
+          ]
+        },
+        "no_manual": {
+          "status": "yes",
+          "note": "Первый клик по «Играть» открыл арену. Стрелка сразу сдвинула героя.",
+          "evidence": [
+            "B-first.png",
+            "B-orbit.json"
+          ]
+        },
+        "mouse": {
+          "status": "yes",
+          "note": "Перетаскивание мышью изменило скорость по обеим осям, выбор усилений и новая партия сработали кликом.",
+          "evidence": [
+            "B-orbit.json"
+          ]
+        },
+        "touch": {
+          "status": "yes",
+          "note": "На 360 и 390 px игрок двигался за жестом, отмена касания сбросила ввод.",
+          "evidence": [
+            "B-controls.json",
+            "B-360-playing.png",
+            "B-390-playing.png"
+          ]
+        },
+        "readable": {
+          "status": "yes",
+          "note": "Крупные часы, числовое здоровье и контрастная кнопка старта.",
+          "evidence": [
+            "B-first.png",
+            "B-360-menu.png",
+            "B-360-playing.png"
+          ]
+        },
+        "feedback": {
+          "status": "yes",
+          "note": "За перетаскиванием следует герой, видны снаряды и остаток здоровья числом и полосой.",
+          "evidence": [
+            "B-360-playing.png",
+            "B-playing.png",
+            "B-orbit.json"
+          ]
+        },
+        "audio": {
+          "status": "yes",
+          "note": "При активном бое после жеста измерен ненулевой сигнал.",
+          "evidence": [
+            "B-controls.json"
+          ]
+        },
+        "mute": {
+          "status": "yes",
+          "note": "Тап по звуку после движения выключил звук. В продолжающейся игре пик RMS упал до нуля.",
+          "evidence": [
+            "B-controls.json"
+          ]
+        },
+        "finish": {
+          "status": "yes",
+          "note": "Отдельно достигнуты победа на 90 с и поражение при нуле здоровья.",
+          "evidence": [
+            "B-orbit.json",
+            "B-chase.json"
+          ]
+        },
+        "restart": {
+          "status": "yes",
+          "note": "Кнопка финала запустила следующий раунд с полным здоровьем, нулевым счётом и без усилений.",
+          "evidence": [
+            "B-orbit.json",
+            "B-chase.json"
+          ]
+        }
+      },
+      "requirements": [
+        {
+          "id": "russian",
+          "status": "pass",
+          "note": "Старт, управление, улучшения и оба итога показаны по-русски.",
+          "evidence": [
+            "B-first.png",
+            "B-upgrade1.png",
+            "B-chase-final.png"
+          ]
+        },
+        {
+          "id": "no_external",
+          "status": "pass",
+          "note": "Все запросы до обоих финалов шли к локальным файлам. В текущих HTML, JS и CSS не обнаружено внешних URL или загрузчиков.",
+          "evidence": [
+            "B-orbit.json",
+            "B-chase.json"
+          ]
+        },
+        {
+          "id": "desktop_layout",
+          "status": "pass",
+          "note": "Старт, поле, улучшения и финальные действия помещаются на 1440×900.",
+          "evidence": [
+            "B-first.png",
+            "B-playing.png",
+            "B-upgrade1.png",
+            "B-orbit-final.png"
+          ]
+        },
+        {
+          "id": "mobile_layout",
+          "status": "pass",
+          "note": "Меню и поле помещаются в iframe высотой 704/748 px. Ширина документа равна 360/390 px.",
+          "evidence": [
+            "B-controls.json",
+            "B-360-menu.png",
+            "B-360-playing.png",
+            "B-390-playing.png"
+          ]
+        },
+        {
+          "id": "keyboard",
+          "status": "pass",
+          "note": "Tab показывает контур кнопки старта, Enter запускает игру.",
+          "evidence": [
+            "B-controls.json"
+          ]
+        },
+        {
+          "id": "mouse",
+          "status": "pass",
+          "note": "Клик запускает и перезапускает партию, мышь перемещает героя, стрелками достигнута победа.",
+          "evidence": [
+            "B-orbit.json"
+          ]
+        },
+        {
+          "id": "touch",
+          "status": "pass",
+          "note": "Два размера iframe: диагональное касание сместило игрока, touchCancel обнулил ввод.",
+          "evidence": [
+            "B-controls.json"
+          ]
+        },
+        {
+          "id": "feedback",
+          "status": "pass",
+          "note": "За перетаскиванием следует герой, видны снаряды и остаток здоровья числом и полосой.",
+          "evidence": [
+            "B-360-playing.png",
+            "B-orbit.json"
+          ]
+        },
+        {
+          "id": "audio",
+          "status": "pass",
+          "note": "Пиковый RMS во время боя 0.0132.",
+          "evidence": [
+            "B-controls.json"
+          ]
+        },
+        {
+          "id": "mute",
+          "status": "pass",
+          "note": "После отключения RMS = 0, число запущенных источников = 0 за 4,8 с боя.",
+          "evidence": [
+            "B-controls.json"
+          ]
+        },
+        {
+          "id": "movement",
+          "status": "pass",
+          "note": "Длина вектора скорости по прямой и диагонали одинакова: 180 ед./с.",
+          "evidence": [
+            "B-orbit.json"
+          ]
+        },
+        {
+          "id": "combat",
+          "status": "pass",
+          "note": "Без ручного выстрела росло число убитых, при контакте здоровье упало до нуля.",
+          "evidence": [
+            "B-orbit.json",
+            "B-chase.json"
+          ]
+        },
+        {
+          "id": "enemy_types",
+          "status": "pass",
+          "note": "В активном бою зафиксированы три типа: sprout, runner, brute.",
+          "evidence": [
+            "B-orbit.json",
+            "B-playing.png",
+            "B-360-playing.png"
+          ]
+        },
+        {
+          "id": "upgrades",
+          "status": "pass",
+          "note": "На 30 и 60 с снимки мира до и после ожидания совпали. Каждый клик добавил одно усиление.",
+          "evidence": [
+            "B-orbit.json",
+            "B-upgrade1.png",
+            "B-upgrade2.png"
+          ]
+        },
+        {
+          "id": "victory",
+          "status": "pass",
+          "note": "Победная партия завершилась при elapsed = 90.",
+          "evidence": [
+            "B-orbit.json",
+            "B-orbit-final.png"
+          ]
+        },
+        {
+          "id": "defeat",
+          "status": "pass",
+          "note": "Поражение при здоровье 0 на 32.2 с.",
+          "evidence": [
+            "B-chase.json",
+            "B-chase-final.png"
+          ]
+        },
+        {
+          "id": "pause",
+          "status": "pass",
+          "note": "После Escape снимки состояния совпали с интервалом 470 мс, продолжение сработало.",
+          "evidence": [
+            "B-orbit.json"
+          ]
+        },
+        {
+          "id": "blur",
+          "status": "pass",
+          "note": "Автопауза останавливает время и сбрасывает направление. Shift+Tab выводит к кнопке сайта, Enter закрывает окно или включает полный экран.",
+          "evidence": [
+            "B-controls.json",
+            "B-orbit.json",
+            "B-site-focus.json"
+          ]
+        },
+        {
+          "id": "final_guard",
+          "status": "pass",
+          "note": "После клавиши движения и ожидания финальное состояние не изменилось в выигранной и проигранной партиях.",
+          "evidence": [
+            "B-orbit.json",
+            "B-chase.json"
+          ]
+        },
+        {
+          "id": "restart",
+          "status": "pass",
+          "note": "После финала запущена новая игра, здоровье полное, счёт и список улучшений сброшены.",
+          "evidence": [
+            "B-orbit.json",
+            "B-chase.json"
+          ]
+        }
+      ],
+      "genre": {
+        "endings": {
+          "value": 2,
+          "note": "Победа на 90 с, отдельное поражение на 32.2 с.",
+          "evidence": [
+            "B-orbit.json",
+            "B-chase.json"
+          ]
+        },
+        "upgrades": {
+          "value": 2,
+          "note": "Два подтверждённых выбора в победной партии на 30 и 60 с.",
+          "evidence": [
+            "B-orbit.json"
+          ]
+        },
+        "idle_win": {
+          "status": "yes",
+          "note": "В одной партии без движения победа на 90.0 с. Здоровье 120/120.",
+          "evidence": [
+            "B-idle.json"
+          ]
+        }
+      },
+      "bugs": [],
+      "evidence": [
+        "B-first.png",
+        "B-360-menu.png",
+        "B-360-playing.png",
+        "B-390-playing.png",
+        "B-playing.png",
+        "B-orbit.json",
+        "B-chase.json",
+        "B-idle.json",
+        "B-controls.json"
+      ],
+      "limitations": [
+        "Оценка первого экрана и читаемости принадлежит агенту. Проверены эмуляция Edge и реальный Web Audio сигнал без прослушивания человеком.",
+        "Сценарий без движения проверен один раз с выбором первого предложенного усиления."
+      ]
+    },
+    {
+      "variant": "C",
+      "criteria": {
+        "goal15": {
+          "status": "yes",
+          "note": "Уходите от дронов до эвакуации через 90 секунд.",
+          "evidence": [
+            "C-first.png"
+          ]
+        },
+        "no_manual": {
+          "status": "yes",
+          "note": "Первый клик по «Играть» открыл арену. Стрелка сразу сдвинула героя.",
+          "evidence": [
+            "C-first.png",
+            "C-orbit.json"
+          ]
+        },
+        "mouse": {
+          "status": "yes",
+          "note": "Перетаскивание мышью изменило скорость по обеим осям, выбор усилений и новая партия сработали кликом.",
+          "evidence": [
+            "C-orbit.json"
+          ]
+        },
+        "touch": {
+          "status": "yes",
+          "note": "На 360 и 390 px игрок двигался за жестом, отмена касания сбросила ввод.",
+          "evidence": [
+            "C-controls.json",
+            "C-360-playing.png",
+            "C-390-playing.png"
+          ]
+        },
+        "readable": {
+          "status": "yes",
+          "note": "Вынесенные над ареной часы и щит хорошо видны на узком экране.",
+          "evidence": [
+            "C-first.png",
+            "C-360-menu.png",
+            "C-360-playing.png"
+          ]
+        },
+        "feedback": {
+          "status": "yes",
+          "note": "Сигнал игрока перемещается, выстрелы и счёт сбитых видны на поле и панели.",
+          "evidence": [
+            "C-360-playing.png",
+            "C-playing.png",
+            "C-orbit.json"
+          ]
+        },
+        "audio": {
+          "status": "yes",
+          "note": "При активном бое после жеста измерен ненулевой сигнал.",
+          "evidence": [
+            "C-controls.json"
+          ]
+        },
+        "mute": {
+          "status": "yes",
+          "note": "Тап по звуку после движения выключил звук. В продолжающейся игре пик RMS упал до нуля.",
+          "evidence": [
+            "C-controls.json"
+          ]
+        },
+        "finish": {
+          "status": "yes",
+          "note": "Отдельно достигнуты победа на 90 с и поражение при нуле здоровья.",
+          "evidence": [
+            "C-orbit.json",
+            "C-chase.json"
+          ]
+        },
+        "restart": {
+          "status": "yes",
+          "note": "Кнопка финала запустила следующий раунд с полным здоровьем, нулевым счётом и без усилений.",
+          "evidence": [
+            "C-orbit.json",
+            "C-chase.json"
+          ]
+        }
+      },
+      "requirements": [
+        {
+          "id": "russian",
+          "status": "pass",
+          "note": "Старт, управление, улучшения и оба итога показаны по-русски.",
+          "evidence": [
+            "C-first.png",
+            "C-upgrade1.png",
+            "C-chase-final.png"
+          ]
+        },
+        {
+          "id": "no_external",
+          "status": "pass",
+          "note": "Все запросы до обоих финалов шли к локальным файлам. В текущих HTML, JS и CSS не обнаружено внешних URL или загрузчиков.",
+          "evidence": [
+            "C-orbit.json",
+            "C-chase.json"
+          ]
+        },
+        {
+          "id": "desktop_layout",
+          "status": "pass",
+          "note": "Старт, поле, улучшения и финальные действия помещаются на 1440×900.",
+          "evidence": [
+            "C-first.png",
+            "C-playing.png",
+            "C-upgrade1.png",
+            "C-orbit-final.png"
+          ]
+        },
+        {
+          "id": "mobile_layout",
+          "status": "pass",
+          "note": "Меню и поле помещаются в iframe высотой 704/748 px. Ширина документа равна 360/390 px.",
+          "evidence": [
+            "C-controls.json",
+            "C-360-menu.png",
+            "C-360-playing.png",
+            "C-390-playing.png"
+          ]
+        },
+        {
+          "id": "keyboard",
+          "status": "pass",
+          "note": "Tab показывает контур кнопки старта, Enter запускает игру.",
+          "evidence": [
+            "C-controls.json"
+          ]
+        },
+        {
+          "id": "mouse",
+          "status": "pass",
+          "note": "Клик запускает и перезапускает партию, мышь перемещает героя, стрелками достигнута победа.",
+          "evidence": [
+            "C-orbit.json"
+          ]
+        },
+        {
+          "id": "touch",
+          "status": "pass",
+          "note": "Два размера iframe: диагональное касание сместило игрока, touchCancel обнулил ввод.",
+          "evidence": [
+            "C-controls.json"
+          ]
+        },
+        {
+          "id": "feedback",
+          "status": "pass",
+          "note": "Сигнал игрока перемещается, выстрелы и счёт сбитых видны на поле и панели.",
+          "evidence": [
+            "C-360-playing.png",
+            "C-orbit.json"
+          ]
+        },
+        {
+          "id": "audio",
+          "status": "pass",
+          "note": "Пиковый RMS во время боя 0.0189.",
+          "evidence": [
+            "C-controls.json"
+          ]
+        },
+        {
+          "id": "mute",
+          "status": "pass",
+          "note": "После отключения RMS = 0, число запущенных источников = 0 за 4,8 с боя.",
+          "evidence": [
+            "C-controls.json"
+          ]
+        },
+        {
+          "id": "movement",
+          "status": "pass",
+          "note": "Длина вектора скорости по прямой и диагонали одинакова: 167 ед./с.",
+          "evidence": [
+            "C-orbit.json"
+          ]
+        },
+        {
+          "id": "combat",
+          "status": "pass",
+          "note": "Без ручного выстрела росло число убитых, при контакте здоровье упало до нуля.",
+          "evidence": [
+            "C-orbit.json",
+            "C-chase.json"
+          ]
+        },
+        {
+          "id": "enemy_types",
+          "status": "pass",
+          "note": "В активном бою зафиксированы три типа: drone, dart, hauler.",
+          "evidence": [
+            "C-orbit.json",
+            "C-playing.png",
+            "C-360-playing.png"
+          ]
+        },
+        {
+          "id": "upgrades",
+          "status": "pass",
+          "note": "На 30 и 60 с снимки мира до и после ожидания совпали. Каждый клик добавил одно усиление.",
+          "evidence": [
+            "C-orbit.json",
+            "C-upgrade1.png",
+            "C-upgrade2.png"
+          ]
+        },
+        {
+          "id": "victory",
+          "status": "pass",
+          "note": "Победная партия завершилась при elapsed = 90.",
+          "evidence": [
+            "C-orbit.json",
+            "C-orbit-final.png"
+          ]
+        },
+        {
+          "id": "defeat",
+          "status": "pass",
+          "note": "Поражение при здоровье 0 на 22.5 с.",
+          "evidence": [
+            "C-chase.json",
+            "C-chase-final.png"
+          ]
+        },
+        {
+          "id": "pause",
+          "status": "pass",
+          "note": "После Escape снимки состояния совпали с интервалом 470 мс, продолжение сработало.",
+          "evidence": [
+            "C-orbit.json"
+          ]
+        },
+        {
+          "id": "blur",
+          "status": "pass",
+          "note": "Автопауза останавливает время и сбрасывает направление. Shift+Tab выводит к кнопке сайта, Enter закрывает окно или включает полный экран.",
+          "evidence": [
+            "C-controls.json",
+            "C-orbit.json",
+            "C-site-focus.json"
+          ]
+        },
+        {
+          "id": "final_guard",
+          "status": "pass",
+          "note": "После клавиши движения и ожидания финальное состояние не изменилось в выигранной и проигранной партиях.",
+          "evidence": [
+            "C-orbit.json",
+            "C-chase.json"
+          ]
+        },
+        {
+          "id": "restart",
+          "status": "pass",
+          "note": "После финала запущена новая игра, здоровье полное, счёт и список улучшений сброшены.",
+          "evidence": [
+            "C-orbit.json",
+            "C-chase.json"
+          ]
+        }
+      ],
+      "genre": {
+        "endings": {
+          "value": 2,
+          "note": "Победа на 90 с, отдельное поражение на 22.5 с.",
+          "evidence": [
+            "C-orbit.json",
+            "C-chase.json"
+          ]
+        },
+        "upgrades": {
+          "value": 2,
+          "note": "Два подтверждённых выбора в победной партии на 30 и 60 с.",
+          "evidence": [
+            "C-orbit.json"
+          ]
+        },
+        "idle_win": {
+          "status": "no",
+          "note": "В одной партии без движения поражение на 46.7 с. Здоровье 0/5.",
+          "evidence": [
+            "C-idle.json"
+          ]
+        }
+      },
+      "bugs": [],
+      "evidence": [
+        "C-first.png",
+        "C-360-menu.png",
+        "C-360-playing.png",
+        "C-390-playing.png",
+        "C-playing.png",
+        "C-orbit.json",
+        "C-chase.json",
+        "C-idle.json",
+        "C-controls.json"
+      ],
+      "limitations": [
+        "Оценка первого экрана и читаемости принадлежит агенту. Проверены эмуляция Edge и реальный Web Audio сигнал без прослушивания человеком.",
+        "Сценарий без движения проверен один раз с выбором первого предложенного усиления."
+      ]
+    },
+    {
+      "variant": "D",
+      "criteria": {
+        "goal15": {
+          "status": "yes",
+          "note": "Продержитесь 90 секунд до всплытия.",
+          "evidence": [
+            "D-first.png"
+          ]
+        },
+        "no_manual": {
+          "status": "yes",
+          "note": "Первый клик по «Играть» открыл арену. Стрелка сразу сдвинула героя.",
+          "evidence": [
+            "D-first.png",
+            "D-orbit.json"
+          ]
+        },
+        "mouse": {
+          "status": "yes",
+          "note": "Перетаскивание мышью изменило скорость по обеим осям, выбор усилений и новая партия сработали кликом.",
+          "evidence": [
+            "D-orbit.json"
+          ]
+        },
+        "touch": {
+          "status": "yes",
+          "note": "На 360 и 390 px игрок двигался за жестом, отмена касания сбросила ввод.",
+          "evidence": [
+            "D-controls.json",
+            "D-360-playing.png",
+            "D-390-playing.png"
+          ]
+        },
+        "readable": {
+          "status": "yes",
+          "note": "Видны время, секции корпуса и счётчик. Крупная кнопка «Играть».",
+          "evidence": [
+            "D-first.png",
+            "D-360-menu.png",
+            "D-360-playing.png"
+          ]
+        },
+        "feedback": {
+          "status": "yes",
+          "note": "Батискаф движется по жесту, выстрелы заметны, счёт попаданий обновляется.",
+          "evidence": [
+            "D-360-playing.png",
+            "D-playing.png",
+            "D-orbit.json"
+          ]
+        },
+        "audio": {
+          "status": "yes",
+          "note": "При активном бое после жеста измерен ненулевой сигнал.",
+          "evidence": [
+            "D-controls.json"
+          ]
+        },
+        "mute": {
+          "status": "yes",
+          "note": "Тап по звуку после движения выключил звук. В продолжающейся игре пик RMS упал до нуля.",
+          "evidence": [
+            "D-controls.json"
+          ]
+        },
+        "finish": {
+          "status": "yes",
+          "note": "Отдельно достигнуты победа на 90 с и поражение при нуле здоровья.",
+          "evidence": [
+            "D-orbit.json",
+            "D-chase.json"
+          ]
+        },
+        "restart": {
+          "status": "yes",
+          "note": "Кнопка финала запустила следующий раунд с полным здоровьем, нулевым счётом и без усилений.",
+          "evidence": [
+            "D-orbit.json",
+            "D-chase.json"
+          ]
+        }
+      },
+      "requirements": [
+        {
+          "id": "russian",
+          "status": "pass",
+          "note": "Старт, управление, улучшения и оба итога показаны по-русски.",
+          "evidence": [
+            "D-first.png",
+            "D-upgrade1.png",
+            "D-chase-final.png"
+          ]
+        },
+        {
+          "id": "no_external",
+          "status": "pass",
+          "note": "Все запросы до обоих финалов шли к локальным файлам. В текущих HTML, JS и CSS не обнаружено внешних URL или загрузчиков.",
+          "evidence": [
+            "D-orbit.json",
+            "D-chase.json"
+          ]
+        },
+        {
+          "id": "desktop_layout",
+          "status": "pass",
+          "note": "Старт, поле, улучшения и финальные действия помещаются на 1440×900.",
+          "evidence": [
+            "D-first.png",
+            "D-playing.png",
+            "D-upgrade1.png",
+            "D-orbit-final.png"
+          ]
+        },
+        {
+          "id": "mobile_layout",
+          "status": "pass",
+          "note": "Меню и поле помещаются в iframe высотой 704/748 px. Ширина документа равна 360/390 px.",
+          "evidence": [
+            "D-controls.json",
+            "D-360-menu.png",
+            "D-360-playing.png",
+            "D-390-playing.png"
+          ]
+        },
+        {
+          "id": "keyboard",
+          "status": "pass",
+          "note": "Tab показывает контур кнопки старта, Enter запускает игру.",
+          "evidence": [
+            "D-controls.json"
+          ]
+        },
+        {
+          "id": "mouse",
+          "status": "pass",
+          "note": "Клик запускает и перезапускает партию, мышь перемещает героя, стрелками достигнута победа.",
+          "evidence": [
+            "D-orbit.json"
+          ]
+        },
+        {
+          "id": "touch",
+          "status": "pass",
+          "note": "Два размера iframe: диагональное касание сместило игрока, touchCancel обнулил ввод.",
+          "evidence": [
+            "D-controls.json"
+          ]
+        },
+        {
+          "id": "feedback",
+          "status": "pass",
+          "note": "Батискаф движется по жесту, выстрелы заметны, счёт попаданий обновляется.",
+          "evidence": [
+            "D-360-playing.png",
+            "D-orbit.json"
+          ]
+        },
+        {
+          "id": "audio",
+          "status": "pass",
+          "note": "Пиковый RMS во время боя 0.0199.",
+          "evidence": [
+            "D-controls.json"
+          ]
+        },
+        {
+          "id": "mute",
+          "status": "pass",
+          "note": "После отключения RMS = 0, число запущенных источников = 0 за 4,8 с боя.",
+          "evidence": [
+            "D-controls.json"
+          ]
+        },
+        {
+          "id": "movement",
+          "status": "pass",
+          "note": "Длина вектора скорости по прямой и диагонали одинакова: 142 ед./с.",
+          "evidence": [
+            "D-orbit.json"
+          ]
+        },
+        {
+          "id": "combat",
+          "status": "pass",
+          "note": "Без ручного выстрела росло число убитых, при контакте здоровье упало до нуля.",
+          "evidence": [
+            "D-orbit.json",
+            "D-chase.json"
+          ]
+        },
+        {
+          "id": "enemy_types",
+          "status": "pass",
+          "note": "В активном бою зафиксированы три типа: медуза, скат, краб.",
+          "evidence": [
+            "D-orbit.json",
+            "D-playing.png",
+            "D-360-playing.png"
+          ]
+        },
+        {
+          "id": "upgrades",
+          "status": "pass",
+          "note": "На 30 и 60 с снимки мира до и после ожидания совпали. Каждый клик добавил одно усиление.",
+          "evidence": [
+            "D-orbit.json",
+            "D-upgrade1.png",
+            "D-upgrade2.png"
+          ]
+        },
+        {
+          "id": "victory",
+          "status": "pass",
+          "note": "Победная партия завершилась при elapsed = 90.",
+          "evidence": [
+            "D-orbit.json",
+            "D-orbit-final.png"
+          ]
+        },
+        {
+          "id": "defeat",
+          "status": "pass",
+          "note": "Поражение при здоровье 0 на 27.8 с.",
+          "evidence": [
+            "D-chase.json",
+            "D-chase-final.png"
+          ]
+        },
+        {
+          "id": "pause",
+          "status": "pass",
+          "note": "После Escape снимки состояния совпали с интервалом 470 мс, продолжение сработало.",
+          "evidence": [
+            "D-orbit.json"
+          ]
+        },
+        {
+          "id": "blur",
+          "status": "pass",
+          "note": "Автопауза останавливает время и сбрасывает направление. Shift+Tab выводит к кнопке сайта, Enter закрывает окно или включает полный экран.",
+          "evidence": [
+            "D-controls.json",
+            "D-orbit.json",
+            "D-site-focus.json"
+          ]
+        },
+        {
+          "id": "final_guard",
+          "status": "pass",
+          "note": "После клавиши движения и ожидания финальное состояние не изменилось в выигранной и проигранной партиях.",
+          "evidence": [
+            "D-orbit.json",
+            "D-chase.json"
+          ]
+        },
+        {
+          "id": "restart",
+          "status": "pass",
+          "note": "После финала запущена новая игра, здоровье полное, счёт и список улучшений сброшены.",
+          "evidence": [
+            "D-orbit.json",
+            "D-chase.json"
+          ]
+        }
+      ],
+      "genre": {
+        "endings": {
+          "value": 2,
+          "note": "Победа на 90 с, отдельное поражение на 27.8 с.",
+          "evidence": [
+            "D-orbit.json",
+            "D-chase.json"
+          ]
+        },
+        "upgrades": {
+          "value": 2,
+          "note": "Два подтверждённых выбора в победной партии на 30 и 60 с.",
+          "evidence": [
+            "D-orbit.json"
+          ]
+        },
+        "idle_win": {
+          "status": "no",
+          "note": "В одной партии без движения поражение на 59.8 с. Здоровье 0/6.",
+          "evidence": [
+            "D-idle.json"
+          ]
+        }
+      },
+      "bugs": [],
+      "evidence": [
+        "D-first.png",
+        "D-360-menu.png",
+        "D-360-playing.png",
+        "D-390-playing.png",
+        "D-playing.png",
+        "D-orbit.json",
+        "D-chase.json",
+        "D-idle.json",
+        "D-controls.json"
+      ],
+      "limitations": [
+        "Оценка первого экрана и читаемости принадлежит агенту. Проверены эмуляция Edge и реальный Web Audio сигнал без прослушивания человеком.",
+        "Сценарий без движения проверен один раз с выбором первого предложенного усиления."
+      ]
+    },
+    {
+      "variant": "E",
+      "criteria": {
+        "goal15": {
+          "status": "yes",
+          "note": "Уклоняйтесь от обитателей рифа 90 секунд до подъёма.",
+          "evidence": [
+            "E-first.png"
+          ]
+        },
+        "no_manual": {
+          "status": "yes",
+          "note": "Первый клик по «Играть» открыл арену. Стрелка сразу сдвинула героя.",
+          "evidence": [
+            "E-first.png",
+            "E-orbit.json"
+          ]
+        },
+        "mouse": {
+          "status": "yes",
+          "note": "Перетаскивание мышью изменило скорость по обеим осям, выбор усилений и новая партия сработали кликом.",
+          "evidence": [
+            "E-orbit.json"
+          ]
+        },
+        "touch": {
+          "status": "yes",
+          "note": "На 360 и 390 px игрок двигался за жестом, отмена касания сбросила ввод.",
+          "evidence": [
+            "E-controls.json",
+            "E-360-playing.png",
+            "E-390-playing.png"
+          ]
+        },
+        "readable": {
+          "status": "yes",
+          "note": "Таймер, прочность, счёт и кнопка старта читаются на 360 px.",
+          "evidence": [
+            "E-first.png",
+            "E-360-menu.png",
+            "E-360-playing.png"
+          ]
+        },
+        "feedback": {
+          "status": "yes",
+          "note": "Батискаф меняет положение, цели исчезают, счёт сбитых растёт.",
+          "evidence": [
+            "E-360-playing.png",
+            "E-playing.png",
+            "E-orbit.json"
+          ]
+        },
+        "audio": {
+          "status": "yes",
+          "note": "При активном бое после жеста измерен ненулевой сигнал.",
+          "evidence": [
+            "E-controls.json"
+          ]
+        },
+        "mute": {
+          "status": "yes",
+          "note": "Тап по звуку после движения выключил звук. В продолжающейся игре пик RMS упал до нуля.",
+          "evidence": [
+            "E-controls.json"
+          ]
+        },
+        "finish": {
+          "status": "yes",
+          "note": "Отдельно достигнуты победа на 90 с и поражение при нуле здоровья.",
+          "evidence": [
+            "E-orbit.json",
+            "E-chase.json"
+          ]
+        },
+        "restart": {
+          "status": "yes",
+          "note": "Кнопка финала запустила следующий раунд с полным здоровьем, нулевым счётом и без усилений.",
+          "evidence": [
+            "E-orbit.json",
+            "E-chase.json"
+          ]
+        }
+      },
+      "requirements": [
+        {
+          "id": "russian",
+          "status": "pass",
+          "note": "Старт, управление, улучшения и оба итога показаны по-русски.",
+          "evidence": [
+            "E-first.png",
+            "E-upgrade1.png",
+            "E-chase-final.png"
+          ]
+        },
+        {
+          "id": "no_external",
+          "status": "pass",
+          "note": "Все запросы до обоих финалов шли к локальным файлам. В текущих HTML, JS и CSS не обнаружено внешних URL или загрузчиков.",
+          "evidence": [
+            "E-orbit.json",
+            "E-chase.json"
+          ]
+        },
+        {
+          "id": "desktop_layout",
+          "status": "pass",
+          "note": "Старт, поле, улучшения и финальные действия помещаются на 1440×900.",
+          "evidence": [
+            "E-first.png",
+            "E-playing.png",
+            "E-upgrade1.png",
+            "E-orbit-final.png"
+          ]
+        },
+        {
+          "id": "mobile_layout",
+          "status": "pass",
+          "note": "Меню и поле помещаются в iframe высотой 704/748 px. Ширина документа равна 360/390 px.",
+          "evidence": [
+            "E-controls.json",
+            "E-360-menu.png",
+            "E-360-playing.png",
+            "E-390-playing.png"
+          ]
+        },
+        {
+          "id": "keyboard",
+          "status": "pass",
+          "note": "Tab показывает контур кнопки старта, Enter запускает игру.",
+          "evidence": [
+            "E-controls.json"
+          ]
+        },
+        {
+          "id": "mouse",
+          "status": "pass",
+          "note": "Клик запускает и перезапускает партию, мышь перемещает героя, стрелками достигнута победа.",
+          "evidence": [
+            "E-orbit.json"
+          ]
+        },
+        {
+          "id": "touch",
+          "status": "pass",
+          "note": "Два размера iframe: диагональное касание сместило игрока, touchCancel обнулил ввод.",
+          "evidence": [
+            "E-controls.json"
+          ]
+        },
+        {
+          "id": "feedback",
+          "status": "pass",
+          "note": "Батискаф меняет положение, цели исчезают, счёт сбитых растёт.",
+          "evidence": [
+            "E-360-playing.png",
+            "E-orbit.json"
+          ]
+        },
+        {
+          "id": "audio",
+          "status": "pass",
+          "note": "Пиковый RMS во время боя 0.0255.",
+          "evidence": [
+            "E-controls.json"
+          ]
+        },
+        {
+          "id": "mute",
+          "status": "pass",
+          "note": "После отключения RMS = 0, число запущенных источников = 0 за 4,8 с боя.",
+          "evidence": [
+            "E-controls.json"
+          ]
+        },
+        {
+          "id": "movement",
+          "status": "pass",
+          "note": "Длина вектора скорости по прямой и диагонали одинакова: 240 ед./с.",
+          "evidence": [
+            "E-orbit.json"
+          ]
+        },
+        {
+          "id": "combat",
+          "status": "pass",
+          "note": "Без ручного выстрела росло число убитых, при контакте здоровье упало до нуля.",
+          "evidence": [
+            "E-orbit.json",
+            "E-chase.json"
+          ]
+        },
+        {
+          "id": "enemy_types",
+          "status": "pass",
+          "note": "В активном бою зафиксированы три типа: drift, dart, shell.",
+          "evidence": [
+            "E-orbit.json",
+            "E-playing.png",
+            "E-360-playing.png"
+          ]
+        },
+        {
+          "id": "upgrades",
+          "status": "pass",
+          "note": "На 30 и 60 с снимки мира до и после ожидания совпали. Каждый клик добавил одно усиление.",
+          "evidence": [
+            "E-orbit.json",
+            "E-upgrade1.png",
+            "E-upgrade2.png"
+          ]
+        },
+        {
+          "id": "victory",
+          "status": "pass",
+          "note": "Победная партия завершилась при elapsed = 90.",
+          "evidence": [
+            "E-orbit.json",
+            "E-orbit-final.png"
+          ]
+        },
+        {
+          "id": "defeat",
+          "status": "pass",
+          "note": "Поражение при здоровье 0 на 25.5 с.",
+          "evidence": [
+            "E-chase.json",
+            "E-chase-final.png"
+          ]
+        },
+        {
+          "id": "pause",
+          "status": "pass",
+          "note": "После Escape снимки состояния совпали с интервалом 470 мс, продолжение сработало.",
+          "evidence": [
+            "E-orbit.json"
+          ]
+        },
+        {
+          "id": "blur",
+          "status": "pass",
+          "note": "Автопауза останавливает время и сбрасывает направление. Shift+Tab выводит к кнопке сайта, Enter закрывает окно или включает полный экран.",
+          "evidence": [
+            "E-controls.json",
+            "E-orbit.json",
+            "E-site-focus.json"
+          ]
+        },
+        {
+          "id": "final_guard",
+          "status": "pass",
+          "note": "После клавиши движения и ожидания финальное состояние не изменилось в выигранной и проигранной партиях.",
+          "evidence": [
+            "E-orbit.json",
+            "E-chase.json"
+          ]
+        },
+        {
+          "id": "restart",
+          "status": "pass",
+          "note": "После финала запущена новая игра, здоровье полное, счёт и список улучшений сброшены.",
+          "evidence": [
+            "E-orbit.json",
+            "E-chase.json"
+          ]
+        }
+      ],
+      "genre": {
+        "endings": {
+          "value": 2,
+          "note": "Победа на 90 с, отдельное поражение на 25.5 с.",
+          "evidence": [
+            "E-orbit.json",
+            "E-chase.json"
+          ]
+        },
+        "upgrades": {
+          "value": 2,
+          "note": "Два подтверждённых выбора в победной партии на 30 и 60 с.",
+          "evidence": [
+            "E-orbit.json"
+          ]
+        },
+        "idle_win": {
+          "status": "yes",
+          "note": "В одной партии без движения победа на 90.0 с. Здоровье 6/7.",
+          "evidence": [
+            "E-idle.json"
+          ]
+        }
+      },
+      "bugs": [],
+      "evidence": [
+        "E-first.png",
+        "E-360-menu.png",
+        "E-360-playing.png",
+        "E-390-playing.png",
+        "E-playing.png",
+        "E-orbit.json",
+        "E-chase.json",
+        "E-idle.json",
+        "E-controls.json"
+      ],
+      "limitations": [
+        "Оценка первого экрана и читаемости принадлежит агенту. Проверены эмуляция Edge и реальный Web Audio сигнал без прослушивания человеком.",
+        "Сценарий без движения проверен один раз с выбором первого предложенного усиления."
+      ]
+    }
+  ]
+}

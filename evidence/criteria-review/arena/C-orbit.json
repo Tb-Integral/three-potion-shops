@@ -1,0 +1,698 @@
+{
+  "variant": "C",
+  "mode": "orbit",
+  "method": "Edge 1440×900, real-time simulation, browser input only.",
+  "requests": [
+    "/C/",
+    "/C/arena.css",
+    "/C/audio.js",
+    "/C/render.js",
+    "/C/arena.js"
+  ],
+  "errors": [],
+  "samples": [
+    {
+      "phase": "playing",
+      "t": 0.933,
+      "hp": 5,
+      "max": 5,
+      "kills": 0,
+      "xy": [
+        636,
+        310
+      ],
+      "velocity": [
+        151.62919012460412,
+        -69.98277432451968
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 1,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 5.933,
+      "hp": 5,
+      "max": 5,
+      "kills": 2,
+      "xy": [
+        545,
+        460
+      ],
+      "velocity": [
+        -118.08683245815342,
+        -118.08683245815342
+      ],
+      "input": {
+        "x": -0.7071067811865475,
+        "y": -0.7071067811865475
+      },
+      "upgrades": [],
+      "enemies": 4,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 11.058,
+      "hp": 5,
+      "max": 5,
+      "kills": 7,
+      "xy": [
+        491,
+        133
+      ],
+      "velocity": [
+        167,
+        0
+      ],
+      "input": {
+        "x": 1,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 4,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 16.158,
+      "hp": 5,
+      "max": 5,
+      "kills": 10,
+      "xy": [
+        604,
+        466
+      ],
+      "velocity": [
+        -167,
+        0
+      ],
+      "input": {
+        "x": -1,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 6,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 21.158,
+      "hp": 5,
+      "max": 5,
+      "kills": 17,
+      "xy": [
+        422,
+        191
+      ],
+      "velocity": [
+        118.08683245815342,
+        118.08683245815342
+      ],
+      "input": {
+        "x": 0.7071067811865475,
+        "y": 0.7071067811865475
+      },
+      "upgrades": [],
+      "enemies": 4,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 26.167,
+      "hp": 5,
+      "max": 5,
+      "kills": 22,
+      "xy": [
+        645,
+        447
+      ],
+      "velocity": [
+        -167,
+        0
+      ],
+      "input": {
+        "x": -1,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 5,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 31.275,
+      "hp": 5,
+      "max": 5,
+      "kills": 27,
+      "xy": [
+        415,
+        165
+      ],
+      "velocity": [
+        167,
+        0
+      ],
+      "input": {
+        "x": 1,
+        "y": 0
+      },
+      "upgrades": [
+        "Импульсный затвор"
+      ],
+      "enemies": 6,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 36.425,
+      "hp": 5,
+      "max": 5,
+      "kills": 35,
+      "xy": [
+        654,
+        449
+      ],
+      "velocity": [
+        -167,
+        0
+      ],
+      "input": {
+        "x": -1,
+        "y": 0
+      },
+      "upgrades": [
+        "Импульсный затвор"
+      ],
+      "enemies": 5,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 41.542,
+      "hp": 5,
+      "max": 5,
+      "kills": 40,
+      "xy": [
+        418,
+        196
+      ],
+      "velocity": [
+        118.08683245815342,
+        -118.08683245815342
+      ],
+      "input": {
+        "x": 0.7071067811865475,
+        "y": -0.7071067811865475
+      },
+      "upgrades": [
+        "Импульсный затвор"
+      ],
+      "enemies": 6,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 46.642,
+      "hp": 5,
+      "max": 5,
+      "kills": 47,
+      "xy": [
+        715,
+        432
+      ],
+      "velocity": [
+        -167,
+        0
+      ],
+      "input": {
+        "x": -1,
+        "y": 0
+      },
+      "upgrades": [
+        "Импульсный затвор"
+      ],
+      "enemies": 6,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 51.675,
+      "hp": 5,
+      "max": 5,
+      "kills": 53,
+      "xy": [
+        336,
+        154
+      ],
+      "velocity": [
+        167,
+        0
+      ],
+      "input": {
+        "x": 1,
+        "y": 0
+      },
+      "upgrades": [
+        "Импульсный затвор"
+      ],
+      "enemies": 8,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 56.742,
+      "hp": 5,
+      "max": 5,
+      "kills": 59,
+      "xy": [
+        885,
+        359
+      ],
+      "velocity": [
+        -118.08683245815342,
+        -118.08683245815342
+      ],
+      "input": {
+        "x": -0.7071067811865475,
+        "y": -0.7071067811865475
+      },
+      "upgrades": [
+        "Импульсный затвор"
+      ],
+      "enemies": 10,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 61.858,
+      "hp": 5,
+      "max": 5,
+      "kills": 69,
+      "xy": [
+        637,
+        490
+      ],
+      "velocity": [
+        -167,
+        0
+      ],
+      "input": {
+        "x": -1,
+        "y": 0
+      },
+      "upgrades": [
+        "Импульсный затвор",
+        "Осколочные заряды"
+      ],
+      "enemies": 8,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 66.983,
+      "hp": 5,
+      "max": 5,
+      "kills": 78,
+      "xy": [
+        382,
+        142
+      ],
+      "velocity": [
+        167,
+        0
+      ],
+      "input": {
+        "x": 1,
+        "y": 0
+      },
+      "upgrades": [
+        "Импульсный затвор",
+        "Осколочные заряды"
+      ],
+      "enemies": 8,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 71.992,
+      "hp": 5,
+      "max": 5,
+      "kills": 89,
+      "xy": [
+        804,
+        152
+      ],
+      "velocity": [
+        167,
+        0
+      ],
+      "input": {
+        "x": 1,
+        "y": 0
+      },
+      "upgrades": [
+        "Импульсный затвор",
+        "Осколочные заряды"
+      ],
+      "enemies": 7,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 77.133,
+      "hp": 5,
+      "max": 5,
+      "kills": 95,
+      "xy": [
+        569,
+        487
+      ],
+      "velocity": [
+        0,
+        -167
+      ],
+      "input": {
+        "x": 0,
+        "y": -1
+      },
+      "upgrades": [
+        "Импульсный затвор",
+        "Осколочные заряды"
+      ],
+      "enemies": 12,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 82.233,
+      "hp": 5,
+      "max": 5,
+      "kills": 107,
+      "xy": [
+        388,
+        146
+      ],
+      "velocity": [
+        167,
+        0
+      ],
+      "input": {
+        "x": 1,
+        "y": 0
+      },
+      "upgrades": [
+        "Импульсный затвор",
+        "Осколочные заряды"
+      ],
+      "enemies": 11,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 87.267,
+      "hp": 5,
+      "max": 5,
+      "kills": 120,
+      "xy": [
+        815,
+        346
+      ],
+      "velocity": [
+        -118.08683245815342,
+        118.08683245815342
+      ],
+      "input": {
+        "x": -0.7071067811865475,
+        "y": 0.7071067811865475
+      },
+      "upgrades": [
+        "Импульсный затвор",
+        "Осколочные заряды"
+      ],
+      "enemies": 12,
+      "shots": 0
+    }
+  ],
+  "checks": {
+    "start": {
+      "phase": "playing",
+      "t": 0,
+      "hp": 5,
+      "max": 5,
+      "kills": 0,
+      "xy": [
+        540,
+        300
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 0,
+      "shots": 0
+    },
+    "straight": {
+      "phase": "playing",
+      "t": 0.275,
+      "hp": 5,
+      "max": 5,
+      "kills": 0,
+      "xy": [
+        586,
+        300
+      ],
+      "velocity": [
+        167,
+        0
+      ],
+      "input": {
+        "x": 1,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 0,
+      "shots": 0
+    },
+    "diagonal": {
+      "phase": "playing",
+      "t": 0.517,
+      "hp": 5,
+      "max": 5,
+      "kills": 0,
+      "xy": [
+        614,
+        329
+      ],
+      "velocity": [
+        118.08683245815342,
+        118.08683245815342
+      ],
+      "input": {
+        "x": 0.7071067811865475,
+        "y": 0.7071067811865475
+      },
+      "upgrades": [],
+      "enemies": 1,
+      "shots": 0
+    },
+    "pause": {
+      "same": true,
+      "snapshot": {
+        "phase": "paused",
+        "t": 0.525,
+        "hp": 5,
+        "max": 5,
+        "kills": 0,
+        "xy": [
+          615,
+          330
+        ],
+        "velocity": [
+          0,
+          0
+        ],
+        "input": {
+          "x": 0,
+          "y": 0
+        },
+        "upgrades": [],
+        "enemies": 1,
+        "shots": 0
+      }
+    },
+    "blur": {
+      "same": true,
+      "snapshot": {
+        "phase": "paused",
+        "t": 0.65,
+        "hp": 5,
+        "max": 5,
+        "kills": 0,
+        "xy": [
+          594,
+          330
+        ],
+        "velocity": [
+          0,
+          0
+        ],
+        "input": {
+          "x": 0,
+          "y": 0
+        },
+        "upgrades": [],
+        "enemies": 1,
+        "shots": 0
+      }
+    },
+    "mouseDrag": {
+      "phase": "playing",
+      "t": 0.933,
+      "hp": 5,
+      "max": 5,
+      "kills": 0,
+      "xy": [
+        636,
+        310
+      ],
+      "velocity": [
+        151.62919012460412,
+        -69.98277432451968
+      ],
+      "input": {
+        "x": 0.9079592223030187,
+        "y": -0.4190585288893394
+      },
+      "upgrades": [],
+      "enemies": 1,
+      "shots": 0
+    },
+    "finalFrozen": true,
+    "restart": {
+      "phase": "playing",
+      "t": 0.217,
+      "hp": 5,
+      "max": 5,
+      "kills": 0,
+      "xy": [
+        540,
+        300
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 0,
+      "shots": 0
+    }
+  },
+  "choices": [
+    {
+      "t": 30,
+      "same": true,
+      "selected": "ϟ\nИмпульсный затвор\nТемп стрельбы +30%.\n↗",
+      "after": {
+        "phase": "playing",
+        "t": 30.025,
+        "hp": 5,
+        "max": 5,
+        "kills": 24,
+        "xy": [
+          259,
+          194
+        ],
+        "velocity": [
+          0,
+          0
+        ],
+        "input": {
+          "x": 0,
+          "y": 0
+        },
+        "upgrades": [
+          "Импульсный затвор"
+        ],
+        "enemies": 7,
+        "shots": 1
+      }
+    },
+    {
+      "t": 60,
+      "same": true,
+      "selected": "✳\nОсколочные заряды\nПопадание повреждает и соседних дронов.\n↗",
+      "after": {
+        "phase": "playing",
+        "t": 60.008,
+        "hp": 5,
+        "max": 5,
+        "kills": 64,
+        "xy": [
+          918,
+          474
+        ],
+        "velocity": [
+          0,
+          0
+        ],
+        "input": {
+          "x": 0,
+          "y": 0
+        },
+        "upgrades": [
+          "Импульсный затвор",
+          "Осколочные заряды"
+        ],
+        "enemies": 10,
+        "shots": 0
+      }
+    }
+  ],
+  "types": [
+    "drone",
+    "dart",
+    "hauler"
+  ],
+  "desktopScreenshot": "C-playing.png",
+  "final": {
+    "phase": "won",
+    "t": 90,
+    "hp": 5,
+    "max": 5,
+    "kills": 125,
+    "xy": [
+      571,
+      518
+    ],
+    "velocity": [
+      0,
+      0
+    ],
+    "input": {
+      "x": 0,
+      "y": 0
+    },
+    "upgrades": [
+      "Импульсный затвор",
+      "Осколочные заряды"
+    ],
+    "enemies": 14,
+    "shots": 0
+  },
+  "visibleResult": "Северный сигнал\nПОЛЯРНАЯ СТАНЦИЯ / 07\nСИГНАЛ ПРИНЯТ\nДО ЭВАКУАЦИИ\n0:00\nЩИТ 5/5\nСБИТО\n125\nПауза\n▲ СЕВЕР\n78° 12′ С. Ш.\nСЕКТОР 07\nЛЁД / ВЕТЕР / СИГНАЛ\n\nЭВАКУАЦИЯ ЗАВЕРШЕНА\n\nВы спасены\nВРЕМЯ\n1:30\nСБИТО\n125\n\nМодули · Импульсный затвор · Осколочные заряды\n\nНовая партия\n↗\nПОЛЕВАЯ ЧАСТОТА\n146.8\nЗвук вкл.\nГромкость\n35%",
+  "wallSeconds": 95
+}

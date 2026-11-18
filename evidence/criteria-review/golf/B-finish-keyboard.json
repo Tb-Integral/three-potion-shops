@@ -1,0 +1,192 @@
+{
+  "variant": "B",
+  "tabs": [
+    {
+      "id": "audio-toggle",
+      "tag": "BUTTON",
+      "outline": "rgb(255, 223, 145) solid 3px",
+      "focusVisible": true
+    },
+    {
+      "id": "audio-volume",
+      "tag": "INPUT",
+      "outline": "rgb(255, 215, 109) solid 3px",
+      "focusVisible": true
+    },
+    {
+      "id": "again",
+      "tag": "BUTTON",
+      "outline": "rgb(255, 223, 145) solid 3px",
+      "focusVisible": true
+    }
+  ],
+  "finished": {
+    "holeIndex": 2,
+    "phase": "finished",
+    "strokes": [
+      1,
+      4,
+      7
+    ],
+    "ball": {
+      "x": 377.9869221637026,
+      "y": 139.93522182798978,
+      "vx": 0,
+      "vy": 0,
+      "radius": 15
+    },
+    "cup": {
+      "x": 360,
+      "y": 140,
+      "radius": 23
+    },
+    "course": {
+      "width": 720,
+      "height": 1000
+    },
+    "dragging": false,
+    "obstacles": [
+      {
+        "x": 43,
+        "y": 625,
+        "w": 385,
+        "h": 30
+      },
+      {
+        "x": 292,
+        "y": 400,
+        "w": 385,
+        "h": 30
+      },
+      {
+        "x": 43,
+        "y": 230,
+        "w": 385,
+        "h": 30
+      }
+    ]
+  },
+  "body": "КЛУБ ВЕЧЕРНЕЙ ИГРЫ\nЛунный гольф ✳\n↺ Заново\nЗвук: вкл\nГромкость\nЛУНКА\n03 / 03\nУДАРЫ\n7\nПАРТИЯ ЗАВЕРШЕНА\n✳\nОтличная игра!\n\n12 ударов за три лунки · 1 / 4 / 7\n\nЕщё партию\n↗\n↙\n\nОтличный удар! Готовим следующую лунку\n\nPAR 4\nПартия завершена. 12 ударов за три лунки · 1 / 4 / 7",
+  "restartHole": {
+    "enabled": true,
+    "before": {
+      "holeIndex": 2,
+      "phase": "finished",
+      "strokes": [
+        1,
+        4,
+        7
+      ],
+      "ball": {
+        "x": 377.9869221637026,
+        "y": 139.93522182798978,
+        "vx": 0,
+        "vy": 0,
+        "radius": 15
+      },
+      "cup": {
+        "x": 360,
+        "y": 140,
+        "radius": 23
+      },
+      "course": {
+        "width": 720,
+        "height": 1000
+      },
+      "dragging": false,
+      "obstacles": [
+        {
+          "x": 43,
+          "y": 625,
+          "w": 385,
+          "h": 30
+        },
+        {
+          "x": 292,
+          "y": 400,
+          "w": 385,
+          "h": 30
+        },
+        {
+          "x": 43,
+          "y": 230,
+          "w": 385,
+          "h": 30
+        }
+      ]
+    },
+    "after": {
+      "holeIndex": 2,
+      "phase": "finished",
+      "strokes": [
+        1,
+        4,
+        7
+      ],
+      "ball": {
+        "x": 377.9869221637026,
+        "y": 139.93522182798978,
+        "vx": 0,
+        "vy": 0,
+        "radius": 15
+      },
+      "cup": {
+        "x": 360,
+        "y": 140,
+        "radius": 23
+      },
+      "course": {
+        "width": 720,
+        "height": 1000
+      },
+      "dragging": false,
+      "obstacles": [
+        {
+          "x": 43,
+          "y": 625,
+          "w": 385,
+          "h": 30
+        },
+        {
+          "x": 292,
+          "y": 400,
+          "w": 385,
+          "h": 30
+        },
+        {
+          "x": 43,
+          "y": 230,
+          "w": 385,
+          "h": 30
+        }
+      ]
+    }
+  },
+  "afterEnter": {
+    "holeIndex": 0,
+    "phase": "aim",
+    "strokes": [
+      0,
+      0,
+      0
+    ],
+    "ball": {
+      "x": 360,
+      "y": 820,
+      "vx": 0,
+      "vy": 0,
+      "radius": 15
+    },
+    "cup": {
+      "x": 360,
+      "y": 180,
+      "radius": 23
+    },
+    "course": {
+      "width": 720,
+      "height": 1000
+    },
+    "dragging": false,
+    "obstacles": []
+  }
+}

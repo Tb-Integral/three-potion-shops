@@ -1,0 +1,49 @@
+{
+ "variant": "A",
+ "target": "[data-buy=\"0\"]",
+ "before": {
+  "focus": {
+   "tag": "BUTTON",
+   "id": "",
+   "action": "",
+   "buy": "0",
+   "label": "Купить: Мята, 1 штука за 3 монет",
+   "outline": "solid 3px",
+   "visible": true
+  },
+  "cash": 50
+ },
+ "first": {
+  "focus": {
+   "tag": "BUTTON",
+   "id": "",
+   "action": "",
+   "buy": "0",
+   "label": "Купить: Мята, 1 штука за 3 монет",
+   "outline": "solid 3px",
+   "visible": true
+  },
+  "cash": 47
+ },
+ "second": {
+  "focus": {
+   "tag": "BUTTON",
+   "id": "",
+   "action": "",
+   "buy": "0",
+   "label": "Купить: Мята, 1 штука за 3 монет",
+   "outline": "solid 3px",
+   "visible": true
+  },
+  "cash": 44
+ },
+ "next": {
+  "tag": "BUTTON",
+  "id": "",
+  "action": "",
+  "buy": "1",
+  "label": "Купить: Янтарь, 1 штука за 4 монет",
+  "outline": "solid 3px",
+  "visible": true
+ }
+}

@@ -1,0 +1,55 @@
+{
+  "method": "Start game, click/tap parent button once, wait 200 ms, press Enter on the keyboard.",
+  "runs": [
+    {
+      "width": 1440,
+      "beforeEnter": {
+        "parent": {
+          "active": "IFRAME",
+          "clicks": 1
+        },
+        "child": {
+          "phase": "paused",
+          "active": "Продолжить",
+          "focus": true
+        }
+      },
+      "afterEnter": {
+        "parent": {
+          "active": "IFRAME",
+          "clicks": 1
+        },
+        "child": {
+          "phase": "playing",
+          "active": "✦ПОСЛЕДНИЙ СВЕТДОЖИТЬ ДО РАССВЕТАЗвук: вкл.Громкос",
+          "focus": true
+        }
+      }
+    },
+    {
+      "width": 360,
+      "beforeEnter": {
+        "parent": {
+          "active": "IFRAME",
+          "clicks": 1
+        },
+        "child": {
+          "phase": "paused",
+          "active": "Продолжить",
+          "focus": true
+        }
+      },
+      "afterEnter": {
+        "parent": {
+          "active": "IFRAME",
+          "clicks": 1
+        },
+        "child": {
+          "phase": "playing",
+          "active": "✦ПОСЛЕДНИЙ СВЕТДОЖИТЬ ДО РАССВЕТАЗвук: вкл.Громкос",
+          "focus": true
+        }
+      }
+    }
+  ]
+}

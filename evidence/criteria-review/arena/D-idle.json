@@ -1,0 +1,400 @@
+{
+  "variant": "D",
+  "mode": "idle",
+  "method": "Edge 1440×900, real-time simulation, browser input only.",
+  "requests": [
+    "/D/",
+    "/D/style.css",
+    "/D/art.js",
+    "/D/audio.js",
+    "/D/game.js"
+  ],
+  "errors": [],
+  "samples": [
+    {
+      "phase": "playing",
+      "t": 0,
+      "hp": 6,
+      "max": 6,
+      "kills": 0,
+      "xy": [
+        416,
+        246
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 3,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 5.15,
+      "hp": 6,
+      "max": 6,
+      "kills": 3,
+      "xy": [
+        416,
+        246
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 4,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 10.283,
+      "hp": 6,
+      "max": 6,
+      "kills": 7,
+      "xy": [
+        416,
+        246
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 5,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 15.408,
+      "hp": 6,
+      "max": 6,
+      "kills": 11,
+      "xy": [
+        416,
+        246
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 5,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 20.433,
+      "hp": 6,
+      "max": 6,
+      "kills": 15,
+      "xy": [
+        416,
+        246
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 6,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 25.558,
+      "hp": 6,
+      "max": 6,
+      "kills": 17,
+      "xy": [
+        416,
+        246
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 9,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 30.675,
+      "hp": 5,
+      "max": 6,
+      "kills": 23,
+      "xy": [
+        416,
+        246
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        "Импульсная катушка"
+      ],
+      "enemies": 7,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 35.767,
+      "hp": 5,
+      "max": 6,
+      "kills": 28,
+      "xy": [
+        416,
+        246
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        "Импульсная катушка"
+      ],
+      "enemies": 7,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 40.833,
+      "hp": 5,
+      "max": 6,
+      "kills": 33,
+      "xy": [
+        416,
+        246
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        "Импульсная катушка"
+      ],
+      "enemies": 7,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 45.942,
+      "hp": 4,
+      "max": 6,
+      "kills": 39,
+      "xy": [
+        416,
+        246
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        "Импульсная катушка"
+      ],
+      "enemies": 7,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 51.017,
+      "hp": 3,
+      "max": 6,
+      "kills": 44,
+      "xy": [
+        416,
+        246
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        "Импульсная катушка"
+      ],
+      "enemies": 7,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 56.058,
+      "hp": 3,
+      "max": 6,
+      "kills": 47,
+      "xy": [
+        416,
+        246
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        "Импульсная катушка"
+      ],
+      "enemies": 9,
+      "shots": 0
+    }
+  ],
+  "checks": {
+    "start": {
+      "phase": "playing",
+      "t": 0,
+      "hp": 6,
+      "max": 6,
+      "kills": 0,
+      "xy": [
+        416,
+        246
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 3,
+      "shots": 0
+    },
+    "finalFrozen": true,
+    "restart": {
+      "phase": "playing",
+      "t": 0,
+      "hp": 6,
+      "max": 6,
+      "kills": 0,
+      "xy": [
+        416,
+        246
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 3,
+      "shots": 0
+    }
+  },
+  "choices": [
+    {
+      "t": 30,
+      "same": true,
+      "selected": "◎\nИмпульсная катушка\nПерезарядка орудия быстрее на 25%.\n›",
+      "after": {
+        "phase": "playing",
+        "t": 30,
+        "hp": 6,
+        "max": 6,
+        "kills": 22,
+        "xy": [
+          416,
+          246
+        ],
+        "velocity": [
+          0,
+          0
+        ],
+        "input": {
+          "x": 0,
+          "y": 0
+        },
+        "upgrades": [
+          "Импульсная катушка"
+        ],
+        "enemies": 8,
+        "shots": 1
+      }
+    }
+  ],
+  "types": [
+    "медуза",
+    "скат",
+    "краб"
+  ],
+  "final": {
+    "phase": "lost",
+    "t": 59.8,
+    "hp": 0,
+    "max": 6,
+    "kills": 50,
+    "xy": [
+      416,
+      246
+    ],
+    "velocity": [
+      0,
+      0
+    ],
+    "input": {
+      "x": 0,
+      "y": 0
+    },
+    "upgrades": [
+      "Импульсная катушка"
+    ],
+    "enemies": 11,
+    "shots": 0
+  },
+  "visibleResult": "БАТИСКАФ\nЗвук\nДО ВСПЛЫТИЯ\n00:31\nКОРПУС\nПОРАЖЕНО\n50\nИТОГИ ПОГРУЖЕНИЯ\nКорпус пробит\n\nВремя в глубине — 01:00 из 01:30\nПоражено целей — 50\nУлучшения — Импульсная катушка\n\nНовая партия\nWASD / стрелки — движение\nАвтоогонь",
+  "wallSeconds": 62
+}

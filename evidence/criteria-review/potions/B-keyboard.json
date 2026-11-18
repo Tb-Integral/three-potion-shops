@@ -1,0 +1,62 @@
+{
+ "variant": "B",
+ "target": "[data-buy=herb]",
+ "before": {
+  "focus": {
+   "tag": "BUTTON",
+   "id": "",
+   "action": "",
+   "buy": "herb",
+   "label": "Купить",
+   "outline": "solid 3px",
+   "visible": true
+  },
+  "cash": 15
+ },
+ "first": {
+  "focus": {
+   "tag": "BODY",
+   "id": "",
+   "action": "",
+   "buy": "",
+   "label": "\n✧уютная играЛавка зелийДень 1 / 5◈ 13 м",
+   "outline": "none 3px",
+   "visible": false
+  },
+  "cash": 13
+ },
+ "second": {
+  "focus": {
+   "tag": "BODY",
+   "id": "",
+   "action": "",
+   "buy": "",
+   "label": "\n✧уютная играЛавка зелийДень 1 / 5◈ 13 м",
+   "outline": "none 3px",
+   "visible": false
+  },
+  "cash": 13
+ },
+ "next": {
+  "tag": "BUTTON",
+  "id": "",
+  "action": "",
+  "buy": "herb",
+  "label": "Купить",
+  "outline": "solid 3px",
+  "visible": true
+ },
+ "reproduction": {
+  "before": 13,
+  "after": 11,
+  "focus": {
+   "tag": "BODY",
+   "id": "",
+   "action": "",
+   "buy": "",
+   "label": "\n✧уютная играЛавка зелийДень 1 / 5◈ 11 м",
+   "outline": "none 3px",
+   "visible": false
+  }
+ }
+}

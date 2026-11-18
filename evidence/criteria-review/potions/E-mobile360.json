@@ -1,0 +1,247 @@
+{
+ "viewport": [
+  360,
+  800
+ ],
+ "actions": {
+  "buys": [
+   {
+    "item": "berry",
+    "price": 3,
+    "before": 24,
+    "after": 21,
+    "stockBefore": [
+     1,
+     1,
+     0,
+     0
+    ],
+    "stockAfter": [
+     1,
+     1,
+     0,
+     1
+    ]
+   },
+   {
+    "item": "berry",
+    "price": 3,
+    "before": 21,
+    "after": 18,
+    "stockBefore": [
+     1,
+     1,
+     0,
+     1
+    ],
+    "stockAfter": [
+     1,
+     1,
+     0,
+     2
+    ]
+   }
+  ],
+  "brews": [
+   {
+    "recipe": "sleep",
+    "choices": 3,
+    "before": [
+     1,
+     1,
+     0,
+     2
+    ],
+    "after": [
+     1,
+     0,
+     0,
+     0
+    ]
+   }
+  ],
+  "sales": [
+   {
+    "recipe": "vigor",
+    "price": 10,
+    "before": 14,
+    "after": 24,
+    "stockBefore": 1,
+    "stockAfter": 0
+   },
+   {
+    "recipe": "sleep",
+    "price": 15,
+    "before": 18,
+    "after": 33,
+    "stockBefore": 1,
+    "stockAfter": 0
+   }
+  ]
+ },
+ "layout": [
+  {
+   "stage": "первый экран",
+   "window": 360,
+   "docWidth": 360,
+   "bodyWidth": 360,
+   "clippedButtons": [],
+   "buttons": [
+    {
+     "label": "Справка",
+     "size": [
+      44,
+      44
+     ],
+     "font": "20.48px"
+    },
+    {
+     "label": "Звук",
+     "size": [
+      100,
+      44
+     ],
+     "font": "13.6px"
+    },
+    {
+     "label": "Очередь",
+     "size": [
+      67,
+      44
+     ],
+     "font": "13.6px"
+    },
+    {
+     "label": "Продать",
+     "size": [
+      163,
+      46
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Пропустить",
+     "size": [
+      134,
+      46
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Рынок\nИнгредиенты",
+     "size": [
+      165,
+      56
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Котёл\n3 варки в запасе",
+     "size": [
+      165,
+      56
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Закрыть день →",
+     "size": [
+      126,
+      44
+     ],
+     "font": "13.6px"
+    }
+   ]
+  },
+  {
+   "stage": "после продажи",
+   "window": 360,
+   "docWidth": 360,
+   "bodyWidth": 360,
+   "clippedButtons": [],
+   "buttons": [
+    {
+     "label": "Справка",
+     "size": [
+      44,
+      44
+     ],
+     "font": "20.48px"
+    },
+    {
+     "label": "Звук",
+     "size": [
+      100,
+      44
+     ],
+     "font": "13.6px"
+    },
+    {
+     "label": "Очередь",
+     "size": [
+      67,
+      44
+     ],
+     "font": "13.6px"
+    },
+    {
+     "label": "Продать",
+     "size": [
+      163,
+      46
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Пропустить",
+     "size": [
+      134,
+      46
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Рынок\nИнгредиенты",
+     "size": [
+      165,
+      56
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Котёл\n2 варки в запасе",
+     "size": [
+      165,
+      56
+     ],
+     "font": "16px"
+    },
+    {
+     "label": "Закрыть день →",
+     "size": [
+      126,
+      44
+     ],
+     "font": "13.6px"
+    }
+   ]
+  }
+ ],
+ "frame": {
+  "x": 0,
+  "y": 96,
+  "width": 360,
+  "height": 704
+ },
+ "after": {
+  "cash": 33,
+  "pots": [
+   0,
+   0,
+   0
+  ],
+  "guest": "Илья",
+  "day": 1
+ },
+ "complete": true
+}

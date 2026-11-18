@@ -1,0 +1,655 @@
+{
+  "variant": "A",
+  "keyboard": [
+    {
+      "tag": "BUTTON",
+      "text": "Звук: вкл",
+      "id": "audio-toggle",
+      "outline": "rgb(184, 75, 53) solid 3px",
+      "boxShadow": "none",
+      "focusVisible": true
+    },
+    {
+      "tag": "INPUT",
+      "text": "",
+      "id": "audio-volume",
+      "outline": "rgb(184, 75, 53) solid 3px",
+      "boxShadow": "none",
+      "focusVisible": true
+    },
+    {
+      "tag": "BUTTON",
+      "text": "↶ Заново лунку",
+      "id": "restart",
+      "outline": "rgb(184, 75, 53) solid 3px",
+      "boxShadow": "none",
+      "focusVisible": true
+    },
+    {
+      "tag": "BODY",
+      "text": "МАЛЕНЬКИЙ ОТПУСКТихий гольф✳\n      Три лункиу моря\n    \n \n  Звук",
+      "id": "",
+      "outline": "rgb(33, 63, 54) none 3px",
+      "boxShadow": "none",
+      "focusVisible": false
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Звук: вкл",
+      "id": "audio-toggle",
+      "outline": "rgb(184, 75, 53) solid 3px",
+      "boxShadow": "none",
+      "focusVisible": true
+    },
+    {
+      "tag": "INPUT",
+      "text": "",
+      "id": "audio-volume",
+      "outline": "rgb(184, 75, 53) solid 3px",
+      "boxShadow": "none",
+      "focusVisible": true
+    },
+    {
+      "tag": "BUTTON",
+      "text": "↶ Заново лунку",
+      "id": "restart",
+      "outline": "rgb(184, 75, 53) solid 3px",
+      "boxShadow": "none",
+      "focusVisible": true
+    }
+  ],
+  "power": [
+    {
+      "pull": 22,
+      "start": {
+        "x": 210,
+        "y": 443,
+        "vx": 0,
+        "vy": 0,
+        "radius": 8
+      },
+      "end": {
+        "x": 210,
+        "y": 409.6846888445429,
+        "vx": 0,
+        "vy": 0,
+        "radius": 8
+      },
+      "distance": 33.315311155457096
+    },
+    {
+      "pull": 36,
+      "start": {
+        "x": 210,
+        "y": 443,
+        "vx": 0,
+        "vy": 0,
+        "radius": 8
+      },
+      "end": {
+        "x": 210,
+        "y": 354.0655813675458,
+        "vx": 0,
+        "vy": 0,
+        "radius": 8
+      },
+      "distance": 88.9344186324542
+    },
+    {
+      "pull": 36,
+      "start": {
+        "x": 210,
+        "y": 443,
+        "vx": 0,
+        "vy": 0,
+        "radius": 8
+      },
+      "end": {
+        "x": 210,
+        "y": 354.0655813675458,
+        "vx": 0,
+        "vy": 0,
+        "radius": 8
+      },
+      "distance": 88.9344186324542
+    }
+  ],
+  "layout": {
+    "viewport": [
+      1440,
+      900
+    ],
+    "scroll": [
+      0,
+      0
+    ],
+    "scrollSize": [
+      1440,
+      927
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "id": "audio-toggle",
+        "text": "Звук: вкл",
+        "rect": {
+          "x": 702.125,
+          "y": 88.796875,
+          "w": 94,
+          "h": 36,
+          "right": 796.125,
+          "bottom": 124.796875
+        },
+        "font": "11px"
+      },
+      {
+        "tag": "INPUT",
+        "id": "audio-volume",
+        "text": "",
+        "rect": {
+          "x": 868,
+          "y": 90.796875,
+          "w": 82,
+          "h": 32,
+          "right": 950,
+          "bottom": 122.796875
+        },
+        "font": "13.3333px"
+      },
+      {
+        "tag": "CANVAS",
+        "id": "course",
+        "text": "",
+        "rect": {
+          "x": 492,
+          "y": 183.796875,
+          "w": 456,
+          "h": 608,
+          "right": 948,
+          "bottom": 791.796875
+        },
+        "font": "16px"
+      },
+      {
+        "tag": "BUTTON",
+        "id": "restart",
+        "text": "↶ Заново лунку",
+        "rect": {
+          "x": 848.34375,
+          "y": 843.796875,
+          "w": 97.65625,
+          "h": 42,
+          "right": 946,
+          "bottom": 885.796875
+        },
+        "font": "11px"
+      }
+    ]
+  },
+  "initial": {
+    "holeIndex": 0,
+    "phase": "aim",
+    "strokes": [
+      0,
+      0,
+      0
+    ],
+    "ball": {
+      "x": 210,
+      "y": 443,
+      "vx": 0,
+      "vy": 0,
+      "radius": 8
+    },
+    "cup": {
+      "x": 210,
+      "y": 118,
+      "radius": 13
+    },
+    "course": {
+      "width": 420,
+      "height": 560
+    },
+    "dragging": false,
+    "obstacles": [
+      {
+        "x": 59,
+        "y": 258,
+        "w": 66,
+        "h": 58
+      },
+      {
+        "x": 295,
+        "y": 258,
+        "w": 66,
+        "h": 58
+      }
+    ],
+    "bounds": {
+      "left": 22,
+      "right": 398,
+      "top": 22,
+      "bottom": 538
+    },
+    "maxPull": 115,
+    "maxSpeed": 520,
+    "friction": 150
+  },
+  "short": {
+    "holeIndex": 0,
+    "phase": "aim",
+    "strokes": [
+      0,
+      0,
+      0
+    ],
+    "ball": {
+      "x": 210,
+      "y": 443,
+      "vx": 0,
+      "vy": 0,
+      "radius": 8
+    },
+    "cup": {
+      "x": 210,
+      "y": 118,
+      "radius": 13
+    },
+    "course": {
+      "width": 420,
+      "height": 560
+    },
+    "dragging": false,
+    "obstacles": [
+      {
+        "x": 59,
+        "y": 258,
+        "w": 66,
+        "h": 58
+      },
+      {
+        "x": 295,
+        "y": 258,
+        "w": 66,
+        "h": 58
+      }
+    ],
+    "bounds": {
+      "left": 22,
+      "right": 398,
+      "top": 22,
+      "bottom": 538
+    },
+    "maxPull": 115,
+    "maxSpeed": 520,
+    "friction": 150
+  },
+  "blurAim": {
+    "holeIndex": 0,
+    "phase": "aim",
+    "strokes": [
+      0,
+      0,
+      0
+    ],
+    "ball": {
+      "x": 210,
+      "y": 443,
+      "vx": 0,
+      "vy": 0,
+      "radius": 8
+    },
+    "cup": {
+      "x": 210,
+      "y": 118,
+      "radius": 13
+    },
+    "course": {
+      "width": 420,
+      "height": 560
+    },
+    "dragging": true,
+    "obstacles": [
+      {
+        "x": 59,
+        "y": 258,
+        "w": 66,
+        "h": 58
+      },
+      {
+        "x": 295,
+        "y": 258,
+        "w": 66,
+        "h": 58
+      }
+    ],
+    "bounds": {
+      "left": 22,
+      "right": 398,
+      "top": 22,
+      "bottom": 538
+    },
+    "maxPull": 115,
+    "maxSpeed": 520,
+    "friction": 150
+  },
+  "blur": {
+    "holeIndex": 0,
+    "phase": "aim",
+    "strokes": [
+      0,
+      0,
+      0
+    ],
+    "ball": {
+      "x": 210,
+      "y": 443,
+      "vx": 0,
+      "vy": 0,
+      "radius": 8
+    },
+    "cup": {
+      "x": 210,
+      "y": 118,
+      "radius": 13
+    },
+    "course": {
+      "width": 420,
+      "height": 560
+    },
+    "dragging": false,
+    "obstacles": [
+      {
+        "x": 59,
+        "y": 258,
+        "w": 66,
+        "h": 58
+      },
+      {
+        "x": 295,
+        "y": 258,
+        "w": 66,
+        "h": 58
+      }
+    ],
+    "bounds": {
+      "left": 22,
+      "right": 398,
+      "top": 22,
+      "bottom": 538
+    },
+    "maxPull": 115,
+    "maxSpeed": 520,
+    "friction": 150
+  },
+  "resizeAim": {
+    "holeIndex": 0,
+    "phase": "aim",
+    "strokes": [
+      0,
+      0,
+      0
+    ],
+    "ball": {
+      "x": 210,
+      "y": 443,
+      "vx": 0,
+      "vy": 0,
+      "radius": 8
+    },
+    "cup": {
+      "x": 210,
+      "y": 118,
+      "radius": 13
+    },
+    "course": {
+      "width": 420,
+      "height": 560
+    },
+    "dragging": true,
+    "obstacles": [
+      {
+        "x": 59,
+        "y": 258,
+        "w": 66,
+        "h": 58
+      },
+      {
+        "x": 295,
+        "y": 258,
+        "w": 66,
+        "h": 58
+      }
+    ],
+    "bounds": {
+      "left": 22,
+      "right": 398,
+      "top": 22,
+      "bottom": 538
+    },
+    "maxPull": 115,
+    "maxSpeed": 520,
+    "friction": 150
+  },
+  "resize": {
+    "holeIndex": 0,
+    "phase": "aim",
+    "strokes": [
+      0,
+      0,
+      0
+    ],
+    "ball": {
+      "x": 210,
+      "y": 443,
+      "vx": 0,
+      "vy": 0,
+      "radius": 8
+    },
+    "cup": {
+      "x": 210,
+      "y": 118,
+      "radius": 13
+    },
+    "course": {
+      "width": 420,
+      "height": 560
+    },
+    "dragging": false,
+    "obstacles": [
+      {
+        "x": 59,
+        "y": 258,
+        "w": 66,
+        "h": 58
+      },
+      {
+        "x": 295,
+        "y": 258,
+        "w": 66,
+        "h": 58
+      }
+    ],
+    "bounds": {
+      "left": 22,
+      "right": 398,
+      "top": 22,
+      "bottom": 538
+    },
+    "maxPull": 115,
+    "maxSpeed": 520,
+    "friction": 150
+  },
+  "moving": {
+    "holeIndex": 0,
+    "phase": "moving",
+    "strokes": [
+      1,
+      0,
+      0
+    ],
+    "ball": {
+      "x": 210,
+      "y": 429.5028054290469,
+      "vx": 0,
+      "vy": -226.38047835919627,
+      "radius": 8
+    },
+    "cup": {
+      "x": 210,
+      "y": 118,
+      "radius": 13
+    },
+    "course": {
+      "width": 420,
+      "height": 560
+    },
+    "dragging": false,
+    "obstacles": [
+      {
+        "x": 59,
+        "y": 258,
+        "w": 66,
+        "h": 58
+      },
+      {
+        "x": 295,
+        "y": 258,
+        "w": 66,
+        "h": 58
+      }
+    ],
+    "bounds": {
+      "left": 22,
+      "right": 398,
+      "top": 22,
+      "bottom": 538
+    },
+    "maxPull": 115,
+    "maxSpeed": 520,
+    "friction": 150
+  },
+  "second": {
+    "holeIndex": 0,
+    "phase": "moving",
+    "strokes": [
+      1,
+      0,
+      0
+    ],
+    "ball": {
+      "x": 210,
+      "y": 416.5160275247604,
+      "vx": 0,
+      "vy": -217.63047835919627,
+      "radius": 8
+    },
+    "cup": {
+      "x": 210,
+      "y": 118,
+      "radius": 13
+    },
+    "course": {
+      "width": 420,
+      "height": 560
+    },
+    "dragging": false,
+    "obstacles": [
+      {
+        "x": 59,
+        "y": 258,
+        "w": 66,
+        "h": 58
+      },
+      {
+        "x": 295,
+        "y": 258,
+        "w": 66,
+        "h": 58
+      }
+    ],
+    "bounds": {
+      "left": 22,
+      "right": 398,
+      "top": 22,
+      "bottom": 538
+    },
+    "maxPull": 115,
+    "maxSpeed": 520,
+    "friction": 150
+  },
+  "audible": {
+    "peakRms": 0.012247074707611457,
+    "samples": 49,
+    "contexts": 1,
+    "contextStates": [
+      "running"
+    ],
+    "events": [
+      {
+        "type": "start",
+        "at": 1.2613333333333334,
+        "scheduled": 1.2613333333333334
+      }
+    ]
+  },
+  "muteLabel": "Звук: выкл",
+  "mutedHit": {
+    "holeIndex": 0,
+    "phase": "moving",
+    "strokes": [
+      1,
+      0,
+      0
+    ],
+    "ball": {
+      "x": 210,
+      "y": 443,
+      "vx": 0,
+      "vy": -99.47812287703803,
+      "radius": 8
+    },
+    "cup": {
+      "x": 210,
+      "y": 118,
+      "radius": 13
+    },
+    "course": {
+      "width": 420,
+      "height": 560
+    },
+    "dragging": false,
+    "obstacles": [
+      {
+        "x": 59,
+        "y": 258,
+        "w": 66,
+        "h": 58
+      },
+      {
+        "x": 295,
+        "y": 258,
+        "w": 66,
+        "h": 58
+      }
+    ],
+    "bounds": {
+      "left": 22,
+      "right": 398,
+      "top": 22,
+      "bottom": 538
+    },
+    "maxPull": 115,
+    "maxSpeed": 520,
+    "friction": 150
+  },
+  "muted": {
+    "peakRms": 0,
+    "samples": 46,
+    "contexts": 1,
+    "contextStates": [
+      "running"
+    ],
+    "events": []
+  }
+}

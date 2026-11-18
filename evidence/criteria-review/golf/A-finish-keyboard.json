@@ -1,0 +1,128 @@
+{
+  "variant": "A",
+  "tabs": [
+    {
+      "id": "",
+      "tag": "BODY",
+      "outline": "rgb(33, 63, 54) none 3px",
+      "focusVisible": false
+    },
+    {
+      "id": "audio-toggle",
+      "tag": "BUTTON",
+      "outline": "rgb(184, 75, 53) solid 3px",
+      "focusVisible": true
+    },
+    {
+      "id": "audio-volume",
+      "tag": "INPUT",
+      "outline": "rgb(184, 75, 53) solid 3px",
+      "focusVisible": true
+    },
+    {
+      "id": "continue",
+      "tag": "BUTTON",
+      "outline": "rgb(184, 75, 53) solid 3px",
+      "focusVisible": true
+    }
+  ],
+  "finished": {
+    "holeIndex": 2,
+    "phase": "finished",
+    "strokes": [
+      1,
+      3,
+      5
+    ],
+    "ball": {
+      "x": 299,
+      "y": 99,
+      "vx": 0,
+      "vy": 0,
+      "radius": 8
+    },
+    "cup": {
+      "x": 299,
+      "y": 99,
+      "radius": 13
+    },
+    "course": {
+      "width": 420,
+      "height": 560
+    },
+    "dragging": false,
+    "obstacles": [
+      {
+        "x": 22,
+        "y": 337,
+        "w": 225,
+        "h": 29
+      },
+      {
+        "x": 174,
+        "y": 186,
+        "w": 224,
+        "h": 29
+      }
+    ],
+    "bounds": {
+      "left": 22,
+      "right": 398,
+      "top": 22,
+      "bottom": 538
+    },
+    "maxPull": 115,
+    "maxSpeed": 520,
+    "friction": 150
+  },
+  "body": "МАЛЕНЬКИЙ ОТПУСК\n\nТихий гольф✳\nТри лунки\nу моря\nЗвук: вкл\nГромкость\n03\nЛУНКА 3 / 3\nДорога к маяку\n5\nУДАРОВ\n\nТРИ ЛУНКИ ПОЗАДИ\n\nКрасиво сыграно!\n\nВсего ударов: 9. Море никуда не спешит — можно ещё круг.\n\nЛунка 1\n1\nЛунка 2\n3\nЛунка 3\n5\nСыграть ещё раз ↗\nПартия завершена\n1 · 1\n2 · 3\n3 · 5\n↶ Заново лунку\n\nБез спешки. Только вы, мяч и море.",
+  "afterEnter": {
+    "holeIndex": 0,
+    "phase": "aim",
+    "strokes": [
+      0,
+      0,
+      0
+    ],
+    "ball": {
+      "x": 210,
+      "y": 443,
+      "vx": 0,
+      "vy": 0,
+      "radius": 8
+    },
+    "cup": {
+      "x": 210,
+      "y": 118,
+      "radius": 13
+    },
+    "course": {
+      "width": 420,
+      "height": 560
+    },
+    "dragging": false,
+    "obstacles": [
+      {
+        "x": 59,
+        "y": 258,
+        "w": 66,
+        "h": 58
+      },
+      {
+        "x": 295,
+        "y": 258,
+        "w": 66,
+        "h": 58
+      }
+    ],
+    "bounds": {
+      "left": 22,
+      "right": 398,
+      "top": 22,
+      "bottom": 538
+    },
+    "maxPull": 115,
+    "maxSpeed": 520,
+    "friction": 150
+  }
+}

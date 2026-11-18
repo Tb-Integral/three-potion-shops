@@ -1,0 +1,765 @@
+{
+  "variant": "B",
+  "mode": "orbit",
+  "method": "Edge 1440×900, real-time simulation, browser input only.",
+  "requests": [
+    "/B/",
+    "/B/style.css",
+    "/B/game.js"
+  ],
+  "errors": [],
+  "samples": [
+    {
+      "phase": "playing",
+      "t": 0.886,
+      "hp": 120,
+      "max": 120,
+      "kills": 0,
+      "xy": [
+        595,
+        298
+      ],
+      "velocity": [
+        163.4326892100813,
+        -75.43047194311445
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 1,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 5.886,
+      "hp": 120,
+      "max": 120,
+      "kills": 3,
+      "xy": [
+        332,
+        426
+      ],
+      "velocity": [
+        -180,
+        0
+      ],
+      "input": {
+        "x": -1,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 3,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 10.976,
+      "hp": 120,
+      "max": 120,
+      "kills": 8,
+      "xy": [
+        744,
+        172
+      ],
+      "velocity": [
+        0,
+        180
+      ],
+      "input": {
+        "x": 0,
+        "y": 1
+      },
+      "upgrades": [],
+      "enemies": 4,
+      "shots": 2
+    },
+    {
+      "phase": "playing",
+      "t": 16.076,
+      "hp": 120,
+      "max": 120,
+      "kills": 13,
+      "xy": [
+        256,
+        276
+      ],
+      "velocity": [
+        0,
+        -180
+      ],
+      "input": {
+        "x": 0,
+        "y": -1
+      },
+      "upgrades": [],
+      "enemies": 5,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 21.225,
+      "hp": 120,
+      "max": 120,
+      "kills": 19,
+      "xy": [
+        734,
+        387
+      ],
+      "velocity": [
+        127.27922061357854,
+        127.27922061357854
+      ],
+      "input": {
+        "x": 1,
+        "y": 1
+      },
+      "upgrades": [],
+      "enemies": 5,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 26.225,
+      "hp": 120,
+      "max": 120,
+      "kills": 25,
+      "xy": [
+        262,
+        195
+      ],
+      "velocity": [
+        0,
+        -180
+      ],
+      "input": {
+        "x": 0,
+        "y": -1
+      },
+      "upgrades": [],
+      "enemies": 5,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 31.323,
+      "hp": 120,
+      "max": 120,
+      "kills": 30,
+      "xy": [
+        797,
+        379
+      ],
+      "velocity": [
+        -127.27922061357854,
+        127.27922061357854
+      ],
+      "input": {
+        "x": -1,
+        "y": 1
+      },
+      "upgrades": [
+        {
+          "id": "range",
+          "title": "Дальний посев"
+        }
+      ],
+      "enemies": 7,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 36.403,
+      "hp": 120,
+      "max": 120,
+      "kills": 34,
+      "xy": [
+        213,
+        144
+      ],
+      "velocity": [
+        0,
+        -180
+      ],
+      "input": {
+        "x": 0,
+        "y": -1
+      },
+      "upgrades": [
+        {
+          "id": "range",
+          "title": "Дальний посев"
+        }
+      ],
+      "enemies": 10,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 41.423,
+      "hp": 120,
+      "max": 120,
+      "kills": 41,
+      "xy": [
+        782,
+        221
+      ],
+      "velocity": [
+        0,
+        180
+      ],
+      "input": {
+        "x": 0,
+        "y": 1
+      },
+      "upgrades": [
+        {
+          "id": "range",
+          "title": "Дальний посев"
+        }
+      ],
+      "enemies": 9,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 46.512,
+      "hp": 120,
+      "max": 120,
+      "kills": 46,
+      "xy": [
+        446,
+        497
+      ],
+      "velocity": [
+        -180,
+        0
+      ],
+      "input": {
+        "x": -1,
+        "y": 0
+      },
+      "upgrades": [
+        {
+          "id": "range",
+          "title": "Дальний посев"
+        }
+      ],
+      "enemies": 12,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 51.522,
+      "hp": 120,
+      "max": 120,
+      "kills": 50,
+      "xy": [
+        573,
+        87
+      ],
+      "velocity": [
+        180,
+        0
+      ],
+      "input": {
+        "x": 1,
+        "y": 0
+      },
+      "upgrades": [
+        {
+          "id": "range",
+          "title": "Дальний посев"
+        }
+      ],
+      "enemies": 15,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 56.572,
+      "hp": 110,
+      "max": 120,
+      "kills": 55,
+      "xy": [
+        409,
+        273
+      ],
+      "velocity": [
+        127.27922061357854,
+        127.27922061357854
+      ],
+      "input": {
+        "x": 1,
+        "y": 1
+      },
+      "upgrades": [
+        {
+          "id": "range",
+          "title": "Дальний посев"
+        }
+      ],
+      "enemies": 18,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 61.61,
+      "hp": 110,
+      "max": 120,
+      "kills": 63,
+      "xy": [
+        593,
+        509
+      ],
+      "velocity": [
+        -180,
+        0
+      ],
+      "input": {
+        "x": -1,
+        "y": 0
+      },
+      "upgrades": [
+        {
+          "id": "range",
+          "title": "Дальний посев"
+        },
+        {
+          "id": "power",
+          "title": "Острые семена"
+        }
+      ],
+      "enemies": 18,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 66.68,
+      "hp": 90,
+      "max": 120,
+      "kills": 74,
+      "xy": [
+        286,
+        296
+      ],
+      "velocity": [
+        127.27922061357854,
+        -127.27922061357854
+      ],
+      "input": {
+        "x": 1,
+        "y": -1
+      },
+      "upgrades": [
+        {
+          "id": "range",
+          "title": "Дальний посев"
+        },
+        {
+          "id": "power",
+          "title": "Острые семена"
+        }
+      ],
+      "enemies": 15,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 71.689,
+      "hp": 90,
+      "max": 120,
+      "kills": 82,
+      "xy": [
+        783,
+        302
+      ],
+      "velocity": [
+        127.27922061357854,
+        127.27922061357854
+      ],
+      "input": {
+        "x": 1,
+        "y": 1
+      },
+      "upgrades": [
+        {
+          "id": "range",
+          "title": "Дальний посев"
+        },
+        {
+          "id": "power",
+          "title": "Острые семена"
+        }
+      ],
+      "enemies": 16,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 76.779,
+      "hp": 90,
+      "max": 120,
+      "kills": 90,
+      "xy": [
+        225,
+        332
+      ],
+      "velocity": [
+        -127.27922061357854,
+        127.27922061357854
+      ],
+      "input": {
+        "x": -1,
+        "y": 1
+      },
+      "upgrades": [
+        {
+          "id": "range",
+          "title": "Дальний посев"
+        },
+        {
+          "id": "power",
+          "title": "Острые семена"
+        }
+      ],
+      "enemies": 17,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 81.919,
+      "hp": 90,
+      "max": 120,
+      "kills": 101,
+      "xy": [
+        134,
+        305
+      ],
+      "velocity": [
+        127.27922061357854,
+        127.27922061357854
+      ],
+      "input": {
+        "x": 1,
+        "y": 1
+      },
+      "upgrades": [
+        {
+          "id": "range",
+          "title": "Дальний посев"
+        },
+        {
+          "id": "power",
+          "title": "Острые семена"
+        }
+      ],
+      "enemies": 15,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 86.959,
+      "hp": 70,
+      "max": 120,
+      "kills": 111,
+      "xy": [
+        82,
+        361
+      ],
+      "velocity": [
+        -127.27922061357854,
+        -127.27922061357854
+      ],
+      "input": {
+        "x": -1,
+        "y": -1
+      },
+      "upgrades": [
+        {
+          "id": "range",
+          "title": "Дальний посев"
+        },
+        {
+          "id": "power",
+          "title": "Острые семена"
+        }
+      ],
+      "enemies": 15,
+      "shots": 0
+    }
+  ],
+  "checks": {
+    "start": {
+      "phase": "playing",
+      "t": 0.007,
+      "hp": 120,
+      "max": 120,
+      "kills": 0,
+      "xy": [
+        499,
+        289
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 0,
+      "shots": 0
+    },
+    "straight": {
+      "phase": "playing",
+      "t": 0.237,
+      "hp": 120,
+      "max": 120,
+      "kills": 0,
+      "xy": [
+        540,
+        289
+      ],
+      "velocity": [
+        180,
+        0
+      ],
+      "input": {
+        "x": 1,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 0,
+      "shots": 0
+    },
+    "diagonal": {
+      "phase": "playing",
+      "t": 0.477,
+      "hp": 120,
+      "max": 120,
+      "kills": 0,
+      "xy": [
+        571,
+        319
+      ],
+      "velocity": [
+        127.27922061357854,
+        127.27922061357854
+      ],
+      "input": {
+        "x": 1,
+        "y": 1
+      },
+      "upgrades": [],
+      "enemies": 0,
+      "shots": 0
+    },
+    "pause": {
+      "same": true,
+      "snapshot": {
+        "phase": "paused",
+        "t": 0.477,
+        "hp": 120,
+        "max": 120,
+        "kills": 0,
+        "xy": [
+          571,
+          319
+        ],
+        "velocity": [
+          127.27922061357854,
+          127.27922061357854
+        ],
+        "input": {
+          "x": 0,
+          "y": 0
+        },
+        "upgrades": [],
+        "enemies": 0,
+        "shots": 0
+      }
+    },
+    "blur": {
+      "same": true,
+      "snapshot": {
+        "phase": "paused",
+        "t": 0.596,
+        "hp": 120,
+        "max": 120,
+        "kills": 0,
+        "xy": [
+          549,
+          319
+        ],
+        "velocity": [
+          -180,
+          0
+        ],
+        "input": {
+          "x": 0,
+          "y": 0
+        },
+        "upgrades": [],
+        "enemies": 0,
+        "shots": 0
+      }
+    },
+    "mouseDrag": {
+      "phase": "playing",
+      "t": 0.886,
+      "hp": 120,
+      "max": 120,
+      "kills": 0,
+      "xy": [
+        595,
+        298
+      ],
+      "velocity": [
+        163.4326892100813,
+        -75.43047194311445
+      ],
+      "input": {
+        "x": 0.9079593845004517,
+        "y": -0.41905817746174695
+      },
+      "upgrades": [],
+      "enemies": 1,
+      "shots": 1
+    },
+    "finalFrozen": true,
+    "restart": {
+      "phase": "playing",
+      "t": 0,
+      "hp": 120,
+      "max": 120,
+      "kills": 0,
+      "xy": [
+        499,
+        289
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 0,
+      "shots": 0
+    }
+  },
+  "choices": [
+    {
+      "t": 30,
+      "same": true,
+      "selected": "Дальний посев\nДальность и скорость семян +25%.",
+      "after": {
+        "phase": "playing",
+        "t": 30.003,
+        "hp": 120,
+        "max": 120,
+        "kills": 29,
+        "xy": [
+          781,
+          193
+        ],
+        "velocity": [
+          0,
+          0
+        ],
+        "input": {
+          "x": 0,
+          "y": 0
+        },
+        "upgrades": [
+          {
+            "id": "range",
+            "title": "Дальний посев"
+          }
+        ],
+        "enemies": 6,
+        "shots": 1
+      }
+    },
+    {
+      "t": 60,
+      "same": true,
+      "selected": "Острые семена\nУрон семян +1.",
+      "after": {
+        "phase": "playing",
+        "t": 60,
+        "hp": 110,
+        "max": 120,
+        "kills": 61,
+        "xy": [
+          551,
+          490
+        ],
+        "velocity": [
+          -180,
+          0
+        ],
+        "input": {
+          "x": 0,
+          "y": 0
+        },
+        "upgrades": [
+          {
+            "id": "range",
+            "title": "Дальний посев"
+          },
+          {
+            "id": "power",
+            "title": "Острые семена"
+          }
+        ],
+        "enemies": 17,
+        "shots": 0
+      }
+    }
+  ],
+  "types": [
+    "sprout",
+    "runner",
+    "brute"
+  ],
+  "desktopScreenshot": "B-playing.png",
+  "final": {
+    "phase": "won",
+    "t": 90,
+    "hp": 70,
+    "max": 120,
+    "kills": 116,
+    "xy": [
+      369,
+      143
+    ],
+    "velocity": [
+      127.27922061357854,
+      127.27922061357854
+    ],
+    "input": {
+      "x": 0,
+      "y": 0
+    },
+    "upgrades": [
+      {
+        "id": "range",
+        "title": "Дальний посев"
+      },
+      {
+        "id": "power",
+        "title": "Острые семена"
+      }
+    ],
+    "enemies": 17,
+    "shots": 0
+  },
+  "visibleResult": "✳НОЧНАЯ ОРАНЖЕРЕЯ\n🔊\nЗвук\nЗДОРОВЬЕ\n70 / 120\nОСТАЛОСЬ\n0:00\nⅡ\nРАССВЕТ НАСТУПИЛ\nВы выстояли!\n\nВремя: 1:30 · Побеждено: 116\n\nУсиления: Дальний посев, Острые семена\n\nНовая партия\nВЫЖИВИТЕ 90 СЕКУНД\nАВТОМАТИЧЕСКИЙ ОГОНЬ ✦",
+  "wallSeconds": 95
+}

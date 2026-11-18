@@ -1,0 +1,49 @@
+{
+ "variant": "E",
+ "target": "[data-action=buy][data-key=mint]",
+ "before": {
+  "focus": {
+   "tag": "BUTTON",
+   "id": "",
+   "action": "buy",
+   "buy": "mint",
+   "label": "Купить: Мята за 2 мон.",
+   "outline": "solid 3px",
+   "visible": true
+  },
+  "cash": 14
+ },
+ "first": {
+  "focus": {
+   "tag": "BUTTON",
+   "id": "",
+   "action": "buy",
+   "buy": "mint",
+   "label": "Купить: Мята за 2 мон.",
+   "outline": "solid 3px",
+   "visible": true
+  },
+  "cash": 12
+ },
+ "second": {
+  "focus": {
+   "tag": "BUTTON",
+   "id": "",
+   "action": "buy",
+   "buy": "mint",
+   "label": "Купить: Мята за 2 мон.",
+   "outline": "solid 3px",
+   "visible": true
+  },
+  "cash": 10
+ },
+ "next": {
+  "tag": "BUTTON",
+  "id": "",
+  "action": "buy",
+  "buy": "dew",
+  "label": "Купить: Лунная роса за 3 мон.",
+  "outline": "solid 3px",
+  "visible": true
+ }
+}

@@ -1,0 +1,287 @@
+{
+  "variant": "B",
+  "mode": "chase",
+  "method": "Edge 1440×900, real-time simulation, browser input only.",
+  "requests": [
+    "/B/",
+    "/B/style.css",
+    "/B/game.js"
+  ],
+  "errors": [],
+  "samples": [
+    {
+      "phase": "playing",
+      "t": 0.07,
+      "hp": 120,
+      "max": 120,
+      "kills": 0,
+      "xy": [
+        499,
+        289
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 0,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 5.23,
+      "hp": 108,
+      "max": 120,
+      "kills": 3,
+      "xy": [
+        229,
+        88
+      ],
+      "velocity": [
+        127.27922061357854,
+        -127.27922061357854
+      ],
+      "input": {
+        "x": 1,
+        "y": -1
+      },
+      "upgrades": [],
+      "enemies": 3,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 10.27,
+      "hp": 108,
+      "max": 120,
+      "kills": 7,
+      "xy": [
+        394,
+        288
+      ],
+      "velocity": [
+        127.27922061357854,
+        127.27922061357854
+      ],
+      "input": {
+        "x": 1,
+        "y": 1
+      },
+      "upgrades": [],
+      "enemies": 4,
+      "shots": 2
+    },
+    {
+      "phase": "playing",
+      "t": 15.339,
+      "hp": 98,
+      "max": 120,
+      "kills": 14,
+      "xy": [
+        195,
+        298
+      ],
+      "velocity": [
+        127.27922061357854,
+        -127.27922061357854
+      ],
+      "input": {
+        "x": 1,
+        "y": -1
+      },
+      "upgrades": [],
+      "enemies": 3,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 20.459,
+      "hp": 98,
+      "max": 120,
+      "kills": 20,
+      "xy": [
+        675,
+        326
+      ],
+      "velocity": [
+        -127.27922061357854,
+        127.27922061357854
+      ],
+      "input": {
+        "x": -1,
+        "y": 1
+      },
+      "upgrades": [],
+      "enemies": 3,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 25.489,
+      "hp": 58,
+      "max": 120,
+      "kills": 23,
+      "xy": [
+        906,
+        198
+      ],
+      "velocity": [
+        127.27922061357854,
+        127.27922061357854
+      ],
+      "input": {
+        "x": 1,
+        "y": 1
+      },
+      "upgrades": [],
+      "enemies": 6,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 30.57,
+      "hp": 14,
+      "max": 120,
+      "kills": 28,
+      "xy": [
+        502,
+        290
+      ],
+      "velocity": [
+        -152.73506473629425,
+        152.73506473629425
+      ],
+      "input": {
+        "x": -1,
+        "y": 1
+      },
+      "upgrades": [
+        {
+          "id": "speed",
+          "title": "Лёгкие корни"
+        }
+      ],
+      "enemies": 8,
+      "shots": 1
+    }
+  ],
+  "checks": {
+    "start": {
+      "phase": "playing",
+      "t": 0.07,
+      "hp": 120,
+      "max": 120,
+      "kills": 0,
+      "xy": [
+        499,
+        289
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 0,
+      "shots": 0
+    },
+    "finalFrozen": true,
+    "restart": {
+      "phase": "playing",
+      "t": 0,
+      "hp": 120,
+      "max": 120,
+      "kills": 0,
+      "xy": [
+        499,
+        289
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 0,
+      "shots": 0
+    }
+  },
+  "choices": [
+    {
+      "t": 30,
+      "same": true,
+      "selected": "Лёгкие корни\nДвижение на 20% быстрее.",
+      "after": {
+        "phase": "playing",
+        "t": 30,
+        "hp": 14,
+        "max": 120,
+        "kills": 28,
+        "xy": [
+          588,
+          204
+        ],
+        "velocity": [
+          0,
+          -180
+        ],
+        "input": {
+          "x": 0,
+          "y": 0
+        },
+        "upgrades": [
+          {
+            "id": "speed",
+            "title": "Лёгкие корни"
+          }
+        ],
+        "enemies": 7,
+        "shots": 0
+      }
+    }
+  ],
+  "types": [
+    "sprout",
+    "runner",
+    "brute"
+  ],
+  "final": {
+    "phase": "lost",
+    "t": 32.22,
+    "hp": 0,
+    "max": 120,
+    "kills": 31,
+    "xy": [
+      423,
+      337
+    ],
+    "velocity": [
+      0,
+      0
+    ],
+    "input": {
+      "x": 0,
+      "y": 0
+    },
+    "upgrades": [
+      {
+        "id": "speed",
+        "title": "Лёгкие корни"
+      }
+    ],
+    "enemies": 7,
+    "shots": 0
+  },
+  "visibleResult": "✳НОЧНАЯ ОРАНЖЕРЕЯ\n🔊\nЗвук\nЗДОРОВЬЕ\n0 / 120\nОСТАЛОСЬ\n0:58\nⅡ\nОРАНЖЕРЕЯ ЗАТИХЛА\nПопробуем ещё?\n\nВремя: 0:32 · Побеждено: 31\n\nУсиления: Лёгкие корни\n\nНовая партия\nВЫЖИВИТЕ 90 СЕКУНД\nАВТОМАТИЧЕСКИЙ ОГОНЬ ✦",
+  "wallSeconds": 35
+}

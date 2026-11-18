@@ -1,0 +1,58 @@
+[
+ {
+  "width": 360,
+  "height": 800,
+  "frameOffset": 96,
+  "sound": {
+   "before": 14,
+   "after": 12,
+   "signal": {
+    "rms": 0.012822239836915985,
+    "samples": 63
+   }
+  },
+  "mutedLabel": "Звук: выкл",
+  "hit": {
+   "x": 82.640625,
+   "y": 158,
+   "width": 100,
+   "height": 44
+  },
+  "muted": {
+   "before": 12,
+   "after": 10,
+   "signal": {
+    "rms": 0,
+    "samples": 75
+   }
+  }
+ },
+ {
+  "width": 390,
+  "height": 844,
+  "frameOffset": 96,
+  "sound": {
+   "before": 14,
+   "after": 12,
+   "signal": {
+    "rms": 0.012822239836915985,
+    "samples": 71
+   }
+  },
+  "mutedLabel": "Звук: выкл",
+  "hit": {
+   "x": 112.640625,
+   "y": 114,
+   "width": 100,
+   "height": 44
+  },
+  "muted": {
+   "before": 12,
+   "after": 10,
+   "signal": {
+    "rms": 0,
+    "samples": 74
+   }
+  }
+ }
+]

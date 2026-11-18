@@ -1,0 +1,222 @@
+{
+  "variant": "A",
+  "mode": "chase",
+  "method": "Edge 1440×900, real-time simulation, browser input only.",
+  "requests": [
+    "/A/",
+    "/A/style.css",
+    "/A/game.js"
+  ],
+  "errors": [],
+  "samples": [
+    {
+      "phase": "playing",
+      "t": 0.057,
+      "hp": 5,
+      "max": 5,
+      "kills": 0,
+      "xy": [
+        480,
+        351
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 0,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 5.167,
+      "hp": 5,
+      "max": 5,
+      "kills": 4,
+      "xy": [
+        697,
+        50
+      ],
+      "velocity": [
+        -121.62236636408616,
+        -121.62236636408616
+      ],
+      "input": {
+        "x": -0.7071067811865475,
+        "y": -0.7071067811865475
+      },
+      "upgrades": [],
+      "enemies": 3,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 10.187,
+      "hp": 5,
+      "max": 5,
+      "kills": 7,
+      "xy": [
+        705,
+        233
+      ],
+      "velocity": [
+        121.62236636408616,
+        121.62236636408616
+      ],
+      "input": {
+        "x": 0.7071067811865475,
+        "y": 0.7071067811865475
+      },
+      "upgrades": [],
+      "enemies": 7,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 15.256,
+      "hp": 5,
+      "max": 5,
+      "kills": 13,
+      "xy": [
+        470,
+        429
+      ],
+      "velocity": [
+        -121.62236636408616,
+        121.62236636408616
+      ],
+      "input": {
+        "x": -0.7071067811865475,
+        "y": 0.7071067811865475
+      },
+      "upgrades": [],
+      "enemies": 8,
+      "shots": 2
+    },
+    {
+      "phase": "playing",
+      "t": 20.346,
+      "hp": 3,
+      "max": 5,
+      "kills": 18,
+      "xy": [
+        112,
+        378
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 11,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 25.606,
+      "hp": 1,
+      "max": 5,
+      "kills": 24,
+      "xy": [
+        284,
+        435
+      ],
+      "velocity": [
+        121.62236636408616,
+        121.62236636408616
+      ],
+      "input": {
+        "x": 0.7071067811865475,
+        "y": 0.7071067811865475
+      },
+      "upgrades": [],
+      "enemies": 14,
+      "shots": 0
+    }
+  ],
+  "checks": {
+    "start": {
+      "phase": "playing",
+      "t": 0.047,
+      "hp": 5,
+      "max": 5,
+      "kills": 0,
+      "xy": [
+        480,
+        351
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 0,
+      "shots": 0
+    },
+    "finalFrozen": true,
+    "restart": {
+      "phase": "playing",
+      "t": 0,
+      "hp": 5,
+      "max": 5,
+      "kills": 0,
+      "xy": [
+        480,
+        351
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 0,
+      "shots": 0
+    }
+  },
+  "choices": [],
+  "types": [
+    "shade",
+    "dart",
+    "shell"
+  ],
+  "final": {
+    "phase": "lost",
+    "t": 28.656,
+    "hp": 0,
+    "max": 5,
+    "kills": 28,
+    "xy": [
+      516,
+      462
+    ],
+    "velocity": [
+      0,
+      0
+    ],
+    "input": {
+      "x": 0,
+      "y": 0
+    },
+    "upgrades": [],
+    "enemies": 15,
+    "shots": 0
+  },
+  "visibleResult": "✦\nПОСЛЕДНИЙ СВЕТ\nДОЖИТЬ ДО РАССВЕТА\nЗвук: вкл.\nГромкость\nОГОНЬ ФОНАРЯ\n○○○○○\n1:02\nдо рассвета\nⅡ\nВАХТА ОКОНЧЕНА\n✧\nОгонь погас\n\nТени добрались до фонаря.\nСледующий круг может стать удачным.\n\n28 с\nвыживание\n28\nтеней рассеяно\nУсиления не получены\nНовая партия\n\nДвигайся широкими кругами. Не зажимайся в углу.\n\nСВЕТ ОТГОНЯЕТ ТЬМУ. ДВИЖЕНИЕ СПАСАЕТ.\n28 теней рассеяно",
+  "wallSeconds": 31
+}

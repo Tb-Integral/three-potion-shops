@@ -1,0 +1,1035 @@
+{
+ "variant": "B",
+ "viewport": "1440×900",
+ "days": [
+  {
+   "buys": [
+    {
+     "item": "herb",
+     "price": 2,
+     "before": 15,
+     "after": 13,
+     "stockBefore": [
+      2,
+      1,
+      1
+     ],
+     "stockAfter": [
+      3,
+      1,
+      1
+     ]
+    },
+    {
+     "item": "herb",
+     "price": 2,
+     "before": 13,
+     "after": 11,
+     "stockBefore": [
+      3,
+      1,
+      1
+     ],
+     "stockAfter": [
+      4,
+      1,
+      1
+     ]
+    },
+    {
+     "item": "berry",
+     "price": 3,
+     "before": 30,
+     "after": 27,
+     "stockBefore": [
+      1,
+      0,
+      1
+     ],
+     "stockAfter": [
+      1,
+      1,
+      1
+     ]
+    }
+   ],
+   "brews": [
+    {
+     "recipe": "heal",
+     "choices": 3,
+     "before": [
+      4,
+      1,
+      1
+     ],
+     "after": [
+      3,
+      0,
+      1
+     ]
+    },
+    {
+     "recipe": "energy",
+     "choices": 3,
+     "before": [
+      3,
+      0,
+      1
+     ],
+     "after": [
+      1,
+      0,
+      1
+     ]
+    },
+    {
+     "recipe": "sleep",
+     "choices": 3,
+     "before": [
+      1,
+      1,
+      1
+     ],
+     "after": [
+      1,
+      0,
+      0
+     ]
+    }
+   ],
+   "sales": [
+    {
+     "recipe": "heal",
+     "price": 10,
+     "before": 11,
+     "after": 21,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "energy",
+     "price": 9,
+     "before": 21,
+     "after": 30,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "sleep",
+     "price": 12,
+     "before": 27,
+     "after": 39,
+     "stockBefore": 1,
+     "stockAfter": 0
+    }
+   ],
+   "day": 1,
+   "closingCash": 39
+  },
+  {
+   "buys": [
+    {
+     "item": "berry",
+     "price": 3,
+     "before": 39,
+     "after": 36,
+     "stockBefore": [
+      1,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      1,
+      0
+     ]
+    },
+    {
+     "item": "mushroom",
+     "price": 4,
+     "before": 36,
+     "after": 32,
+     "stockBefore": [
+      1,
+      1,
+      0
+     ],
+     "stockAfter": [
+      1,
+      1,
+      1
+     ]
+    },
+    {
+     "item": "berry",
+     "price": 3,
+     "before": 44,
+     "after": 41,
+     "stockBefore": [
+      1,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      1,
+      0
+     ]
+    },
+    {
+     "item": "herb",
+     "price": 2,
+     "before": 51,
+     "after": 49,
+     "stockBefore": [
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "herb",
+     "price": 2,
+     "before": 49,
+     "after": 47,
+     "stockBefore": [
+      1,
+      0,
+      0
+     ],
+     "stockAfter": [
+      2,
+      0,
+      0
+     ]
+    }
+   ],
+   "brews": [
+    {
+     "recipe": "sleep",
+     "choices": 3,
+     "before": [
+      1,
+      1,
+      1
+     ],
+     "after": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "heal",
+     "choices": 3,
+     "before": [
+      1,
+      1,
+      0
+     ],
+     "after": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "energy",
+     "choices": 3,
+     "before": [
+      2,
+      0,
+      0
+     ],
+     "after": [
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "sales": [
+    {
+     "recipe": "sleep",
+     "price": 12,
+     "before": 32,
+     "after": 44,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "heal",
+     "price": 10,
+     "before": 41,
+     "after": 51,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "energy",
+     "price": 9,
+     "before": 47,
+     "after": 56,
+     "stockBefore": 1,
+     "stockAfter": 0
+    }
+   ],
+   "day": 2,
+   "closingCash": 56
+  },
+  {
+   "buys": [
+    {
+     "item": "herb",
+     "price": 2,
+     "before": 56,
+     "after": 54,
+     "stockBefore": [
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "herb",
+     "price": 2,
+     "before": 54,
+     "after": 52,
+     "stockBefore": [
+      1,
+      0,
+      0
+     ],
+     "stockAfter": [
+      2,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "berry",
+     "price": 3,
+     "before": 61,
+     "after": 58,
+     "stockBefore": [
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "item": "mushroom",
+     "price": 4,
+     "before": 58,
+     "after": 54,
+     "stockBefore": [
+      0,
+      1,
+      0
+     ],
+     "stockAfter": [
+      0,
+      1,
+      1
+     ]
+    },
+    {
+     "item": "herb",
+     "price": 2,
+     "before": 66,
+     "after": 64,
+     "stockBefore": [
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "berry",
+     "price": 3,
+     "before": 64,
+     "after": 61,
+     "stockBefore": [
+      1,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      1,
+      0
+     ]
+    }
+   ],
+   "brews": [
+    {
+     "recipe": "energy",
+     "choices": 3,
+     "before": [
+      2,
+      0,
+      0
+     ],
+     "after": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "sleep",
+     "choices": 3,
+     "before": [
+      0,
+      1,
+      1
+     ],
+     "after": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "heal",
+     "choices": 3,
+     "before": [
+      1,
+      1,
+      0
+     ],
+     "after": [
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "sales": [
+    {
+     "recipe": "energy",
+     "price": 9,
+     "before": 52,
+     "after": 61,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "sleep",
+     "price": 12,
+     "before": 54,
+     "after": 66,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "heal",
+     "price": 10,
+     "before": 61,
+     "after": 71,
+     "stockBefore": 1,
+     "stockAfter": 0
+    }
+   ],
+   "day": 3,
+   "closingCash": 71
+  },
+  {
+   "buys": [
+    {
+     "item": "herb",
+     "price": 2,
+     "before": 71,
+     "after": 69,
+     "stockBefore": [
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "berry",
+     "price": 3,
+     "before": 69,
+     "after": 66,
+     "stockBefore": [
+      1,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      1,
+      0
+     ]
+    },
+    {
+     "item": "berry",
+     "price": 3,
+     "before": 76,
+     "after": 73,
+     "stockBefore": [
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "item": "mushroom",
+     "price": 4,
+     "before": 73,
+     "after": 69,
+     "stockBefore": [
+      0,
+      1,
+      0
+     ],
+     "stockAfter": [
+      0,
+      1,
+      1
+     ]
+    },
+    {
+     "item": "herb",
+     "price": 2,
+     "before": 81,
+     "after": 79,
+     "stockBefore": [
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "herb",
+     "price": 2,
+     "before": 79,
+     "after": 77,
+     "stockBefore": [
+      1,
+      0,
+      0
+     ],
+     "stockAfter": [
+      2,
+      0,
+      0
+     ]
+    }
+   ],
+   "brews": [
+    {
+     "recipe": "heal",
+     "choices": 3,
+     "before": [
+      1,
+      1,
+      0
+     ],
+     "after": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "sleep",
+     "choices": 3,
+     "before": [
+      0,
+      1,
+      1
+     ],
+     "after": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "energy",
+     "choices": 3,
+     "before": [
+      2,
+      0,
+      0
+     ],
+     "after": [
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "sales": [
+    {
+     "recipe": "heal",
+     "price": 10,
+     "before": 66,
+     "after": 76,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "sleep",
+     "price": 12,
+     "before": 69,
+     "after": 81,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "energy",
+     "price": 9,
+     "before": 77,
+     "after": 86,
+     "stockBefore": 1,
+     "stockAfter": 0
+    }
+   ],
+   "day": 4,
+   "closingCash": 86
+  },
+  {
+   "buys": [
+    {
+     "item": "berry",
+     "price": 3,
+     "before": 86,
+     "after": 83,
+     "stockBefore": [
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      0,
+      1,
+      0
+     ]
+    },
+    {
+     "item": "mushroom",
+     "price": 4,
+     "before": 83,
+     "after": 79,
+     "stockBefore": [
+      0,
+      1,
+      0
+     ],
+     "stockAfter": [
+      0,
+      1,
+      1
+     ]
+    },
+    {
+     "item": "herb",
+     "price": 2,
+     "before": 91,
+     "after": 89,
+     "stockBefore": [
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "herb",
+     "price": 2,
+     "before": 89,
+     "after": 87,
+     "stockBefore": [
+      1,
+      0,
+      0
+     ],
+     "stockAfter": [
+      2,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "herb",
+     "price": 2,
+     "before": 96,
+     "after": 94,
+     "stockBefore": [
+      0,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      0,
+      0
+     ]
+    },
+    {
+     "item": "berry",
+     "price": 3,
+     "before": 94,
+     "after": 91,
+     "stockBefore": [
+      1,
+      0,
+      0
+     ],
+     "stockAfter": [
+      1,
+      1,
+      0
+     ]
+    }
+   ],
+   "brews": [
+    {
+     "recipe": "sleep",
+     "choices": 3,
+     "before": [
+      0,
+      1,
+      1
+     ],
+     "after": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "energy",
+     "choices": 3,
+     "before": [
+      2,
+      0,
+      0
+     ],
+     "after": [
+      0,
+      0,
+      0
+     ]
+    },
+    {
+     "recipe": "heal",
+     "choices": 3,
+     "before": [
+      1,
+      1,
+      0
+     ],
+     "after": [
+      0,
+      0,
+      0
+     ]
+    }
+   ],
+   "sales": [
+    {
+     "recipe": "sleep",
+     "price": 12,
+     "before": 79,
+     "after": 91,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "energy",
+     "price": 9,
+     "before": 87,
+     "after": 96,
+     "stockBefore": 1,
+     "stockAfter": 0
+    },
+    {
+     "recipe": "heal",
+     "price": 10,
+     "before": 91,
+     "after": 101,
+     "stockBefore": 1,
+     "stockAfter": 0
+    }
+   ],
+   "day": 5,
+   "closingCash": 101
+  }
+ ],
+ "requests": [
+  "/B/"
+ ],
+ "external": [],
+ "errors": [],
+ "start": {
+  "cash": 15,
+  "ing": [
+   2,
+   1,
+   1
+  ],
+  "pots": [
+   0,
+   0,
+   0
+  ],
+  "guest": "Путница",
+  "day": 1
+ },
+ "keyboard": [
+  {
+   "tag": "BUTTON",
+   "id": "audio-toggle",
+   "label": "Звук: вкл",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "INPUT",
+   "id": "audio-volume",
+   "label": "Громкость",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "",
+   "label": "Отпустить гостя",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "",
+   "label": "Купить",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "",
+   "label": "Купить",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "",
+   "label": "Купить",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "",
+   "label": "Сварить",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "",
+   "label": "Сварить",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "",
+   "label": "Сварить",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "end-day",
+   "label": "Закончить день",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BUTTON",
+   "id": "restart",
+   "label": "Новая игра",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "SUMMARY",
+   "id": "",
+   "label": "Как играть и цены",
+   "outline": "solid 3px",
+   "focusVisible": true
+  },
+  {
+   "tag": "BODY",
+   "id": "",
+   "label": "✧уютная играЛавка зелийДень 1 / ",
+   "outline": "none 3px",
+   "focusVisible": false
+  },
+  {
+   "tag": "BUTTON",
+   "id": "audio-toggle",
+   "label": "Звук: вкл",
+   "outline": "solid 3px",
+   "focusVisible": true
+  }
+ ],
+ "audio": {
+  "action": "две покупки одного ингредиента",
+  "loud": {
+   "rms": 0.03149436506264087,
+   "samples": 72,
+   "contexts": [
+    "running"
+   ]
+  },
+  "silent": {
+   "rms": 0,
+   "samples": 74,
+   "contexts": [
+    "running"
+   ]
+  },
+  "mutedLabel": "Звук: выкл"
+ },
+ "reload": {
+  "before": {
+   "cash": 21,
+   "ing": [
+    3,
+    0,
+    1
+   ],
+   "pots": [
+    0,
+    0,
+    0
+   ],
+   "guest": "Травник",
+   "day": 1
+  },
+  "after": {
+   "cash": 21,
+   "ing": [
+    3,
+    0,
+    1
+   ],
+   "pots": [
+    0,
+    0,
+    0
+   ],
+   "guest": "Травник",
+   "day": 1
+  }
+ },
+ "final": "ПЯТЬ ДНЕЙ ПОЗАДИ\nЛавка закрыта\n\nВ кошельке 101 монет.\n\nПродано зелий: 15 · выручка: 155 ◈\nСварено: 15 · ушло без покупки: 0\n\nО вашей лавке говорят по всей округе!\n\nНачать новую игру",
+ "bookkeeping": {
+  "start": 15,
+  "spent": 69,
+  "revenue": 155,
+  "sales": 15,
+  "brewed": 15,
+  "end": 101
+ },
+ "finalTradeButtons": [
+  "Звук: вкл",
+  "Начать новую игру"
+ ],
+ "restart": {
+  "cash": 15,
+  "ing": [
+   2,
+   1,
+   1
+  ],
+  "pots": [
+   0,
+   0,
+   0
+  ],
+  "guest": "Путница",
+  "day": 1
+ },
+ "denied": {
+  "button": "Купить",
+  "before": {
+   "cash": 1,
+   "ing": [
+    9,
+    1,
+    1
+   ],
+   "pots": [
+    0,
+    0,
+    0
+   ],
+   "guest": "Путница",
+   "day": 1
+  },
+  "after": {
+   "cash": 1,
+   "ing": [
+    9,
+    1,
+    1
+   ],
+   "pots": [
+    0,
+    0,
+    0
+   ],
+   "guest": "Путница",
+   "day": 1
+  }
+ },
+ "poor": "ПЯТЬ ДНЕЙ ПОЗАДИ\nЛавка закрыта\n\nВ кошельке 1 монет.\n\nПродано зелий: 0 · выручка: 0 ◈\nСварено: 0 · ушло без покупки: 15\n\nВ следующий раз гости наверняка дождутся своих зелий.\n\nНачать новую игру",
+ "complete": true
+}

@@ -1,0 +1,648 @@
+{
+  "variant": "B",
+  "mode": "idle",
+  "method": "Edge 1440×900, real-time simulation, browser input only.",
+  "requests": [
+    "/B/",
+    "/B/style.css",
+    "/B/game.js"
+  ],
+  "errors": [],
+  "samples": [
+    {
+      "phase": "playing",
+      "t": 0.03,
+      "hp": 120,
+      "max": 120,
+      "kills": 0,
+      "xy": [
+        499,
+        289
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 0,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 5.17,
+      "hp": 120,
+      "max": 120,
+      "kills": 2,
+      "xy": [
+        499,
+        289
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 4,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 10.3,
+      "hp": 120,
+      "max": 120,
+      "kills": 7,
+      "xy": [
+        499,
+        289
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 4,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 15.429,
+      "hp": 120,
+      "max": 120,
+      "kills": 12,
+      "xy": [
+        499,
+        289
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 5,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 20.449,
+      "hp": 120,
+      "max": 120,
+      "kills": 19,
+      "xy": [
+        499,
+        289
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 4,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 25.579,
+      "hp": 120,
+      "max": 120,
+      "kills": 24,
+      "xy": [
+        499,
+        289
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 6,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 30.68,
+      "hp": 120,
+      "max": 120,
+      "kills": 29,
+      "xy": [
+        499,
+        289
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        {
+          "id": "power",
+          "title": "Острые семена"
+        }
+      ],
+      "enemies": 7,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 35.75,
+      "hp": 120,
+      "max": 120,
+      "kills": 38,
+      "xy": [
+        499,
+        289
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        {
+          "id": "power",
+          "title": "Острые семена"
+        }
+      ],
+      "enemies": 5,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 40.82,
+      "hp": 120,
+      "max": 120,
+      "kills": 46,
+      "xy": [
+        499,
+        289
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        {
+          "id": "power",
+          "title": "Острые семена"
+        }
+      ],
+      "enemies": 4,
+      "shots": 2
+    },
+    {
+      "phase": "playing",
+      "t": 45.929,
+      "hp": 120,
+      "max": 120,
+      "kills": 52,
+      "xy": [
+        499,
+        289
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        {
+          "id": "power",
+          "title": "Острые семена"
+        }
+      ],
+      "enemies": 5,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 50.979,
+      "hp": 120,
+      "max": 120,
+      "kills": 59,
+      "xy": [
+        499,
+        289
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        {
+          "id": "power",
+          "title": "Острые семена"
+        }
+      ],
+      "enemies": 5,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 56.019,
+      "hp": 120,
+      "max": 120,
+      "kills": 66,
+      "xy": [
+        499,
+        289
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        {
+          "id": "power",
+          "title": "Острые семена"
+        }
+      ],
+      "enemies": 6,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 61.08,
+      "hp": 120,
+      "max": 120,
+      "kills": 74,
+      "xy": [
+        499,
+        289
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        {
+          "id": "power",
+          "title": "Острые семена"
+        },
+        {
+          "id": "rapid",
+          "title": "Быстрый рост"
+        }
+      ],
+      "enemies": 6,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 66.12,
+      "hp": 120,
+      "max": 120,
+      "kills": 82,
+      "xy": [
+        499,
+        289
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        {
+          "id": "power",
+          "title": "Острые семена"
+        },
+        {
+          "id": "rapid",
+          "title": "Быстрый рост"
+        }
+      ],
+      "enemies": 6,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 71.249,
+      "hp": 120,
+      "max": 120,
+      "kills": 91,
+      "xy": [
+        499,
+        289
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        {
+          "id": "power",
+          "title": "Острые семена"
+        },
+        {
+          "id": "rapid",
+          "title": "Быстрый рост"
+        }
+      ],
+      "enemies": 6,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 76.369,
+      "hp": 120,
+      "max": 120,
+      "kills": 99,
+      "xy": [
+        499,
+        289
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        {
+          "id": "power",
+          "title": "Острые семена"
+        },
+        {
+          "id": "rapid",
+          "title": "Быстрый рост"
+        }
+      ],
+      "enemies": 7,
+      "shots": 2
+    },
+    {
+      "phase": "playing",
+      "t": 81.469,
+      "hp": 120,
+      "max": 120,
+      "kills": 110,
+      "xy": [
+        499,
+        289
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        {
+          "id": "power",
+          "title": "Острые семена"
+        },
+        {
+          "id": "rapid",
+          "title": "Быстрый рост"
+        }
+      ],
+      "enemies": 6,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 86.529,
+      "hp": 120,
+      "max": 120,
+      "kills": 118,
+      "xy": [
+        499,
+        289
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [
+        {
+          "id": "power",
+          "title": "Острые семена"
+        },
+        {
+          "id": "rapid",
+          "title": "Быстрый рост"
+        }
+      ],
+      "enemies": 8,
+      "shots": 2
+    }
+  ],
+  "checks": {
+    "start": {
+      "phase": "playing",
+      "t": 0.03,
+      "hp": 120,
+      "max": 120,
+      "kills": 0,
+      "xy": [
+        499,
+        289
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 0,
+      "shots": 0
+    },
+    "finalFrozen": true,
+    "restart": {
+      "phase": "playing",
+      "t": 0,
+      "hp": 120,
+      "max": 120,
+      "kills": 0,
+      "xy": [
+        499,
+        289
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 0,
+      "shots": 0
+    }
+  },
+  "choices": [
+    {
+      "t": 30,
+      "same": true,
+      "selected": "Острые семена\nУрон семян +1.",
+      "after": {
+        "phase": "playing",
+        "t": 30,
+        "hp": 120,
+        "max": 120,
+        "kills": 29,
+        "xy": [
+          499,
+          289
+        ],
+        "velocity": [
+          0,
+          0
+        ],
+        "input": {
+          "x": 0,
+          "y": 0
+        },
+        "upgrades": [
+          {
+            "id": "power",
+            "title": "Острые семена"
+          }
+        ],
+        "enemies": 6,
+        "shots": 1
+      }
+    },
+    {
+      "t": 60,
+      "same": true,
+      "selected": "Быстрый рост\nСтрельба на 25% чаще.",
+      "after": {
+        "phase": "playing",
+        "t": 60,
+        "hp": 120,
+        "max": 120,
+        "kills": 72,
+        "xy": [
+          499,
+          289
+        ],
+        "velocity": [
+          0,
+          0
+        ],
+        "input": {
+          "x": 0,
+          "y": 0
+        },
+        "upgrades": [
+          {
+            "id": "power",
+            "title": "Острые семена"
+          },
+          {
+            "id": "rapid",
+            "title": "Быстрый рост"
+          }
+        ],
+        "enemies": 6,
+        "shots": 1
+      }
+    }
+  ],
+  "types": [
+    "sprout",
+    "runner",
+    "brute"
+  ],
+  "final": {
+    "phase": "won",
+    "t": 90,
+    "hp": 120,
+    "max": 120,
+    "kills": 126,
+    "xy": [
+      499,
+      289
+    ],
+    "velocity": [
+      0,
+      0
+    ],
+    "input": {
+      "x": 0,
+      "y": 0
+    },
+    "upgrades": [
+      {
+        "id": "power",
+        "title": "Острые семена"
+      },
+      {
+        "id": "rapid",
+        "title": "Быстрый рост"
+      }
+    ],
+    "enemies": 7,
+    "shots": 1
+  },
+  "visibleResult": "✳НОЧНАЯ ОРАНЖЕРЕЯ\n🔊\nЗвук\nЗДОРОВЬЕ\n120 / 120\nОСТАЛОСЬ\n0:00\nⅡ\nРАССВЕТ НАСТУПИЛ\nВы выстояли!\n\nВремя: 1:30 · Побеждено: 126\n\nУсиления: Острые семена, Быстрый рост\n\nНовая партия\nВЫЖИВИТЕ 90 СЕКУНД\nАВТОМАТИЧЕСКИЙ ОГОНЬ ✦",
+  "wallSeconds": 92
+}

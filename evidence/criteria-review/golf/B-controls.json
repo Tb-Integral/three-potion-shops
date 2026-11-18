@@ -1,0 +1,460 @@
+{
+  "variant": "B",
+  "keyboard": [
+    {
+      "tag": "BUTTON",
+      "text": "↺ Заново",
+      "id": "reset",
+      "outline": "rgb(255, 223, 145) solid 3px",
+      "boxShadow": "none",
+      "focusVisible": true
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Звук: вкл",
+      "id": "audio-toggle",
+      "outline": "rgb(255, 223, 145) solid 3px",
+      "boxShadow": "none",
+      "focusVisible": true
+    },
+    {
+      "tag": "INPUT",
+      "text": "",
+      "id": "audio-volume",
+      "outline": "rgb(255, 215, 109) solid 3px",
+      "boxShadow": "none",
+      "focusVisible": true
+    },
+    {
+      "tag": "BODY",
+      "text": "КЛУБ ВЕЧЕРНЕЙ ИГРЫЛунный гольф ✳↺ ЗановоЗвук: вклГромкостьЛУНКА0",
+      "id": "",
+      "outline": "rgb(243, 233, 206) none 3px",
+      "boxShadow": "none",
+      "focusVisible": false
+    },
+    {
+      "tag": "BUTTON",
+      "text": "↺ Заново",
+      "id": "reset",
+      "outline": "rgb(255, 223, 145) solid 3px",
+      "boxShadow": "none",
+      "focusVisible": true
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Звук: вкл",
+      "id": "audio-toggle",
+      "outline": "rgb(255, 223, 145) solid 3px",
+      "boxShadow": "none",
+      "focusVisible": true
+    },
+    {
+      "tag": "INPUT",
+      "text": "",
+      "id": "audio-volume",
+      "outline": "rgb(255, 215, 109) solid 3px",
+      "boxShadow": "none",
+      "focusVisible": true
+    }
+  ],
+  "power": [
+    {
+      "pull": 22,
+      "start": {
+        "x": 360,
+        "y": 820,
+        "vx": 0,
+        "vy": 0,
+        "radius": 15
+      },
+      "end": {
+        "x": 360,
+        "y": 720.2239949244687,
+        "vx": 0,
+        "vy": 0,
+        "radius": 15
+      },
+      "distance": 99.77600507553132
+    },
+    {
+      "pull": 36,
+      "start": {
+        "x": 360,
+        "y": 820,
+        "vx": 0,
+        "vy": 0,
+        "radius": 15
+      },
+      "end": {
+        "x": 360,
+        "y": 652.6919750606805,
+        "vx": 0,
+        "vy": 0,
+        "radius": 15
+      },
+      "distance": 167.30802493931947
+    },
+    {
+      "pull": 36,
+      "start": {
+        "x": 360,
+        "y": 820,
+        "vx": 0,
+        "vy": 0,
+        "radius": 15
+      },
+      "end": {
+        "x": 360,
+        "y": 652.6919750606805,
+        "vx": 0,
+        "vy": 0,
+        "radius": 15
+      },
+      "distance": 167.30802493931947
+    }
+  ],
+  "layout": {
+    "viewport": [
+      1440,
+      900
+    ],
+    "scroll": [
+      0,
+      0
+    ],
+    "scrollSize": [
+      1440,
+      900
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "id": "reset",
+        "text": "↺ Заново",
+        "rect": {
+          "x": 919.328125,
+          "y": 24.75,
+          "w": 92.671875,
+          "h": 42,
+          "right": 1012,
+          "bottom": 66.75
+        },
+        "font": "12px"
+      },
+      {
+        "tag": "BUTTON",
+        "id": "audio-toggle",
+        "text": "Звук: вкл",
+        "rect": {
+          "x": 428,
+          "y": 87,
+          "w": 64.046875,
+          "h": 28,
+          "right": 492.046875,
+          "bottom": 115
+        },
+        "font": "12px"
+      },
+      {
+        "tag": "INPUT",
+        "id": "audio-volume",
+        "text": "",
+        "rect": {
+          "x": 563.28125,
+          "y": 93,
+          "w": 70,
+          "h": 16,
+          "right": 633.28125,
+          "bottom": 109
+        },
+        "font": "13.3333px"
+      },
+      {
+        "tag": "CANVAS",
+        "id": "",
+        "text": "",
+        "rect": {
+          "x": 479.34375,
+          "y": 168,
+          "w": 481.3125,
+          "h": 668.484375,
+          "right": 960.65625,
+          "bottom": 836.484375
+        },
+        "font": "16px"
+      }
+    ]
+  },
+  "initial": {
+    "holeIndex": 0,
+    "phase": "aim",
+    "strokes": [
+      0,
+      0,
+      0
+    ],
+    "ball": {
+      "x": 360,
+      "y": 820,
+      "vx": 0,
+      "vy": 0,
+      "radius": 15
+    },
+    "cup": {
+      "x": 360,
+      "y": 180,
+      "radius": 23
+    },
+    "course": {
+      "width": 720,
+      "height": 1000
+    },
+    "dragging": false,
+    "obstacles": []
+  },
+  "short": {
+    "holeIndex": 0,
+    "phase": "aim",
+    "strokes": [
+      0,
+      0,
+      0
+    ],
+    "ball": {
+      "x": 360,
+      "y": 820,
+      "vx": 0,
+      "vy": 0,
+      "radius": 15
+    },
+    "cup": {
+      "x": 360,
+      "y": 180,
+      "radius": 23
+    },
+    "course": {
+      "width": 720,
+      "height": 1000
+    },
+    "dragging": false,
+    "obstacles": []
+  },
+  "blurAim": {
+    "holeIndex": 0,
+    "phase": "aim",
+    "strokes": [
+      0,
+      0,
+      0
+    ],
+    "ball": {
+      "x": 360,
+      "y": 820,
+      "vx": 0,
+      "vy": 0,
+      "radius": 15
+    },
+    "cup": {
+      "x": 360,
+      "y": 180,
+      "radius": 23
+    },
+    "course": {
+      "width": 720,
+      "height": 1000
+    },
+    "dragging": true,
+    "obstacles": []
+  },
+  "blur": {
+    "holeIndex": 0,
+    "phase": "aim",
+    "strokes": [
+      0,
+      0,
+      0
+    ],
+    "ball": {
+      "x": 360,
+      "y": 820,
+      "vx": 0,
+      "vy": 0,
+      "radius": 15
+    },
+    "cup": {
+      "x": 360,
+      "y": 180,
+      "radius": 23
+    },
+    "course": {
+      "width": 720,
+      "height": 1000
+    },
+    "dragging": false,
+    "obstacles": []
+  },
+  "resizeAim": {
+    "holeIndex": 0,
+    "phase": "aim",
+    "strokes": [
+      0,
+      0,
+      0
+    ],
+    "ball": {
+      "x": 360,
+      "y": 820,
+      "vx": 0,
+      "vy": 0,
+      "radius": 15
+    },
+    "cup": {
+      "x": 360,
+      "y": 180,
+      "radius": 23
+    },
+    "course": {
+      "width": 720,
+      "height": 1000
+    },
+    "dragging": true,
+    "obstacles": []
+  },
+  "resize": {
+    "holeIndex": 0,
+    "phase": "aim",
+    "strokes": [
+      0,
+      0,
+      0
+    ],
+    "ball": {
+      "x": 360,
+      "y": 820,
+      "vx": 0,
+      "vy": 0,
+      "radius": 15
+    },
+    "cup": {
+      "x": 360,
+      "y": 180,
+      "radius": 23
+    },
+    "course": {
+      "width": 720,
+      "height": 1000
+    },
+    "dragging": false,
+    "obstacles": []
+  },
+  "moving": {
+    "holeIndex": 0,
+    "phase": "moving",
+    "strokes": [
+      1,
+      0,
+      0
+    ],
+    "ball": {
+      "x": 360,
+      "y": 797.5468341355518,
+      "vx": 0,
+      "vy": -284.0794043371769,
+      "radius": 15
+    },
+    "cup": {
+      "x": 360,
+      "y": 180,
+      "radius": 23
+    },
+    "course": {
+      "width": 720,
+      "height": 1000
+    },
+    "dragging": false,
+    "obstacles": []
+  },
+  "second": {
+    "holeIndex": 0,
+    "phase": "moving",
+    "strokes": [
+      1,
+      0,
+      0
+    ],
+    "ball": {
+      "x": 360,
+      "y": 781.4818950281693,
+      "vx": 0,
+      "vy": -264.10245768621604,
+      "radius": 15
+    },
+    "cup": {
+      "x": 360,
+      "y": 180,
+      "radius": 23
+    },
+    "course": {
+      "width": 720,
+      "height": 1000
+    },
+    "dragging": false,
+    "obstacles": []
+  },
+  "audible": {
+    "peakRms": 0.017368580219779637,
+    "samples": 41,
+    "contexts": 1,
+    "contextStates": [
+      "running"
+    ],
+    "events": [
+      {
+        "type": "context"
+      },
+      {
+        "type": "start",
+        "at": 0,
+        "scheduled": 0
+      }
+    ]
+  },
+  "muteLabel": "Звук: выкл",
+  "mutedHit": {
+    "holeIndex": 0,
+    "phase": "moving",
+    "strokes": [
+      1,
+      0,
+      0
+    ],
+    "ball": {
+      "x": 360,
+      "y": 820,
+      "vx": 0,
+      "vy": -131.9998816702896,
+      "radius": 15
+    },
+    "cup": {
+      "x": 360,
+      "y": 180,
+      "radius": 23
+    },
+    "course": {
+      "width": 720,
+      "height": 1000
+    },
+    "dragging": false,
+    "obstacles": []
+  },
+  "muted": {
+    "peakRms": 0,
+    "samples": 47,
+    "contexts": 1,
+    "contextStates": [
+      "running"
+    ],
+    "events": []
+  }
+}

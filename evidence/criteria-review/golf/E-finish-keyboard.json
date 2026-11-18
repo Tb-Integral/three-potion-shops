@@ -1,0 +1,175 @@
+{
+  "variant": "E",
+  "tabs": [
+    {
+      "id": "sound-toggle",
+      "tag": "BUTTON",
+      "outline": "rgb(176, 85, 34) solid 3px",
+      "focusVisible": true
+    },
+    {
+      "id": "sound-volume",
+      "tag": "INPUT",
+      "outline": "rgb(176, 85, 34) solid 3px",
+      "focusVisible": true
+    },
+    {
+      "id": "",
+      "tag": "BODY",
+      "outline": "rgb(34, 62, 50) none 3px",
+      "focusVisible": false
+    },
+    {
+      "id": "new-game",
+      "tag": "BUTTON",
+      "outline": "rgb(176, 85, 34) solid 3px",
+      "focusVisible": true
+    }
+  ],
+  "finished": {
+    "holeIndex": 2,
+    "phase": "finished",
+    "strokes": [
+      1,
+      2,
+      3
+    ],
+    "ball": {
+      "x": 444,
+      "y": 130,
+      "vx": 0,
+      "vy": 0,
+      "radius": 11
+    },
+    "cup": {
+      "x": 444,
+      "y": 130,
+      "radius": 22
+    },
+    "course": {
+      "width": 600,
+      "height": 660
+    },
+    "dragging": false,
+    "obstacles": [
+      {
+        "ax": 128,
+        "ay": 435,
+        "bx": 367,
+        "by": 435,
+        "radius": 23
+      },
+      {
+        "ax": 235,
+        "ay": 281,
+        "bx": 485,
+        "by": 281,
+        "radius": 25
+      }
+    ],
+    "border": [
+      {
+        "x": 91,
+        "y": 45
+      },
+      {
+        "x": 503,
+        "y": 45
+      },
+      {
+        "x": 558,
+        "y": 100
+      },
+      {
+        "x": 558,
+        "y": 518
+      },
+      {
+        "x": 460,
+        "y": 616
+      },
+      {
+        "x": 101,
+        "y": 616
+      },
+      {
+        "x": 42,
+        "y": 557
+      },
+      {
+        "x": 42,
+        "y": 94
+      }
+    ]
+  },
+  "body": "Мини-\nгольф\nЛУНКА\nУДАРЫ\n01\nПрямая\n1\n02\nОбход\n2\n03\nЗмейка\n3\nПартия сыграна\n\n6\nударов\n\nНовая партия\n\nВсе три лунки пройдены.\n\nЗвук: вкл\nГромкость",
+  "afterEnter": {
+    "holeIndex": 0,
+    "phase": "aim",
+    "strokes": [
+      0,
+      0,
+      0
+    ],
+    "ball": {
+      "x": 184,
+      "y": 523,
+      "vx": 0,
+      "vy": 0,
+      "radius": 11
+    },
+    "cup": {
+      "x": 403,
+      "y": 138,
+      "radius": 22
+    },
+    "course": {
+      "width": 600,
+      "height": 660
+    },
+    "dragging": false,
+    "obstacles": [
+      {
+        "ax": 421,
+        "ay": 396,
+        "bx": 484,
+        "by": 350,
+        "radius": 27
+      }
+    ],
+    "border": [
+      {
+        "x": 91,
+        "y": 45
+      },
+      {
+        "x": 509,
+        "y": 45
+      },
+      {
+        "x": 558,
+        "y": 94
+      },
+      {
+        "x": 558,
+        "y": 567
+      },
+      {
+        "x": 509,
+        "y": 616
+      },
+      {
+        "x": 91,
+        "y": 616
+      },
+      {
+        "x": 42,
+        "y": 567
+      },
+      {
+        "x": 42,
+        "y": 94
+      }
+    ]
+  }
+}

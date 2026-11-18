@@ -1,0 +1,98 @@
+[
+ {
+  "width": 360,
+  "height": 800,
+  "frameOffset": 96,
+  "sound": {
+   "before": 15,
+   "after": 13,
+   "signal": {
+    "rms": 0.03149436506264087,
+    "samples": 70
+   }
+  },
+  "mutedLabel": "Звук: выкл",
+  "hit": {
+   "x": 16,
+   "y": 197.1875,
+   "width": 72.671875,
+   "height": 28
+  },
+  "muted": {
+   "before": 13,
+   "after": 11,
+   "signal": {
+    "rms": 0,
+    "samples": 76
+   }
+  },
+  "shelf": [
+   {
+    "label": "Лечение",
+    "x": 10,
+    "right": 58,
+    "font": "12px"
+   },
+   {
+    "label": "Бодрость",
+    "x": 61,
+    "right": 112.390625,
+    "font": "12px"
+   },
+   {
+    "label": "Сон",
+    "x": 127.140625,
+    "right": 148.625,
+    "font": "12px"
+   }
+  ]
+ },
+ {
+  "width": 390,
+  "height": 844,
+  "frameOffset": 96,
+  "sound": {
+   "before": 15,
+   "after": 13,
+   "signal": {
+    "rms": 0.03149436506264087,
+    "samples": 70
+   }
+  },
+  "mutedLabel": "Звук: выкл",
+  "hit": {
+   "x": 16,
+   "y": 197.1875,
+   "width": 72.671875,
+   "height": 28
+  },
+  "muted": {
+   "before": 13,
+   "after": 11,
+   "signal": {
+    "rms": 0,
+    "samples": 73
+   }
+  },
+  "shelf": [
+   {
+    "label": "Лечение",
+    "x": 10,
+    "right": 58,
+    "font": "12px"
+   },
+   {
+    "label": "Бодрость",
+    "x": 61,
+    "right": 112.390625,
+    "font": "12px"
+   },
+   {
+    "label": "Сон",
+    "x": 127.140625,
+    "right": 148.625,
+    "font": "12px"
+   }
+  ]
+ }
+]

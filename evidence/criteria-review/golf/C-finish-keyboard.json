@@ -1,0 +1,122 @@
+{
+  "variant": "C",
+  "tabs": [
+    {
+      "id": "audio-toggle",
+      "tag": "BUTTON",
+      "outline": "rgb(165, 77, 42) solid 3px",
+      "focusVisible": true
+    },
+    {
+      "id": "audio-volume",
+      "tag": "INPUT",
+      "outline": "rgb(165, 77, 42) solid 3px",
+      "focusVisible": true
+    },
+    {
+      "id": "",
+      "tag": "BODY",
+      "outline": "rgb(32, 62, 51) none 3px",
+      "focusVisible": false
+    },
+    {
+      "id": "new-round",
+      "tag": "BUTTON",
+      "outline": "rgb(165, 77, 42) solid 3px",
+      "focusVisible": true
+    }
+  ],
+  "finished": {
+    "holeIndex": 2,
+    "phase": "finished",
+    "strokes": [
+      1,
+      2,
+      4
+    ],
+    "ball": {
+      "x": 322,
+      "y": 124,
+      "vx": 0,
+      "vy": 0,
+      "radius": 8
+    },
+    "cup": {
+      "x": 322,
+      "y": 124,
+      "radius": 13
+    },
+    "course": {
+      "width": 440,
+      "height": 560
+    },
+    "bounds": {
+      "left": 34,
+      "top": 38,
+      "right": 406,
+      "bottom": 522
+    },
+    "obstacles": [
+      {
+        "x": 236,
+        "y": 321,
+        "w": 170,
+        "h": 32
+      },
+      {
+        "x": 34,
+        "y": 216,
+        "w": 223,
+        "h": 34
+      }
+    ],
+    "dragging": false
+  },
+  "body": "МИНИ-ГОЛЬФ · 3 ЛУНКИ\n\nЗелёный клуб\n\nЛУНКА 03\n\nПар 3\nСадовые ворота\n01\n1\nударов\n02\n2\n03\n4\n\nКЛУБНАЯ КАРТА\n\nКруг завершён\n\n7 ударов\n\nПо лункам · 1 / 2 / 4\n\nСыграть ещё\n\nПартия сыграна\n\nНажмите на мяч, оттяните от цели и отпустите. Чем дальше тянете, тем сильнее удар.\n\nЗаново эту лунку\nЗвук: вкл\nГромкость",
+  "afterEnter": {
+    "holeIndex": 0,
+    "phase": "aim",
+    "strokes": [
+      0,
+      0,
+      0
+    ],
+    "ball": {
+      "x": 220,
+      "y": 414,
+      "vx": 0,
+      "vy": 0,
+      "radius": 8
+    },
+    "cup": {
+      "x": 220,
+      "y": 145,
+      "radius": 13
+    },
+    "course": {
+      "width": 440,
+      "height": 560
+    },
+    "bounds": {
+      "left": 34,
+      "top": 38,
+      "right": 406,
+      "bottom": 522
+    },
+    "obstacles": [
+      {
+        "x": 62,
+        "y": 260,
+        "w": 92,
+        "h": 34
+      },
+      {
+        "x": 300,
+        "y": 198,
+        "w": 77,
+        "h": 34
+      }
+    ],
+    "dragging": false
+  }
+}

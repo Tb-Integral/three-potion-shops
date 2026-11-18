@@ -1,0 +1,49 @@
+{
+ "variant": "D",
+ "target": "[data-buy=\"0\"]",
+ "before": {
+  "focus": {
+   "tag": "BUTTON",
+   "id": "",
+   "action": "",
+   "buy": "0",
+   "label": "Купить Шалфей за 2 монеты",
+   "outline": "solid 3px",
+   "visible": true
+  },
+  "cash": 18
+ },
+ "first": {
+  "focus": {
+   "tag": "BUTTON",
+   "id": "",
+   "action": "",
+   "buy": "0",
+   "label": "Купить Шалфей за 2 монеты",
+   "outline": "solid 3px",
+   "visible": true
+  },
+  "cash": 16
+ },
+ "second": {
+  "focus": {
+   "tag": "BUTTON",
+   "id": "",
+   "action": "",
+   "buy": "0",
+   "label": "Купить Шалфей за 2 монеты",
+   "outline": "solid 3px",
+   "visible": true
+  },
+  "cash": 14
+ },
+ "next": {
+  "tag": "BUTTON",
+  "id": "",
+  "action": "",
+  "buy": "1",
+  "label": "Купить Смола за 3 монеты",
+  "outline": "solid 3px",
+  "visible": true
+ }
+}

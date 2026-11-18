@@ -1,0 +1,696 @@
+{
+  "variant": "A",
+  "mode": "orbit",
+  "method": "Edge 1440×900, real-time simulation, browser input only.",
+  "requests": [
+    "/A/",
+    "/A/style.css",
+    "/A/game.js"
+  ],
+  "errors": [],
+  "samples": [
+    {
+      "phase": "playing",
+      "t": 0.757,
+      "hp": 5,
+      "max": 5,
+      "kills": 0,
+      "xy": [
+        540,
+        361
+      ],
+      "velocity": [
+        156.16904203202273,
+        -72.07794607784217
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 1,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 5.896,
+      "hp": 5,
+      "max": 5,
+      "kills": 2,
+      "xy": [
+        416,
+        520
+      ],
+      "velocity": [
+        -172,
+        0
+      ],
+      "input": {
+        "x": -1,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 6,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 11.006,
+      "hp": 5,
+      "max": 5,
+      "kills": 7,
+      "xy": [
+        593,
+        194
+      ],
+      "velocity": [
+        121.62236636408616,
+        121.62236636408616
+      ],
+      "input": {
+        "x": 0.7071067811865475,
+        "y": 0.7071067811865475
+      },
+      "upgrades": [],
+      "enemies": 8,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 16.116,
+      "hp": 5,
+      "max": 5,
+      "kills": 14,
+      "xy": [
+        445,
+        575
+      ],
+      "velocity": [
+        -121.62236636408616,
+        -121.62236636408616
+      ],
+      "input": {
+        "x": -0.7071067811865475,
+        "y": -0.7071067811865475
+      },
+      "upgrades": [],
+      "enemies": 9,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 21.256,
+      "hp": 5,
+      "max": 5,
+      "kills": 19,
+      "xy": [
+        405,
+        376
+      ],
+      "velocity": [
+        121.62236636408616,
+        121.62236636408616
+      ],
+      "input": {
+        "x": 0.7071067811865475,
+        "y": 0.7071067811865475
+      },
+      "upgrades": [],
+      "enemies": 12,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 26.266,
+      "hp": 5,
+      "max": 5,
+      "kills": 21,
+      "xy": [
+        679,
+        571
+      ],
+      "velocity": [
+        -121.62236636408616,
+        121.62236636408616
+      ],
+      "input": {
+        "x": -0.7071067811865475,
+        "y": 0.7071067811865475
+      },
+      "upgrades": [],
+      "enemies": 18,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 31.371,
+      "hp": 5,
+      "max": 5,
+      "kills": 29,
+      "xy": [
+        654,
+        645
+      ],
+      "velocity": [
+        172,
+        0
+      ],
+      "input": {
+        "x": 1,
+        "y": 0
+      },
+      "upgrades": [
+        "Жаркое пламя"
+      ],
+      "enemies": 18,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 36.45,
+      "hp": 5,
+      "max": 5,
+      "kills": 39,
+      "xy": [
+        251,
+        474
+      ],
+      "velocity": [
+        0,
+        -172
+      ],
+      "input": {
+        "x": 0,
+        "y": -1
+      },
+      "upgrades": [
+        "Жаркое пламя"
+      ],
+      "enemies": 18,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 41.46,
+      "hp": 5,
+      "max": 5,
+      "kills": 48,
+      "xy": [
+        524,
+        131
+      ],
+      "velocity": [
+        172,
+        0
+      ],
+      "input": {
+        "x": 1,
+        "y": 0
+      },
+      "upgrades": [
+        "Жаркое пламя"
+      ],
+      "enemies": 18,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 46.47,
+      "hp": 5,
+      "max": 5,
+      "kills": 60,
+      "xy": [
+        545,
+        541
+      ],
+      "velocity": [
+        -172,
+        0
+      ],
+      "input": {
+        "x": -1,
+        "y": 0
+      },
+      "upgrades": [
+        "Жаркое пламя"
+      ],
+      "enemies": 16,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 51.589,
+      "hp": 5,
+      "max": 5,
+      "kills": 71,
+      "xy": [
+        244,
+        153
+      ],
+      "velocity": [
+        0,
+        -172
+      ],
+      "input": {
+        "x": 0,
+        "y": -1
+      },
+      "upgrades": [
+        "Жаркое пламя"
+      ],
+      "enemies": 16,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 56.599,
+      "hp": 5,
+      "max": 5,
+      "kills": 84,
+      "xy": [
+        682,
+        341
+      ],
+      "velocity": [
+        0,
+        172
+      ],
+      "input": {
+        "x": 0,
+        "y": 1
+      },
+      "upgrades": [
+        "Жаркое пламя"
+      ],
+      "enemies": 15,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 61.613,
+      "hp": 5,
+      "max": 5,
+      "kills": 96,
+      "xy": [
+        242,
+        475
+      ],
+      "velocity": [
+        0,
+        -172
+      ],
+      "input": {
+        "x": 0,
+        "y": -1
+      },
+      "upgrades": [
+        "Жаркое пламя",
+        "Жаркое пламя"
+      ],
+      "enemies": 15,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 66.683,
+      "hp": 5,
+      "max": 5,
+      "kills": 108,
+      "xy": [
+        385,
+        153
+      ],
+      "velocity": [
+        172,
+        0
+      ],
+      "input": {
+        "x": 1,
+        "y": 0
+      },
+      "upgrades": [
+        "Жаркое пламя",
+        "Жаркое пламя"
+      ],
+      "enemies": 17,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 71.693,
+      "hp": 5,
+      "max": 5,
+      "kills": 123,
+      "xy": [
+        702,
+        471
+      ],
+      "velocity": [
+        121.62236636408616,
+        121.62236636408616
+      ],
+      "input": {
+        "x": 0.7071067811865475,
+        "y": 0.7071067811865475
+      },
+      "upgrades": [
+        "Жаркое пламя",
+        "Жаркое пламя"
+      ],
+      "enemies": 17,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 76.832,
+      "hp": 5,
+      "max": 5,
+      "kills": 137,
+      "xy": [
+        340,
+        430
+      ],
+      "velocity": [
+        121.62236636408616,
+        -121.62236636408616
+      ],
+      "input": {
+        "x": 0.7071067811865475,
+        "y": -0.7071067811865475
+      },
+      "upgrades": [
+        "Жаркое пламя",
+        "Жаркое пламя"
+      ],
+      "enemies": 18,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 81.922,
+      "hp": 5,
+      "max": 5,
+      "kills": 149,
+      "xy": [
+        706,
+        211
+      ],
+      "velocity": [
+        0,
+        172
+      ],
+      "input": {
+        "x": 0,
+        "y": 1
+      },
+      "upgrades": [
+        "Жаркое пламя",
+        "Жаркое пламя"
+      ],
+      "enemies": 20,
+      "shots": 1
+    },
+    {
+      "phase": "playing",
+      "t": 86.962,
+      "hp": 5,
+      "max": 5,
+      "kills": 161,
+      "xy": [
+        299,
+        568
+      ],
+      "velocity": [
+        -172,
+        0
+      ],
+      "input": {
+        "x": -1,
+        "y": 0
+      },
+      "upgrades": [
+        "Жаркое пламя",
+        "Жаркое пламя"
+      ],
+      "enemies": 23,
+      "shots": 1
+    }
+  ],
+  "checks": {
+    "start": {
+      "phase": "playing",
+      "t": 0.013,
+      "hp": 5,
+      "max": 5,
+      "kills": 0,
+      "xy": [
+        480,
+        351
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 0,
+      "shots": 0
+    },
+    "straight": {
+      "phase": "playing",
+      "t": 0.063,
+      "hp": 5,
+      "max": 5,
+      "kills": 0,
+      "xy": [
+        489,
+        351
+      ],
+      "velocity": [
+        172,
+        0
+      ],
+      "input": {
+        "x": 1,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 0,
+      "shots": 0
+    },
+    "diagonal": {
+      "phase": "playing",
+      "t": 0.313,
+      "hp": 5,
+      "max": 5,
+      "kills": 0,
+      "xy": [
+        519,
+        381
+      ],
+      "velocity": [
+        121.62236636408616,
+        121.62236636408616
+      ],
+      "input": {
+        "x": 0.7071067811865475,
+        "y": 0.7071067811865475
+      },
+      "upgrades": [],
+      "enemies": 0,
+      "shots": 0
+    },
+    "pause": {
+      "same": true,
+      "snapshot": {
+        "phase": "paused",
+        "t": 0.313,
+        "hp": 5,
+        "max": 5,
+        "kills": 0,
+        "xy": [
+          519,
+          381
+        ],
+        "velocity": [
+          0,
+          0
+        ],
+        "input": {
+          "x": 0,
+          "y": 0
+        },
+        "upgrades": [],
+        "enemies": 0,
+        "shots": 0
+      }
+    },
+    "blur": {
+      "same": true,
+      "snapshot": {
+        "phase": "paused",
+        "t": 0.45,
+        "hp": 5,
+        "max": 5,
+        "kills": 0,
+        "xy": [
+          495,
+          381
+        ],
+        "velocity": [
+          0,
+          0
+        ],
+        "input": {
+          "x": 0,
+          "y": 0
+        },
+        "upgrades": [],
+        "enemies": 0,
+        "shots": 0
+      }
+    },
+    "mouseDrag": {
+      "phase": "playing",
+      "t": 0.757,
+      "hp": 5,
+      "max": 5,
+      "kills": 0,
+      "xy": [
+        540,
+        361
+      ],
+      "velocity": [
+        156.16904203202273,
+        -72.07794607784217
+      ],
+      "input": {
+        "x": 0.9079595466978065,
+        "y": -0.41905782603396613
+      },
+      "upgrades": [],
+      "enemies": 1,
+      "shots": 0
+    },
+    "finalFrozen": true,
+    "restart": {
+      "phase": "playing",
+      "t": 0,
+      "hp": 5,
+      "max": 5,
+      "kills": 0,
+      "xy": [
+        480,
+        351
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 0,
+      "shots": 0
+    }
+  },
+  "choices": [
+    {
+      "t": 30,
+      "same": true,
+      "selected": "✦\nЖаркое пламя\n+1 к урону каждого выстрела.\nТени тают быстрее.",
+      "after": {
+        "phase": "playing",
+        "t": 30.001,
+        "hp": 5,
+        "max": 5,
+        "kills": 26,
+        "xy": [
+          548,
+          594
+        ],
+        "velocity": [
+          0,
+          0
+        ],
+        "input": {
+          "x": 0,
+          "y": 0
+        },
+        "upgrades": [
+          "Жаркое пламя"
+        ],
+        "enemies": 19,
+        "shots": 0
+      }
+    },
+    {
+      "t": 60,
+      "same": true,
+      "selected": "✦\nЖаркое пламя\n+1 к урону каждого выстрела.\nТени тают быстрее.",
+      "after": {
+        "phase": "playing",
+        "t": 60,
+        "hp": 5,
+        "max": 5,
+        "kills": 92,
+        "xy": [
+          379,
+          541
+        ],
+        "velocity": [
+          0,
+          0
+        ],
+        "input": {
+          "x": 0,
+          "y": 0
+        },
+        "upgrades": [
+          "Жаркое пламя",
+          "Жаркое пламя"
+        ],
+        "enemies": 15,
+        "shots": 0
+      }
+    }
+  ],
+  "types": [
+    "shade",
+    "dart",
+    "shell"
+  ],
+  "desktopScreenshot": "A-playing.png",
+  "final": {
+    "phase": "won",
+    "t": 90,
+    "hp": 5,
+    "max": 5,
+    "kills": 168,
+    "xy": [
+      94,
+      323
+    ],
+    "velocity": [
+      0,
+      0
+    ],
+    "input": {
+      "x": 0,
+      "y": 0
+    },
+    "upgrades": [
+      "Жаркое пламя",
+      "Жаркое пламя"
+    ],
+    "enemies": 25,
+    "shots": 1
+  },
+  "visibleResult": "✦\nПОСЛЕДНИЙ СВЕТ\nДОЖИТЬ ДО РАССВЕТА\nЗвук: вкл.\nГромкость\nОГОНЬ ФОНАРЯ\n●●●●●\n0:00\nдо рассвета\nⅡ\nЖаркое пламя · усиление получено\nТЬМА ОТСТУПИЛА\n☀\nРассвет!\n\nТы сохранил свет.\nБолото снова стало просто болотом.\n\n90 с\nвыживание\n168\nтеней рассеяно\nЖаркое пламя · Жаркое пламя\nНовая партия\n\nДвигайся широкими кругами. Не зажимайся в углу.\n\nСВЕТ ОТГОНЯЕТ ТЬМУ. ДВИЖЕНИЕ СПАСАЕТ.\n168 теней рассеяно",
+  "wallSeconds": 95
+}

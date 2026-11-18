@@ -1,0 +1,49 @@
+{
+ "variant": "C",
+ "target": "[data-item=mint] button",
+ "before": {
+  "focus": {
+   "tag": "BUTTON",
+   "id": "",
+   "action": "",
+   "buy": "",
+   "label": "Купить: Лунная мята, 2 монеты",
+   "outline": "solid 3px",
+   "visible": true
+  },
+  "cash": 15
+ },
+ "first": {
+  "focus": {
+   "tag": "BUTTON",
+   "id": "",
+   "action": "",
+   "buy": "",
+   "label": "Купить: Лунная мята, 2 монеты",
+   "outline": "solid 3px",
+   "visible": true
+  },
+  "cash": 13
+ },
+ "second": {
+  "focus": {
+   "tag": "BUTTON",
+   "id": "",
+   "action": "",
+   "buy": "",
+   "label": "Купить: Лунная мята, 2 монеты",
+   "outline": "solid 3px",
+   "visible": true
+  },
+  "cash": 11
+ },
+ "next": {
+  "tag": "BUTTON",
+  "id": "",
+  "action": "",
+  "buy": "",
+  "label": "Купить: Янтарный мёд, 3 монеты",
+  "outline": "solid 3px",
+  "visible": true
+ }
+}

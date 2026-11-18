@@ -1,0 +1,361 @@
+{
+  "width": 360,
+  "height": 800,
+  "iframeTop": 96,
+  "layout": {
+    "viewport": [
+      360,
+      704
+    ],
+    "scroll": [
+      0,
+      0
+    ],
+    "scrollSize": [
+      360,
+      710
+    ],
+    "controls": [
+      {
+        "tag": "BUTTON",
+        "id": "audio-toggle",
+        "text": "Звук: вкл",
+        "rect": {
+          "x": 100.125,
+          "y": 72.59375,
+          "w": 94,
+          "h": 36,
+          "right": 194.125,
+          "bottom": 108.59375
+        },
+        "font": "11px"
+      },
+      {
+        "tag": "INPUT",
+        "id": "audio-volume",
+        "text": "",
+        "rect": {
+          "x": 266,
+          "y": 74.59375,
+          "w": 82,
+          "h": 32,
+          "right": 348,
+          "bottom": 106.59375
+        },
+        "font": "13.3333px"
+      },
+      {
+        "tag": "CANVAS",
+        "id": "course",
+        "text": "",
+        "rect": {
+          "x": 25.5,
+          "y": 167.59375,
+          "w": 309,
+          "h": 412,
+          "right": 334.5,
+          "bottom": 579.59375
+        },
+        "font": "16px"
+      },
+      {
+        "tag": "BUTTON",
+        "id": "restart",
+        "text": "↶ Заново лунку",
+        "rect": {
+          "x": 246.34375,
+          "y": 631.59375,
+          "w": 97.65625,
+          "h": 42,
+          "right": 344,
+          "bottom": 673.59375
+        },
+        "font": "11px"
+      }
+    ]
+  },
+  "outer": {
+    "viewport": [
+      360,
+      800
+    ],
+    "scroll": [
+      0,
+      0
+    ],
+    "scrollSize": [
+      360,
+      800
+    ],
+    "controls": []
+  },
+  "start": {
+    "holeIndex": 0,
+    "phase": "aim",
+    "strokes": [
+      0,
+      0,
+      0
+    ],
+    "ball": {
+      "x": 210,
+      "y": 443,
+      "vx": 0,
+      "vy": 0,
+      "radius": 8
+    },
+    "cup": {
+      "x": 210,
+      "y": 118,
+      "radius": 13
+    },
+    "course": {
+      "width": 420,
+      "height": 560
+    },
+    "dragging": false,
+    "obstacles": [
+      {
+        "x": 59,
+        "y": 258,
+        "w": 66,
+        "h": 58
+      },
+      {
+        "x": 295,
+        "y": 258,
+        "w": 66,
+        "h": 58
+      }
+    ],
+    "bounds": {
+      "left": 22,
+      "right": 398,
+      "top": 22,
+      "bottom": 538
+    },
+    "maxPull": 115,
+    "maxSpeed": 520,
+    "friction": 150
+  },
+  "cancel": {
+    "x": 180,
+    "y": 589.5151785714286,
+    "aiming": {
+      "holeIndex": 0,
+      "phase": "aim",
+      "strokes": [
+        0,
+        0,
+        0
+      ],
+      "ball": {
+        "x": 210,
+        "y": 443,
+        "vx": 0,
+        "vy": 0,
+        "radius": 8
+      },
+      "cup": {
+        "x": 210,
+        "y": 118,
+        "radius": 13
+      },
+      "course": {
+        "width": 420,
+        "height": 560
+      },
+      "dragging": true,
+      "obstacles": [
+        {
+          "x": 59,
+          "y": 258,
+          "w": 66,
+          "h": 58
+        },
+        {
+          "x": 295,
+          "y": 258,
+          "w": 66,
+          "h": 58
+        }
+      ],
+      "bounds": {
+        "left": 22,
+        "right": 398,
+        "top": 22,
+        "bottom": 538
+      },
+      "maxPull": 115,
+      "maxSpeed": 520,
+      "friction": 150
+    },
+    "after": {
+      "holeIndex": 0,
+      "phase": "aim",
+      "strokes": [
+        0,
+        0,
+        0
+      ],
+      "ball": {
+        "x": 210,
+        "y": 443,
+        "vx": 0,
+        "vy": 0,
+        "radius": 8
+      },
+      "cup": {
+        "x": 210,
+        "y": 118,
+        "radius": 13
+      },
+      "course": {
+        "width": 420,
+        "height": 560
+      },
+      "dragging": false,
+      "obstacles": [
+        {
+          "x": 59,
+          "y": 258,
+          "w": 66,
+          "h": 58
+        },
+        {
+          "x": 295,
+          "y": 258,
+          "w": 66,
+          "h": 58
+        }
+      ],
+      "bounds": {
+        "left": 22,
+        "right": 398,
+        "top": 22,
+        "bottom": 538
+      },
+      "maxPull": 115,
+      "maxSpeed": 520,
+      "friction": 150
+    },
+    "scroll": [
+      0,
+      0
+    ],
+    "outerScroll": [
+      0,
+      0
+    ]
+  },
+  "hit": {
+    "x": 180,
+    "y": 589.5151785714286,
+    "aiming": {
+      "holeIndex": 0,
+      "phase": "aim",
+      "strokes": [
+        0,
+        0,
+        0
+      ],
+      "ball": {
+        "x": 210,
+        "y": 443,
+        "vx": 0,
+        "vy": 0,
+        "radius": 8
+      },
+      "cup": {
+        "x": 210,
+        "y": 118,
+        "radius": 13
+      },
+      "course": {
+        "width": 420,
+        "height": 560
+      },
+      "dragging": true,
+      "obstacles": [
+        {
+          "x": 59,
+          "y": 258,
+          "w": 66,
+          "h": 58
+        },
+        {
+          "x": 295,
+          "y": 258,
+          "w": 66,
+          "h": 58
+        }
+      ],
+      "bounds": {
+        "left": 22,
+        "right": 398,
+        "top": 22,
+        "bottom": 538
+      },
+      "maxPull": 115,
+      "maxSpeed": 520,
+      "friction": 150
+    },
+    "after": {
+      "holeIndex": 0,
+      "phase": "moving",
+      "strokes": [
+        1,
+        0,
+        0
+      ],
+      "ball": {
+        "x": 204.24485136003625,
+        "y": 433.91292320005726,
+        "vx": -112.76211994409327,
+        "vy": -178.04545254330512,
+        "radius": 8
+      },
+      "cup": {
+        "x": 210,
+        "y": 118,
+        "radius": 13
+      },
+      "course": {
+        "width": 420,
+        "height": 560
+      },
+      "dragging": false,
+      "obstacles": [
+        {
+          "x": 59,
+          "y": 258,
+          "w": 66,
+          "h": 58
+        },
+        {
+          "x": 295,
+          "y": 258,
+          "w": 66,
+          "h": 58
+        }
+      ],
+      "bounds": {
+        "left": 22,
+        "right": 398,
+        "top": 22,
+        "bottom": 538
+      },
+      "maxPull": 115,
+      "maxSpeed": 520,
+      "friction": 150
+    },
+    "scroll": [
+      0,
+      0
+    ],
+    "outerScroll": [
+      0,
+      0
+    ]
+  }
+}

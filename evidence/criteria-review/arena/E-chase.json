@@ -1,0 +1,224 @@
+{
+  "variant": "E",
+  "mode": "chase",
+  "method": "Edge 1440×900, real-time simulation, browser input only.",
+  "requests": [
+    "/E/",
+    "/E/arena.css",
+    "/E/audio.js",
+    "/E/render.js",
+    "/E/arena.js"
+  ],
+  "errors": [],
+  "samples": [
+    {
+      "phase": "playing",
+      "t": 0,
+      "hp": 7,
+      "max": 7,
+      "kills": 0,
+      "xy": [
+        447,
+        261
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 1,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 5,
+      "hp": 6,
+      "max": 7,
+      "kills": 3,
+      "xy": [
+        90,
+        169
+      ],
+      "velocity": [
+        -169.70562748477107,
+        -169.70562748477107
+      ],
+      "input": {
+        "x": -0.7071067811865475,
+        "y": -0.7071067811865475
+      },
+      "upgrades": [],
+      "enemies": 2,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 10.12,
+      "hp": 6,
+      "max": 7,
+      "kills": 9,
+      "xy": [
+        273,
+        19
+      ],
+      "velocity": [
+        -169.7056274847739,
+        -169.7056274847714
+      ],
+      "input": {
+        "x": -0.7071067811865475,
+        "y": -0.7071067811865475
+      },
+      "upgrades": [],
+      "enemies": 1,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 15.27,
+      "hp": 5,
+      "max": 7,
+      "kills": 12,
+      "xy": [
+        326,
+        321
+      ],
+      "velocity": [
+        -169.7056274847739,
+        -169.7056274847739
+      ],
+      "input": {
+        "x": -0.7071067811865475,
+        "y": -0.7071067811865475
+      },
+      "upgrades": [],
+      "enemies": 3,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 20.29,
+      "hp": 3,
+      "max": 7,
+      "kills": 16,
+      "xy": [
+        236,
+        288
+      ],
+      "velocity": [
+        169.70562748477107,
+        169.7056274847739
+      ],
+      "input": {
+        "x": 0.7071067811865475,
+        "y": 0.7071067811865475
+      },
+      "upgrades": [],
+      "enemies": 4,
+      "shots": 0
+    },
+    {
+      "phase": "playing",
+      "t": 25.4,
+      "hp": 1,
+      "max": 7,
+      "kills": 21,
+      "xy": [
+        519,
+        301
+      ],
+      "velocity": [
+        -169.70562748476823,
+        169.7056274847739
+      ],
+      "input": {
+        "x": -0.7071067811865475,
+        "y": 0.7071067811865475
+      },
+      "upgrades": [],
+      "enemies": 5,
+      "shots": 0
+    }
+  ],
+  "checks": {
+    "start": {
+      "phase": "playing",
+      "t": 0,
+      "hp": 7,
+      "max": 7,
+      "kills": 0,
+      "xy": [
+        447,
+        261
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 1,
+      "shots": 0
+    },
+    "finalFrozen": true,
+    "restart": {
+      "phase": "playing",
+      "t": 0,
+      "hp": 7,
+      "max": 7,
+      "kills": 0,
+      "xy": [
+        447,
+        261
+      ],
+      "velocity": [
+        0,
+        0
+      ],
+      "input": {
+        "x": 0,
+        "y": 0
+      },
+      "upgrades": [],
+      "enemies": 1,
+      "shots": 0
+    }
+  },
+  "choices": [],
+  "types": [
+    "drift",
+    "dart",
+    "shell"
+  ],
+  "final": {
+    "phase": "lost",
+    "t": 25.48,
+    "hp": 0,
+    "max": 7,
+    "kills": 21,
+    "xy": [
+      550,
+      308
+    ],
+    "velocity": [
+      0,
+      0
+    ],
+    "input": {
+      "x": 0,
+      "y": 0
+    },
+    "upgrades": [],
+    "enemies": 5,
+    "shots": 0
+  },
+  "visibleResult": "РИФ–90\n БАТИСКАФ «НЕРЕЙ»\nКОРПУС\nКорпус 0 из 7\nДО ПОДЪЁМА\n1:05\nСБИТО\n21\nПауза\nПОГРУЖЕНИЕ ПРЕРВАНО\nКорпус разрушен\nВРЕМЯ\n0:25 / 1:30\nСБИТО\n21\n\nМодули ещё не установлены.\n\nНовая партия\n→\nWASD / стрелки\n· манёвр\nЗвук вкл.\nГромкость",
+  "wallSeconds": 27
+}

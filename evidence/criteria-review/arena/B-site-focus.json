@@ -1,0 +1,165 @@
+{
+  "runs": [
+    {
+      "entry": "index",
+      "key": "Shift+Tab",
+      "steps": [
+        {
+          "parent": {
+            "active": "IFRAME",
+            "focusLog": [],
+            "fullscreen": false
+          },
+          "child": {
+            "active": "pause",
+            "phase": "playing",
+            "focused": true
+          }
+        },
+        {
+          "parent": {
+            "active": "IFRAME",
+            "focusLog": [],
+            "fullscreen": false
+          },
+          "child": {
+            "active": "volume",
+            "phase": "playing",
+            "focused": true
+          }
+        },
+        {
+          "parent": {
+            "active": "IFRAME",
+            "focusLog": [],
+            "fullscreen": false
+          },
+          "child": {
+            "active": "mute",
+            "phase": "playing",
+            "focused": true
+          }
+        },
+        {
+          "parent": {
+            "active": "close-player",
+            "focusLog": [
+              "close-player"
+            ],
+            "fullscreen": false
+          },
+          "child": {
+            "active": "BODY",
+            "phase": "paused",
+            "focused": false
+          }
+        }
+      ],
+      "initial": {
+        "parent": {
+          "active": "IFRAME",
+          "focusLog": [],
+          "fullscreen": false
+        },
+        "child": {
+          "active": "BODY",
+          "phase": "playing",
+          "focused": true
+        }
+      },
+      "enter": {
+        "parent": {
+          "active": "BUTTON",
+          "focusLog": [
+            "close-player",
+            "BUTTON"
+          ],
+          "fullscreen": false
+        },
+        "child": null
+      }
+    },
+    {
+      "entry": "play",
+      "key": "Shift+Tab",
+      "steps": [
+        {
+          "parent": {
+            "active": "IFRAME",
+            "focusLog": [],
+            "fullscreen": false
+          },
+          "child": {
+            "active": "pause",
+            "phase": "playing",
+            "focused": true
+          }
+        },
+        {
+          "parent": {
+            "active": "IFRAME",
+            "focusLog": [],
+            "fullscreen": false
+          },
+          "child": {
+            "active": "volume",
+            "phase": "playing",
+            "focused": true
+          }
+        },
+        {
+          "parent": {
+            "active": "IFRAME",
+            "focusLog": [],
+            "fullscreen": false
+          },
+          "child": {
+            "active": "mute",
+            "phase": "playing",
+            "focused": true
+          }
+        },
+        {
+          "parent": {
+            "active": "full",
+            "focusLog": [
+              "full"
+            ],
+            "fullscreen": false
+          },
+          "child": {
+            "active": "BODY",
+            "phase": "paused",
+            "focused": false
+          }
+        }
+      ],
+      "initial": {
+        "parent": {
+          "active": "IFRAME",
+          "focusLog": [],
+          "fullscreen": false
+        },
+        "child": {
+          "active": "BODY",
+          "phase": "playing",
+          "focused": true
+        }
+      },
+      "enter": {
+        "parent": {
+          "active": "BODY",
+          "focusLog": [
+            "full"
+          ],
+          "fullscreen": true
+        },
+        "child": {
+          "active": "BODY",
+          "phase": "paused",
+          "focused": false
+        }
+      }
+    }
+  ]
+}
